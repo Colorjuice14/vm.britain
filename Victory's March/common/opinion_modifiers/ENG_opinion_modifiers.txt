@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	eng_offers_of_protection = {
+			value = 50
+	}
+}

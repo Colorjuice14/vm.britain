@@ -1,0 +1,14 @@
+technology_sharing_group = {
+
+	id = usmca_research
+	name = usmca_research_name
+	desc = usmca_research_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+        is_in_faction_with = USA
+    }
+
+}

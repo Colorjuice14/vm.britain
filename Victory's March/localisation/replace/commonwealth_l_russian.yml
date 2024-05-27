@@ -1,0 +1,471 @@
+﻿l_russian:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+ 
+################################### FOCUSES                     \n      §H§!
+ 
+ ### JOINT FOCUS TREE ### 
+ 
+ Commonwealth_Egyptian_Delta_Fortress:0 "Египетские крепости в дельте"
+ Commonwealth_Egyptian_Delta_Fortress_desc:0 ""
+ 
+ Commonwealth_North_African_Air_Control:0 "Североафриканский воздушный контроль"
+ Commonwealth_North_African_Air_Control_desc:0 ""
+ 
+ Commonwealth_Pacific_Air_Control:0 "Тихоокеанский воздушный контроль"
+ Commonwealth_Pacific_Air_Control_desc:0 ""
+ 
+ Commonwealth_Indian_Air:0 "Индийский воздушный контроль"
+ Commonwealth_Indian_Air_desc:0 ""
+
+ Commonwealth_Guard_Strait_Of_Malacca:0 "Охрана Малаккского пролива"
+ Commonwealth_Guard_Strait_Of_Malacca_desc:0 ""
+
+ Commonwealth_Guard_The_Suez:0 "Охрана Суэца"
+ Commonwealth_Guard_The_Suez_desc:0 ""
+
+ Commonwealth_form_joint_alliance: "[Commonwealth_get_alliance_name]"
+ Commonwealth_form_joint_alliance_desc: "Мир до сих пор страдает от последствий Великой войны, потому мы должны объединиться, чтобы не допустить повторения этой войны."
+ Commonwealth_form_joint_alliance_desc_dem: "Создание нового альянса, основанного на демократических ценностях, которые мы разделяем, может стать маяком для демократий во всем мире, защищая нас и обеспечивая быструю победу над врагами свободы."
+ Commonwealth_form_joint_alliance_desc_com: "Благодаря порыву пролетарской революции мы можем объединить наши народы и направить их на борьбу с капитализмом, объединив наши нации в альянс северных народов."
+ Commonwealth_form_joint_alliance_desc_mon: "Королевское наследие, уходящее корнями в наши давние традиции, позволяет нам видеть общую картину и работать вместе, как единое целое, ради сохранения наших дорогих королей и королев."
+ Commonwealth_political_cooperation: "Политическая кооперация"
+ Commonwealth_political_cooperation_desc: "Чтобы по-настоящему работать вместе, одних слов будет недостаточно. Если мы действительно хотим стать силой, с которой придется считаться, нам нужно, чтобы все наши структуры были шестеренками одной большой, хорошо отрегулированной машины."
+ Commonwealth_consolidating_institutions: "Консолидация предприятий"
+ Commonwealth_consolidating_institutions_desc: "TODO_Commonwealth"
+ Commonwealth_economic_union: "Экономический обмен"
+ Commonwealth_economic_union_desc: "Мы должны объединить наши ресурсы, ведь у каждого из нас есть что-то, в чем нуждается наш сосед. Разрушив барьеры, которые долгое время держали наши экономики отдельно друг от друга, мы достигнем более высокого уровня эффективности. Ресурсы должны течь между нами, чтобы мы могли лучше содействовать друг другу."
+
+ Commonwealth_shared_intelligence: "Совместная разведка"
+ Commonwealth_shared_intelligence_desc: "Вся суть альянса "[Commonwealth_get_alliance_name]" вращается вокруг обмена силой, и если знание действительно равно силе, то пусть мы поделимся тем, что знаем о наших врагах, и тем, что наши враги знают о нас - и даже тем, что, как им кажется, они могут о нас знать."
+ 
+ Commonwealth_command: "Командование Содружества"
+ Commonwealth_command_desc: "Объединенное военное командование необходимо для того, чтобы лучше согласовывать наши действия. Вооруженные силы должны действовать слаженно, а решения должны приниматься быстро и с учетом интересов всех сторон. Мы обязаны обеспечить создание такого командования, что позволит разработать дальнейшие планы для наших объединенных вооруженных сил."
+
+ Commonwealth_democratic_institution_1: "Комиссия Министров Содружества"
+ Commonwealth_communist_institution_1: "Северная Федерация"
+ Commonwealth_monarchist_institution_1: "Северное дворянство"
+ Commonwealth_first_joint_institution: "[Commonwealth_get_institution_1_name]"
+ Commonwealth_first_joint_institution_desc: "По мере того как мы делаем первые шаги на пути к истинной интеграции и сотрудничеству, [Commonwealth_get_alliance_name] нуждается в новом учреждении, [Commonwealth_get_institution_1_desc]"
+ Commonwealth_first_joint_institution_desc_dem: "где члены кабинетов министров разных стран, входящих в нашу наднациональную организацию, смогут обсудить, как лучше объединить наши усилия, чтобы провести наш народ через напряженность, нарастающую в Европе."
+ Commonwealth_first_joint_institution_desc_com: "которое сможет объединить наши народы и гарантировать им право собственности на средства производства, предоставляя им при этом возможность самоопределения."
+ Commonwealth_first_joint_institution_desc_mon: "которое сможет распутать паутину наших аристократических уз и объединить их в единое сообщество наших благородных сверстников, каждому из которых отведена своя роль в структуре власти."
+ 
+ Commonwealth_democratic_institution_2: "Премьер-парламент Содружества"
+ Commonwealth_communist_institution_2: "Северное Политбюро"
+ Commonwealth_monarchist_institution_2: "Конклав Северных Львов"
+
+ Commonwealth_second_institution: "[Commonwealth_get_institution_2_name]"
+ Commonwealth_second_institution_desc: "Наш союз теснее и взаимосвязаннее, чем когда-либо прежде, но это также означает, что как единое целое он громоздок и медлителен. Создав [Commonwealth_get_institution_2_name], [Commonwealth_get_institution_2_desc] " 
+ Commonwealth_second_institution_desc_dem: "мы сможем иметь законодательный орган, представляющий интересы избирателей наших стран и обладающий исполнительными полномочиями для быстрых действий в условиях войны."
+ Commonwealth_second_institution_desc_com: "мы сможем быть уверены, что воля рабочих будет выражена, и что те немногие люди, представляющие интересы большинства, будут работать в интересах пролетариата."
+ Commonwealth_second_institution_desc_mon: "мы сможем собрать самых могущественных лордов и леди наших объединенных королевств, чтобы они могли смело и решительно пойти на трудные компромиссы, которые являются бременем дворянства."
+
+ Commonwealth_Commonwealth_army_democratic: "Департамент Наземных Операций"
+ Commonwealth_Commonwealth_army_communist: "Северная Народная Армия"
+ Commonwealth_Commonwealth_army_monarchist: "Марширующие Львы"
+
+ Commonwealth_Commonwealth_army: "[Commonwealth_get_Commonwealth_army_name]"
+ Commonwealth_Commonwealth_army_desc: "[Commonwealth_get_Commonwealth_army_desc]"
+ Commonwealth_Commonwealth_army_desc_dem: "[Commonwealth_get_Commonwealth_army_name] будет иметь ключевую роль, что заключаться в установлении параметров для различных сухопутных войск наших демократий, чтобы они действовали взаимодополняющим образом. Таким образом, сильные стороны одних уравновешивают слабые стороны других, а целью является избавление от угнетения по всему континенту, по одной провинции за раз."
+ Commonwealth_Commonwealth_army_desc_com: "Независимо от того, из какой страны они родом, все солдаты, входящие в [Commonwealth_get_Commonwealth_army_name], являются частью [Commonwealth_get_alliance_name], и будут шествовать до тех пор, пока капитализм не будет уничтожен нашей общей силой и непримиримой волей."
+ Commonwealth_Commonwealth_army_desc_mon: "[Commonwealth_get_alliance_name] - это не просто объединенные армии, это нечто большее. Силы [Commonwealth_get_Commonwealth_army_name] будут храбро нести свою волю под единым знаменем, за своего сеньора и землю, которую он представляет."
+
+ Commonwealth_Commonwealth_navy_democratic: "Военно-морское Координационное Командование"
+ Commonwealth_Commonwealth_navy_communist: "Северный Военно-морской Комиссариат"
+ Commonwealth_Commonwealth_navy_monarchist: "Королевская Армада"
+ 
+ Commonwealth_Commonwealth_navy: "[Commonwealth_get_Commonwealth_navy_name]"
+ Commonwealth_Commonwealth_navy_desc: "[Commonwealth_get_Commonwealth_navy_desc]"
+ Commonwealth_Commonwealth_navy_desc_dem: "Просторы морей по отдельности превышают возможности наших стран, но если мы объединим усилия, то сможем координировать наши операции и расходовать наши ограниченные ресурсы более эффективно, чтобы превзойти свой вес. [Commonwealth_get_Commonwealth_navy_name] предоставит представителей что займутся этим, и, несомненно, возложат на себя управление всеми нашими ресурсами, и поддержку альянса [Commonwealth_get_alliance_name]."
+ Commonwealth_Commonwealth_navy_desc_com: "Волны принадлежат народу, и [Commonwealth_get_alliance_name] намерен освободить их для людей севера. [Commonwealth_get_Commonwealth_navy_name] сделает так, что последнее, что увидят наши враги, - это наши корабли, поднимающиеся над красным горизонтом."
+ Commonwealth_Commonwealth_navy_desc_mon: "Объединенные военно-морские силы альянса [Commonwealth_get_alliance_name] будут править волнами во всех наших владениях. [Commonwealth_get_Commonwealth_navy_name] станет приливом, который будет колотить наших врагов, пока от них не останутся лишь обломки их же судов."
+ 
+ Commonwealth_Commonwealth_airforce_democratic: "Программа Противовоздушной Обороны Содружества"
+ Commonwealth_Commonwealth_airforce_communist: "Северный Народный Комиссариат Воздушных Сил"
+ Commonwealth_Commonwealth_airforce_monarchist: "Объединенные Королевские Воздушные Силы"
+
+ Commonwealth_Commonwealth_airforce: "[Commonwealth_get_Commonwealth_airforce_name]".
+ Commonwealth_Commonwealth_airforce_desc: "Небо - новая граница нашего альянса. [Commonwealth_get_Commonwealth_airforce_desc]"
+ Commonwealth_Commonwealth_airforce_desc_dem: "Именно поэтому [Commonwealth_get_Commonwealth_airforce_name] будет распоряжаться ресурсами, необходимыми для защиты граждан каждой из наших наций в альянсе [Commonwealth_get_alliance_name]. Они также будут обеспечивать сотрудничество наших военно-воздушных сил друг с другом и их слаженную работу".
+ Commonwealth_Commonwealth_airforce_desc_com: "Мы не можем позволить силам капитализма захватить образец свободы, который мы все должны делить поровну. Наши военно-воздушные силы будут бороздить небеса наших врагов и обрушивать на них потоки адского пламени".
+ Commonwealth_Commonwealth_airforce_desc_mon: "Если мы будем развивать наши воздушные возможности, мы сможем лучше направлять нашу силу. Мы заставим наших врагов склониться перед мощью наших объединенных воздушных сил".
+
+ Commonwealth_Commonwealth_research_democratic: "Исследовательский Совет Содружества"
+ Commonwealth_Commonwealth_research_communist: "Народный Университет Севера"
+ Commonwealth_Commonwealth_research_monarchist: "Объединенные Королевские Академии"
+
+ Commonwealth_Commonwealth_research: "[Commonwealth_get_Commonwealth_research_name]"
+ Commonwealth_Commonwealth_research_desc: "Одной силой войны не выигрываются. Технологический прогресс - вот что дает нациям XX века преимущество в современном бою. [Commonwealth_get_Commonwealth_research_desc]".
+ Commonwealth_Commonwealth_research_desc_dem: "[Commonwealth_get_Commonwealth_industry_name] направит капитал и ресурсы в правильные руки, чтобы наши солдаты и генералы имели в своем распоряжении лучшие инструменты для решения проблем войны. Передовые технологии защитят нас от напрасной пролитой крови наших граждан".
+ Commonwealth_Commonwealth_research_desc_com: "[Commonwealth_get_Commonwealth_industry_name] станет институтом, разрабатывающим новейшие средства уничтожения и массово производящим лучшие инструменты, чтобы в руках наших людей они могли стать гильотиной над головами фашизма и капитализма."
+ Commonwealth_Commonwealth_research_desc_mon: "Королевства на севере всегда давали простор для развития науки, и [Commonwealth_get_Commonwealth_industry_name] продолжит эту традицию, объединив все лучшие умы наших королевств в одном здании, они будут служить всем своим владыкам, помогая друг другу."
+
+ Commonwealth_Commonwealth_military_industry_democratic: "Организация Поставок Материальных Средств Содружества"
+ Commonwealth_Commonwealth_military_industry_communist: "Северная Народная Оружейная Организация"
+ Commonwealth_Commonwealth_military_industry_monarchist: "Королевские Оружейные Предприятия"
+ 
+ Commonwealth_Commonwealth_military_industry: "[Commonwealth_get_Commonwealth_military_industry_name]"
+ Commonwealth_Commonwealth_military_industry_desc: "[Commonwealth_get_Commonwealth_military_industry_desc]. Если мы сражаемся до последнего человека, то с помощью правильных инструментов эти люди смогут нанести намного больший удар противнику."
+ Commonwealth_Commonwealth_military_industry_desc_dem: "Программа [Commonwealth_get_Commonwealth_industry_name] будет создана для того, чтобы наша военная машина всегда была снабжена шестеренками, необходимыми для ее функционирования, и для защиты наших наций от террора и тирании"
+ Commonwealth_Commonwealth_military_industry_desc_com: "Революция не сможет защитить себя, и точно так же она не распространится без мощного толчка со стороны уже освобожденных рабочих альянса [Commonwealth_get_alliance_name]"
+ Commonwealth_Commonwealth_military_industry_desc_mon: "В наше время королевства падают налево и направо, и один лишь дух королевской семьи не спасет их от забвения. Мы должны обеспечить наши королевства необходимым оружием для борьбы с вымиранием"
+
+ Commonwealth_Commonwealth_industry_democratic: "Фонд Промышленного Развития Содружества"
+ Commonwealth_Commonwealth_industry_communist: "Рабочие В Одной Упряжке"
+ Commonwealth_Commonwealth_industry_monarchist: "Королевский Институт Разработок"
+
+ Commonwealth_Commonwealth_industry: "[Commonwealth_get_Commonwealth_industry_name]"
+ Commonwealth_Commonwealth_industry_desc: "[Commonwealth_get_Commonwealth_industry_desc]"
+ Commonwealth_Commonwealth_industry_desc_dem: "Во время войны или без неё наши страны должны создавать инфраструктуру и капитал, необходимые для поддержки гражданского населения и улучшения качества его жизни, и как только начнется война, это станет жизненно важным фундаментом нашей военной экономики."
+ Commonwealth_Commonwealth_industry_desc_com: "Рабочие - это жизненная сила нашего альянса, и причина его существования. С помощью нового предприятия мы сможем гарантировать совместное участие в производстве товаров для повседневной жизни, а в военное время - поддерживать нашу военную машину."
+ Commonwealth_Commonwealth_industry_desc_mon: "Концепция Noblesse Oblige требует, чтобы мы обеспечивали своих подданных и создавали инфраструктуру, которая не только завоюет их расположение, но и во время войны станет основой нашей военной экономики. Наше индустриальное содружество будет выполнять эту роль до тех пор, пока в нем не отпадет необходимость."
+
+ Commonwealth_first_selector_left: "[Commonwealth_get_first_selector_left]"
+ Commonwealth_first_selector_left_desc: "TODO_Commonwealth"
+
+ Commonwealth_democratic_first_selector_left: "Департамент Развития Содружества"
+ Commonwealth_communist_first_selector_left: "Бюро Северной Народной Армии"
+ Commonwealth_monarchist_first_selector_left: "Великое Герцогство Морей"
+
+ Commonwealth_first_selector_right: "[Commonwealth_get_first_selector_right]"
+ Commonwealth_first_selector_right_desc: "TODO_Commonwealth"
+
+ Commonwealth_democratic_first_selector_right: "Совет по исследованиям Содружества"
+ Commonwealth_communist_first_selector_right: "Совет по развитию северных народов"
+ Commonwealth_monarchist_first_selector_right: "Оружейное Баронство"
+
+
+ Commonwealth_second_selector_left: "[Commonwealth_get_second_selector_left]"
+ Commonwealth_second_selector_left_desc: "TODO_Commonwealth"
+ 
+ Commonwealth_democratic_second_selector_left: "Комитет Воздушных Сил Содружества"
+ Commonwealth_communist_second_selector_left: "Северная Академия Передовых Наук"
+ Commonwealth_monarchist_second_selector_left: "Великое Герцогство Воздушных Сил"
+
+ Commonwealth_second_selector_right: "[Commonwealth_get_second_selector_right]"
+ Commonwealth_second_selector_right_desc: "TODO_Commonwealth"
+
+ Commonwealth_democratic_second_selector_right: "Объединенное Военно-морское Командование Содружества"
+ Commonwealth_communist_second_selector_right: "Народное Бюро Военных Расходов"
+ Commonwealth_monarchist_second_selector_right: "Королевский Военный Генералитет"
+
+ Commonwealth_baltic_interests: "Балтийские интересы"
+ Commonwealth_baltic_interests_desc: "TODO_Commonwealth"
+ Commonwealth_lithuanian_collaboration: "Литовское сотрудничество"
+ Commonwealth_lithuanian_collaboration_desc: "TODO_Commonwealth"
+ Commonwealth_estonian_collaboration: "Эстонское сотрудничество"
+ Commonwealth_estonian_collaboration_desc: "TODO_Commonwealth"
+ Commonwealth_latvian_collaboration: "Латвийское сотрудничество"
+ Commonwealth_latvian_collaboration_desc: "TODO_Commonwealth"
+ Commonwealth_the_eastern_front: "Восточный фронт"
+ Commonwealth_the_eastern_front_desc: "TODO_Commonwealth"
+ Commonwealth_the_southern_front: "Южный фронт"
+ Commonwealth_the_southern_front_desc: "TODO_Commonwealth"
+ Commonwealth_expedited_training_desc: "TODO_Commonwealth"
+ Commonwealth_central_training_developments: "Центральные программы подготовки"
+ Commonwealth_central_training_developments_desc: "TODO_Commonwealth"
+ Commonwealth_support_training_collaboration: "Поддержка подготовительного процесса "
+ Commonwealth_support_training_collaboration_desc: "TODO_Commonwealth"
+ Commonwealth_unified_recruitment_propaganda: "Единая призывная пропаганда"
+ Commonwealth_unified_recruitment_propaganda_desc: "TODO_Commonwealth"
+ Commonwealth_joint_special_forces: "Объединенные силы специального назначения"
+ Commonwealth_joint_special_forces_desc: "TODO_Commonwealth"
+ Commonwealth_expand_naval_production: "Расширение военно-морского производства"
+ Commonwealth_expand_naval_production_desc: "TODO_Commonwealth"
+ Commonwealth_expand_naval_base_network: "Расширение сети военно-морских баз"
+ Commonwealth_expand_naval_base_network_desc: "TODO_Commonwealth"
+ Commonwealth_naval_engineering: "Военно-морская инженерия"
+ Commonwealth_naval_engineering_desc: "TODO_Commonwealth"
+ Commonwealth_overwhelming_numbers_desc: "TODO_Commonwealth"
+ Commonwealth_overwhelming_numbers: "Подавляющие цифры"
+ Commonwealth_superior_ships: "Превосходящие суда"
+ Commonwealth_superior_ships_desc: "TODO_Commonwealth"
+ Commonwealth_expert_naval_mechanics: "Ведущая военно-морская механика"
+ Commonwealth_expert_naval_mechanics_desc: "TODO_Commonwealth"
+
+ Commonwealth_air_production: "Производство воздушных судов"
+ Commonwealth_air_production_desc: "Если мы надеемся установить господство в северном полушарии и за его пределами, нам нужно наверстать упущенное за годы существования великих держав. К счастью, мы можем поделиться практикой, знаниями и оборудованием, которые мы можем использовать, чтобы превзойти противника и сократить этот разрыв."
+ Commonwealth_naval_aircraft: "Военно-морская авиация"
+ Commonwealth_naval_aircraft_desc: "Будущее морской войны - за небом. Наши морские бомбардировщики отправят корабли врагов на дно моря, а с наших авианосцев стаи истребителей покроют небо дымом вражеских самолетов."
+ Commonwealth_air_exercises: "Воздушные учения"
+ Commonwealth_air_exercises_desc: "Как воздушный бой принес новую эру войны, так и новая эра сотрудничества между нашими странами должна сопровождаться четким выполнением совместных воздушных операций. Для этого наши силы должны тренироваться вместе, пока не станут летать как единое целое."
+ Commonwealth_bomber_command: "Командование бомбардировщиками"
+ Commonwealth_bomber_command_desc: "Создание объединенного командования бомбардировщиков позволит нам лучше координировать нашу наземную поддержку на поле боя и наши бомбардировочные налеты в тылу врага. Только так наши северные страны смогут объединить усилия против наших врагов."
+ Commonwealth_fighter_command: "Командование истребителями"
+ Commonwealth_fighter_command_desc: "Точно так же, как мы разделяем наши идеалы и общую миссию, мы разделяем и небо над нами. Мы должны пилотировать сообща, защищая воздушное пространство друг друга, и завоевывать господство в воздухе над полем боя, чтобы наши связи не были разорваны наземной поддержкой противника."
+ Commonwealth_carrier_effort: "Усилия по транспортировке"
+ Commonwealth_carrier_effort_desc: "Новый рубеж военно-морских боев - небо над ними. Мы должны объединить наши ресурсы для создания лучших авианосцев и лучших самолетов-носителей. Так мы сможем доминировать на морях и обеспечивать безопасность, необходимую нашим странам."
+ Commonwealth_ground_operations: "Наземные операции"
+ Commonwealth_ground_operations_desc: "Строительство большего количества баз позволит нам более гибко проводить совместные воздушные операции, а строительство большего количества зенитных батарей позволит нам защитить нашу землю и снять часть нагрузки с плеч наших пилотов. Так мы создаем взаимосвязанную систему наземной поддержки, чтобы максимально повысить эффективность наших воздушных операций."
+ 
+ Commonwealth_naval_exercises: "Военно-морские учения"
+ Commonwealth_naval_exercises_desc: "Все наши страны имеют военно-морское наследие, уходящее корнями в глубь веков, Балтика и Северная Атлантика сформировали нашу культуру и образ жизни, но, как известно любому мореплавателю, море может быть и рвом, и шоссе одновременно. Давайте же будем готовы защищаться и нападать с моря."
+ Commonwealth_naval_research_institute: "Военно-морской исследовательский институт"
+ Commonwealth_naval_research_institute_desc: "Нам недостаточно просто догнать наших врагов, мы должны быть на переднем крае военно-морских технологий, как это было раньше. Давайте воспользуемся наследием нашего региона, связанным с исследованиями и военно-морским превосходством."
+ Commonwealth_submarine_cooperation: "Взаимодействие подводных лодок"
+ Commonwealth_submarine_cooperation_desc: "Лишив противника возможности перевозить войска и снабжение по морю, мы уже наполовину выиграем войну. Лучший способ обеспечить победу - это совместная работа над созданием самых современных подводных лодок."
+ Commonwealth_naval_officer_academy: "Военно-морская офицерская академия"
+ Commonwealth_naval_officer_academy_desc: "Всем известно, что хороший офицер имеет большее значение в морской войне, чем в большинстве других видов боевых действий. Мало что может сделать один матрос без координации со стороны иерархии офицеров, которые укомплектовывают корабли и оперативные группы наших ВМС. Инвестиции в подготовку этих людей к принятию сложных решений и совместной работе имеют первостепенное значение."
+ Commonwealth_amphibious_forces: "Земноводные силы"
+ Commonwealth_amphibious_forces_desc: "Гарантируя, что мы сможем нанести удар по нашим врагам в любом месте и в любое время, мы можем снизить их наступательный потенциал. Если им придется постоянно опасаться высадки десанта в любой точке побережья, они не смогут развернуть столько подразделений на линии фронта. Следовательно, мы должны сосредоточиться на земноводных операциях и морской пехоте."
+ 
+ Commonwealth_joint_military_exercises: "Совместные военные учения"
+ Commonwealth_joint_military_exercises_desc: "Наши солдаты и офицеры никогда не сталкивались с альянсом, подобным тому, в котором мы сейчас находимся. Их нужно обучать как единое целое, пока совместная работа не станет второй натурой. Как только это произойдет, силы альянса [Commonwealth_get_alliance_name] станут неудержимыми."
+ Commonwealth_unified_recruitment: "Единый набор персонала"
+ Commonwealth_unified_recruitment_desc: "Мы должны найти способ стандартизировать наши усилия по набору и упорядочить процесс, чтобы больше наших солдат могли как можно быстрее попасть из военкомата прямиком на фронт."
+ Commonwealth_mechanized_army: "Механизированная армия"
+ Commonwealth_mechanized_army_desc: "Если мы сосредоточим усилия на обучении наших людей сражаться внутри и рядом с громадными машинами, одетыми в сталь и пушки, мы сможем нанести больший удар при меньшем количестве людей. Конечно, при условии, что мы сможем произвести достаточное количество этих громадин."
+ Commonwealth_infantry_first: "Первым делом пехота"
+ Commonwealth_infantry_first_desc: "На протяжении многих поколений наши бойцы выходили на поля сражений, имея при себе только оружие и одежду, чтобы сражаться за каждый дюйм с другими несчастными, стоящими перед ними. Если наши войска смогут увидеть глаза врага, стоящего перед ними, они поймут, какую угрозу он представляет, и будут сражаться до смерти за свои страны."
+ Commonwealth_expedited_training: "Ускоренная подготовка"
+ Commonwealth_mountaineers: "Горные специалисты"
+ Commonwealth_mountaineers_desc: "Регионы Содружества идеально подходят для подготовки и использования альпинистов. С сильными кадрами горных специалистов нам будет гораздо легче защищать регион и контратаковать при любой возможности. Даже если часть нашей территории попадет в руки врага, мы никогда не сдадимся."
+
+ Commonwealth_Commonwealth_construction_developments: "Строительные проекты Содружества"
+ Commonwealth_Commonwealth_construction_developments_desc: "В нашем альянсе многое предстоит изменить, а времени до наступления гибельного часа остается мало. Нам придется работать вместе, чтобы найти улучшения, необходимые для ускоренного развития наших наций."
+ Commonwealth_materiel_design: "Разработка материалов"
+ Commonwealth_materiel_design_desc: "Война менялась во многих отношениях на протяжении многих поколений, но на протяжении многих веков она сводилась к человеку и его винтовке. В новую эру войн мы не можем пренебрегать оружием, которым владеют бойцы альянса [Commonwealth_get_alliance_name], и, создавая лучшее оружие, мы будем делать лучших солдат."
+ Commonwealth_Commonwealth_electronics: "Электроника Содружества"
+ Commonwealth_Commonwealth_electronics_desc: "Электронные технологии уже здесь, и в будущем они могут сыграть решающую роль в военных действиях. Мы не можем позволить нашему врагу опередить нас в гонке электронных вооружений. Мы будем развивать эту технологию вместе, чтобы новая сила была на нашей стороне."
+ Commonwealth_research_investments: "Совместные научные инвестиции"
+ Commonwealth_research_investments_desc: "Наш новый блок теснее, чем любой другой, и нет причин держать наши технологические достижения при себе. Давайте делиться нашими исследованиями, чтобы наши боевые инструменты имели преимущество, необходимое для уничтожения наших врагов."
+ Commonwealth_civilian_contributions: "Гражданский вклад"
+ Commonwealth_civilian_contributions_desc: "Теперь, когда у населения появилось новое чувство общности с другими членами нашего альянса, мы знаем, что они будут готовы внести свой вклад и принести жертвы, необходимые для подпитки военной машины, которая принесет нам безопасность и славу."
+ Commonwealth_nuclear_research: "Ядерные разработки"
+ Commonwealth_nuclear_research_desc: "Ученые не могут молчать о новом мире, который обрушится на нас, когда расщепление атома наконец-то станет оружием. Почему мы должны быть в стороне от этого технологического чуда, которое может одним махом положить конец войне?"
+ Commonwealth_Commonwealth_rocketry: "Ракетное дело Содружества"
+ Commonwealth_Commonwealth_rocketry_desc: "Что, если бы наши бомбы можно было доставлять без участия самолетов? Самоходное оружие - это будущее, в котором мы сможем уничтожать врага, не выходя из дома."
+ Commonwealth_standarized_parts: "Стандартизированные поставки"
+ Commonwealth_standarized_parts_desc: "Теперь, когда мы едины, нам выгодно делиться друг с другом своими стандартами, чтобы наши заводы могли как можно быстрее войти в курс дела. Оборудование и детали могут стать взаимозаменяемыми, что значительно упростит наше производство."
+ Commonwealth_fill_the_infrastructure_gaps: "Заполнение инфраструктурных брешей"
+ Commonwealth_fill_the_infrastructure_gaps_desc: "До объединения наши страны находились на разных уровнях развития, и даже некоторые регионы в наиболее развитых странах Содружества могли бы получить лучшую инфраструктуру. Мы должны объединиться, чтобы подняться на всех парах."
+ Commonwealth_develop_resources: "Разработка ресурсов"
+ Commonwealth_develop_resources_desc: "Никогда не знаешь, что можно найти, если хорошенько поискать. Если мы сосредоточим наши усилия, то сможем обнаружить неразведанные залежи ресурсов, имеющих решающее значение для военных действий, и даже разработать новые способы извлечения большего из того, что у нас уже есть."
+ Commonwealth_military_industry_hub: "Военно-промышленный центр"
+ Commonwealth_military_industry_hub_desc: "Эффективно сконцентрировав военную промышленность, мы сможем использовать эту близость и специализацию для достижения новых высот для наших военных машин. Мы превзойдем наших врагов, если сохраним наши заводы на своих местах."
+ Commonwealth_ad_hoc_military_industry: "Военная промышленность"
+ Commonwealth_ad_hoc_military_industry_desc: "Нет времени на планирование и строительство монументальных заводских городков или просторов из бетона и дыма. Мы должны построить нашу промышленность как можно быстрее, где только возможно, с небольшими фабриками, разбросанными по всему альянсу, чтобы не рисковать потерять все в одной битве."
+ Commonwealth_railway_expansion: "Расширение железных дорог"
+ Commonwealth_railway_expansion_desc: "Железные дороги - это артерии наших стран, и сейчас, как никогда, мы нуждаемся в том, чтобы эти пути сообщения были как можно более распространены. Теперь, когда мы объединены общей целью, мы должны быть объединены и физически, с помощью стали и скорости локомотивов."
+ Commonwealth_naval_construction: "Военно-морское судостроение"
+ Commonwealth_naval_construction_desc: "Давние традиции мореплавания и моряки мирового класса - это все хорошо, но это ничего не значит, если у нас нет кораблей, чтобы использовать их против наших врагов. Давайте вместе создадим грандиозный флот и с его помощью сокрушим любую страну, которая будет нам угрожать."
+ Commonwealth_nuclear_production: "Ядерное производство"
+ Commonwealth_nuclear_production_desc: "Теперь, когда у нас есть знания о расщеплении атома, мы можем ими воспользоваться. Но сначала нам нужно создать материалы и инфраструктуру, необходимые для производства достаточного количества энергии, чтобы переломить ход войны в нашу пользу."
+ Commonwealth_jet_engines: "В эпоху реактивных двигателей!"
+ Commonwealth_jet_engines_desc: "Новые достижения в области реактивных двигателей делают винтовые самолеты высшего класса похожими на бесцельно дрейфующих бумажных змеев. Наступила новая эра воздушных боев, и в ней будет доминировать реактивный двигатель. Если мы объединим наши инвестиции в эту сферу, мы сможем обойти наших врагов и занять первое место в пищевой цепочке авиастроения."
+ Commonwealth_machine_tools_research: "Разработка станков"
+ Commonwealth_machine_tools_research_desc: "Численность личного состава - это лишь одна часть уравнения. Мы должны превосходить наших врагов в численности, чтобы иметь возможность восполнить потери, которые они не могут восполнить. Вот почему мы не можем ограничиться разработкой новых боевых машин, а должны сосредоточить свое внимание на механизмах, которые их порождают."
+ Commonwealth_equipment_conversion_focus: "Ориентация на конверсию оборудования"
+ Commonwealth_equipment_conversion_focus_desc: "У нас есть огромные склады, заполненные старым оружием и техникой, законсервированными или захваченными у наших павших врагов. Это старое оборудование может быть переоборудовано в самые новые и смертоносные образцы, которые предлагает наша современная военная машина."
+ 
+ Commonwealth_airfields: "Аэропорты"
+ Commonwealth_airfields_desc: "TODO_Commonwealth"
+ Commonwealth_radar_expansion: "Расширение радаров"
+ Commonwealth_radar_expansion_desc: "TODO_Commonwealth"
+ Commonwealth_anti_air_construction: "Противовоздушная конструкция"
+ Commonwealth_anti_air_construction_desc: "TODO_Commonwealth"
+ Commonwealth_synthetic_refineries: "Заводы по переработке синтетических материалов"
+ Commonwealth_synthetic_refineries_desc: "TODO_Commonwealth"
+ Commonwealth_extended_range: "Расширение диапазона"
+ Commonwealth_extended_range_desc: "TODO_Commonwealth"
+ Commonwealth_aircraft_concentration: "Концентрация авиастроения"
+ Commonwealth_aircraft_concentration_desc: "TODO_Commonwealth"
+ Commonwealth_open_up_land_for_construction: "Освободить землю для строительства"
+ Commonwealth_open_up_land_for_construction_desc: "TODO_Commonwealth"
+ Commonwealth_construction_armies: "Строительные войска"
+ Commonwealth_construction_armies_desc: "TODO_Commonwealth"
+ Commonwealth_air_infrastructure: "Воздушная инфраструктура"
+ Commonwealth_air_infrastructure_desc: "TODO_Commonwealth"
+ Commonwealth_military_construction: "Военная застройка"
+ Commonwealth_military_construction_desc: "TODO_Commonwealth"
+ Commonwealth_artillery_program: "Артиллерийская программа"
+ Commonwealth_artillery_program_desc: "TODO_Commonwealth"
+ Commonwealth_tank_development: "Разработка танков"
+ Commonwealth_tank_development_desc: "TODO_Commonwealth"
+ Commonwealth_Commonwealth_university: "Университеты Содружества"
+ Commonwealth_Commonwealth_university_desc: "TODO_Commonwealth"
+ Commonwealth_mechanized_infantry: "Механизированная пехота"
+ Commonwealth_mechanized_infantry_desc: "TODO_Commonwealth"
+ Commonwealth_Commonwealth_tank_platform: "Танковый плацдарм Содружества"
+ Commonwealth_Commonwealth_tank_platform_desc: "TODO_Commonwealth"
+ Commonwealth_emergency_military_industry: "Аварийная военная промышленность"
+ Commonwealth_emergency_military_industry_desc: "TODO_Commonwealth"
+ Commonwealth_Commonwealth_mio: "Военная индустрия Содружества"
+ Commonwealth_Commonwealth_mio_desc: "TODO_Commonwealth"
+ Commonwealth_large_scale_production: "Крупномасштабное производство"
+ Commonwealth_large_scale_production_desc: "TODO_Commonwealth"
+ Commonwealth_improved_assembly: "Усовершенствованная сборка"
+ Commonwealth_improved_assembly_desc: "TODO_Commonwealth"
+ Commonwealth_emergency_funding: "Экстренное финансирование"
+ Commonwealth_emergency_funding_desc: "TODO_Commonwealth"
+ Commonwealth_research_tech_sharing_name: "Исследовательский институт Содружества"
+
+ 
+ 
+################################### IDEAS                       \n      §H§!
+ 
+ 
+ 
+ 
+################################### DECISIONS                   \n      §H§! 
+ 
+ 
+ 
+ 
+################################### EVENTS                      \n      §H§!
+ 
+ 
+ 
+ 
+ 
+ afk_tag.1000000.t:0 ""
+ afk_tag.1000000.d:0 ""
+ afk_tag.1000000.a:0 ""
+ afk_tag.1000000.b:0 ""
+ afk_tag.1000000.c:0 ""
+ 
+################################### OTHER\n                     \n      §H§!
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ###### Commonwealth JOINT IDEAS #######
+
+  Commonwealth_joint_army_originator_ns: "[Commonwealth_get_adjective] командир армии"
+  Commonwealth_joint_army_member_ns: "[Commonwealth_get_adjective] армия"
+  Commonwealth_command_ns: "[Commonwealth_get_adjective] команда"
+  Commonwealth_economic_union_ns: "[Commonwealth_get_adjective] таможенный союз"
+  Commonwealth_airforces_originator_dmod: "[Commonwealth_get_adjective] командир ВВС"
+  Commonwealth_airforces_member_dmod: "[Commonwealth_get_adjective] воздушные силы"
+  Commonwealth_navy_originator_dmod: "[Commonwealth_get_adjective] командир ВМФ"
+  Commonwealth_navy_member_dmod: "[Commonwealth_get_adjective] ВМФ"
+  Commonwealth_mil_industry_originator_dmod: "[Commonwealth_get_adjective] глава оружейной промышленности"
+  Commonwealth_mil_industry_member_dmod: "[Commonwealth_get_adjective] оружейная промышленность"
+  Commonwealth_democratic_alliance_leader_dmod: "[Commonwealth_get_alliance_name] лидер"
+  Commonwealth_democratic_alliance_member_dmod: "[Commonwealth_get_alliance_name]"
+  Commonwealth_communist_alliance_leader_dmod: "[Commonwealth_get_alliance_name] лидер"
+  Commonwealth_communist_alliance_member_dmod: "[Commonwealth_get_alliance_name]"
+  Commonwealth_monarchist_alliance_leader_dmod: "[Commonwealth_get_alliance_name] лидер"
+  Commonwealth_monarchist_alliance_member_dmod: "[Commonwealth_get_alliance_name]"
+
+  Commonwealth_receiving_investments_fake_ns: "Инвестиции Содружества"
+  Commonwealth_receiving_investments_fake_ns_desc: "Еще одна страна Содружества инвестирует в экономику нашей страны."
+  Commonwealth_receiving_investments_TT: "Гражданские заводы за пределами карты: §G£civ_factory +3§!"
+  Commonwealth_sending_investments_ns: "$Commonwealth_receiving_investments_fake_ns$"
+  Commonwealth_sending_investments_ns_desc: "Инвестиции в экономику другой страны Содружества."
+  Commonwealth_investing_in_neighbor_ns: "Инвестиции в соседей"
+  Commonwealth_investing_in_neighbor_ns_desc: "Что может быть лучше для инвестирования капитала, чем наши соседи. Это не только недалеко, но благодаря нашим давним связям и общему наследию мы можем быть уверены, что в конечном итоге они тоже будут инвестировать в нас."
+  Commonwealth_economic_cooperation_ns: "Экономическое сотрудничество"
+  Commonwealth_economic_cooperation_ns_desc: "В такие времена мы не можем стать жертвой отчуждения и враждебности по отношению к нашим соседям. Именно поэтому мы инвестируем в наших соседей, чтобы прилив поднял все наши судна, и при этом мы получим неплохую прибыль."
+  Commonwealth_joint_mountaineers_effort: "Совместная программа подготовки альпинистов"
+  Commonwealth_joint_amphibious_effort: "Совместное планирование вторжения"
+  Commonwealth_joint_submarines_effort: "Акцент на подводных лодках"
+  Commonwealth_joint_carrier_effort: "Совместная программа транспортировки"
+
+  Commonwealth_airforces_dmod_production_cost_TT: "[Commonwealth_GetAircraftCostBonus]"
+  Commonwealth_airforces_dmod_production_cost_originator_TT: "§YВсе авиационное оборудование§!: \n $production_cost_tt$: §G-7.50%§!\n"
+  Commonwealth_airforces_dmod_production_cost_member_TT: "§YВсе авиационное оборудование§!: \n $production_cost_tt$: §G-5.00%§!\n"
+  Commonwealth_airforces_dmod_naval_TT: "[Commonwealth_GetNavalAircraftBonus]"
+  Commonwealth_airforces_dmod_naval_originator_TT: " §YМорские бомбардировщики§!: \n     $MODIFIER_NAVAL_STRIKE$: §G+15.00%§!\n     $MODIFIER_AIR_RANGE$: §G+25.00%§!\n    §Y$cv_small_plane_airframe$§!:\n     $MODIFIER_AIR_AGILITY$: §G+15.00%§!\n     $MODIFIER_AIR_RANGE$: §G+25.00%§!\n"
+  Commonwealth_airforces_dmod_naval_member_TT: " §YМорские бомбардировщики§!: \n     $MODIFIER_NAVAL_STRIKE$: §G+10.00%§!\n     $MODIFIER_AIR_RANGE$: §G+15.00%§!\n    §Y$cv_small_plane_airframe$§!:\n     $MODIFIER_AIR_AGILITY$: §G+10.00%§!\n     $MODIFIER_AIR_RANGE$: §G+15.00%§!\n"
+  
+  # STATE MODIFIERS 
+  Commonwealth_efficient_resource_extraction: "Эффективная добыча ресурсов"
+  Commonwealth_military_industry_hub_leader_dmod: "Военно-промышленный центр"
+  Commonwealth_military_industry_hub_member_dmod: "$Commonwealth_military_industry_hub_leader_dmod$"
+  
+  # Varied Shared Commonwealth loc strings 
+  
+  Commonwealth_no_war_participation: "Незначительное участие в войне"
+  Commonwealth_limited_war_participation: "Ограниченное участие в войне"
+  Commonwealth_risky_war_contribution: "Рискованное участие в войне"
+  Commonwealth_dangerous_war_participation: "Опасное участие в войне"
+  Commonwealth_war_participation_increase_TT: "Наше участие возросло с §Y"[Commonwealth_get_current_participation_level]"§! до §R"[Commonwealth_get_participation_level_above]"§!"
+  Commonwealth_conflict_scale_increase_tooltip: "Масштаб конфликтов в нашем регионе увеличится на §R$RIGHT|0$§!"
+  Commonwealth_conflict_scale_border_war_TT: "§YМасштаб конфликта§! - §Rограниченная война§!"
+  Commonwealth_conflict_scale_regional_war_TT: "§YМасштаб конфликта§! - §Rрегиональная война§!"
+  Commonwealth_conflict_scale_total_war_TT: "§YМасштаб конфликта§! - §Rтотальная война§!"
+  Commonwealth_conflict_scale_limited_war_name: "§GОграниченная война§!"
+  Commonwealth_conflict_scale_regional_war_name: "§YРегиональная война§!"
+  Commonwealth_conflict_scale_total_war_name: "§RТотальная война§!"
+
+  Commonwealth_alliance_democratic: "Союзники"
+  Commonwealth_alliance_communist: "Содружество"
+  Commonwealth_alliance_monarchist: "Содружество"
+
+  Commonwealth_adjective_democratic: "Союзническ."
+  Commonwealth_adjective_communist: "Содружественн."
+  Commonwealth_adjective_monarchist: "Содружественн."
+
+  Commonwealth_unlock_investment_decisions_TT: "Разблокирует решения об §Yинвестициях в Содружество§! и §Yинвестициях Содружества в нас§!, которые позволяют заключать торговые сделки, более выгодные для нас."
+  Commonwealth_unlock_cooperation_decisions_TT: "Разблокирует решение об §Yпрошении экономической кооперации с Содружеством§!, что поможет нам установить одинаково выгодные экономические сделки с соседями по Содружеству."
+
+#####################
+#### Joint Focus ####
+#####################
+
+  Commonwealth_is_democratic_tt: "Имеет право на создание Демократического объединенного альянса"
+  Commonwealth_is_monarchist_tt: "Имеет право на создание Монархического объединенного альянса"
+  Commonwealth_alliance_created_already_TT: "Сформирован любой совместный альянс."
+  Commonwealth_airforce_capstone_unlock_TT: "Это откроет дополнительные возможности для филиала §Y$Commonwealth_Commonwealth_airforce$§!."
+  Commonwealth_navy_capstone_unlock_TT: "Это откроет дополнительные возможности для филиала §Y$Commonwealth_Commonwealth_navy$§!."
+  Commonwealth_army_capstone_unlock_TT: "Это откроет дополнительные возможности для филиала §Y$Commonwealth_Commonwealth_army$§!."
+  Commonwealth_civilian_capstone_unlock_TT: "Это откроет дополнительные возможности для филиала §Y$Commonwealth_Commonwealth_industry$§!."
+  Commonwealth_research_capstone_unlock_TT: "Это откроет дополнительные возможности для филиала §Y$Commonwealth_Commonwealth_research$§!."
+  Commonwealth_production_capstone_unlock_TT: "Это откроет дополнительные возможности для филиала §Y$Commonwealth_Commonwealth_military_industry$§!."
+  Commonwealth_baltic_interests_TT: "Вы получите претензии на государства с побережьем §Балтийского моря§!, которые принадлежат другим странам §Содружества§!"
+  Commonwealth_support_Training_collaboration_custom_TT: "Роты поддержкиs:\n Легкая атака: §G+25%§!\n Организация: §G+10.0§!\n Фактор потери опыта: §G+5%§!"
+
+  Commonwealth_modify_Commonwealth_airforce_dmod: "Изменяет §Y[Commonwealth_GetAirforceDmodName]§! на: "
+  Commonwealth_becomes_airforce_leader_tooltip: "§Y$Commonwealth_airforces_member_dmod$§! будет заменен на §Y$Commonwealth_airforces_originator_dmod$§!, и §Gвозглавит [Commonwealth_get_adjective] воздушные силы§!."
+  Commonwealth_becomes_airforce_member_tooltip: "§Y$Commonwealth_airforces_originator_dmod$§! будет заменен на §Y$Commonwealth_airforces_member_dmod$§!, и §Rперестанет возглавлять [Commonwealth_get_adjective] воздушные силы§!."
+  Commonwealth_modify_Commonwealth_navy_dmod: "Изменяет §Y[Commonwealth_GetNavyDmodName]§! на:"
+  Commonwealth_becomes_navy_leader_tooltip: "§Y$Commonwealth_navy_member_dmod$§! будет заменен на §Y$Commonwealth_navy_originator_dmod$§!, и §Gвозглавит [Commonwealth_get_adjective] военно-морские силы§!."
+  Commonwealth_becomes_navy_member_tooltip: "§Y$Commonwealth_navy_originator_dmod$§! будет заменен на §Y$Commonwealth_navy_member_dmod$§!, и §Rперестанет возглавлять [Commonwealth_get_adjective] военно-морские силы§!."
+  Commonwealth_modify_Commonwealth_military_industry_dmod: "Изменяет §Y[Commonwealth_GetMilIndustryDmodName]§! на:"
+  Commonwealth_becomes_military_industry_leader_tooltip: "§Y$Commonwealth_mil_industry_originator_dmod$§! будет заменен на §Y$Commonwealth_mil_industry_member_dmod$§!, и §Gвозглавит [Commonwealth_get_adjective] военную промышленность§!."
+  Commonwealth_becomes_military_industry_member_tooltip: "§Y$Commonwealth_mil_industry_member_dmod$§! будет заменен на §Y$Commonwealth_mil_industry_originator_dmod$§!, и §Rперестанет возглавлять [Commonwealth_get_adjective] военную промышленность§!."
+  Commonwealth_unlock_Commonwealth_mio: "Разблокирует §Y$Commonwealth_joint_MIO$§! как военно-промышленную организацию"
+
+  Commonwealth_modifies_leader_dmod_TT: "Изменяет §Y лидера [Commonwealth_get_alliance_name]§! на: "
+  Commonwealth_modifies_member_dmod_TT: "Изменяет §Y лидера [Commonwealth_get_alliance_name]§! на: "
+ 
+  Commonwealth_number_of_technologies_TT: "Изученные технологии: §Y[?num_researched_technologies]§!" 
+
+  Commonwealth_unlocks_reaching_out_to_our_neighbors_TT: "Разблокирует общий фокус: §Y$Commonwealth_reaching_out_to_our_neighbors$§!"
+  Commonwealth_unlocks_the_Commonwealth_march_TT: "Разблокирует общий фокус: §Y$Commonwealth_the_Commonwealth_march$§!"
+  Commonwealth_unlocks_to_arms_against_tyranny_TT: "Разблокирует общий фокус: §Y$Commonwealth_to_arms_against_tyranny$§!"
+  Commonwealth_is_joint_focus_member_TT: "часть альянса §Y[Commonwealth_get_alliance_name]§!"
+  Commonwealth_will_autocomplete_once_valid: "§YБудет автоматически завершен при выполнении условий или через определенные фокусы§!"

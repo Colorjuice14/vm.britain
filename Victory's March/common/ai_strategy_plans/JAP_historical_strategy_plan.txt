@@ -1,0 +1,137 @@
+JAP_historical_plan = {
+	name = "Japan historical plan"
+	desc = "Historical behavior for Japan"
+
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				OR = {
+					not = { has_dlc = "Waking the Tiger" }
+					has_game_rule = {
+						rule = JAP_ai_behavior
+						option = DEFAULT
+					}
+				}
+			}
+			has_game_rule = {
+				rule = JAP_ai_behavior
+				option = FASCIST
+			}
+			has_country_flag = JAP_AI_RANDOM_FASCIST
+		}
+		MAN = {
+			is_ai = yes
+		}
+	}
+	abort = {
+		MAN = {
+			has_completed_focus = MAN_assertiveness
+		}
+	}
+
+	ai_national_focuses = { #14 July 1937 is 80 weeks, 23 August 1939 is 190 weeks, 15 May 1940 is 228 weeks, 25 September 1940 is 247 weeks, November 5th 1941 is 305 weeks
+		JAP_assess_the_situation					#8
+		JAP_purge_the_kodoha_faction				#5 = 13 (important)
+		JAP_Zaibatsus_Industry						#5 = 18
+		JAP_Mitsubushi_Zaibatsu						#5 = 23
+		JAP_army_expansion_law						#5 = 28
+		JAP_bicycle_battalions						#2 = 30
+		JAP_new_naval_estimates						#5 = 35
+		JAP_increase_industrial_investments			#5 = 40
+		JAP_Zaibatsus_Research_Grants				#5 = 45
+		JAP_army_expansion_law						#5 = 50
+		JAP_liaison_conference						#5 = 55
+		JAP_Sumitomo_Zaibatsu						#5 = 60
+		JAP_Nippon_Steel							#5 = 65
+		JAP_greater_east_asian_co_prosperity_sphere #5 = 70
+		JAP_intervene_in_china						#10 = aim for 80 (important)
+		JAP_Mitsubishi_Heavy_Industries				#10 = 90
+		JAP_fighter_modernization					#5 = 95
+		JAP_develop_tokyo_steel						#10 = 105
+		JAP_carrier_warfare_experiments				#5 = 110
+		JAP_expand_southern_industry				#10 = 120
+		JAP_supremacy_of_technology					#10 = 130
+		JAP_develop_the_islands						#5 = 135
+		JAP_the_manchurian_project 					#3 = 138
+		JAP_Emperor_Only_In_Name					#5 = 143
+		JAP_develop_korea							#5 = 148
+		JAP_expand_northern_industry				#10 = 158
+		JAP_national_mobilization_law				#5 = 163
+		JAP_national_research_policy				#5 = 168
+		JAP_nationalize_war_industry				#10 = 178
+		JAP_national_defense_state					#5 = 183
+		JAP_spiritual_mobilization					#5 = 188
+		JAP_small_arms_modernization				#3 = 191
+		JAP_cruiser_modernization					#5 = 196
+		JAP_long_lance_torpedoes					#10 = 206
+		JAP_torpedo_cruisers						#5 = 211
+		JAP_strike_south_doctrine					#5 = 216
+		JAP_Japanese_Lifeline						#5 = 221
+		JAP_agility_focus							#5 = 226
+		JAP_first_air_fleet							#10 = 236
+		JAP_the_zero								#10 = 246
+		JAP_sign_tripartite_pact					#2 = aim for 248 (important)
+		JAP_fortify_the_border 						#3 = 251
+		JAP_expand_the_snlf							#10 = 261
+		JAP_Imperial_Visit							#3 = 264
+		JAP_expand_the_islands_naval_bases			#5 = 269
+		JAP_Second_Five_Year_Immigration_Plan		#5 = 274
+		JAP_Invite_Zaibutsus_To_Manchuria			#3 = 277
+		JAP_Industrialize_Manchu					#5 = 282
+		JAP_bomber_modernization					#5 = 287
+		JAP_non_aggression_pact_with_the_soviet_union #3 = 290
+		JAP_expand_the_showa_steel_works			#5 = 295
+		JAP_secure_the_philippines 					#10 = aim for 305 (important)
+		JAP_bypass_the_philippines					#2
+		JAP_strike_on_the_southern_resource_area	#10 = 315
+		JAP_alliance_with_siam						#3 = 318
+		JAP_coal_liquification						#10 = 328
+		JAP_expand_manchurian_railways				#2 = 330
+		JAP_the_ultimate_battleship					#10 = 340
+		JAP_range_focus								#5 = 345
+		JAP_synthetic_rubber 						#5 = 350
+		JAP_escort_production						#10 = 360
+		JAP_exploit_the_southern_resource_area		#3 = 363
+		JAP_secure_australia						#5 = 368
+		JAP_light_industry_development				#3 = 371
+		JAP_modern_artillery						#5 = 376
+		JAP_strategic_bomber_effort					#5 = 381
+		JAP_modern_escorts							#5 = 386
+		JAP_warrior_spirit							#5 = 391
+		JAP_secure_china							#5 = aim for 395 (important)
+		JAP_develop_australian_resources			#5 = 400
+		JAP_strengthen_the_divine_wind				#10 = aim for 410 (important)
+		JAP_Divide_and_Rule							#5
+		JAP_heavy_industry_development				#3
+		JAP_jet_prototypes							#5
+		JAP_Ultimatum_To_Warlords					#5
+		JAP_expand_manchurian_supply				#5
+		JAP_Reorganize_Warlords						#5
+		JAP_armored_divisions						#5
+		JAP_industry_innovation						#10
+		JAP_resource_recycling						#10
+
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

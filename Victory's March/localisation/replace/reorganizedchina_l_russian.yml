@@ -1,0 +1,97 @@
+﻿l_russian:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ ##### LEADERS
+  
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+ 
+################################### FOCUSES                     \n      §H§!
+ 
+
+
+################################### IDEAS                       \n      §H§!
+ 
+
+
+################################### DECISIONS                   \n      §H§! 
+ 
+
+ 
+################################### EVENTS                      \n      §H§!
+ 
+
+
+################################### OTHER\n                     \n      §H§!
+ 
+
+
+################################# CHARACTERS
+
+ GXC_Chen_Gongbo:0 "Чэнь Гунбо"
+ YUN_Bao_Wenyue:0 "Бао Вэньюэ"
+ XSM_Xiao_Shuxuan:0 "Сяо Шусюань"
+ SHX_Qi_Xieyuan:0 "Ци Сеюань"
+ TIB_Ngagchen_Rinpoche:0 "Нгагчен Ринпоче"
+
+################################# COUNTRIES
+
+ RGC:0 "Режим Ван Цзинвэй"
+ RGC_DEF:0 "Режим Ван Цзинвэй"
+ RGC_ADJ:0 "Китайский"
+ RGC_fascism:0 "Режим Ван Цзинвэй"
+ RGC_fascism_DEF:0 "Реорганизованный националистический Китай"
+ RGC_democratic:0 "Китайская Республика"
+ RGC_democratic_DEF:0 "Китайская Республика"
+ RGC_neutrality:0 "Китай"
+ RGC_neutrality_DEF:0 "Китай"
+ RGC_communism:0 "Китайская Народная Республика"
+ RGC_communism_DEF:0 "Китайская Народная Республика"
+ RGC_fascism_ADJ:0 "Китайский"
+ RGC_democratic_ADJ:0 "Китайский"
+ RGC_neutrality_ADJ:0 "Китайский"
+ RGC_communism_ADJ:0 "Китайский"
+ RGC_autonomy_dominion:0 "Китайский доминион"
+ RGC_autonomy_dominion_DEF:0 "Китайский доминион"
+ RGC_autonomy_colony:0 "$OVERLORDADJ$ Китайская колония"
+ RGC_autonomy_colony_DEF:0 "$OVERLORDADJ$ Китайская колония"
+ RGC_autonomy_integrated_puppet:0 "$OVERLORDADJ$ Территория Китая"
+ RGC_autonomy_integrated_puppet_DEF:0 "$OVERLORDADJ$ Территория Китая"
+ RGC_autonomy_puppet:0 "$OVERLORDADJ$ Китай"
+ RGC_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Китай"
+ RGC_autonomy_reichskommissariat:0 "Комиссариат Китая"
+ RGC_autonomy_reichskommissariat_DEF:0 "Комиссариат Китая"
+ RGC_GER_autonomy_reichsprotectorate:0 "Китайский рейхспротекторат"
+ RGC_GER_autonomy_reichsprotectorate_DEF:0 "Китайский рейхспротекторат"
+ RGC_autonomy_reichsprotectorate:0 "Китайский протекторат"
+ RGC_autonomy_reichsprotectorate_DEF:0 "Китайский протекторат"
+ RGC_autonomy_supervised_state:0 "$OVERLORDADJ$ Китай"
+ RGC_autonomy_supervised_state_DEF:0 "$OVERLORDADJ$ Китай"
+ 
+ CHI_fascism:0 "Временное правительство Китая"
+ CHI_fascism_DEF:0 "Временное правительство Китая"

@@ -1,0 +1,35 @@
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		469 11401 11414 
+	}
+	
+	history={
+		victory_points = {
+			11401 3 
+		}
+		owner = CZE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			anti_air_building = 1
+			469 = {
+				bunker = 1
+
+			}
+		}
+		add_core_of = CZE
+		1938.9.30 = {
+			owner = GER
+			controller = GER
+
+		}
+
+	}
+	
+	manpower=943333
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

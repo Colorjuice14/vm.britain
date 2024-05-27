@@ -1,0 +1,130 @@
+﻿l_russian:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+ 
+################################### FOCUSES                     \n      §H§!
+ 
+ Open_Foreign_Office:0 "Открыть офис иностранных дел"
+ Open_Foreign_Office_desc:0 "Нам следует открыть Министерство иностранных дел и решить, как мы хотим относится к миру. "
+ 
+ Affirm_Neutrality:0 "Подтвердить нейтралитет"
+ Affirm_Neutrality_desc:0 "Мы должны держать нашу страну в стороне от мировых дел, чтобы защитить наш народ."
+ 
+ International_Relations:0 "Международные отношения"
+ International_Relations_desc:0 "Мир становится более глобализированным, и мы должны в этом участвовать."
+ 
+ American_Embassy:0 "Американское посольство"
+ American_Embassy_desc:0 "Нам следует обратиться к американцам с просьбой открыть посольство. Это укрепит наши отношения."
+ 
+ Purchase_American_Fighters:0 "Заказать американские истребители"
+ Purchase_American_Fighters_desc:0 ""
+ 
+ Purchase_American_Bombers:0 "Заказать американские бомбардировщики"
+ Purchase_American_Bombers_desc:0 ""
+ 
+ Study_American_Battleships:0 "Изучить американские линкоры"
+ Study_American_Battleships_desc:0 ""
+ 
+ Study_American_Carriers:0 "Изучить американские авианосцы"
+ Study_American_Carriers_desc:0 ""
+ 
+ German_Embassy:0 "Посольство Германии"
+ German_Embassy_desc:0 "Нам следует обратиться к немцам с просьбой открыть посольство. Это укрепит наши отношения."
+ 
+ Join_the_Schachtplan:0 "Присоединяйтесь к Шахтплану"
+ Join_the_Schachtplan_desc:0 "Детище немецкого экономиста Ялмара Шахта, план Шахт будет гарантировать доступ к немецким рынкам в обмен на увеличение импорта сырья из нашей страны."
+ 
+ Purchase_German_Tanks:0 "Заказать немецкие танки"
+ Purchase_German_Tanks_desc:0 ""
+ 
+ Study_German_Submarines:0 "Изучить немецкие субмарины"
+ Study_German_Submarines_desc:0 ""
+ 
+ Soviet_Embassy:0 "Советское посольство"
+ Soviet_Embassy_desc:0 "Нам следует обратиться к русским с просьбой открыть посольство. Это укрепит наши отношения."
+ 
+ Purchase_Soviet_Arms:0 "Заказать советское оружие"
+ Purchase_Soviet_Arms_desc:0 ""
+ 
+ Purchase_Soviet_Tanks:0 "Заказать советские танки"
+ Purchase_Soviet_Tanks_desc:0 ""
+ 
+ Soviet_Economics:0 "Советская экономика"
+ Soviet_Economics_desc:0 ""
+ 
+ British_Embassy:0 "Британское посольство"
+ British_Embassy_desc:0 "Нам следует обратиться к британцам с просьбой открыть посольство. Это укрепит наши отношения."
+ 
+ Purchase_British_Artillery:0 "Заказать британскую артиллерию"
+ Purchase_British_Artillery_desc:0 ""
+ 
+ Purchase_British_Trucks:0 "Заказать британские грузовики"
+ Purchase_British_Trucks_desc:0 ""
+ 
+ Study_British_Ships:0 "Изучить британские корабли"
+ Study_British_Ships_desc:0 ""
+ 
+ Study_British_Marines:0 "Изучить британскую морскую пехоту"
+ Study_British_Marines_desc:0 ""
+ 
+ Arms_Dealing:0 "Торговля Оружием"
+ Arms_Dealing_desc:0 "У нас есть потенциал принести большую пользу нашей экономике, присоединившись к международной торговле оружием."
+ 
+ Growing_Arms_Industry:0 "Растущая оружейная промышленность"
+ Growing_Arms_Industry_desc:0 "Военный сектор нашей экономики процветает благодаря торговле оружием."
+ 
+ Growing_Arms_Industry_II:0 "Растущая оружейная промышленность II"
+ Growing_Arms_Industry_II_desc:0 "Военный сектор нашей экономики процветает благодаря торговле оружием."
+ 
+ Growing_Arms_Industry_III:0 "Растущая оружейная промышленность III"
+ Growing_Arms_Industry_III_desc:0 "Военный сектор нашей экономики процветает благодаря торговле оружием."
+ 
+ True_Neutrality:0 "Истинный нейтралитет"
+ True_Neutrality_desc:0 "Мы будем избегать вмешательства в мировые дела любой ценой и сосредоточимся на развитии нашей собственной страны."
+ 
+ Growing_Civilian_Economy:0 "Растущая гражданская экономика"
+ Growing_Civilian_Economy_desc:0 "Наша гражданская экономика растет благодаря нашему внутреннему фокусу."
+ 
+ Growing_Civilian_Economy_II:0 "Растущая гражданская экономика II"
+ Growing_Civilian_Economy_II_desc:0 "Наша гражданская экономика растет благодаря нашему внутреннему фокусу."
+ 
+ Growing_Civilian_Economy_III:0 "Растущая гражданская экономика III"
+ Growing_Civilian_Economy_III_desc:0 "Наша гражданская экономика растет благодаря нашему внутреннему фокусу."
+ 
+
+ 
+ 
+################################### Ideas                   \n      §H§! 
+
+ Arms_Trader:0 "Международный торговец оружием"
+ Arms_Trader_desc:0 "Хотя мы не хотим напрямую участвовать в войнах, мы не против поддержать ту или иную сторону ради возврата наших инвестиций."
+ 
+ Schachtplan:0 "Шахтплан"
+ Schachtplan_desc:0 "Детище немецкого экономиста Ялмара Шахта, план Шахт гарантирует доступ к немецким рынкам в обмен на увеличение импорта сырья из нашей страны."

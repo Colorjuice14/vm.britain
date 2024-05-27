@@ -1,0 +1,437 @@
+﻿l_simp_chinese:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ ##### LEADERS
+ 
+ prime_minister_of_japan:0 "日本首相"
+ 
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+ 
+################################### FOCUSES                     \n      §H§!
+ 
+ ## Redoing Vanilla
+ 
+JAP_strike_south_doctrine:0 "南进论"
+ 
+JAP_non_aggression_pact_with_the_soviet_union:0 "敌人的敌人就是朋友"
+JAP_non_aggression_pact_with_the_soviet_union_desc:0 "...是我们的朋友。 如果我们要自由地向南进攻，就必须确保我们北部边境的安全。 我们将立即开始与苏联的谈判。"
+ 
+JAP_purge_the_kodoha_faction:0 "支持统制派"
+JAP_purge_the_kodoha_faction_desc:0 "皇道派越来越受欢迎。 为了帝国的未来，我们一定要确保统制派的胜利！"
+
+JAP_preemptive_war:0 "北进论"
+JAP_preemptive_war_desc:0 "现在我们必须解决共产主义的根源——苏联。"
+
+JAP_the_unthinkable_option:0 "解除对日共的禁令"
+JAP_the_unthinkable_option_desc:0 "1925年，随着《和平维护法》的通过，日共被取缔，并遭受镇压和迫害。 许多日共成员和同情者被监禁，我们需要消除这场悲剧并废除这项法律。"
+
+JAP_cast_the_die:0 "公投"
+JAP_cast_the_die_desc:0 "我们已经建立了足够的支持，选举将朝着对我们有利的方向发展。 是时候进行公投了！"
+
+ ## New Focuses
+JAP_assess_the_situation:0 "评估情况"
+JAP_assess_the_situation_desc:0 "自二二六事件以来，日本政治气氛一直动荡。海军和陆军之间形成了严重的竞争。我们需要重新评估政府和军队内部的局势。"
+ 
+JAP_exchange_for_north_sakhalin:0 "要求北萨哈林岛"
+JAP_exchange_for_north_sakhalin_desc:0 "既然我们已经结盟，苏联可能愿意放弃本来属于日本的北萨哈林岛。"
+
+JAP_expand_manchurian_supply:0 "扩大北满洲供应"
+JAP_expand_manchurian_supply_desc:0 "满洲北部战线的供应严重不足。由于满洲工业不发达，我们不能指望通过这种方式来解决这个问题，因此我们必须自己解决。在北部建立供应中心将使我们能够为该边界的冲突做好准备 ，如果它发生的话。"
+
+JAP_annex_manchuria:0 "吞并满洲"
+JAP_annex_manchuria_desc:0 "到目前为止，满洲在我们帝国保护国的控制下一切顺利，但现在我们将接管。"
+
+JAP_annex_menkukuo:0 "吞并蒙疆"
+JAP_annex_menkukuo_desc:0 "到目前为止，蒙疆在我们帝国保护国的控制下一切顺利，但现在我们将接管。"
+
+JAP_annex_china:0 "吞并中国"
+JAP_annex_china_desc:0 "虽然到目前为止我们允许傀儡政府处理中国，但我们现在已经准备好承担这片土地的责任。"
+
+JAP_invoke_pan_asian_identity:0 "唤起泛亚洲身份"
+JAP_invoke_pan_asian_identity_desc:0 "由于我们现在统治着亚洲的大部分地区，是时候援引泛亚洲身份了，以便我们的新臣民明白我们都是一个民族。这将减少他们的抵抗并促进日益增长的合作。"
+
+JAP_subjugate_the_chinese:0 "征服中国"
+JAP_subjugate_the_chinese_desc:0 "中国永远是我们要征服的。中国在我们的控制之下，我们将势不可挡！"
+
+JAP_manchurian_infrastruction_expansion:0 "满洲基础设施扩建"
+JAP_manchurian_infrastructure_expansion_desc:0 "满洲的基础设施不发达。如果我们希望利用这个地区来推进我们的目标，我们需要解决这个问题。"
+
+JAP_release_manchuria:0 "释放满洲"
+JAP_release_manchuria_desc:0 "满洲国一直在努力为我们服务，现在已经准备好掌控自己的命运。"
+
+JAP_release_mengkukuo:0 "释放蒙疆"
+JAP_release_mengkukuo_desc:0 "蒙疆一直在努力为我们服务，现在已经准备好掌控自己的命运。"
+
+JAP_give_mengkukuo_to_manchukuo:0 "将蒙疆交给大清"
+JAP_give_mengkukuo_to_manchukuo_desc:0 "蒙疆一直在努力为我们服务，但它不是一个强大或稳定的国家，无法处理自己的事务。我们将允许大清接管。"
+
+JAP_japanese_manchurian_research:0 "日本-大清研究协议"
+JAP_japanese_manchurian_research_desc:0 "大清仍然落后。让我们一起加入科学项目，看看是否能找到一种让我们两国都受益的方法。"
+
+JAP_develop_mengkukuo:0 "开发蒙疆"
+JAP_develop_mengkukuo_desc:0 "蒙疆发展落后。如果我们想在该地区开展军事行动，我们需要对此进行开发。"
+
+JAP_request_join_axis:0 "请求加入轴心国"
+JAP_request_join_axis_desc:0 "我们与德国建立了更密切的关系。我们应该进一步合作。"
+
+JAP_invite_china_west_pacific:0 "与中国结盟"
+JAP_invite_china_west_pacific_desc:0 "中国虽然是前任政府的目标，但却是反对帝国主义和共产党的宝贵盟友。我们应该邀请他们加入西太平洋条约组织。"
+
+JAP_the_asian_communist_threat:0 "亚洲共产主义威胁"
+JAP_the_asian_communist_threat_desc:0 "现在中国与我们同在，我们需要应对亚洲的共产主义威胁。"
+
+JAP_liberate_vietnam:0 "解放越南"
+JAP_liberate_vietnam_desc:0 "释放我们的亚洲兄弟！"
+
+JAP_liberate_malaya:0 "解放马来亚"
+JAP_liberate_malaya_desc:0 "释放我们的亚洲兄弟！"
+
+JAP_liberate_east_indies:0 "解放东印度群岛"
+JAP_liberate_east_indies_desc:0 "释放我们的亚洲兄弟！"
+
+JAP_liberate_australia:0 "解放澳大利亚"
+JAP_liberate_australia_desc:0 "释放我们的亚洲兄弟！"
+
+JAP_liberate_new_zealand:0 "解放新西兰"
+JAP_liberate_new_zealand_desc:0 "释放我们的亚洲兄弟！"
+
+JAP_liberate_philippines:0 "解放菲律宾"
+JAP_liberate_philippines_desc:0 "释放我们的亚洲兄弟！"
+
+JAP_the_asian_fascist_threat:0 "亚洲法西斯威胁"
+JAP_the_asian_fascist_threat_desc:0 "既然我们赢得了选举并解放了人民，我们需要解决亚洲的法西斯威胁。"
+
+JAP_free_the_people_of_asia:0 "解放亚洲人民"
+JAP_free_the_people_of_asia_desc:0 "我们的人民现在自由了，但其他国家的工人仍然需要解放。我们将停止对亚洲独裁者和君主的压迫。"
+
+JAP_ban_the_elections:0 "禁止选举"
+JAP_ban_the_elections_desc:0 "我们利用民主制度让我们的共产党朋友掌权。现在是时候禁止选举了，这样他们就可以留在那里。"
+
+JAP_alliance_with_burma:0 "与缅甸结盟"
+JAP_alliance_with_burma_desc:0 "缅甸处于入侵印度的有利位置。这里将是我们的重要据点。"
+
+JAP_strike_the_middle_east_doctrine:0 "西進论"
+JAP_strike_the_middle_east_doctrine_desc:0 "虽然东亚可能拥有丰富的资源，但石油储量还不够。我们应该采取行动确保来自中东的石油，以避免依赖苏联、荷兰或美国。"
+
+JAP_secure_iran:0 "确保伊朗"
+JAP_secure_iran_desc:0 "伊朗拥有大量石油储量。 为了确保我们的海军和陆军的燃料，我们应该控制这里。"
+
+JAP_secure_iraq:0 "确保伊拉克"
+JAP_secure_iraq_desc:0 "伊拉克正在向英国提供石油。 我们应该把这里的石油据为己用。"
+
+JAP_develop_australian_resources:0 "开发澳大利亚"
+JAP_develop_australian_resources_desc:0 "扩大澳大利亚的矿藏将为我们提供宝贵的资源。"
+
+JAP_secure_australia:0 "確保澳大利亚"
+JAP_secure_australia_desc:0 "澳大利亚拥有宝贵的资源，将是我们征服亚洲的自然步骤。"
+
+JAP_increase_industrial_investments:0 "增加工业投资"
+JAP_increase_induscial_investments_desc:0 "到目前为止，我们一直在快速工业化。为了日本的未来，我们应该增加对工业的投资。"
+
+JAP_develop_northern_infrastructure:0 "发展北方基础设施"
+JAP_develop_northern_infrastruct_desc:0 "我们北方的基础设施严重缺乏。现在是时候通过对该地区进行战略投资来弥补这一问题。"
+
+JAP_develop_korea:0 "发展朝鲜半岛"
+JAP_develop_korea_desc:0 "朝鲜半岛基础设施严重落后。对该地区的投资应该可以弥补这一问题。"
+
+JAP_develop_korean_tungsten:0 "开发朝鲜钨"
+JAP_develop_korean_tungsten_desc:0 "朝鲜的矿山可以扩大，为我们的军事制造提供更多的钨。"
+
+JAP_develop_the_islands:0 "开发岛屿"
+JAP_develop_the_islands_desc:0 "虽然没有多少人居住在南部的岛屿上，但基础设施可以通过扩张来更好地为驻军提供服务。"
+
+JAP_expand_the_islands_naval_bases:0 "扩大岛屿海军基地"
+JAP_expand_the_islands_naval_bases_desc:0 "现在我们岛屿的基础设施得到了扩展，为了我们的海军霸权，需要扩大海军基地。"
+
+JAP_synthetic_rubber:0 "先进橡胶生产"
+JAP_synthetic_rubber_desc:0 "我们在大陆无法获得橡胶，这是生产飞机所需的资源。為了满足这一需求，需要更先进的合成橡胶生产。"
+
+JAP_expand_southern_industry:0 "扩大南方工业"
+JAP_expand_southern_industry_desc:0 "南部现有的基础设施足以应对工业扩张。我们应该确保它完成。"
+
+JAP_expand_northern_industry:0 "扩大北方工业"
+JAP_expand_northern_industry_desc:0 "现在我们有了完善的基础设施，我们应该扩大北方工业。"
+
+JAP_resource_recycling:0 "资源回收"
+JAP_resource_recycling_desc:0 "我们没有足够的自然资源。我们应该发展资源回收。"
+
+JAP_develop_tokyo_steel:0 "发展东京制铁"
+JAP_develop_tokyo_steel_desc:0 "我们需要生产更多的钢材用于战时生产。在关东地区开设一家钢厂将有助于解决这一问题。"
+
+JAP_industry_specialization:0 "武器专业化"
+JAP_industry_specialization_desc:0 "由于工业能力有限，我们需要专注于军工的领域。"
+
+JAP_industry_innovation:0 "武器创新"
+JAP_industry_innovation_desc:0 "尖端设备能使我们战胜敌人。"
+
+JAP_yamato_product:0 "大和型战列舰"
+JAP_yamato_product_desc:0 "大和型战列舰是我们的骄傲。我们应该建造更多。"
+
+JAP_escort_product:0 "生产护卫舰"
+JAP_escort_production_desc:0 "如果我们不能保护大型船只，它们有什么用？"
+
+JAP_carrier_product:0 "生产航母"
+JAP_carrier_product_desc:0 "航母是未来。任何现代海军都必须拥有它们。"
+
+JAP_subjugate_southern_warlords:0 "征服华南"
+JAP_subjugate_southern_warlords_desc:0 "我们已经征服了中国中部，现在是时候征服华南。"
+
+JAP_subjugate_west_china:0 "征服华西"
+JAP_subjugate_west_china_desc:0 "我们已经征服了中国中部，现在是时候征服华西。"
+
+JAP_subjugate_the_north:0 "征服北方"
+JAP_subjugate_the_north_desc:0 "我们已经征服了中国中部，现在是时候征服北方。"
+
+JAP_develop_south_chinese_resources:0 "开发华南资源"
+JAP_develop_south_chinese_resources_desc:0 "广西蕴含大量资源。我们应该立即扩大这些资源的开采。"
+
+JAP_trans_pacific_treaty:0 "环太平洋条约"
+JAP_trans_pacific_treaty_desc:0 "太平洋彼岸的国家是反对共产党和法西斯的天然盟友。"
+
+################################### IDEAS                       \n      §H§!
+ 
+JAP_the_zero_product:0 "生产零式战斗机"
+JAP_the_zero_product_desc:0 "将生产重点放在最先进的零式战斗机上将为我们提供优势，击败海上的敌人。"
+
+JAP_Pan_Asian_Identity:0 "泛亚洲主义"
+JAP_Pan_Asian_Identity_desc:0 "所有亚洲人都应团结起来，为了亚洲的进步而合作。"
+
+JAP_Subjugate_the_Chinese_idea:0 "被征服的中国"
+JAP_Subjugate_the_Chinese_idea_desc:0 "中国人民将被招募加入我们的军队。"
+
+JAP_Japan_Manchurian_Research_Agreement:0 "日本-大清研究协议"
+JAP_Japan_Manchurian_Research_Agreement_desc:0 "我们的研究正受益于我们的协议。"
+
+JAP_Japan_Settlers:0 "日本定居者"
+JAP_Japan_Settlers_desc:0 "来自日本的定居者正在满洲居住。"
+
+JAP_infantry_focus:0 "步兵优先"
+JAP_infantry_focus_desc:0 "步兵是我们军队的支柱。我们需要重点关注他们。"
+
+JAP_motorization_focus:0 "机动化优先"
+JAP_motorization_focus_desc:0 "军队机动化是未来。我们需要关注它。"
+ 
+JAP_american_naval_support:0 "美国海军支援"
+JAP_american_naval_support_desc:0 "内战使我们的国家失去了很大一部分海军。我们应该向美国人寻求这方面的帮助。"
+ 
+JAP_british_naval_support:0 "英国海军支援"
+JAP_british_naval_support_desc:0 "内战使我们的国家失去了很大一部分海军。我们应该请求英国提供这方面的帮助。"
+
+JAP_soviet_naval_support:0 "苏联海军支援"
+JAP_soviet_naval_support_desc:0 "内战使我们的国家失去了很大一部分海军。我们应该请求苏联提供这方面的帮助。"
+
+JAP_two_emperors:0 "两位皇帝"
+JAP_two_emperors_desc:0 "如果这意味着我们可以收回我们的领土，我们可以接受日本的领导地位。"
+
+JAP_master_of_china:0 "掌控中国"
+JAP_master_of_china_desc:0 "我们将通过一些附加协议允许中国继续为我们服务。"
+
+JAP_nationalize_dockyards:0 "国有化造船厂"
+JAP_nationalize_dockyards_desc:0 "国家需要所有造船基础设施来重建我们的海军。"
+
+JAP_first_elections:0 "第一次选举"
+JAP_first_elections_desc:0 "日本的第一次民主选举是我们历史上的一个里程碑事件。"
+
+JAP_hirohito_showa:0 "裕仁天皇"
+
+################################### DECISIONS                   \n      §H§! 
+ 
+ JAP_bop_bolster_the_army:0 "增加陆军经费"
+  JAP_bop_bolster_the_navy:0 "增加海军经费"
+ 
+JAP_Imperial_Protectorates:0 "帝国保护领"
+ 
+JAP_Imperial_Protectorate_Phillipines:0 "菲律宾保护领"
+JAP_Imperial_Protectorate_Malaya:0 "马来亚保护领"
+JAP_Imperial_Protectorate_Burma:0 "缅甸保护领"
+JAP_Imperial_Protectorate_East_Indies:0 "东印度保护领"
+JAP_Imperial_Protectorate_Vietnam:0 "越南保护国领"
+JAP_Imperial_Protectorate_Laos:0 "老挝保护领"
+JAP_Imperial_Protectorate_Cambodia:0 "高棉保护领"
+
+JAP_Imperial_Colonies:0 "帝国殖民地"
+
+JAP_Colony_Phillipines:0 "菲律宾"
+JAP_Colony_Malaya:0 "日本马来亚"
+JAP_Colony_Burma:0 "缅甸"
+JAP_Colony_East_Indies:0 "日本属东印度群岛"
+JAP_Colony_Vietnam:0 "越南共和国"
+JAP_Colony_Laos:0 "老挝共和国"
+JAP_Colony_Cambodia:0 "柬埔寨共和国"
+ 
+################################### EVENTS                      \n      §H§!
+ 
+ # Communist Election
+ 
+ JAP.1.t:0 "共产党在日本选举中获胜"
+  JAP.1.d:0 "日本自新民主制度崛起以来的首次选举。选票已经收集完毕，明显的获胜者已经出现。"
+  JAP.1.a.name:0 "日本共産党"
+
+ JAP.1.a:0 "福本 和夫"
+ JAP.1.b:0 "山川 均"
+
+ JAP_hitoshi_yamakawa:0 "山川 均"
+ JAP_fukumoto_kazuo:0 "福本 和夫"
+ 
+ JAP_FUKUMOTOISM:0 "福本主义"
+ JAP_YAMAKAWAISM:0 "山川主义"
+ 
+ # Admiral Coup
+ 
+ JAP.2.t:0"山本上将就任首相"
+  JAP.2.d:0 "山本上将已被任命为首相，并且似乎完全控制了政府。"
+  JAP.2.a:0 "这对日本意味着什么？"
+ 
+ # Democratic Election
+ 
+ JAP.3.t:0 "第一次选举"
+  JAP.3.d:0 "我们终于能够进行第一次选举了。选票已经统计完成，是时候看看谁赢了。"
+  JAP.3.a:0 "鸠山一郎"
+  JAP.3.a.desc:0 "反法西斯的保守民主党人。"
+  JAP.3.b:0 "町田忠治"
+  JAP.3.b.desc:0 "进步民主党人。"
+  JAP.3.c:0 "片山哲"
+  JAP.3.c.desc:0 "社会主义民主党人。"
+
+# Democratic Coup
+
+JAP.114.t:0 "民主派发动政变"
+JAP.114.desc:0 "在军方威胁再次限制人民来之不易的民主权利后，政府中的民主派对国家進行全面接管。以令人惊讶的速度，很大一部分军队拿起武器来保卫人民及其自由权利。\n\n军队的这种分裂使得人民代表能够在立法和行政部门夺取权力。虽然战斗才刚刚开始，但现任政府不太可能轻易被推翻。"
+JAP.114.a:0 "军阀再也不会压在人民的头上了！"
+
+# Emperor Takes Control
+
+JAP.4.t:0 "皇帝掌权"
+JAP.4.desc:0 "一群年轻军官成功刺杀了多名政府官员以及首相。他们占领了东京并控制了皇宫，他们宣布打算清洗政府 "腐败官员"和"意识形态威胁"，恢复天皇作为国家唯一统治者。\n\n他们的行动在军队中拥有大量出乎意料的支持者，军队大规模逮捕和暗杀效忠旧政府人士，以及控制皇宫，皇帝没有采取任何行动谴责叛军。\n\n有组织的抵抗似乎已经崩溃，叛军预计随时都会宣布建立对国内、外交和军事政策所有领域的全面控制。裕仁天皇对军队和首相的领导已经不再抱有幻想，并将全面控制政府。"
+JAP.4.a:0 "天王万岁！"
+
+# US, UK, and Dutch Embargo
+
+JAP.5.t:0 "美国、英国和荷兰禁运"
+JAP.5.desc:0 "美国对我们实施禁运，以抗议我们在亚洲的侵略行为。英国和荷兰很快发表声明，表示他们正在追随美国的措施。"
+JAP.5.a:0 "他们会为此付出代价的！"
+
+JAP.6.t:0 "东条英机就任首相"
+JAP.6.desc:0 "在第二次世界大战扩展到亚洲和太平洋地区的前夕，东条英机直言主张对美国及其欧洲盟友进行先发制人的攻击。近卫文麿反对这场战争，因此被替换了。"
+JAP.6.a:0 "开战！"
+
+
+################################### OTHER\n                     \n      §H§!
+ 
+JAP_faction_power_balance:0 "军种间的竞争"
+JAP_faction_power_balance_desc:0 "陆军和海军之间的平衡。"
+JAP_Army_Side:0 "陆军"
+JAP_Navy_Side:0 "海军"
+JAP_balance_range:0 "帝国控制"
+
+JAP_low_Army_dominance:0 "陆军统治力低"
+JAP_moderate_Army_dominance:0 "适度的陆军统治"
+JAP_high_Army_dominance:0 "陆军的高统治力"
+JAP_total_Army_dominance:0 "陆军总体统治地位"
+
+JAP_low_Naval_dominance:0 "海军统治力低"
+JAP_moderate_Naval_dominance:0 "适度的海军优势"
+JAP_high_Naval_dominance:0 "高度海军优势"
+JAP_total_Naval_dominance:0 "总体海军优势"
+
+
+################################# CHARACTERS
+
+JAP_Fumimaro_Konoe:0 "近卫文麿"
+JAP_emperor_hirohito:0 "裕仁天皇"
+JAP_okinori_kaya:0 "贺屋兴宣"
+JAP_ichizo_kobayashi:0 "小林一三"
+JAP_shumei_okawa:0"大川周明"
+JAP_yoshisuke_aikawa:0 "鲇川义介"
+JAP_yosuke_matsuoka:0 "松冈洋右"
+
+
+################################# COUNTRIES
+
+#MAL_PROTECTORATE:0 "Imperial Protectorate Malaya"
+#VIN_PROTECTORATE:0 "Imperial Protectorate Vietnam"
+#CAM_PROTECTORATE:0 "Imperial Protectorate Khmer"
+#LAO_PROTECTORATE:0 "Imperial Protectorate Laos"
+#INS_PROTECTORATE:0 "Imperial Protectorate East Indies"
+#BRM_PROTECTORATE:0 "Imperial Protectorate Burma"
+
+KOR_fascism:0 "大韩独立政府"
+KOR_fascism_DEF:0 "大韩独立政府"
+KOR_democratic:0 "大韩民国"
+KOR_democratic_DEF:0 "大韩民国"
+KOR_neutrality:1 "大韩帝国"
+KOR_neutrality_DEF:1 "大韩帝国"
+KOR_communism:0 "朝鲜民主主义人民共和国"
+KOR_communism_DEF:0 "朝鲜民主主义人民共和国"
+KOR_fascism_ADJ:0 "韩国"
+KOR_democratic_ADJ:0 "韩国"
+KOR_neutrality_ADJ:0 "韩国"
+KOR_communism_ADJ:0 "朝鲜"
+KOR:0 "韩国"
+KOR_DEF:0 "韩国"
+KOR_ADJ:0 "朝鲜"
+JAP_Occupation_Tooltip:0 "日本占领的中国省份将获得§Y日本占领§!修正。"
+JAP_Nanjing:0 "扫荡南京" 
+
+# Wang Jingwei
+JAP.7.t:0 “汪精卫国民政府”
+JAP.7.desc:0 “蒋介石的政敌、国民党和平派——汪精卫打算寻求日本在的南京组建合作政府，即改组国民政府。这个政府将成为为我们管理中国领土的傀儡政府。”
+JAP.7.a:0 "很好，成立与我们合作的政府"
+JAP.7.b:0 "不，中国领土应当由我们直接掌控" 
+
+# Nanking
+JAP.8.t:0 "扫荡南京"
+JAP.8.desc:0 "南京是中华民国的首都，现已被皇军占领。南京城被占领后，皇军被指责在城内烧杀抢掠。南京事件已经受到各国指责，我们应该如何处理？”
+JAP.8.a:0 "我们只是做了必要的事情"
+JAP.8.b:0 "立刻停止这种行为！"
+JAP_Chinese_Occupation:0 "占领中国"
+
+JAP_Pacify_North_China:0 "平定华北"
+JAP_North_Settle_Japan:0 "在华北迁入日本人"
+JAP_North_Appoint_Pro_Japan_Officials:0 "在华北任命亲日官员"
+JAP_North_Arrest_Kuomintang:0 "在华北逮捕蒋介石政府残部"
+
+JAP_Pacify_East_China:0 "平定华东"
+JAP_East_Settle_Japan:0 "在华东迁入日本人"
+JAP_East_Appoint_Pro_Japan_Officials:0 "在华东任命亲日官员"
+JAP_East_Arrest_Kuomintang:0 "在华东逮捕蒋介石政府残部"
+ 
+JAP_Pacify_Central_China:0 "平定华中"
+JAP_Central_Settle_Japan:0 "在华中迁入日本人"
+JAP_Central_Appoint_Pro_Japan_Officials:0 "在华中任命亲日官员"
+JAP_Central_Arrest_Kuomintang:0 "在华中逮捕蒋介石政府残部"
+ 
+JAP_Pacify_West_China:0 "平定华西"
+JAP_West_Settle_Japan:0 "在华西迁入日本人"
+JAP_West_Appoint_Pro_Japan_Officials:0 "在华西任命亲日官员"
+JAP_West_Arrest_Kuomintang:0 "在华西逮捕蒋介石政府残部"
+JAP_Japan_Occupation:0 "抵抗日本占领"
+JAP_Japan_Settlement:0 "强行建设的日本定居点"
+JAP_Appoint_Pro_Japan_Officials:0 "任命亲日官员"
+JAP_Japan_Pacification:0 "日本统治"

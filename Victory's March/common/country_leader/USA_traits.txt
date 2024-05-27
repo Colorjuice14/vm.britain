@@ -1,0 +1,47 @@
+leader_traits = {
+
+	conservative_isolationist = {
+		stability_factor = 0.25
+		neutrality_drift = 0.1
+	}
+	
+	Underdog_President = {
+		political_power_factor = -0.25
+	}
+	
+	American_Stalin = {
+		justify_war_goal_time = -0.25
+		communism_drift = 0.1
+		puppet_cost_factor = -0.25
+	}
+	
+	Industrial_Pioneer = {
+		consumer_goods_factor = -0.1
+		production_speed_buildings_factor = 0.1
+	}
+	
+	American_Evangelist = {
+		war_stability_factor = 0.25
+		industrial_capacity_factory = 0.15
+	}
+	
+	American_Prophet = {
+		political_power_factor = 0.25
+		army_morale_factor = 0.1
+	}
+	
+	American_Fuhrer = {
+		political_power_factor = 0.25
+		industrial_capacity_factory = 0.05
+	}
+	
+	Embezzler_From_Bund = {
+		consumer_goods_factor = 0.1
+		political_power_factor = -0.15
+	}
+	
+	Nazi_Sympathizer = {
+		fascism_drift = 0.1
+		add_war_support = 0.2
+	}
+}

@@ -1,0 +1,854 @@
+Munich_Conference = {
+
+	Munich_Conference_dec = {
+	
+		activation = {
+			has_global_flag = munich_conference_start
+		}
+	
+		available = {
+			has_global_flag = munich_conference_end
+		}
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		
+		days_mission_timeout = 90
+		selectable_mission = no
+		
+		complete_effect = {
+			country_event = germany.204
+		}
+		timeout_effect = {
+			country_event = germany.204
+		}
+	}
+
+	Influence_Sudetenland = {
+		icon = {
+			key = GER_conference_control_none
+			trigger = {
+				tag = GER
+				69 = { check_variable = { var = GER_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak
+			trigger = {
+				69 = {
+					check_variable = { var = GER_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak2
+			trigger = {
+				69 = {
+					check_variable = { var = GER_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_strong
+			trigger = {
+				69 = {
+					check_variable = { var = GER_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_total
+			trigger = {
+				69 = { check_variable = { var = GER_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_none
+			trigger = {
+				tag = ENG
+				69 = { check_variable = { var = ENG_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak
+			trigger = {
+				69 = {
+					check_variable = { var = ENG_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak2
+			trigger = {
+				69 = {
+					check_variable = { var = ENG_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_strong
+			trigger = {
+				69 = {
+					check_variable = { var = ENG_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_total
+			trigger = {
+				69 = { check_variable = { var = ENG_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		
+		available = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPA_expand_influence_nationalists_trigger_tt
+					69 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPR_expand_influence_republicans_trigger_tt
+					69 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_state_targets = { state = 69 } 
+		}
+		
+		on_map_mode = map_only
+		
+		visible = {
+			NOT = { has_global_flag = munich_conference_end }
+		}
+		
+		days_remove = 14
+		cost = 25
+		
+		remove_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				69 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { GER_conference_control < 4 } check_variable = { ENG_conference_control = 0 } } }
+							
+							add_to_variable = { var = GER_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { ENG_conference_control > 0 } }
+							
+							subtract_from_variable = { var = ENG_conference_control value = 1 }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				69 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { ENG_conference_control < 4 } check_variable = { GER_conference_control = 0 } } }
+							
+							add_to_variable = { var = ENG_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { GER_conference_control > 0 } }
+							
+							subtract_from_variable = { var = GER_conference_control value = 1 }
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 110
+			
+			modifier = {
+				tag = GER
+				69 = { check_variable = { var = GER_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				69 = { check_variable = { var = GER_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				69 = { check_variable = { var = GER_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			
+			modifier = {
+				tag = ENG
+				69 = { check_variable = { var = ENG_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				69 = { check_variable = { var = ENG_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				69 = { check_variable = { var = ENG_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+		}
+	}
+	
+	Influence_North_Sudetenland = {
+		icon = {
+			key = GER_conference_control_none
+			trigger = {
+				tag = GER
+				970 = { check_variable = { var = GER_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak
+			trigger = {
+				970 = {
+					check_variable = { var = GER_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak2
+			trigger = {
+				970 = {
+					check_variable = { var = GER_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_strong
+			trigger = {
+				970 = {
+					check_variable = { var = GER_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_total
+			trigger = {
+				970 = { check_variable = { var = GER_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_none
+			trigger = {
+				tag = ENG
+				970 = { check_variable = { var = ENG_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak
+			trigger = {
+				970 = {
+					check_variable = { var = ENG_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak2
+			trigger = {
+				970 = {
+					check_variable = { var = ENG_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_strong
+			trigger = {
+				970 = {
+					check_variable = { var = ENG_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_total
+			trigger = {
+				970 = { check_variable = { var = ENG_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		
+		available = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPA_expand_influence_nationalists_trigger_tt
+					970 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPR_expand_influence_republicans_trigger_tt
+					970 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_state_targets = { state = 970 } 
+		}
+		
+		on_map_mode = map_only
+		
+		visible = {
+			NOT = { has_global_flag = munich_conference_end }
+		}
+		
+		days_remove = 14
+		cost = 25
+		
+		remove_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				970 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { GER_conference_control < 4 } check_variable = { ENG_conference_control = 0 } } }
+							
+							add_to_variable = { var = GER_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { ENG_conference_control > 0 } }
+							
+							subtract_from_variable = { var = ENG_conference_control value = 1 }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				970 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { ENG_conference_control < 4 } check_variable = { GER_conference_control = 0 } } }
+							
+							add_to_variable = { var = ENG_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { GER_conference_control > 0 } }
+							
+							subtract_from_variable = { var = GER_conference_control value = 1 }
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 110
+			
+			modifier = {
+				tag = GER
+				970 = { check_variable = { var = GER_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				970 = { check_variable = { var = GER_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				970 = { check_variable = { var = GER_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			
+			modifier = {
+				tag = ENG
+				970 = { check_variable = { var = ENG_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				970 = { check_variable = { var = ENG_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				970 = { check_variable = { var = ENG_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+		}
+	}
+	
+	Influence_South_Sudetenland = {
+		icon = {
+			key = GER_conference_control_none
+			trigger = {
+				tag = GER
+				971 = { check_variable = { var = GER_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak
+			trigger = {
+				971 = {
+					check_variable = { var = GER_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak2
+			trigger = {
+				971 = {
+					check_variable = { var = GER_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_strong
+			trigger = {
+				971 = {
+					check_variable = { var = GER_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_total
+			trigger = {
+				971 = { check_variable = { var = GER_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_none
+			trigger = {
+				tag = ENG
+				971 = { check_variable = { var = ENG_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak
+			trigger = {
+				971 = {
+					check_variable = { var = ENG_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak2
+			trigger = {
+				971 = {
+					check_variable = { var = ENG_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_strong
+			trigger = {
+				971 = {
+					check_variable = { var = ENG_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_total
+			trigger = {
+				971 = { check_variable = { var = ENG_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		
+		available = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPA_expand_influence_nationalists_trigger_tt
+					971 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPR_expand_influence_republicans_trigger_tt
+					971 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_state_targets = { state = 971 } 
+		}
+		
+		on_map_mode = map_only
+		
+		visible = {
+			NOT = { has_global_flag = munich_conference_end }
+		}
+		
+		days_remove = 14
+		cost = 25
+		
+		remove_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				971 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { GER_conference_control < 4 } check_variable = { ENG_conference_control = 0 } } }
+							
+							add_to_variable = { var = GER_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { ENG_conference_control > 0 } }
+							
+							subtract_from_variable = { var = ENG_conference_control value = 1 }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				971 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { ENG_conference_control < 4 } check_variable = { GER_conference_control = 0 } } }
+							
+							add_to_variable = { var = ENG_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { GER_conference_control > 0 } }
+							
+							subtract_from_variable = { var = GER_conference_control value = 1 }
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 110
+			
+			modifier = {
+				tag = GER
+				971 = { check_variable = { var = GER_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				971 = { check_variable = { var = GER_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				971 = { check_variable = { var = GER_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			
+			modifier = {
+				tag = ENG
+				971 = { check_variable = { var = ENG_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				971 = { check_variable = { var = ENG_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				971 = { check_variable = { var = ENG_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+		}
+	}
+	
+	Influence_Eastern_Sudetenland = {
+		icon = {
+			key = GER_conference_control_none
+			trigger = {
+				tag = GER
+				74 = { check_variable = { var = GER_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak
+			trigger = {
+				74 = {
+					check_variable = { var = GER_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_weak2
+			trigger = {
+				74 = {
+					check_variable = { var = GER_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_strong
+			trigger = {
+				74 = {
+					check_variable = { var = GER_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = GER_conference_control_total
+			trigger = {
+				74 = { check_variable = { var = GER_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_none
+			trigger = {
+				tag = ENG
+				74 = { check_variable = { var = ENG_conference_control value = 0 compare = equals } }
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak
+			trigger = {
+				74 = {
+					check_variable = { var = ENG_conference_control value = 1 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_weak2
+			trigger = {
+				74 = {
+					check_variable = { var = ENG_conference_control value = 2 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_strong
+			trigger = {
+				74 = {
+					check_variable = { var = ENG_conference_control value = 3 compare = equals }
+				}
+			}
+		}
+		icon = {
+			key = ENG_conference_control_total
+			trigger = {
+				74 = { check_variable = { var = ENG_conference_control value = 4 compare = greater_than_or_equals } }
+			}
+		}
+		
+		available = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPA_expand_influence_nationalists_trigger_tt
+					74 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				custom_trigger_tooltip = {
+					#tooltip = SPR_expand_influence_republicans_trigger_tt
+					74 = { AND = { check_variable = { var = GER_conference_control value = 4 compare = less_than } check_variable = { var = ENG_conference_control value = 4 compare = less_than } }}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_state_targets = { state = 74 } 
+		}
+		
+		on_map_mode = map_only
+		
+		visible = {
+			NOT = { has_global_flag = munich_conference_end }
+		}
+		
+		days_remove = 14
+		cost = 25
+		
+		remove_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				74 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { GER_conference_control < 4 } check_variable = { ENG_conference_control = 0 } } }
+							
+							add_to_variable = { var = GER_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { ENG_conference_control > 0 } }
+							
+							subtract_from_variable = { var = ENG_conference_control value = 1 }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				74 = {
+					#custom_effect_tooltip = SPA_expand_influence_nationalists_tt
+					#set_state_flag = { flag = SPR_recently_expanded_influence_flag value = 1 days = 15 }
+					hidden_effect = {
+						if = {
+							limit = { AND = { check_variable = { ENG_conference_control < 4 } check_variable = { GER_conference_control = 0 } } }
+							
+							add_to_variable = { var = ENG_conference_control value = 1 }
+						}
+						else_if = {
+							limit = { check_variable = { GER_conference_control > 0 } }
+							
+							subtract_from_variable = { var = GER_conference_control value = 1 }
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 110
+			
+			modifier = {
+				tag = GER
+				74 = { check_variable = { var = GER_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				74 = { check_variable = { var = GER_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = GER
+				74 = { check_variable = { var = GER_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			
+			modifier = {
+				tag = ENG
+				74 = { check_variable = { var = ENG_conference_control value = 1 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				74 = { check_variable = { var = ENG_conference_control value = 2 compare = greater_than_or_equals } }
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				74 = { check_variable = { var = ENG_conference_control value = 3 compare = greater_than_or_equals } }
+				factor = 5
+			}
+		}
+	}
+	
+	Abandon_Czech = {
+		icon = GER_conference_control_none
+		
+		available = {
+			tag = ENG
+		}
+		
+		visible = {
+			NOT = { has_global_flag = munich_conference_end }
+		}
+		
+		days_remove = 1
+		cost = 0
+		
+		remove_effect = {
+			69 = { set_variable = {GER_conference_control = 4 } set_variable = { ENG_conference_control = 0 } }
+			971 = { set_variable = {GER_conference_control = 4 } set_variable = { ENG_conference_control = 0 } }
+			970 = { set_variable = {GER_conference_control = 4 } set_variable = { ENG_conference_control = 0 } }
+			74 = { set_variable = {GER_conference_control = 4 } set_variable = { ENG_conference_control = 0 } }
+			
+			country_event = germany.204
+			
+			if = {
+				limit = {
+					has_completed_focus = ENG_no_further_appeasement
+				}
+				add_political_power = -200
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				FRA = { country_event = germany.41 }
+			}
+			CZE = {
+				add_opinion_modifier = { target = ROOT modifier = western_betrayal }
+			}
+			if = {
+				limit = {
+					tag = ENG
+					CZE = { is_guaranteed_by = ENG }
+				}
+				ENG = {
+					diplomatic_relation = {
+						country = CZE
+						relation = guarantee
+						active = no
+					}
+					add_ai_strategy = {
+						type = protect
+						id = "CZE"
+						value = -100
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 0
+	}
+}

@@ -1,0 +1,1069 @@
+﻿l_english:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ conservative_isolationist:0 "Conservative Isolationist"
+ 
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+ ##### LEADER
+ 
+ Nazi_Sympathizer:0 "Nazi Sympathizer"
+ Industrial_Pioneer:0 "Industrial Pioneer"
+ American_Evangelist:0 "American Evangelist"
+ American_Stalin:0 "American Stalin"
+ Embezzler_From_Bund:0 "Embezzler from Bund"
+ American_Fuhrer:0 "American Führer"
+ American_Prophet:0 "American Prophet"
+ Underdog_President:0 "Underdog President"
+ 
+################################### CHARACTERS           \n      §H§!
+
+ USA_Herbert_Hoover:0 "Herbert Hoover"
+ USA_Henry_Ford:0 "Henry Ford"
+ USA_Fritz_Kuhn:0 "Fritz Julius Kuhn"
+
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+################################### IDEAS                     \n      §H§!
+
+ USA_Civil_War_Recovery:0 "Civil War Recovery"
+ USA_Red_Intelligence:0 "Red Intelligence"
+ USA_American_Anti_Fascism_1:0 "American Anti-Fascism"
+ USA_American_Anti_Fascism_2:0 "American Anti-Fascism"
+ USA_Red_Internationalism:0 "Red Internationalism"
+ USA_American_Communist_Influence:0 "American Communist Influence"
+ USA_Red_International_Army:0 "Red International Army"
+ USA_Red_American_Support_Independence:0 "American Support for Independence"
+ USA_American_Dream:0 "American Dream"
+ USA_American_Agitprop:0 "American Agitprop"
+ USA_New_American_Spirit:0 "New American Spirit"
+ USA_Expanded_German_American_Bund:0 "Expanded German-American Bund"
+ USA_Trade_Dominance:0 "Trade Dominance"
+ USA_Industry_Cooperatives:0 "Industry Cooperatives"
+
+ USA_Safeguard_Research_TT:0 "Modify §Y$USA_Safeguard_Our_Beliefs$§! by \nResearch Speed: §G+5.00%§!\n\n"
+ USA_Safeguard_Fascism_TT:0 "Modify §Y$USA_Safeguard_Our_Beliefs$§! by \nDaily Fascism Support: §G+0.05§!\n\n"
+ USA_Safeguard_PP_TT:0 "Modify §Y$USA_Safeguard_Our_Beliefs$§! by \nPolitical Power Gain: §G+20%§!\n\n"
+ USA_Safeguard_Recruitable_TT:0 "Modify §Y$USA_Safeguard_Our_Beliefs$§! by \nRecruitable Population Factor: §R-10%§!\n\n"
+ USA_Safeguard_Morale_TT:0 "Modify §Y$USA_Safeguard_Our_Beliefs$§! by \nDivision Recovery Rate: §G+15.0%§!\n\n"
+ 
+ 
+ USA_Securities_And_Exchange_Commission:0 "Securities and Exchange Commission"
+ 
+ USA_SEC_Consumer_TT:0 "Modify §Y$USA_Securities_And_Exchange_Commission$§! by \nConsumer Goods Factories factor: §Y-10.0%§!\n\n"
+ USA_SEC_PP_TT:0 "Modify §Y$USA_Securities_And_Exchange_Commission$§! by \nPolitical Power Gain: §G+5.0%§!\n\n"
+
+ USA_TVA:0 "TVA"
+ 
+ USA_GI_Bill:0 "G.I. Bill"
+
+ USA_Agricultural_Acts:0 "Agricultural Acts"
+ 
+ USA_Agriculture_Factory_TT:0 "Modify §Y$USA_Agricultural_Acts$§! by \nFactory Output: §G+10.0%§!\n\n"
+ USA_Agriculture_Consumer_TT:0 "Modify §Y$USA_Agricultural_Acts$§! by \nConsumer Goods Factories factor: §Y-15.0%§!\n\n"
+ USA_Agriculture_Construction_TT:0 "Modify §Y$USA_Agricultural_Acts$§! by \nConstruction Speed: §G+10.00%§!\n\n"
+ USA_Agriculture_Trade_TT:0 "Modify §Y$USA_Agricultural_Acts$§! by \nTrade deal opinion factor: §Y+25.0%§!\n\n"
+ 
+ USA_Debt_Repayment:0 "Debt Repayment"
+ USA_Debt_Repayment_desc:0 "The United States has demanded the repayment of debts from the Great War."
+ 
+ USA_NATO_Military_Buildup:0 "NATO Military Buildup"
+ 
+ USA_Loans_From_USA:0 "Loans from USA"
+
+################################### FOCUSES                     \n      §H§!
+ 
+ USA_america_first:0 "America First Committee"
+ 
+ USA_The_Left_Opposition:0 "The Left Opposition"
+ USA_The_Left_Opposition_desc:0 ""
+ 
+ USA_The_Day_Of_Reckoning:0 "The Day of Reckoning"
+ USA_The_Day_Of_Reckoning_desc:0 ""
+ 
+ USA_Mandatory_Military_Service:0 "Mandatory Military Service"
+ USA_Mandatory_Military_Service_desc:0 ""
+ 
+ USA_Military_Youth_Programs:0 "Military Youth Programs"
+ USA_Military_Youth_Programs_desc:0 ""
+ 
+ USA_Safeguard_Our_Beliefs:0 "Safeguard Our Beliefs"
+ USA_Safeguard_Our_Beliefs_desc:0 ""
+ 
+ USA_American_Prophet:0 "American Prophet"
+ USA_American_Prophet_desc:0 ""
+ 
+ USA_The_New_American_Woman:0 "The New American Woman"
+ USA_The_New_American_Woman_desc:0 ""
+ 
+ USA_The_New_American_Man:0 "The New American Man"
+ USA_The_New_American_Man_desc:0 ""
+ 
+ USA_Abolish_The_Constitution:0 "Abolish the Constitution"
+ USA_Abolish_The_Constitution_desc:0 ""
+ 
+ USA_Jewish_Exclusion_Act:0 "Jewish Exclusion Act"
+ USA_Jewish_Exclusion_Act_desc:0 ""
+ 
+ USA_New_Immigration_Enforcement:0 "New Immigration Enforcement"
+ USA_New_Immigration_Enforcement_desc:0 ""
+ 
+ USA_Mandatory_Religious_Higher_Education:0 "Mandatory Religious Higher Education"
+ USA_Mandatory_Religious_Higher_Education_desc:0 ""
+ 
+ USA_Christian_Economics:0 "Christian Economics"
+ USA_Christian_Economics_desc:0 ""
+ 
+ USA_Nationalization_Of_Industry:0 "Nationalization of Industry"
+ USA_Nationalization_Of_Industry_desc:0 ""
+ 
+ USA_Formation_Of_Cooperatives:0 "Formation of Cooperatives"
+ USA_Formation_Of_Cooperatives_desc:0 ""
+ 
+ USA_No_Good_American_Goes_Hungry:0 "No Good American Goes Hungry"
+ USA_No_Good_American_Goes_Hungry_desc:0 ""
+ 
+ USA_National_Recovery:0 "National Recovery"
+ USA_National_Recovery_desc:0 ""
+ 
+ USA_Establish_National_Church:0 "Establish National Church"
+ USA_Establish_National_Church_desc:0 ""
+ 
+ USA_The_Great_Bastion_Of_Christianity:0 "The Great Bastion of Christianity"
+ USA_The_Great_Bastion_Of_Christianity_desc:0 ""
+ 
+ USA_The_New_Crusader_And_His_Mount:0 "The New Crusader and His Mount"
+ USA_The_New_Crusader_And_His_Mount_desc:0 ""
+
+ USA_From_God_Above:0 "From God Above"
+ USA_From_God_Above_desc:0 ""
+ 
+ USA_Gods_Mercy_And_Grace:0 "God's Mercy and Grace"
+ USA_Gods_Mercy_And_Grace_desc:0 ""
+ 
+ USA_Appeal_To_The_Conservatives:0 "Appeal to the Conservatives"
+ USA_Appeal_To_The_Conservatives_desc:0 ""
+ 
+ USA_Establish_A_One_Party_State:0 "Establish a One Party State"
+ USA_Establish_A_One_Party_State_desc:0 ""
+ 
+ USA_The_Opposition:0 "The Opposition"
+ USA_The_Opposition_desc:0 ""
+ 
+ USA_Establish_The_Patriotic_Police:0 "Establish the Patriotic Police"
+ USA_Establish_The_Patriotic_Police_desc:0 ""
+ 
+ USA_Anti_American_Investigations:0 "Anti-American Investigations"
+ USA_Anti_American_Investigations_desc:0 ""
+ 
+ USA_New_Patriotic_Media:0 "New Patriotic Media"
+ USA_New_Patriotic_Media_desc:0 ""
+ 
+ USA_Penal_Labor_Enforcement:0 "Penal Labor Enforcement"
+ USA_Penal_Labor_Enforcement_desc:0 ""
+ 
+ USA_Approach_Germany:0 "Approach Germany"
+ USA_Approach_Germany_desc:0 ""
+ 
+ USA_Cleanse_The_Vatican:0 "Cleanse the Vatican"
+ USA_Cleanse_The_Vatican_desc:0 ""
+ 
+ USA_Crusade_For_The_Holy_Land:0 "Crusade for the Holy Land"
+ USA_Crusade_For_The_Holy_Land_desc:0 ""
+ 
+ USA_The_American_Way:0 "The American Way"
+ USA_The_American_Way_desc:0 "Continuing the tradition of democracy in the United States is crucial. By upholding our democratic values and institutions, we reaffirm our commitment to freedom and justice. This focus will ensure that the voice of the people guides our nation, preserving democracy as the cornerstone of our identity."
+ 
+ USA_Manifestation_Of_Divine_Purpose:0 "Manifestation of Divine Purpose"
+ USA_Manifestation_Of_Divine_Purpose_desc:0 ""
+ 
+ USA_Secure_The_Northern_Frontier:0 "Secure the Northern Frontier"
+ USA_Secure_The_Northern_Frontier_desc:0 ""
+ 
+ USA_Stabilize_Our_Southern_Neighbor:0 "Stabilize Our Southern Neighbor"
+ USA_Stabilize_Our_Southern_Neighbor_desc:0 ""
+ 
+ USA_Secure_The_Carribean:0 "Secure the Carribean"
+ USA_Secure_The_Carribean_desc:0 ""
+ 
+ USA_Mesoamerican_Unification:0 "Meso-American Unification"
+ USA_Mesoamerican_Unification_desc:0 ""
+ 
+ USA_Bring_Civilization_To_South_America:0 "Bring Civilization to South America"
+ USA_Bring_Civilization_To_South_America_desc:0 ""
+ 
+ USA_German_Economic_Assistance:0 "German Economic Assistance"
+ USA_German_Economic_Assistance_desc:0 ""
+ 
+ USA_Increased_Exports_To_Axis_Markets:0 "Increased Exports to Axis Markets"
+ USA_Increased_Exports_To_Axis_Markets_desc:0 ""
+ 
+ USA_Expand_Oil_Trade_To_Axis:0 "Expand Oil Trade to Axis"
+ USA_Expand_Oil_Trade_To_Axis_desc:0 ""
+ 
+ USA_Protect_Naval_Shipping_Lanes:0 "Protect Naval Shipping Lanes"
+ USA_Protect_Naval_Shipping_Lanes_desc:0 ""
+ 
+ USA_American_Austerity:0 "American Austerity"
+ USA_American_Austerity_desc:0 ""
+ 
+ USA_American_Autarky:0 "American Autarky"
+ USA_American_Autarky_desc:0 ""
+ 
+ USA_Looking_Outward:0 "Looking Outward"
+ USA_Looking_Outward_desc:0 ""
+ 
+ USA_Loosen_Grip_On_Economy:0 "Loosen Grip on Economy"
+ USA_Loosen_Grip_On_Economy_desc:0 ""
+ 
+ USA_Expand_American_Infrastructure:0 "Expand American Infrastructure"
+ USA_Expand_American_Infrastructure_desc:0 ""
+ 
+ USA_Increased_Military_Spending:0 "Increased Military Spending"
+ USA_Increased_Military_Spending_desc:0 ""
+ 
+ USA_Convene_The_Committee:0 "Convene the Committee"
+ USA_Convene_The_Committee_desc:0 ""
+ 
+ USA_Expand_The_Bund:0 "Expand the Bund"
+ USA_Expand_The_Bund_desc:0 ""
+ 
+ USA_Cult_Of_Washington:0 "Cult of Washington"
+ USA_Cult_Of_Washington_desc:0 ""
+ 
+ USA_American_Heer:0 "American General Staff"
+ USA_American_Heer_desc:0 ""
+ 
+ USA_American_Wehrmacht:0 "American Wehrmacht"
+ USA_American_Wehrmacht_desc:0 ""
+ 
+ USA_Nazi_Youth_Program:0 "Nazi Youth Program"
+ USA_Nazi_Youth_Program_desc:0 ""
+ 
+ USA_American_Schutzstaffel:0 "American Schutzstaffel"
+ USA_American_Schutzstaffel_desc:0 ""
+ 
+ USA_Fuhrerprinzip_In_USA:0 "Führerprinzip in the USA"
+ USA_Fuhrerprinzip_In_USA_desc:0 ""
+ 
+ USA_Ford_Economics:0 "Ford Economics"
+ USA_Ford_Economics_desc:0 ""
+ 
+ USA_Ford_Radio_Acquisition:0 "Ford Radio Acquisition"
+ USA_Ford_Radio_Acquisition_desc:0 ""
+ 
+ USA_Expanded_Industrial_Investments:0 "Expanded Industrial Investments"
+ USA_Expanded_Industrial_Investments_desc:0 ""
+ 
+ USA_Ford_University:0 "Ford University"
+ USA_Ford_University_desc:0 ""
+ 
+ USA_Ford_Industrial_Super_Complexes:0 "Ford Industrial Super Complexes"
+ USA_Ford_Industrial_Super_Complexes_desc:0 ""
+ 
+ USA_The_American_Reich:0 "The American Reich"
+ USA_The_American_Reich_desc:0 ""
+ 
+ USA_American_Ingenuity:0 "American Ingenuity"
+ USA_American_Ingenuity_desc:0 ""
+ 
+ USA_American_Market_Strength:0 "American Market Strength"
+ USA_American_Market_Strength_desc:0 ""
+ 
+ USA_Great_Ideological_Enemy:0 "Great Ideological Enemy"
+ USA_Great_Ideological_Enemy_desc:0 ""
+ 
+ USA_Land_And_Market_Expansion:0 "Land and Market Expansion"
+ USA_Land_And_Market_Expansion_desc:0 ""
+ 
+ USA_Canadian_Market:0 "Canadian Market"
+ USA_Canadian_Market_desc:0 ""
+ 
+ USA_Mexican_Market:0 "Mexican Market"
+ USA_Mexican_Market_desc:0 ""
+ 
+ USA_Fordlandia:0 "Fordlandia"
+ USA_Fordlandia_desc:0 ""
+ 
+ USA_American_Superior_Firepower:0 "American Superior Firepower"
+ USA_American_Superior_Firepower_desc:0 ""
+ 
+ USA_The_Right_Opposition:0 "The Right Opposition"
+ USA_The_Right_Opposition_desc:0 ""
+ 
+ USA_Unity_In_Thought:0 "Unity in Thought"
+ USA_Unity_In_Thought_desc:0 ""
+ 
+ USA_Join_the_Axis:0 "Join the Axis"
+ USA_Join_the_Axis_desc:0 ""
+ 
+ USA_American_Red_Army:0 "American Red Army"
+ USA_American_Red_Army_desc:0 ""
+ 
+ USA_Address_Income_Inequality:0 "Address Income Inequality"
+ USA_Address_Income_Inequality_desc:0 ""
+ 
+ USA_Delegation_To_Brazil:0 "Delegation to Brazil"
+ USA_Delegation_To_Brazil_desc:0 ""
+ 
+ USA_Force_The_Fordlandia_Issue:0 "Force the Fordlandia Issue"
+ USA_Force_The_Fordlandia_Issue_desc:0 ""
+ 
+ USA_End_Fascism_At_Home:0 "End Fascism at Home"
+ USA_End_Fascism_At_Home_desc:0 ""
+ 
+ USA_Pan_American_Initiative:0 "Pan-American Initiative"
+ USA_Pan_American_Initiative_desc:0 ""
+ 
+ USA_South_American_Initiative:0 "South American Initiative"
+ USA_South_American_Initiative_desc:0 ""
+ 
+ USA_Mexican_Initiative:0 "Mexican Initiative"
+ USA_Mexican_Initiative_desc:0 ""
+ 
+ USA_Canadian_Initiative:0 "Canadian Initiative"
+ USA_Canadian_Initiative_desc:0 ""
+ 
+ USA_United_Socialist_States_Of_America:0 "United Socialist States of America"
+ USA_United_Socialist_States_Of_America_desc:0 ""
+ 
+ USA_Integrate_Canada:0 "Integrate Canada"
+ USA_Integrate_Canada_desc:0 ""
+ 
+ USA_Integrate_Mexico:0 "Integrate Mexico"
+ USA_Integrate_Mexico_desc:0 ""
+ 
+ USA_Integrate_South_America:0 "Integrate South America"
+ USA_Integrate_South_America_desc:0 ""
+ 
+ USA_Build_A_New_American_Spirit:0 "Build a New American Spirit"
+ USA_Build_A_New_American_Spirit_desc:0 ""
+
+ USA_CPUSAs_Agitprop:0 "CPUSA's Agitprop"
+ USA_CPUSAs_Agitprop_desc:0 ""
+ 
+ USA_Young_Communist_League:0 "Young Communist League"
+ USA_Young_Communist_League_desc:0 ""
+ 
+ USA_Unemployment_Councils:0 "Unemployment Councils"
+ USA_Unemployment_Councils_desc:0 ""
+ 
+ USA_Guarantee_Equal_Employment:0 "Guarantee Equal Employment"
+ USA_Guarantee_Equal_Employment_desc:0 ""
+ 
+ USA_New_American_Communism:0 "New American Communism"
+ USA_New_American_Communism_desc:0 ""
+ 
+ USA_Red_Foreign_Affairs:0 "Foreign Affairs"
+ USA_Red_Foreign_Affairs_desc:0 ""
+ 
+ USA_Red_Internal_Affairs:0 "Internal Affairs"
+ USA_Red_Internal_Affairs_desc:0 ""
+ 
+ USA_Browders_Cult_Of_Personality:0 "Browder's Cult of Personality"
+ USA_Browders_Cult_Of_Personality_desc:0 ""
+ 
+ USA_US_Healthcare_Act:0 "Health Care Act"
+ USA_US_Healthcare_Act_desc:0 ""
+ 
+ USA_Expanded_Education_Funding:0 "Expanded Education Funding"
+ USA_Expanded_Education_Funding_desc:0 ""
+ 
+ USA_The_Red_Threat:0 "The Red Threat"
+ USA_The_Red_Threat_desc:0 ""
+ 
+ USA_Cooperation_With_KKK:0 "Cooperation with KKK"
+ USA_Cooperation_With_KKK_desc:0 ""
+ 
+ USA_Efforts_To_Root_Out_Fascist_Thought:0 "Efforts to Root Out Fascism"
+ USA_Efforts_To_Root_Out_Fascist_Thought_desc:0 ""
+ 
+ USA_Establish_Anti_Fascist_Police:0 "Establish Anti-Fascist Police"
+ USA_Establish_Anti_Fascist_Police_desc:0 ""
+ 
+ USA_Develop_Intelligence_Department:0 "Develop Intelligence Department"
+ USA_Develop_Intelligence_Department_desc:0 ""
+ 
+ USA_Red_Internationalism:0 "Red Internationalism"
+ USA_Red_Internationalism_desc:0 ""
+ 
+ USA_Indian_Decolonization:0 "Indian Decolonization"
+ USA_Indian_Decolonization_desc:0 ""
+ 
+ USA_African_Decolonization:0 "African Decolonization"
+ USA_African_Decolonization_desc:0 ""
+ 
+ USA_Decolonization_Initiative:0 "Decolonization Initiative"
+ USA_Decolonization_Initiative_desc:0 ""
+ 
+ USA_Great_Liberator_Of_The_Worlds_Workers:0 "Great Liberator of the World's Workers"
+ USA_Great_Liberator_Of_The_Worlds_Workers_desc:0 ""
+ 
+ USA_Red_International_Army:0 "Red International Army"
+ USA_Red_International_Army_desc:0 ""
+ 
+ USA_Under_The_Red_Eagles_Wing:0 "Under the Red Eagle's Wing"
+ USA_Under_The_Red_Eagles_Wing_desc:0 ""
+ 
+ USA_Federal_Crop_Insurance:0 "Federal Crop Insurance"
+ USA_Federal_Crop_Insurance_desc:0 ""
+ 
+ USA_Federal_National_Mortgage_Association:0 "Federal National Mortgage Association"
+ USA_Federal_National_Mortgage_Association_desc:0 ""
+ 
+ USA_Servicemans_Readjustment_Act:0 "Serviceman's Readjustment Act"
+ USA_Servicemans_Readjustment_Act_desc:0 ""
+ 
+ USA_Tennessee_Valley_Authority:0 "TVA Additional Funding"
+ USA_Tennessee_Valley_Authority_desc:0 ""
+ 
+ USA_Securities_Exchange_Act:0 "Securities Exchange Act"
+ USA_Securities_Exchange_Act_desc:0 ""
+ 
+ USA_Trust_Indenture_Act:0 "Trust Indenture Act"
+ USA_Trust_Indenture_Act_desc:0 ""
+ 
+ USA_Investment_Company_Act:0 "Investment Company Act"
+ USA_Investment_Company_Act_desc:0 ""
+ 
+ USA_Investment_Advisors_Act:0 "Investment Advisor's Act"
+ USA_Investment_Advisors_Act_desc:0 ""
+ 
+ USA_National_Land_Use_Act:0 "National Land Use Act"
+ USA_National_Land_Use_Act_desc:0 ""
+ 
+ USA_Crop_Rotation_Regulation:0 "Crop Rotation Regulation"
+ USA_Crop_Rotation_Regulation_desc:0 ""
+ 
+ USA_Farm_Credit_Expansion:0 "Farm Credit Expansion"
+ USA_Farm_Credit_Expansion_desc:0 ""
+ 
+ USA_Farm_Product_Import_Tariffs:0 "Farm Produce Import Tariffs"
+ USA_Farm_Product_Import_Tariffs_desc:0 ""
+ 
+ USA_Collect_Great_War_Debt:0 "Collect Great War Debt"
+ USA_Collect_Great_War_Debt_desc:0 ""
+ 
+ USA_The_Golden_Circle:0 "The Golden Circle"
+ USA_The_Golden_Circle_desc:0 ""
+ 
+ USA_Defense_Of_Our_Home:0 "Defense of Our Home"
+ USA_Defense_Of_Our_Home_desc:0 ""
+ 
+ USA_North_Atlantic_Treaty_Project:0 "North Atlantic Treaty Project"
+ USA_North_Atlantic_Treaty_Project_desc:0 ""
+ 
+ USA_Offer_Western_Protection:0 "Offer Western Protection"
+ USA_Offer_Western_Protection_desc:0 ""
+ 
+ USA_Marshall_Plan:0 "Marshall Plan"
+ USA_Marshall_Plan_desc:0 ""
+ 
+ USA_Assist_In_Military_Buildup:0 "Assist in Military Buildup"
+ USA_Assist_In_Military_Buildup_desc:0 ""
+ 
+ USA_Western_Bloc_Protection:0 "Western Bloc Protection"
+ USA_Western_Bloc_Protection_desc:0 ""
+ 
+ USA_USMCA_Formation:0 "USMCA Formation"
+ USA_USMCA_Formation_desc:0 ""
+ 
+ USA_North_American_Economic_Cooperation:0 "North American Economic Cooperation"
+ USA_North_American_Economic_Cooperation_desc:0 ""
+ 
+ USA_Loans_To_Mexico:0 "Loans to Mexico"
+ USA_Loans_To_Mexico_desc:0 ""
+ 
+ USA_Mexican_Infrastructure_Project:0 "Mexican Infrastructure Project"
+ USA_Mexican_Infrastructure_Project_desc:0 ""
+ 
+ USA_Mexican_Development_And_Research:0 "Mexican Development and Research"
+ USA_Mexican_Development_And_Research_desc:0 ""
+ 
+ USA_Canadian_Freedom_Movement:0 "Canadian Freedom Movement"
+ USA_Canadian_Freedom_Movement_desc:0 ""
+ 
+ USA_Canadian_Loans:0 "Canadian Loans"
+ USA_Canadian_Loans_desc:0 ""
+ 
+ USA_Canadian_Infrastructure_Project:0 "Canadian Infrastructure Project"
+ USA_Canadian_Infrastructure_Project_desc:0 ""
+ 
+ USA_North_American_Workers:0 "North American Workers"
+ USA_North_American_Workers_desc:0 ""
+ 
+ USA_A_New_World:0 "A New World"
+ USA_A_New_World_desc:0 ""
+ 
+ USA_NATO_Volunteers:0 "NATO Volunteers"
+ USA_NATO_Volunteers_desc:0 ""
+ 
+ USA_Extend_The_Invite_South:0 "Extend the Invite South"
+ USA_Extend_The_Invite_South_desc:0 ""
+ 
+ USA_Compromise_With_New_Deal_Democrats:0 "Compromise with New Deal Democrats"
+ USA_Compromise_With_New_Deal_Democrats_desc:0 ""
+ 
+ USA_Arm_The_CPUSA:0 "Arm the CPUSA"
+ USA_Arm_The_CPUSA_desc:0 ""
+ 
+ USA_International_Communist_Support:0 "International Communist Support"
+ USA_International_Communist_Support_desc:0 ""
+ 
+ USA_African_Confederation:0 "African Confederation"
+ USA_African_Confederation_desc:0 ""
+ 
+ USA_New_Americanism:0 "New Americanism"
+ USA_New_Americanism_desc:0 ""
+ 
+ USA_The_Black_Legion:0 "The Black Legion"
+ USA_The_Black_Legion_desc:0 ""
+ 
+ USA_Patriotic_Police:0 "Patriotic Police"
+ USA_Patriotic_Police_desc:0 ""
+ 
+ USA_Our_Own_Way:0 "Our Own Way"
+ USA_Our_Own_Way_desc:0 ""
+ 
+ USA_Ford_American_Hegemony:0 "Ford American Hegemony"
+ USA_Ford_American_Hegemony_desc:0 ""
+ 
+ USA_war_plans_division:0 "Establish Joint Chiefs of Staff"
+ 
+ # ARMY
+ 
+ USA_Army_Service_Forces:0 "Army Service Forces"
+ USA_Army_Service_Forces_desc:0 ""
+ 
+ USA_Army_Ground_Forces:0 "Army Ground Forces"
+ USA_Army_Ground_Forces_desc:0 ""
+ 
+ USA_Army_Air_Forces:0 "Army Air Forces"
+ USA_Army_Air_Forces_desc:0 ""
+ 
+ USA_Naval_Forces:0 "Naval Forces"
+ USA_Naval_Forces_desc:0 ""
+ 
+ USA_Corps_Of_Engineers:0 "Corps of Engineers"
+ USA_Corps_Of_Engineers_desc:0 ""
+ 
+ USA_Signal_Corps:0 "Signal Corps"
+ USA_Signal_Corps_desc:0 ""
+ 
+ USA_Ordnance_Department:0 "Ordnance Department"
+ USA_Ordnance_Department_desc:0 ""
+ 
+ USA_Quartermaster_Corps:0 "Quartermaster Corps"
+ USA_Quartermaster_Corps_desc:0 ""
+ 
+ USA_Chemical_Warfare_Service:0 "Chemical Warfare Service"
+ USA_Chemical_Warfare_Service_desc:0 ""
+ 
+ USA_Medical_Department:0 "Medical Department"
+ USA_Medical_Department_desc:0 ""
+ 
+ USA_Transportation_Corps:0 "Transportation Corps"
+ USA_Transportation_Corps_desc:0 ""
+ 
+ USA_Oceanic_Air_Forces:0 "Oceanic Air Forces"
+ USA_Oceanic_Air_Forces_desc:0 ""
+ 
+ USA_Continental_Air_Forces:0 "Continental Air Forces"
+ USA_Continental_Air_Forces_desc:0 ""
+ 
+ USA_Women_Airforce_Service_Pilots:0 "Women Airforce Service Pilots"
+ USA_Women_Airforce_Service_Pilots_desc:0 ""
+ 
+ USA_TBF_Avenger:0 "TBF Avenger"
+ USA_TBF_Avenger_desc:0 ""
+ 
+ USA_Naval_Bombers:0 "Naval Bombers"
+ USA_Naval_Bombers_desc:0 ""
+ 
+ USA_SBD_Dauntless:0 "SBD Dauntless"
+ USA_SBD_Dauntless_desc:0 ""
+ 
+ USA_Naval_Scouting:0 "SC-1 Seahawk"
+ USA_Naval_Scouting_desc:0 ""
+ 
+ USA_Naval_Fighters:0 "Naval Fighters"
+ USA_Naval_Fighters_desc:0 ""
+ 
+ USA_FY40_Procurement_Plan:0 "FY40 Procurement Plan"
+ USA_FY40_Procurement_Plan_desc:0 ""
+ 
+ USA_FY42_Procurement_Plan:0 "FY42 Procurement Plan"
+ USA_FY42_Procurement_Plan_desc:0 ""
+ 
+ USA_Fleet_Doctrine:0 "Fleet Doctrine"
+ USA_Fleet_Doctrine_desc:0 ""
+ 
+ USA_Carrier_Air:0 "Carrier Air"
+ USA_Carrier_Air_desc:0 ""
+ 
+ USA_TAC:0 "B-25 Mitchell"
+ USA_combined_bomber_offensive:0 "B-24 Liberator"
+ USA_escort_fighters:0 "P-38 Lightning"
+ USA_CAS:0 "A-36 Mustang"
+ USA_P51_Mustang:0 "P-51 Mustang"
+ USA_P51_Mustang_desc:0 ""
+ 
+ USA_M10_GMC:0 "M10 GMC"
+ USA_M10_GMC_desc:0 ""
+ 
+ USA_M18_Hellcat:0 "M18 Hellcat"
+ USA_M18_Hellcat_desc:0 ""
+ 
+ USA_M6_Heavy_Tank:0 "M6 Heavy Tank"
+ USA_M6_Heavy_Tank_desc:0 ""
+ 
+ USA_T14_Heavy_Tank:0 "T14 Heavy Tank"
+ USA_T14_Heavy_Tank_desc:0 ""
+ 
+ USA_M26_Pershing:0 "M26 Pershing"
+ USA_M26_Pershing_desc:0 ""
+ 
+ USA_T28_Super_Heavy_Tank:0 "T28 Super Heavy Tank"
+ USA_T28_Super_Heavy_Tank_desc:0 ""
+ 
+ USA_M3_Stuart:0 "M3 Stuart"
+ USA_M3_Stuart_desc:0 ""
+ 
+ USA_M5_Stuart:0 "M5 Stuart"
+ USA_M5_Stuart_desc:0 ""
+ 
+ USA_M3_Lee:0 "M3 Lee"
+ USA_M3_Lee_desc:0 ""
+ 
+ USA_M4_Sherman:0 "M4 Sherman"
+ USA_M4_Sherman_desc:0 ""
+ 
+ USA_T23_Medium_Tank:0 "T23 Medium Tank"
+ USA_T23_Medium_Tank_desc:0 ""
+ 
+ 
+################################### DECISIONS                   \n      §H§! 
+
+ USA_American_Civil_War:0 "American Civil War"
+ USA_Raise_CPUSA_Reds:0 "Raise CPUSA Reds"
+ 
+ USA_Communist_fund_shipyards_FROM:1 "Request [From.GetAdjective] Funding for Shipyards"
+ USA_Communist_pilot_training_in_FROM:1 "Set up flight schools in [From.GetNameDef]"
+ USA_Communist_training_camps_in_FROM:1 "Set up training camps in [From.GetNameDef]"
+ USA_Communist_smuggle_weapons_FROM:1 "Acquire [From.GetAdjective] weapons"
+ USA_Communist_invite_donations_FROM:1 "Invite donations from [From.GetAdjective] Sources"
+ 
+ USA_Industrial_Investments:0 "Industrial Investments"
+ USA_Military_Investments:0 "Military Investments"
+ 
+ USA_Radio_Programs:0 "Radio Programs"
+ USA_Propaganda_Output_dec:0 "Program: Output"
+ USA_Propaganda_Asceticism_dec:0 "Program: Austerity"
+ USA_Propaganda_Supply_dec:0 "Program: Quartering"
+ USA_Propaganda_Recruitment_dec:0 "Program: Recruitment"
+ 
+ USA_Collect_Great_War_Debt:0 "Collect Great War Debt"
+ 
+ USA_Request_Debt_Repayment_BEL_dec:0 "Request Debt Repayment from Belgium"
+ USA_Request_Debt_Repayment_FRA_dec:0 "Request Debt Repayment from France"
+ USA_Request_Debt_Repayment_ENG_dec:0 "Request Debt Repayment from the UK"
+ USA_Request_Debt_Repayment_ITA_dec:0 "Request Debt Repayment from Italy"
+ USA_Request_Debt_Repayment_YUG_dec:0 "Request Debt Repayment from Yugoslavia"
+ USA_Request_Debt_Repayment_SOV_dec:0 "Request Debt Repayment from the USSR"
+ 
+################################### EVENTS                      \n      §H§!
+ 
+ usa.6.b:0 "The Republican Centrists. Party lines must to blurred to protect the American System."
+ usa.6.c:0 "The Republican Conservatives. We must safeguard the ideals of the American System."
+ 
+ usa.65.t:0 "The Business Plot?"
+ usa.65.desc:0 "In the year 1934, Major General Smedley Butler, under oath before the United States House of Representatives Special Committee on Un-American Activities, revealed a scheme that threatened to reshape the course of the nation's history.\n\nStepping out from the shadows of secrecy, Robert Clark, heir to the renowned Singer Sewing Machine Company, confided in Butler, disclosing the details of a covert plot aimed at undermining established governance structures and installing a fascist regime under Butler's leadership.\n\nAllegations of collusion implicated notable figures: executives from the DuPont Corporation, past Democratic presidential candidates John Davis and Al Smith, influential figures within the J.P. Morgan banking conglomerate, and Grayson Murphy, a respected figure in the boards of Goodyear Tire, Anaconda Copper, and Bethlehem Steel. It was reported that arms and munitions would be supplied by the Remington Arms company of Bridgeport, now under DuPont.\n\nDespite the gravity of the revelations, legal repercussions were withheld due to fear of panic amongst the citizens of the United States. Nevertheless, the conclusive report of the congressional committee affirmed, 'there is no question that these attempts were discussed, were planned, and might have been placed in execution when and if the financial backers deemed it expedient.'"
+ usa.65.a:0 "Liberty will be protected."
+ 
+ usa.66.t:0 "The Second American Civil War"
+ usa.66.desc:0 "The assassination of Roosevelt, a continuation of the Business Plot conspiracy, serves as the catalyst for the conflict, sparking widespread unrest and rebellion across the country. As the government collapses and authority wanes, Pelley and Browder seize the opportunity to establish their own rival regimes, each with its own vision for the future of America.\n\nThe South becomes a battleground for competing ideologies. In the heart of Dixie, Pelley's Silver Legion of America rallies its followers, embracing a platform of ultra-nationalism and authoritarianism. With fervent support from disaffected Southerners and sympathizers of the fascist cause, the Silver Legion swiftly consolidates control over the region, imposing its vision of a racially pure and authoritarian state.\n\nMeanwhile, in the industrial heartlands of the North and Midwest, Browder's Socialist States of America rise to prominence, championing the cause of socialism and proletarian revolution. Embracing a platform of social justice, economic equality, and collective ownership of resources, the Socialist States attract support from workers, intellectuals, and marginalized communities eager to challenge the status quo.\n\nWith no end in sight and the future of America hanging in the balance, the Second American Civil War threatens to reshape the nation's destiny for generations to come."
+ usa.66.a:0 "The Silver Legion will protect American values!"
+ usa.66.b:0 "The America First Committee will protect Americans!"
+ usa.66.c:0 "The American Worker will be victorious!"
+ 
+ usa.67.t:0 "The End of the Second American Civil War"
+ usa.67.desc:0 "The Second American Civil War finally comes to an end, marking a turning point in the nation's history. With [USA.GetRulingParty] emerging victorious, the conflict leaves scars that will endure for generations.\n\nUnder the leadership of [USA.GetRulingParty], efforts to rebuild and reunite the nation are underway. Reconstruction projects are launched to restore infrastructure, revive the economy, and provide assistance to those affected by the war.\n\nAcross the country, citizens come together to forge a path towards reconciliation and unity, recognizing that the scars of the past must not define the nation's future. As they work to rebuild their shattered nation, they vow to never forget the sacrifices made and the lessons learned from the Second American Civil War."
+ usa.67.a:0 "America is united once again."
+
+ usa.68.t:0 "The Pan-American Initiative"
+ usa.68.desc:0 "[USA.GetLeader], in a move to secure the borders and expand the influence of our communist ideology, has issued an executive order enacting the 'Pan-American Initiative.' With uncertainty looming over the ideological leanings of neighboring countries, particularly Canada to the North and Mexico and South America to the South, Browder sees an opportunity to solidify friendly regimes along our borders.\n\nThe Pan-American Initiative aims to leverage our nation's immense economic power and pro-worker propaganda to sway the populace of neighboring countries towards the virtues of communism. Through a concerted effort of diplomatic outreach, economic incentives, and ideological persuasion, we seek to foster alliances with sympathetic governments and lay the groundwork for a united front against potential adversaries."
+ usa.68.a:0 "For America!"
+ 
+ usa.69.t:0 "The Red International Army"
+ usa.69.desc:0 "[USA.GetLeader] has issued an executive order to establish the 'Red International Army.'\n\nThis initiative signifies a significant step in our commitment to supporting communist rebellions abroad. Under this initiative, our nation will provide military aid, logistical support, and ideological guidance to communist insurgents fighting against oppressive regimes worldwide. The Red International Army aims to bolster international solidarity and advance the cause of proletarian revolution.\n\nHowever, this endeavor carries risks, including potential opposition from reactionary forces and geopolitical instability. The success or failure of the Red International Army will have far-reaching implications for the global communist movement and the struggles of oppressed peoples around the world."
+ usa.69.a:0 "The Red Army Marches!"
+ 
+ usa.70.t:0 "The Decolonization Initiative"
+ usa.70.desc:0 "[USA.GetLeader] has issued an executive order introducing the 'Decolonization Initiative.'\n\nThis directive urges colonial empires to grant independence to their territories in Africa, the Pacific, and India, promoting self-determination for oppressed peoples.Under this initiative, the United States advocates for the liberation of colonial subjects through diplomatic pressure and international solidarity. However, challenges lie ahead, including resistance from vested interests and geopolitical complexities.\n\nThe success of the Decolonization Initiative depends on our ability to garner international support and persuade empires to relinquish control over oppressed nations."
+ usa.70.a:0 "For the Oppressed!"
+ 
+ usa.71.t:0 "[USA.GetLeader]'s Address: The United States, Great Liberator of the World's Workers"
+ usa.71.desc:0 "In an address to the nation, [USA.GetLeader], the leader of our nation, delivers a powerful message on the pivotal role of the United States as the 'Great Liberator of the World's Workers.' Browder declares that the United States stands as a beacon of hope and freedom for workers across the globe. He passionately asserts that our nation's commitment to democracy and equality empowers the oppressed and champions the cause of social justice on a global scale.\n\nBrowder highlights the historic struggles of American workers and their dedication to the principles of labor rights and solidarity. He emphasizes that the United States, born out of the fight against tyranny and exploitation, has a duty to lead the charge in liberating workers from oppression wherever it may exist.\n\nDrawing inspiration from American history, Browder evokes the spirit of solidarity that unites workers of all nations in their quest for emancipation. He extols the virtues of international cooperation and mutual aid, emphasizing that the liberation of the world's workers is not merely a national endeavor but a universal imperative.\n\nAs Browder's words echo across the nation, they serve as a rallying cry for unity and solidarity, inspiring generations to uphold the legacy of the United States as the 'Great Liberator of the World's Workers.'"
+ usa.71.a:0 "For liberty and justice for ALL!"
+ 
+ usa.72.t:0 "'Under the Red Eagle's Wing' Protocol"
+ usa.72.desc:0 "In a gathering of political and military leaders, [USA.GetLeader] unveils the "Under the Red Eagle's Wing" protocol—an initiative aimed at asserting the United States as the guiding force behind fledgling communist nations.\n\nBrowder addresses the assembly, outlining the rationale behind the protocol. He argues that in the post-revolutionary landscape, it's imperative for the United States to extend its protective mantle over nascent communist regimes, shielding them from threats and discord.\n\nThe protocol calls for a strategic alignment of these emerging nations with the United States, forging a relationship wherein they benefit from our military protection, economic assistance, and ideological guidance.\n\nBrowder emphasizes that by bringing these nations under our jurisdiction, we safeguard their sovereignty and strengthen our influence. He asserts that the United States, as the 'Great Liberator of the World's Workers', has a duty to nurture and safeguard the revolution wherever it takes root."
+ usa.72.a:0 "The Red Eagle flies!"
+ 
+ usa.73.t:0 "[USA.GetLeader]'s Address: Formation of the United Socialist States of America"
+ usa.73.desc:0 "In an address to the nation, [USA.GetLeader] announces the formation of the United Socialist States of America—a initiative aimed at uniting the Americas under socialism.\n\nBrowder declares that the time has come for the United States to embrace its destiny as a beacon of communism in the Western Hemisphere. He articulates a vision of a united Americas, bound together by common principles of equality, justice, and collective prosperity.\n\nThe formation of the United Socialist States of America represents a shift in our nation's approach to governance and international relations. It signals our commitment to forging ties with our neighbors to the north and south, transcending borders in pursuit of a shared future.\n\nBrowder outlines the principles upon which the United Socialist States of America will be built—equality, cooperation, and mutual respect for sovereignty. He envisions a hemisphere where the interests of the working class take precedence, where solidarity triumphs, and where communism flourishes."
+ usa.73.a:0 "For liberty and justice for ALL!"
+ 
+ usa.74.t:0 "Canada's Integration into the United Socialist States of America"
+ usa.74.desc:0 "In Canada, news of the offer for integration into the United Socialist States of America sparks discussions and contemplation across the nation. Political leaders, citizens, and intellectuals alike grapple with the decision before them.\n\nWith a mix of interest and fear, Canadians consider the implications of such an offer. They consider the benefits of closer ties with their neighbors to the south, including enhanced solidarity among workers, access to shared resources, and the possibility of collective defense against external threats.\n\nConcerns are raised about the loss of sovereignty and the impact of integration on Canada's identity and cultural heritage. Citizens express a desire to preserve Canada's values of diversity, multiculturalism, and democratic governance, questioning whether these principles can be upheld within the framework of the United Socialist States of America."
+ usa.74.a:0 "Let us join the United Socialist States of America!"
+ usa.74.b:0 "We will carve our own path!"
+ 
+ usa.75.t:0 "[USA.GetLeader]'s Address: Canada's Refusal to Join the United Socialist States of America"
+ usa.75.desc:0 "[USA.GetLeader], the leader of the United Socialist States of America, addresses the nation with a stern and resolute tone, expressing anger at Canada's decision. He condemns Canada's refusal to join their efforts in building a united socialist front in North America as a betrayal of the proletariat.\n\nDespite their attempts to persuade Canada of the benefits of integration, Browder acknowledges no room for compromise. He emphasizes that the rejection of their offer will not be tolerated and threatens aggressive action to secure the north for the socialist cause.\n\nBrowder asserts that the United Socialist States of America will not rest until Canada falls under their jurisdiction, forcefully if necessary. He vows to mobilize all resources at their disposal to achieve this goal, showing no mercy to those who stand in the way of communist progress.\n\nAs the news spreads throughout the nation, there is a sense of righteous indignation among citizens. They rally behind Browder's call for aggressive action, ready to support their leader in the pursuit of their socialist ideals, even if it means resorting to force."
+ usa.75.a:0 "We will not hesitate!"
+ 
+ usa.76.t:0 "Mexico's Integration into the United Socialist States of America"
+ usa.76.desc:0 "In Mexico, news of the offer for integration into the United Socialist States of America ignites discussions and contemplation across the nation. Political leaders, citizens, and intellectuals grapple with the decision before them.\n\nWith interest and fear, Mexicans ponder the implications of such an offer. They consider the potential benefits of closer ties with their neighbors to the north, including solidarity among workers, access to shared resources, and collective defense against external threats.\n\nConcerns are raised about the loss of sovereignty and the impact of integration on Mexico's identity and cultural heritage. Citizens express a desire to preserve Mexico's values of diversity, multiculturalism, and democratic governance, questioning whether these principles can be upheld within the framework of the United Socialist States of America."
+ usa.76.a:0 "Let us join the United Socialist States of America!"
+ usa.76.b:0 "We will carve our own path!"
+ 
+ usa.77.t:0 "[USA.GetLeader]'s Address: Mexico's Refusal to Join the United Socialist States of America"
+ usa.77.desc:0 "[USA.GetLeader], the leader of the United Socialist States of America, addresses the nation with a stern and resolute tone, expressing anger at Mexico's decision to decline the offer of integration. He condemns Mexico's refusal to join their efforts in building a united communist front in North America as a betrayal of the proletariat.\n\nDespite their attempts to persuade Mexico of the benefits of integration, Browder acknowledges no room for compromise. He emphasizes that the rejection of their offer will not be tolerated and threatens aggressive action to secure Mexico for the communist cause.\n\nBrowder asserts that the United Socialist States of America will not rest until Mexico falls under their jurisdiction, forcefully if necessary. He vows to mobilize all resources at their disposal to achieve this goal, showing no mercy to those who stand in the way of communist progress."
+ usa.77.a:0 "We will not hesitate!"
+ 
+ usa.78.t:0 "[USA.GetLeader]'s Call for Decolonization in Africa"
+ usa.78.desc:0 "'My fellow citizens of the world,' Browder begins, his voice resonating with clarity and determination. 'Today, we stand at a crossroads in human history—a moment of reckoning with the legacy of colonialism and oppression that has scarred the African continent for centuries.'\n\nWith resolve, Browder calls upon the empires of the United Kingdom, France, Belgium, Portugal, and Italy to heed the cries of the oppressed and grant independence to their African colonies. He speaks of the inherent rights of all peoples to self-determination and sovereignty, emphasizing that the time has come for colonial rule to end.\n\n'The empires have long profited from the exploitation of African resources and the subjugation of African peoples,' Browder declares, his words carrying the weight of generations of struggle. 'But their wealth has come at the cost of suffering and injustice for millions of Africans who have been denied their basic human rights.'"
+ usa.78.a:0 "Let us call for a free Africa!"
+ 
+ usa.79.t:0 "Our Response to [USA.GetLeader]'s Call for Decolonization in Africa"
+ usa.79.desc:0 "The leadership of [ROOT.GetNameDefCap] is met with [USA.GetLeader]'s call for the release of their colonies in Africa based on ethnic lines. This unexpected demand presents [ROOT.GetLeader] with a complex diplomatic challenge.\n\n[ROOT.GetLeader] faces pressure from within their own government to consider Browder's proposal and its implications for [ROOT.GetAdjective] interests in Africa. Balancing the desire to uphold principles of self-determination and justice with maintaining stability and influence in the region proves to be a delicate task.\n\nAs [ROOT.GetLeader] weighs their options, diplomatic channels are opened to engage with Browder and the Socialist States of America."
+ usa.79.a:0 "We do not wish to wake the Giant."
+ usa.79.b:0 "We will not be threatened."
+ 
+ usa.80.t:0 "Triumph for Decolonization: [FROM.GetNameDefCap] Accepts Call"
+ usa.80.desc:0 "[USA.GetLeader], the esteemed leader of [ROOT.GetNameDefCap], addresses the nation with a tone of satisfaction and determination. His words carry a sense of pride as he heralds the [FROM.GetNameDefCap]'s acceptance of the call for decolonization as a victory for justice and equality.\n\n'We stand on the brink of a new era,' Browder declares, his voice resonating with conviction. '[FROM.GetNameDefCap] have finally recognized the inherent rights of the oppressed peoples to self-determination and sovereignty. This is a momentous step towards a more just and equitable world.'\n\n'[ROOT.GetNameDefCap] will stand shoulder to shoulder with our newly liberated brothers and sisters,' Browder declares, his words infused with determination. 'We will provide the support and assistance they need to build prosperous and democratic societies, free from the shackles of colonialism.'"
+ usa.80.a:0 "For the workers of the world!"
+ 
+ usa.81.t:0 "[FROM.GetNameDefCap] Rejection of Decolonization Call"
+ usa.81.desc:0 "'The refusal of the [FROM.GetNameDefCap] to grant independence to their colonies is a despicable betrayal of humanity,' Browder declares, his voice seething with fury. 'It is a clear demonstration of their disregard for the principles of justice, equality, and self-determination.'\n\n'[FROM.GetNameDefCap] may think they can silence us with their arrogance and brutality,' Browder declares, his words ringing with defiance. 'But they underestimate the power of the people united in the cause of justice. We will not be deterred. We will not be silenced. We will continue to fight until every oppressed nation is free.'"
+ usa.81.a:0 "We cannot stand idly by!"
+ 
+ usa.82.t:0 "[FROM.GetNameDefCap] Calls For Confederation"
+ usa.82.desc:0 "The proposal from [FROM.GetNameDefCap] to have our state become a custodian of a confederation of African states prompts deliberations among our nation's leaders. This invitation carries implications for our sovereignty and autonomy.\n\nThe invitation from the [FROM.GetNameDefCap] is viewed with cautious optimism, recognizing the potential benefits of collaboration and partnership. There is acknowledgment of the expertise and resources that the [FROM.GetNameDefCap] could bring in, particularly in areas such as infrastructure development and peacekeeping efforts.\n\nThe downside of this is increased influence on our politics from [FROM.GetNameDefCap], if only temporarily."
+ usa.82.a:0 "We will accept their proposal!"
+ usa.82.b:0 "We will not have our sovereignty threatened!"
+ 
+ usa.83.t:0 "Acceptance of Custodianship: [FROM.GetNameDefCap]'s Role in African Confederation"
+ usa.83.desc:0 "In a significant development, [FROM.GetNameDefCap] has accepted [USA.GetLeader]'s request for custodianship over an African confederation, marking a shift in power dynamics on the continent.\n\nWith the acceptance of custodianship, [ROOT.GetNameDefCap] assumes a temporary role of over-lordship over the confederation, aiming to facilitate a smooth transition and foster growth and development. This decision reflects the Socialist States of America's commitment to supporting the aspirations of the African nations and advancing the cause of unity and progress on the continent.\n\n'We stand ready to fulfill our responsibilities as custodian of the African confederation,' Browder declares, his voice resonating with conviction. 'Our aim is to support the aspirations of the African nations, foster unity and cooperation, and promote peace and prosperity across the continent.'"
+ usa.83.a:0 "It is our duty."
+ 
+ usa.84.t:0 "Rejection of Custodianship: [FROM.GetNameDefCap]'s Decision on African Confederation"
+ usa.84.desc:0 "In a disappointing turn of events, [FROM.GetNameDefCap] has declined [USA.GetLeader]'s request to become custodian of an African confederation, signaling a setback in efforts to foster collaboration and partnership on the continent.\n\n'While we are disappointed by [FROM.GetNameDefCap]'s decision to decline custodianship, our commitment to Africa remains unwavering,' Browder declares, his voice tinged with resolve. 'We will continue to explore avenues for cooperation and partnership with the African nations, guided by the principles of mutual respect and solidarity.'"
+ usa.84.a:0 "Disappointing."
+ 
+ usa.85.t:0 "Embezzlement Scandal within the Bund"
+ usa.85.desc:0 "Fritz Julius Kuhn, the leader of the Bund and de facto ruler of fascist America, has been embroiled in a scandal involving embezzlement of funds from the Bund treasury.\n\nThis discovery has led the Bund leadership to consider potentially replacing Kuhn or accepting his corruption.\n\nAmidst the chaos, Henry Ford, the industrialist and Nazi sympathizer, has emerged as a potential candidate to take Kuhn's place at the helm of the Bund.\n\nFord's ties to the Nazi regime and his wealth and influence make him a contender for leadership, capable of restoring stability to a country in crisis. His ascent to power also raises concerns about the direction in which fascist America may be headed."
+ usa.85.a:0 "Fritz will continue his leadership."
+ usa.85.b:0 "Ford will assume leadership."
+ 
+ usa.86.t:0 "George Washington, the First Fascist"
+ usa.86.desc:0 "German-American Bund has declared George Washington, the first president of the United States, as the inaugural fascist figure in American history. The Bund's argument is that Washington's actions as commander-in-chief of the Continental Army and his advocacy for a strong central government are emblematic of fascist principles, which are centralized authority, militarism, and nationalism.\n\nBy establishing a connection between fascism and the founding fathers of the United States, legitimacy of the government is increased in the eyes of the citizens. While this may be met with mild skepticism, declaring George Washington as a fascist will help to unify a divided populace under the newly formed government.\n\nThis is not the only method which will be required to accustom the American people to a new fascist regime but it is a monumentous move forward.\n\nIn addition to proclaiming George Washington as the first fascist, we will elevate him to 'General of the Armies of [FROM.GetNameDefCap]', to remain above all other generals within the army of America."
+ usa.86.a:0 "It is our legacy."
+ 
+ usa.87.t:0 "[USA.GetLeader] Declares '[USA.GetNameDef]': A Shift in American Governance"
+ usa.87.desc:0 "In an address to the nation, [USA.GetLeader], the Führer of the United States, delivers a speech declaring the nation as '[USA.GetNameDef]', signaling a significant shift towards a more domineering attitude towards the rest of the states in America. [USA.GetLeader]'s speech, delivered from the White House, carries an air of authority and determination. His words, carefully crafted and delivered with presence.\n\n'In the pursuit of our national destiny, I hereby proclaim the United States as '[USA.GetNameDef]',' Ford declares, 'Under this banner, we shall forge a new path towards greatness, unapologetically asserting our dominance and leadership on the world stage.'\n\nFord, with this proclamation, has made it abundantly clear that the focus of '[USA.GetNameDef]' is to declare itself unequivocally the supreme authority in the North and South American continents."
+ usa.87.a:0 "For Washington and Country!"
+ 
+ usa.88.t:0 "Land and Market Expansion Protocol: [USA.GetLeader]'s Plan for North and South America"
+ usa.88.desc:0 "[USA.GetLeader], the Fuhrer of the United States, announces the implementation of the Land and Market Expansion protocol. This initiative aims to secure the territories of Mexico, Canada, and Brazil, consolidating American influence and resources across North and South America.\n\nCanada: Despite expectations of resistance, [USA.GetLeader]'s administration remains determined to incorporate Canada into the American Reich. Strategic planning and diplomatic maneuvers are employed to overcome opposition, with the goal of integrating Canada into the expanding American domain.\n\nMexico: [USA.GetLeader]'s administration views Mexico as a region ripe for expansion, characterized by instability and perceived weakness. Plans are set in motion to swiftly annex Mexico, asserting American dominance over the region.\n\nBrazil: Recognizing Brazil's potential as a valuable economic partner, [USA.GetLeader]'s administration opts for a diplomatic approach. Brazil may be offered a favorable deal to align with American interests, with incentives for cooperation and mutual benefit."
+ usa.88.a:0 "Our destiny manifest!"
+ 
+ usa.89.t:0 "American Reich's Delegation to Brazil: Request for Submission and Economic Guarantees"
+ usa.89.desc:0 "The American Reich, represented by a delegation, arrives in Brazil with an agenda: to secure the submission of the South American nation in exchange for promises of economic development and protection of independence from foreign invaders. Led by emissaries of [USA.GetLeader], the Fuhrer of the United States, the delegation presents its proposal to Brazilian authorities.\n\nThe delegation's message to Brazil is straightforward: by aligning with the American Reich, Brazil will benefit from guaranteed economic growth and stability, as well as assurances of protection against external threats. The American Reich pledges to invest in Brazil's infrastructure, industry, and economy, fostering prosperity for the Brazilian people.\n\nFurthermore, the American Reich promises to safeguard Brazil's sovereignty and independence, defending against any encroachment on Brazilian soil. With the might of the American Wehrmacht, the delegation assures Brazilian authorities of their ability to protect the nation."
+ usa.89.a:0 "We accept."
+ usa.89.b:0 "We decline."
+ 
+ usa.90.t:0 "Brazil Accepts Submission to The American Reich"
+ usa.90.desc:0 "Brazil has accepted submission to The American Reich. Following negotiations with the delegation representing [USA.GetLeader]'s regime, Brazilian authorities have agreed to align their nation with the American Reich, marking a shift in regional power dynamics.\n\nUnder the terms of the agreement, Brazil is promised economic development and investment from the American Reich, aimed at bolstering the nation's infrastructure, industry, and economy. Additionally, assurances of protection against external threats are provided, with the American Reich pledging to defend Brazil's sovereignty and independence."
+ usa.90.a:0 "Excellent."
+ 
+ usa.91.t:0 "Brazil Declines Submission to The American Reich"
+ usa.91.desc:0 "Brazil has declined the American Reich's offer of submission peacefully, opting to reject the proposal with defiance. The refusal sparks a swift and aggressive response from the American Reich, as tensions escalate between the two nations. [USA.GetLeader]'s regime issues a stern statement in response to Brazil's rejection. The tone is aggressive, signaling the American Reich's resolve to assert its dominance and punish defiance.\n\n'The refusal of Brazil to submit peacefully to the American Reich is an affront to the order and stability that we seek to establish in the Western Hemisphere,' declares a spokesperson for the regime. 'Such brazen defiance will not be tolerated, and the consequences will be severe.'"
+ usa.91.a:0 "We march on Brazil!"
+ 
+ usa.92.t:0 "[USA.GetLeader]'s Speech on New Americanism"
+ usa.92.desc:0 "In an address to the nation, [USA.GetLeader], the Fuhrer of the American Reich, unveils his vision of New Americanism—a movement rooted in the nation's past, characterized by militarism, authoritarianism, and commitment to core beliefs.\n\n'New Americanism is a call to action, a rallying cry for all true patriots to unite under a common cause," declares [USA.GetLeader]. "It harkens back to the days of old, when our forefathers fought tirelessly to build a nation founded on strength, discipline, and resolve.'\n\nCentral to [USA.GetLeader]'s vision is the idea of a homogenous society, composed of individuals of European descent and Protestant values. These "New Americans" are called upon to pledge themselves to the state and dedicate their lives to the betterment of their country. In [USA.GetLeader]'s eyes, they represent the epitome of American identity and embody the principles upon which the nation was built.\n\n'We must embrace our heritage and uphold the values that have defined us as a nation for centuries,' [USA.GetLeader] proclaims. 'New Americans are the vanguard of our future, the guardians of our traditions, and the champions of our beliefs. Together, we will forge a path forward, guided by the principles of strength, unity, and loyalty to the American Reich.'"
+ usa.92.a:0 "For a New America!"
+ 
+ usa.93.t:0 "Abolition of the Constitution"
+ usa.93.desc:0 "With the stroke of a pen, the constitution —the bedrock of American law and democracy— is declared null and void by the new American fascist government. The regime cites the need for a new order, one that prioritizes order, obedience, and the supremacy of the state above all else. The abolition of the constitution represents an assertion of power by the Fascist regime, as it seeks to consolidate control and reshape the fabric of American society.\n\nInternationally, the abolition of the constitution sparks concern and condemnation from foreign governments and international organizations. Allies express alarm at the erosion of democratic norms in the United States, while adversaries criticize the hypocrisy of American democracy."
+ usa.93.a:0 "For a better America."
+ 
+ usa.94.t:0 "Proclamation of 'The Great Bastion of Christianity'"
+ usa.94.desc:0 "William Dudley Pelley, leader of the Silver Legion and the newly appointed dictator of America, proclaims the United States as 'The Great Bastion of Christianity'. With unwavering conviction, Pelley declares a new era for the nation, one defined by religious zealotry and a mission to spread the word of God to the world.\n\nUnder Pelley's leadership, the American Theocracy is created with a singular purpose: to serve as a beacon of Christianity. Pelley positions himself as the Prophet of God, asserting his authority as the chosen vessel through which divine will shall be realized.\n\n'The United States shall henceforth be known as 'The Holy American Empire',' proclaims Pelley. 'It is our duty to liberate holy lands and spread the word of God to all nations.'"
+ usa.94.a:0 "For God and America!"
+ 
+ usa.95.t:0 "William Dudley Pelley Declares Himself Prophet and Savior"
+ usa.95.desc:0 "William Dudley Pelley, leader of the Silver Legion and self-proclaimed dictator of America, boldly declares himself the Prophet of God and the savior of the nation.\n\nSurrounded by supporters, Pelley delivers his proclamation with conviction. 'Behold, I am the Prophet of God, chosen to guide America to its destined greatness,' he declares, his voice resounding with authority. 'Under my leadership, this nation shall be cleansed of sin and corruption, and shall rise to heights never before imagined.'"
+ usa.95.a:0 "The Prophet's Words are Absolute!"
+
+ usa.96.t:0 "William Dudley Pelley's Speech on Safeguarding American Values"
+ usa.96.desc:0 "In an address to the nation, William Dudley Pelley, leader of the Silver Legion, vows to safeguard the values cherished by true Americans. Pelley outlines his vision for a nation built upon faith, family, and freedom.\n\n'Today, I stand before you as a guardian of true American values,' declares Pelley. 'It is my duty to protect what we hold dear—to ensure that the traditions and beliefs that define us as a nation endure.'\n\nPelley announces the establishment of a national Protestant Church, emphasizing the importance of faith in American society. 'We shall establish a national church to unite our people under the banner of faith,' he proclaims.\n\nPelley pledges to protect the rights of men in their homes, affirming the sanctity of family life and personal freedoms. 'The home is the cornerstone of American society,' he asserts. 'Under my leadership, families shall flourish.'\n\nPelley also emphasizes the importance of religious education for all citizens, promising access to knowledge and enlightenment. 'Education is the key to a bright future,' he declares.\n\nAs Pelley concludes his speech, he calls upon all true Americans to join him in the defense of their shared values and ideals. 'Together, we shall build a nation worthy of our heritage,' he proclaims. 'With God's grace and the strength of our convictions, we shall overcome any challenge.'"
+ usa.96.a:0 "Pelley will guide us."
+ 
+ usa.97.t:0 "Securities and Exchange Act of [GetYear]"
+ usa.97.desc:0 "The Securities Exchange Act of [GetYear] regulates secondary financial markets to ensure a transparent and fair environment for investors. It prohibits fraudulent activities, such as insider trading, and ensures that publicly traded companies must disclose important information to current and potential shareholders.\n\nSome additions are planned and will be passed in future legislation:\n\nThe Trust Indenture Act supplements the Securities Act of [GetYear] in the case of the distribution of debt securities in the United States. Generally speaking, the TIA requires the appointment of a suitably independent and qualified trustee to act for the benefit of the holders of the securities, and specifies various substantive provisions for the trust indenture that must be entered into by the issuer and the trustee.\n\nInvestment Company Act regulates conflicts of interest in investment companies and securities exchanges. It seeks to protect the public primarily by legally requiring disclosure of material details about each investment company.\n\nThe Investment Advisor's Act stipulates that anyone providing advice or making a recommendation on securities (as opposed to another type of investment) is considered an adviser.\n\nAll of these acts will be placed under a new commission called the Securities and Exchange Commission."
+ usa.97.a:0 "Regulation is the solution to our problem."
+
+ usa.98.t:0 "The TVA Act of [GetYear]"
+ usa.98.desc:0 "TVA was created by President [GetLeader] as a way to get a flagging country back on its feet during the Great Depression. The purpose of the TVA is as follows:\n\n'To improve the navigability and to provide for the flood control of the Tennessee River; to provide for reforestation and the proper use of marginal lands in the Tennessee Valley; to provide for the agricultural and industrial development of said valley; to provide for the national defense by the creation of a corporation for the operation of Government properties at and near Muscle Shoals in the State of Alabama, and for other purposes.'\n\nThe forward-thinking act invested TVA with the 'power to acquire real estate for the construction of dams, reservoirs, transmission lines, power houses, and other structures, and navigation projects at any point along the Tennessee River, or any of its tributaries.'\n\nIt was through this power that TVA designed and executed the Unified Development of the Tennessee River plan, which called for the building of dams for flood control, navigation and electrification of the Valley.\n\nThe act also called upon TVA to work with the region’s farmers, developing and distributing powerful fertilizers that would restore the region’s farmlands, which had been decimated by flooding."
+ usa.98.a:0 "Let us ensure they have proper funding."
+ 
+ usa.99.t:0 "Servicemen's Readjustment Act of [GetYear]"
+ usa.99.desc:0 "The G.I. Bill, formally known as the Servicemen's Readjustment Act of [GetYear], was a law that provided a range of benefits for some of the returning World War II veterans. It was largely designed and passed through Congress in [GetYear] in a bipartisan effort led by the American Legion which wanted to reward practically all wartime veterans.\n\nJohn H. Stelle, a former Democratic Governor of Illinois, served as the Chairman of the Legion's Executive Committee, which drafted and mobilized public opinion to get the G.I. Bill to President [GetLeader]'s desk on [GetDateText]. Stelle was rewarded for his efforts by the Legion which unanimously elected him its National Commander in [GetYear]. He is commonly referred to as the 'Father of the G.I. Bill.'\n\nThe final bill provided immediate financial rewards for practically all World War II veterans, thereby avoiding the highly disputed postponed life insurance policy payout for World War I veterans that had caused political turmoil in the 1920s and 1930s.\n\nBenefits included low-cost mortgages, low-interest loans to start a business or farm, one year of unemployment compensation, and dedicated payments of tuition and living expenses to attend high school, college, or vocational school. These benefits were available to all veterans who had been on active duty during the war years for at least 90 days and had not been dishonorably discharged."
+ usa.99.a:0 "We will provide for our veterans."
+ 
+ usa.100.t:0 "[USA.GetLeader] Announces National Land Use Act"
+ usa.100.desc:0 "In his address to the nation, President [USA.GetLeader] unveils the National Land Use Act, marking the inaugural step of the Agricultural Acts aimed at revitalizing the economy. Hoover outlines a strategy to address the agricultural crisis gripping the nation and pave the way for economic recovery.\n\n'The time has come for bold action to address the challenges facing our agricultural sector,' declares Hoover. 'Today, I announce the National Land Use Act—a cornerstone of our efforts to restore prosperity to our farmers and rural communities.'\n\nThe National Land Use Act is the first in a series of Agricultural Acts designed to tackle the root causes of agricultural distress and stimulate growth in the farming sector. Hoover outlines key components of the Act, including:\n\nFarm Product Import Tariffs: Measures to protect domestic farmers by imposing tariffs on imported agricultural products.\n\nCrop Rotation Regulation: Initiatives to promote sustainable farming practices and soil conservation through regulation of crop rotation.\n\nFarm Credit Expansion: Policies to expand access to credit and financial assistance for farmers.\n\nThe success of Hoover's agricultural agenda will shape the future of American farming and determine the trajectory of the nation's economic recovery."
+ usa.100.a:0 "The Farmers are the backbone of America."
+
+ usa.101.t:0 "[From.GetNameDefCap] Requests Repayment of Great War Debt"
+ usa.101.desc:0 "[From.GetNameDefCap] formally requests repayment of the debt incurred during the Great War. The request, delivered with diplomatic decorum but unmistakable urgency, underscores the financial obligations that remain outstanding from the conflict.\n\n'The United States requests repayment of the debt accrued during the Great War,' reads the official communication from Washington. 'As a longstanding ally and partner, we trust in your commitment to honoring the terms of our previous agreements.'\n\nThe request comes at a time of economic uncertainty and fiscal strain for the our nation. While [From.GetNameDefCap] acknowledges the difficult circumstances facing its ally, it emphasizes the importance of upholding financial commitments made in the aftermath of the war."
+ usa.101.a:0 "We will repay our debts."
+ usa.101.b:0 "We cannot repay these debts."
+ 
+ usa.102.t:0 "[From.GetNameDefCap] Accepts Debt Repayment Request"
+ usa.102.desc:0 "[From.GetNameDefCap] takes a crucial step towards financial reconciliation by repaying a portion of their Great War debt to [USA.GetNameDefCap]. The repayment, announced through official channels, signals a positive shift in the relationship between the two nations and marks progress in addressing historical financial obligations.\n\n'[From.GetNameDefCap] has successfully repaid a portion of the Great War debt owed to [USA.GetNameDefCap],' announces the official statement from [From.GetNameDefCap]'s government. 'We are pleased to fulfill our financial commitments and strengthen our partnership with [USA.GetNameDefCap].'\n\nWith this partial repayment of the Great War debt, [From.GetNameDefCap] and [USA.GetNameDefCap] take a significant stride towards financial reconciliation and lay the groundwork for enhanced diplomatic and economic cooperation in the future."
+ usa.102.a:0 "Debts owed must be paid."
+ 
+ usa.103.t:0 "Refusal of Great War Debt Repayment by [From.GetNameDefCap]"
+ usa.103.desc:0 "Tensions escalate as [From.GetNameDefCap] refuses to repay their Great War debt to [USA.GetNameDefCap]. The refusal triggers a sharp response from [USA.GetNameDefCap], signaling a departure from diplomatic norms and indicating a firm stance on the issue.\n\n'[From.GetNameDefCap] has categorically refused to honor their financial obligations from the Great War,' declares the official statement from [USA.GetNameDefCap]. 'We view this refusal with grave concern and emphasize that such actions will not be tolerated.'\n\nWhile stopping short of threatening war, [USA.GetNameDefCap] adopts an aggressive stance in response to [From.GetNameDefCap]'s refusal to repay the debt."
+ usa.103.a:0 "We will not forget this."
+ 
+ usa.104.t:0 "Invite to USMCA Alliance"
+ usa.104.desc:0 "[From.GetNameDefCap] invites us to join the USMCA Alliance (United States-Mexico-Canada Agreement). This alliance aims to strengthen economic ties, foster cooperation, and solidify stability among North American nations.\n\nAccepting this invitation could offer economic opportunities, facilitating trade and investment. Aligning with the United States and Canada could provide support in times of need, enhancing our security and influence."
+ usa.104.a:0 "We will join [From.GetNameDefCap]"
+ usa.104.b:0 "We will stand on our own."
+ 
+ usa.105.t:0 "Formation of NATO"
+ usa.105.desc:0 "[From.GetNameDefCap] is proposing a shift in our faction's structure and objectives. They advocate for assuming leadership and rebranding the organization as 'The North Atlantic Treaty Organization' (NATO). Under this new structure, [From.GetNameDefCap] intends to spearhead a comprehensive strategy aimed at bolstering member states to counteract the spread of Communism.\n\nThe proposed initiative involves substantial investment into member nations, with the overarching goal of enhancing their economic, military, and political capacities. By fortifying the capabilities of each member, NATO aims to create a formidable bulwark against the ideological and geopolitical advances of Communist powers."
+ usa.105.a:0 "We will let them lead us."
+ usa.105.b:0 "We will not sit in the backseat."
+ 
+ usa.106.t:0 "Embracing Leadership: Formation of NATO"
+ usa.106.desc:0 "[From.GetNameDefCap] has accepted our proposal to assume leadership of the faction and spearhead the creation of NATO. Their willingness to entrust us with this role underscores a shared vision for the future and a mutual understanding of our capabilities as leaders.\n\nWith [From.GetNameDefCap]'s endorsement, we are now poised to embark on the establishment of NATO, a cornerstone of our collective defense strategy. Together, we will work hand in hand to solidify the alliance, fortify member nations, and confront the challenges posed by the global landscape."
+ usa.106.a:0 "For a brighter future."
+ 
+ usa.107.t:0 "Secession and the Birth of NATO"
+ usa.107.desc:0 "[From.GetNameDefCap] has refused our proposal to assume leadership of the faction and establish NATO. Their decision appears to stem from a reluctance to relinquish control over international affairs, signaling a fundamental divergence in our strategic priorities.\n\nIn light of [From.GetNameDefCap]'s refusal, we have resolved to forge our own path forward. We will secede from the faction and embark on the establishment of NATO independently.\n\nBy forming NATO on our own terms, we seek to create a robust alliance dedicated to preserving peace and countering the spread of Communism, free from the constraints of [From.GetNameDefCap]'s leadership."
+ usa.107.a:0 "At any cost."
+ 
+ usa.108.t:0 "The United States Election of 1936"
+ usa.108.desc:0 "In the midst of the Great Depression, incumbent Democratic President Franklin D. Roosevelt is poised to defeat Republican Governor Alf Landon of Kansas in a landslide.\n\nRoosevelt and Vice President John Nance Garner were re-nominated without opposition. Stirrings exist in the Republican party that a more conservative candidate is needed to beat Roosevelt.\n\nCandidates will be campaigning throughout the country up until the election in November."
+ usa.108.a:0 "To the better man!"
+ 
+ usa.109.t:0 "A New Identity: United Confederate America"
+ usa.109.desc:0 "In a historic address to the nation, President [USA.GetLeader] of the United States has announced a momentous decision following a national referendum. Honoring the rich heritage and distinct identity of the confederate states, President Hoover has declared a new name for the nation: 'United Confederate America'.\n\nAccompanying this announcement is the unveiling of a new flag, carefully chosen to symbolize the ideals and aspirations of the newly christened United Confederate America. Designed through a collaborative effort involving citizens from across the nation, the new flag embodies themes of unity, heritage, and resilience."
+ usa.109.a:0 "For a more united nation."
+
+################################### BOP\n                     \n      §H§!
+
+ USA_popular_vote_balance:0 "Popular Vote"
+ USA_Republican:0 "Republican"
+ USA_Democrat:0 "Democrat"
+ USA_popular_vote_category:0 "Campaigning"
+ 
+ USA_balance_range:0 "Margin of Error"
+ 
+ USA_Low_Republican_Support:0 "Low Republican Support"
+ USA_Medium_Republican_Support:0 "Medium Republican Support"
+ USA_High_Republican_Support:0 "High Republican Support"
+ 
+ USA_Low_Democrat_Support:0 "Low Democrat Support"
+ USA_Medium_Democrat_Support:0 "Medium Democrat Support"
+ USA_High_Democrat_Support:0 "High Democrat Support"
+ 
+ decision_cost_pp_25:0 "£pol_power §Y 25§!"
+ decision_cost_pp_25_blocked:0 "£pol_power §R 25§!"
+ 
+ decision_cost_pp_50:0 "£pol_power §Y 50§!"
+ decision_cost_pp_50_blocked:0 "£pol_power §R 50§!"
+
+ USA_Bop_Republican_Local_Speech:0 "Republican Local Speech"
+ USA_Bop_Democrat_Local_Speech:0 "Democrat Local Speech"
+ 
+ USA_Bop_Republican_Radio_Speech:0 "Republican Radio Speech"
+ USA_Bop_Democrat_Radio_Speech:0 "Democrat Radio Speech"
+ 
+ USA_Bop_Herbert_Hoover:0 "Nominate Herbert Hoover for Republican Party"
+ 
+################################### OTHER\n                     \n      §H§!
+ 
+ autonomy_corporate_state:0 "Corporate State"
+ 
+ # Research Group
+ 
+ usmca_research_name:0 "USMCA Research" 
+ 
+ USA_COMMUNISM_FACTION:0 "Red Eagle's Wing"
+ usa_communist_ideological_rival:0 "Ideological Rival"
+ 
+ usa_Bund:0 "Expanded Bund"
+ usa_Fords_Delegation:0 "Ford's Delegation"
+ usa_Cooperative:0 "Cooperative"
+ 
+ USA_FASCIST_FACTION:0 "Washington Pact"
+ 
+ USA_Civil_War_Began:0 "USA Civil War is happening."
+ 
+ Lead_To_Civil_War_TT:0 "§RThis will lead to a Civil War!§!"
+ Confederate_Africa_TT:0 "§RThis will result in temporary puppeting by the Socialist States of America!§!"
+ 
+ Integrate_SA_TT:0 "Any §YSouth American§! country which has at least §Y33%§! support for §RCommunism§! will be invited to be integrated into the USSA."
+ 
+ USA_REICH_fascism:0 "Greater American State"
+ USA_REICH_fascism_DEF:0 "the Greater American State"
+ USA_REICH_fascism_ADJ:0 "American"
+ USA_REICH:0 "United States of America"
+ USA_REICH_DEF:0 "America"
+ USA_REICH_ADJ:0 "American"
+ 
+ USA_GOD_fascism:0 "Holy American Empire"
+ USA_GOD_fascism_DEF:0 "the Holy American Empire"
+ USA_GOD_fascism_ADJ:0 "American"
+ USA_GOD:0 "United States of America"
+ USA_GOD_DEF:0 "America"
+ USA_GOD_ADJ:0 "American"
+ 
+# USA_NEO
+
+ USA_UCA:0 "United Confederate America"
+ USA_UCA_DEF:0 "United Confederate America"
+ USA_UCA_ADJ:0 "American"
+ 
+ USA_fascism:0 "Free American Empire"
+ USA_fascism_DEF:0 "the Free American Empire"
+ USA_democratic:0 "United States"
+ USA_democratic_DEF:0 "the United States"
+ USA_neutrality:2 "United States"
+ USA_neutrality_DEF:2 "the United States"
+ USA_communism:0 "Socialist States of America"
+ USA_communism_DEF:0 "the Socialist States of America"
+ USA_fascism_ADJ:0 "American"
+ USA_democratic_ADJ:0 "American"
+ USA_neutrality_ADJ:0 "American"
+ USA_communism_ADJ:0 "American"
+ USA:0 "America"
+ USA_DEF:0 "America"
+ USA_ADJ:0 "American"
+ 
+ USB_fascism:0 "America"
+ USB_fascism_DEF:0 "the America"
+ USB_democratic:0 "America"
+ USB_democratic_DEF:0 "America"
+ USB_neutrality:0 "America"
+ USB_neutrality_DEF:0 "the America"
+ USB_communism:0 "America"
+ USB_communism_DEF:0 "the America"
+ USB_fascism_ADJ:0 "American"
+ USB_democratic_ADJ:0 "American"
+ USB_neutrality_ADJ:0 "American"
+ USB_communism_ADJ:0 "American"
+ USB:0 "America"
+ USB_DEF:0 "America"
+ USB_ADJ:0 "American"
+ 
+ SSA_communism:0 "Socialist States of America"
+ SSA_communism_DEF:0 "the Socialist States of America"
+ SSA_communism_ADJ:0 "American"
+ SSA:0 "America"
+ SSA_DEF:0 "America"
+ SSA_ADJ:0 "American"
+ 
+ USA_America_First_Party:0 "America First Party"
+ USA_America_First_Party_Short:0 "America First Party"
+ 
+ CPUSA:0 "Socialist States of America"
+ 
+ USSA_communism:0 "United Socialist States of America"
+ USSA_communism_DEF:0 "the United Socialist States of America"
+ USSA_communism_ADJ:0 "American"
+ USSA:0 "America"
+ USSA_DEF:0 "America"
+ USSA_ADJ:0 "American"
+ 
+ WAF_fascism:0 "West African State"
+ WAF_fascism_DEF:0 "the West African State"
+ WAF_democratic:0 "West African Confederation"
+ WAF_democratic_DEF:0 "the West African Confederation"
+ WAF_neutrality:0 "West Africa"
+ WAF_neutrality_DEF:0 "West Africa"
+ WAF_communism:0 "West African People's Republic"
+ WAF_communism_DEF:0 "the West African People's Republic"
+ WAF:0 "West Africa"
+ WAF_DEF:0 "West Africa"
+ WAF_ADJ:0 "West African"
+ 
+ NAF_fascism:0 "North African State"
+ NAF_fascism_DEF:0 "the North African State"
+ NAF_democratic:0 "North African Confederation"
+ NAF_democratic_DEF:0 "the North African Confederation"
+ NAF_neutrality:0 "North Africa"
+ NAF_neutrality_DEF:0 "North Africa"
+ NAF_communism:0 "North African People's Republic"
+ NAF_communism_DEF:0 "the North African People's Republic"
+ NAF:0 "North Africa"
+ NAF_DEF:0 "North Africa"
+ NAF_ADJ:0 "North African"
+ 
+ EAF_fascism:0 "East African State"
+ EAF_fascism_DEF:0 "the East African State"
+ EAF_democratic:0 "East African Confederation"
+ EAF_democratic_DEF:0 "the East African Confederation"
+ EAF_neutrality:0 "East Africa"
+ EAF_neutrality_DEF:0 "East Africa"
+ EAF_communism:0 "East African People's Republic"
+ EAF_communism_DEF:0 "the East African People's Republic"
+ EAF:0 "East Africa"
+ EAF_DEF:0 "East Africa"
+ EAF_ADJ:0 "East African"
+ 
+ SAF_CON_fascism:0 "South African State"
+ SAF_CON_fascism_DEF:0 "the South African State"
+ SAF_CON_democratic:0 "South African Confederation"
+ SAF_CON_democratic_DEF:0 "the South African Confederation"
+ SAF_CON_neutrality:0 "South Africa"
+ SAF_CON_neutrality_DEF:0 "South Africa"
+ SAF_CON_communism:0 "South African People's Republic"
+ SAF_CON_communism_DEF:0 "the South African People's Republic"
+ SAF_CON:0 "South Africa"
+ SAF_CON_DEF:0 "South Africa"
+ SAF_CON_ADJ:0 "South African"
+ 
+ improved_ship_hull_carrier:0 "1940 Carrier Hull"
+ advanced_ship_hull_carrier:0 "1944 Carrier Hull"
+ 
