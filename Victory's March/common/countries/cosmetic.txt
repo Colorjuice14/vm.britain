@@ -1,3 +1,105 @@
+## Ireland
+
+ENG_FRA_imperial_federation_unified = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
+ENG_FRA_imperial_federation_india_unified = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+ENG_IRE_dual_monarchy = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 170  10  10 }
+}
+AUHU_federation = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+HAN_HANNOVER = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+NOR_occupied = {
+	color = rgb { 91  51  51  }
+	color_ui = rgb { 91  51  51 }
+}
+
+## Morocco
+
+MOR_protectorate = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+
+## EGYPT
+
+EGE_empire = {
+    color = rgb { 23 105 237 }
+    color_ui = rgb { 23 105 237 }
+}
+EGE_african_republic = {
+    color = rgb { 153 204 0 }
+    color_ui = rgb { 153 204 0 }
+}
+EGE_sultanate_of_egypt = {
+    color = rgb { 165 165 50 }
+    color_ui = rgb { 165 165 50 }
+}
+EGE_ottoman_empire = {
+    color = rgb { 165 165 50 }
+    color_ui = rgb { 165 165 50 }
+}
+FOM_civil_war = {
+    color = rgb { 234 195 18 }
+    color_ui = rgb { 234 195 18 }
+}
+
+SUD_AES = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+
+## Mongolia++
+
+MON_Pan_Altai = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+MEN_Auton = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+## 
+
+PRC_USAR = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
+PRC_SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
+CHI_DEM = {
+	color = rgb { 54 81 148 }
+	color_ui = rgb { 87 160 255 }
+}
+
+TUR_CALIPH = {
+	color = rgb { 0 149 48 }
+	color_ui = rgb { 87 160 255 }
+}
+
+TUR_RUM = {
+	color = rgb { 40 182 198 }
+	color_ui = rgb { 87 160 255 }
+}
+
 USA_UCA = {
 	color = rgb { 14 90 158 }
 	color_ui = rgb { 87 160 255 }

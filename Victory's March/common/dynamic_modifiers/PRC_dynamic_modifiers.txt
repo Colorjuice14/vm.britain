@@ -1,0 +1,97 @@
+PRC_Central_Peoples_Government = {
+    icon = GFX_ideas_generic_constitutional_guarantees
+    enable = { always = yes }
+
+	political_power_factor = 0.15
+    political_power_gain = PRC_CPG_PPG
+    political_advisor_cost_factor = PRC_CPG_Political_Advisor_Cost
+	trade_laws_cost_factor = PRC_CPG_TL_Cost
+	economy_cost_factor = PRC_CPG_Eco_Cost
+	mobilization_laws_cost_factor = PRC_CPG_Mobilization_Law_Cost_Factor
+	local_resources = PRC_CPG_RG
+	command_power_gain = PRC_CPG_CP
+	max_planning_factor = PRC_CPG_MP
+}
+
+PRC_Administrative_Council = {
+    icon = GFX_ideas_generic_disjointed_gov
+    enable = { always = yes }
+
+	local_building_slots = 2
+	local_resources = 0.1
+	local_manpower = 0.05
+}
+
+PRC_Roads_And_Belts_Cooperation = {
+    icon = GFX_ideas_generic_foreign_capital
+    enable = { always = yes }
+
+	production_speed_buildings_factor = PRC_RB_BS
+	consumer_goods_factor = PRC_RB_CG
+	trade_opinion_factor = PRC_RB_TO
+	opinion_gain_monthly_factor = PRC_RB_OG
+}
+
+PRC_Special_Economic_Zone = {
+    icon = GFX_ideas_generic_foreign_capital
+    enable = { always = yes }
+
+	local_building_slots = 5
+	local_resources = -0.5
+	local_manpower = -0.5
+	production_speed_industrial_complex_factor = 0.25
+}
+
+PRC_Cult_Of_Mao_Zedong = {
+    icon = GFX_ideas_generic_communism_drift_bonus
+    enable = { always = yes }
+
+	defensive_war_stability_factor = PRC_MZ_DWS
+	surrender_limit = PRC_MZ_SL
+	stability_weekly = PRC_MZ_SW
+	
+	party_popularity_stability_factor = PRC_MZ_PPS
+	drift_defence_factor = PRC_MZ_DD
+	subjects_autonomy_gain = PRC_MZ_AGGF
+	
+	research_speed_factor = PRC_MZ_RS
+	communism_drift = PRC_MZ_CD
+	
+	puppet_cost_factor = PRC_MZ_PC
+	annex_cost_factor = PRC_MZ_AC
+}
+
+PRC_Great_Leap_Forward = {
+    icon = GFX_ideas_generic_production_bonus
+    enable = { always = yes }
+
+	consumer_goods_factor = PRC_GL_CG
+	
+	# Rural
+	global_building_slots_factor = PRC_GL_BS
+	#Grain
+	army_morale_factor = PRC_GL_AM
+	#Woman
+	conscription_factor = PRC_GL_RP
+	
+	#Agricultural
+	production_factory_efficiency_gain_factor = PRC_GL_PE
+	production_factory_max_efficiency_factor = PRC_GL_PME
+	line_change_production_efficiency_factor = PRC_GL_LCE
+	production_factory_start_efficiency_factor = PRC_GL_FSE
+	#Steel
+	production_lack_of_resource_penalty_factor = PRC_GL_LOR
+	#Mass Mobilization
+	production_speed_buildings_factor = PRC_GL_CS
+	#Peoples Communes
+	industrial_capacity_factory = PRC_GL_FO
+}
+
+PRC_Integration = {
+    icon = GFX_modifiers_generic_military_plans
+    enable = { always = yes }
+
+	compliance_growth = 0.15
+	local_non_core_manpower = -0.5
+	compliance_gain = 0.1
+}

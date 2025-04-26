@@ -1,0 +1,13 @@
+MOR_agadir_port_organization = {
+	name = MOR_agadir_port_organization
+	include = generic_escort_ship_organization
+	icon = GFX_idea_agadir
+	allowed = {	 
+		tag = MOR
+		has_dlc = "Arms Against Tyranny"
+	}
+	
+	available = {
+		owner = { has_completed_focus = MOR_expand_port_of_agadir }
+	}
+}

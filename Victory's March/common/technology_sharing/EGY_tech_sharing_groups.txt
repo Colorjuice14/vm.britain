@@ -1,0 +1,16 @@
+technology_sharing_group = {
+
+	id = empire_research_deal
+	name = empire_research_deal_name
+	desc = empire_research_deal_desc
+	picture = GFX_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+        EGY = {
+			has_completed_focus = EGY_deal_of_the_two_empires
+		}
+    }
+
+}

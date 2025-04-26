@@ -1,0 +1,1249 @@
+joint_focus = {
+    id = Joint_Commonwealth_The_Commonwealth
+    x = 10
+    y = 8
+	cost = 10
+    #relative_position_id = LATIN_focus_name
+    #prerequisite = { focus = LATIN_focus_name }
+    icon = GFX_focus_generic_improve_the_administration
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	offset = {
+		x = 10
+		y = 8
+		trigger = {
+			has_focus_tree = british_focus
+		}
+	}
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+  ####   ###   #   #   ###   ####    ###  
+ #      #   #  ##  #  #   #  #   #  #   # 
+ #      #####  # # #  #####  #   #  ##### 
+ #      #   #  #  ##  #   #  #   #  #   # 
+  ####  #   #  #   #  #   #  ####   #   # 
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Expand_Permanent_Force
+    x = -8
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_The_Commonwealth
+    prerequisite = { focus = Joint_Commonwealth_The_Commonwealth }
+    icon = GFX_focus_generic_commonwealth_build_infantry
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_Cooperation_With_Washington
+    x = -1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Permanent_Force
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Permanent_Force }
+    icon = GFX_focus_generic_befriend_usa
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_Cooperation_With_Britain_And_France
+    x = 1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Permanent_Force
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Permanent_Force }
+    icon = GFX_focus_chi_british_cooperation
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+	
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Defend_The_Pacific_Coast
+    x = -3
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Permanent_Force
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Permanent_Force }
+    icon = GFX_focus_generic_coastal_fort
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Defend_West_Indies
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Defend_The_Pacific_Coast
+    prerequisite = { focus = Joint_Commonwealth_CAN_Defend_The_Pacific_Coast }
+    icon = GFX_focus_generic_coastal_fort
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Develop_Canadian_Infrastructure
+    x = 3
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Permanent_Force
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Permanent_Force }
+    icon = GFX_goal_generic_construct_infrastructure
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Expand_Alunminum_Mines
+    x = 1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Develop_Canadian_Infrastructure
+    prerequisite = { focus = Joint_Commonwealth_CAN_Develop_Canadian_Infrastructure }
+    icon = GFX_focus_generic_aluminum
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Develop_Eldorado_Mine
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Alunminum_Mines
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Alunminum_Mines }
+    icon = GFX_focus_generic_uranium_extraction
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Expand_Agricultural_Industry
+    x = -1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Develop_Canadian_Infrastructure
+    prerequisite = { focus = Joint_Commonwealth_CAN_Develop_Canadian_Infrastructure }
+    icon = GFX_focus_generic_agricultural_subsidies
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Expand_Military_Capabilities
+    x = 0
+    y = 3
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Permanent_Force
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Permanent_Force }
+    icon = GFX_focus_generic_mass_production
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Increase_Conscription
+    x = -2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Military_Capabilities
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Military_Capabilities }
+    icon = GFX_focus_generic_limited_social_mobilization
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = CAN } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Canadian_Convoy_Escort
+    x = 2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Military_Capabilities
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Military_Capabilities }
+    icon = GFX_goal_generic_navy_anti_submarine
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Overseas_RCAF
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Increase_Conscription
+    prerequisite = { focus = Joint_Commonwealth_CAN_Increase_Conscription }
+    icon = GFX_focus_generic_multi_role_aircraft
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Canadian_Merchant_Navy
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Canadian_Convoy_Escort
+    prerequisite = { focus = Joint_Commonwealth_CAN_Canadian_Convoy_Escort }
+    icon = GFX_focus_generic_merchant_fleet
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_Canadian_Material_Support
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Expand_Military_Capabilities
+    prerequisite = { focus = Joint_Commonwealth_CAN_Expand_Military_Capabilities }
+    icon = GFX_focus_generic_reinforcing_the_supply_network
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_CAN_CMP_Truck
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_CAN_Canadian_Material_Support
+    prerequisite = { focus = Joint_Commonwealth_CAN_Canadian_Material_Support }
+    icon = GFX_focus_generic_truck
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes } 
+
+	available = { tag = CAN }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+  ###   #   #  #####  #####  ####     ###   #      #####   ###  
+ #   #  #   #  #        #    #   #   #   #  #        #    #   # 
+ #####  #   #  #####    #    ####    #####  #        #    ##### 
+ #   #  #   #      #    #    #   #   #   #  #        #    #   # 
+ #   #  #####  #####    #    #    #  #   #  #####  #####  #   # 
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Second_Australian_Imperial_Force
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_The_Commonwealth
+    prerequisite = { focus = Joint_Commonwealth_The_Commonwealth }
+    icon = GFX_focus_generic_commonwealth_build_infantry
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    } 
+}
+
+joint_focus = {
+    id = Joint_Closer_Ties_To_US
+    x = 4
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Second_Australian_Imperial_Force
+    prerequisite = { focus = Joint_Commonwealth_AST_Second_Australian_Imperial_Force }
+    icon = GFX_focus_generic_befriend_usa
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { AND = { OR = { tag = ENG tag = AST } has_war = yes } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_War_Bonds
+    x = -1
+    y = 3
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Second_Australian_Imperial_Force
+    prerequisite = { focus = Joint_Commonwealth_AST_Second_Australian_Imperial_Force }
+    icon = GFX_focus_SWI_issue_war_bonds
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { AND = { OR = { tag = ENG tag = AST } has_war = yes } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Compulsory_Military_Service
+    x = -2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_War_Bonds
+    prerequisite = { focus = Joint_Commonwealth_AST_War_Bonds }
+    icon = GFX_focus_generic_full_social_mobilization
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Women_In_Service
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_War_Bonds
+    prerequisite = { focus = Joint_Commonwealth_AST_War_Bonds }
+    icon = GFX_focus_generic_women_in_military
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_The_RAAF
+    x = 2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_War_Bonds
+    prerequisite = { focus = Joint_Commonwealth_AST_War_Bonds }
+    icon = GFX_focus_generic_air_bases
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Indomitable_ANZAC
+    x = 0
+    y = 2
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_War_Bonds
+    prerequisite = { focus = Joint_Commonwealth_AST_Compulsory_Military_Service focus = Joint_Commonwealth_AST_Women_In_Service focus = Joint_Commonwealth_AST_The_RAAF }
+    icon = GFX_focus_generic_military_mission
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Australian_Pacific_Defense
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Second_Australian_Imperial_Force
+    prerequisite = { focus = Joint_Commonwealth_AST_Second_Australian_Imperial_Force }
+    icon = GFX_focus_generic_coastal_fort
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Defend_Australian_Coasts
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Australian_Pacific_Defense
+    prerequisite = { focus = Joint_Commonwealth_AST_Australian_Pacific_Defense }
+    icon = GFX_focus_generic_coastal_fort
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Defense_Of_New_Guinea
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Australian_Pacific_Defense
+    prerequisite = { focus = Joint_Commonwealth_AST_Australian_Pacific_Defense }
+    icon = GFX_focus_generic_coastal_fort
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Develop_Infrastructure
+    x = 2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Second_Australian_Imperial_Force
+    prerequisite = { focus = Joint_Commonwealth_AST_Second_Australian_Imperial_Force }
+    icon = GFX_goal_generic_construct_infrastructure
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Industrial_Conscription
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Develop_Infrastructure
+    prerequisite = { focus = Joint_Commonwealth_AST_Develop_Infrastructure }
+    icon = GFX_focus_generic_public_works
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Australian_Arms_Manufacturing
+    x = -1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Industrial_Conscription
+    prerequisite = { focus = Joint_Commonwealth_AST_Industrial_Conscription }
+    icon = GFX_focus_generic_reinforcing_the_supply_network
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_AST_Develope_Austrlian_Wartime_Industry
+    x = 1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_AST_Industrial_Conscription
+    prerequisite = { focus = Joint_Commonwealth_AST_Industrial_Conscription }
+    icon = GFX_focus_generic_mass_production
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = AST } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+ #   #  #####  #   #  #####  #####   ###   #       ###   #   #  ####  
+ ##  #  #      #   #     #   #      #   #  #      #   #  ##  #  #   # 
+ # # #  ####   # # #    #    ####   #####  #      #####  # # #  #   # 
+ #  ##  #      ## ##   #     #      #   #  #      #   #  #  ##  #   # 
+ #   #  #####  #   #  #####  #####  #   #  #####  #   #  #   #  ####  
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force
+    x = 8
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_The_Commonwealth
+    prerequisite = { focus = Joint_Commonwealth_The_Commonwealth }
+    icon = GFX_focus_generic_commonwealth_build_infantry
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_Establish_War_Cabinet
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force
+    prerequisite = { focus = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force }
+    icon = GFX_SOV_military_engineering_university_ccp_2d_sov_compatibility
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_NZ_Medium_Bombers
+    x = 1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Establish_War_Cabinet
+    prerequisite = { focus = Joint_Commonwealth_NZL_Establish_War_Cabinet }
+    icon = GFX_focus_SWE_marauder_bombers
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_Institute_Conscription
+    x = -1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Establish_War_Cabinet
+    prerequisite = { focus = Joint_Commonwealth_NZL_Establish_War_Cabinet }
+    icon = GFX_focus_generic_limited_social_mobilization
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_Total_Mobilization
+    x = 0
+    y = 2
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Establish_War_Cabinet
+    prerequisite = { focus = Joint_Commonwealth_NZL_NZ_Medium_Bombers }
+    prerequisite = { focus = Joint_Commonwealth_NZL_Institute_Conscription }
+    icon = GFX_focus_generic_full_social_mobilization
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_Legation_To_Washington
+    x = -2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force
+    prerequisite = { focus = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force }
+    icon = GFX_focus_generic_befriend_usa
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_Legation_To_Moscow
+    x = 2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force
+    prerequisite = { focus = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force }
+    icon = GFX_focus_chi_mission_to_the_soviet_union
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_New_High_Commissions_In_Ottawa_And_Canberra
+    x = 4
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force
+    prerequisite = { focus = Joint_Commonwealth_NZL_Second_NZ_Expeditionary_Force }
+    icon = GFX_goal_tfv_strengthen_commonwealth_ties
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_NZL_ANZUS
+    x = -1
+    y = 3
+	cost = 10
+    relative_position_id = Joint_Commonwealth_NZL_Legation_To_Washington
+    prerequisite = { focus = Joint_Commonwealth_NZL_Legation_To_Washington }
+    prerequisite = { focus = Joint_Closer_Ties_To_US }
+    icon = GFX_goal_generic_alliance
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = AST tag = NZL } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+ #####   ####  #   #  #####   ##### 
+ #      #       # #  #    #    #   
+ ####   #  ##    #   #####     #   
+ #      #   #    #  #         #   
+ #####   ###     #  #         #   
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Egyptian_Neutrality
+    x = 14
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_The_Commonwealth
+    prerequisite = { focus = Joint_Commonwealth_The_Commonwealth }
+    icon = GFX_goal_generic_neutrality_focus
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Develop_Infrastructure
+    x = 5
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Egyptian_Neutrality
+    prerequisite = { focus = Joint_Commonwealth_EGY_Egyptian_Neutrality }
+    icon = GFX_goal_generic_construct_infrastructure
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Defense_Of_The_Suez
+    x = 1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Develop_Infrastructure
+    prerequisite = { focus = Joint_Commonwealth_EGY_Develop_Infrastructure }
+    icon = GFX_focus_generic_the_suez
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward = {
+			447 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 4076
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 1071
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+	}
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Air_Defense
+    x = -1
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Develop_Infrastructure
+    prerequisite = { focus = Joint_Commonwealth_EGY_Develop_Infrastructure }
+    icon = GFX_focus_PER_construct_air_defenses
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Joint_Exercises_With_British
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Egyptian_Neutrality
+    prerequisite = { focus = Joint_Commonwealth_EGY_Egyptian_Neutrality }
+    icon = GFX_focus_chi_british_cooperation
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Convoy_Support
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Joint_Exercises_With_British
+    prerequisite = { focus = Joint_Commonwealth_EGY_Joint_Exercises_With_British }
+    icon = GFX_goal_generic_navy_anti_submarine
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Minesweep_Mediterranean_And_Red_Sea
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Convoy_Support
+    prerequisite = { focus = Joint_Commonwealth_EGY_Convoy_Support }
+    icon = GFX_focus_generic_mine_warfare
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Pilot_British_Planes
+    x = 2
+    y = 2
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Joint_Exercises_With_British
+    prerequisite = { focus = Joint_Commonwealth_EGY_Joint_Exercises_With_British }
+    prerequisite = { focus = Joint_Commonwealth_EGY_Air_Defense }
+    icon = GFX_focus_SOV_flying_clubs
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Share_Military_Intel
+    x = -2
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Joint_Exercises_With_British
+    prerequisite = { focus = Joint_Commonwealth_EGY_Joint_Exercises_With_British }
+    icon = GFX_goal_generic_intelligence_exchange
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Camel_Corps
+    x = -1
+    y = 3
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Joint_Exercises_With_British
+    prerequisite = { focus = Joint_Commonwealth_EGY_Joint_Exercises_With_British }
+    icon = GFX_focus_generic_camel_corps
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Barracks_For_The_British
+    x = 0
+    y = 1
+	cost = 10
+    relative_position_id = Joint_Commonwealth_EGY_Joint_Exercises_With_British
+    prerequisite = { focus = Joint_Commonwealth_EGY_Joint_Exercises_With_British }
+    icon = GFX_focus_chi_british_cooperation
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}
+
+joint_focus = {
+    id = Joint_Commonwealth_EGY_Provide_Medical_Support
+    x = 0
+    y = 1
+	cost = 10 
+    relative_position_id = Joint_Commonwealth_EGY_Barracks_For_The_British
+    prerequisite = { focus = Joint_Commonwealth_EGY_Barracks_For_The_British }
+    icon = GFX_focus_generic_field_hostpital
+	text_icon = NORDIC_focus_style
+    joint_trigger = { is_commonwealth_nation = yes }
+
+	available = { OR = { tag = ENG tag = EGY } }
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward_joint_originator = {
+        
+    }
+    completion_reward_joint_member = {
+        
+    }
+}

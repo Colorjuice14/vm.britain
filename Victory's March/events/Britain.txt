@@ -2429,12 +2429,9 @@ country_event = {
 		
 		ai_chance = { factor = 90 }
 		
-		15 = {
-			add_dynamic_modifier = {
-				modifier = ENG_Operation_Overlord
-				scope = ENG
-				days = 365
-			}
+		add_timed_idea = {
+			idea = ENG_Operation_Overlord
+			days = 180
 		}
 	}
 }
@@ -2454,12 +2451,9 @@ country_event = {
 		
 		ai_chance = { factor = 90 }
 		
-		115 = {
-			add_dynamic_modifier = {
-				modifier = ENG_Operation_Husky
-				scope = ENG
-				days = 365
-			}
+		add_timed_idea = {
+			idea = ENG_Operation_Husky
+			days = 180
 		}
 	}
 }

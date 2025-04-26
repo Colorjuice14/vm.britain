@@ -1,0 +1,114 @@
+CHI_Five_Power_Consitution = {
+    icon = GFX_ideas_generic_constitutional_guarantees
+    enable = { always = yes }
+
+	political_power_factor = 0.15
+    political_power_gain = CHI_FP_PP_Gain
+    political_advisor_cost_factor = CHI_FP_Political_Advisor_Cost
+	trade_laws_cost_factor = CHI_FP_TL_Cost
+	economy_cost_factor = CHI_FP_Eco_Cost
+	mobilization_laws_cost_factor = CHI_FP_Mobilization_Law_Cost_Factor
+	army_morale_factor = CHI_FP_Morale_Factor
+}
+
+CHI_Han_Officials = {
+    icon = GFX_modifiers_generic_military_plans
+    enable = { always = yes }
+
+	compliance_growth = 0.25
+	local_non_core_manpower = -0.5
+	compliance_gain = 0.1
+}
+
+CHI_New_Life_Movement = {
+    icon = GFX_ideas_generic_manpower_bonus
+    enable = { always = yes }
+    
+	war_support_factor = 0.10
+	
+	# Shame
+	army_morale_factor = CHI_NL_Morale
+	
+	# Honesty
+	supply_consumption_factor = CHI_NL_Supply
+	
+	# Proper Rite
+	army_org_factor = CHI_NL_Org
+	
+	# Rightiousness
+	army_attack_factor = CHI_NL_Attack
+	
+	# Dignity
+	trade_opinion_factor = CHI_NL_Trade
+	
+	# Precision
+	research_speed_factor = CHI_NL_Research
+	
+	# Promptness
+	production_factory_efficiency_gain_factor = CHI_NL_Efficiency_Gain
+	
+	# Harmoniousness
+	stability_weekly = CHI_NL_Stability_Weekly
+	
+}
+
+CHI_Art_Of_War = {
+    icon = GFX_modifiers_generic_military_plans
+    enable = { always = yes }
+    
+	war_support_factor = 0.10
+	
+	# Detail Planning
+	
+	max_planning_factor = CHI_ART_Planning
+	
+	# Tactical Variation
+	
+	skill_bonus_factor = CHI_ART_Tactics
+	land_doctrine_cost_factor = CHI_ART_Doctrine_Cost
+	
+	# Waging War
+	
+	out_of_supply_factor = CHI_ART_Out_Supply
+	
+	# Moving and Deploying
+	
+	org_loss_when_moving = CHI_ART_ORG_Moving
+	
+	# Strategic Attacks
+	
+	land_night_attack = CHI_ART_Night
+	
+	# Terrain
+	
+	army_core_attack_factor = CHI_ART_Core_Attack
+	army_core_defence_factor = CHI_ART_Core_Defense
+	
+	# Tactical Disposition
+	
+	army_defence_factor = CHI_ART_Defense
+	
+	# 9 Battlegrounds
+	
+	max_dig_in_factor = CHI_ART_Terrain
+	
+	# Use Of Force
+	
+	army_artillery_attack_factor = CHI_ART_Artillery
+	
+	# Attack With Fire
+	
+	air_attack_factor = CHI_ART_Force
+	
+	# Strength vs Weakness
+	
+	experience_gain_factor = CHI_ART_Exp
+	
+	# Intelligence
+	
+	army_intel_factor = CHI_ART_Intel
+	
+	# Maneuvering
+	
+	army_speed_factor = CHI_ART_Speed
+}

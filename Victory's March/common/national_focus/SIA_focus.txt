@@ -580,7 +580,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			IF = {
+			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}

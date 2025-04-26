@@ -1,0 +1,73 @@
+MOR_buy_portugues_equipment = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 10
+    icon = GFX_decision_category_NOR_fascist_deploy_prep
+}
+MOR_iron_plan = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 11
+    picture = GFX_decision_cat_generic_mefo_bills
+    icon = GFX_decision_category_generic_economy
+}
+MOR_arabian = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 1
+    icon = GFX_decision_category_generic_political_actions
+}
+MOR_anguastiae = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 11
+    picture = GFX_decision_cat_picture_fatherland_front
+    icon = GFX_decision_category_generic_crisis
+}
+MOR_lybian_uprising = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 15
+    picture = GFX_decision_cat_picture_1936_election
+    icon = GFX_decision_category_NOR_fascist_deploy_prep
+}
+MOR_Egypt = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 15
+    picture = GFX_decision_cat_picture_government_in_exile
+    icon = GFX_decision_category_generic_foreign_policy
+}
+MOR_balance_of_power_category = {
+	icon = GFX_decision_category_power_struggle
+	
+	allowed = {
+		original_tag = MOR
+	}
+	
+	visible = {
+		#always = no
+	}
+}
+MOR_federal_parliament = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 14
+    picture = GFX_decision_cat_picture_government_in_exile
+    icon = GFX_decision_category_usa_congress
+	scripted_gui = mor_parliament_decision_ui
+}
+MOR_economic_expluatation_cat = {
+    allowed = {
+        tag = MOR
+    }
+    priority = 10
+    icon = GFX_decision_category_generic_economy
+}

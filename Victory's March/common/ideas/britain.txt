@@ -2,6 +2,145 @@ ideas = {
 
 	country = {
 	
+		ENG_Operation_Overlord = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				naval_invasion_penalty = -0.1
+				out_of_supply_factor = -0.05
+			}
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.1
+				breakthrough_bonus_against = 0.1
+			}
+		}
+		
+		ENG_Operation_Husky = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				naval_invasion_penalty = -0.1
+				out_of_supply_factor = -0.05
+			}
+			
+			targeted_modifier = {
+				tag = ITA
+				attack_bonus_against = 0.1
+				breakthrough_bonus_against = 0.1
+			}
+		}
+	
+		UK_Schedule_Of_Reserved_Occupations = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.05 
+				conscription_factor = -0.10
+			}
+		}
+		
+		UK_Cooperative_Trade_Unions = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+		}
+		
+		UK_Ministry_Of_Supply = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.15
+			}
+		}
+		
+		UK_Information_Campaigns = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				weekly_bombing_war_support = 0.005
+				industry_air_damage_factor = -0.1
+			}
+		}
+		
+		UK_Switch_Off_That_Light = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				weekly_bombing_war_support = 0.005
+				industry_air_damage_factor = -0.2
+			}
+		}
+		
+		UK_Air_Raid_Wardens = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				weekly_bombing_war_support = 0.005
+				industry_air_damage_factor = -0.33
+			}
+		}
+	
 		ENG_Union_Ownership = {
 			
 			allowed = {

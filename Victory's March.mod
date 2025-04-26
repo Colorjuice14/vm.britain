@@ -9,6 +9,6 @@ tags={
 	"Balance"
 }
 name="Victory's March"
-supported_version="1.14.5"
+supported_version="1.16.1"
 path="C:/Users/coult/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Victory's March"
 remote_file_id="3205529496"

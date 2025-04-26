@@ -161,7 +161,7 @@ USA_Collect_Great_War_Debt = {
 		icon = eng_propaganda_campaigns
 
 		allowed = {
-			AND = { tag = USA BEL = { exists = yes } }
+			BEL = { exists = yes }
 		}
 		
 		days_remove = 14
@@ -182,7 +182,7 @@ USA_Collect_Great_War_Debt = {
 		icon = eng_propaganda_campaigns
 
 		allowed = {
-			AND = { tag = USA FRA = { exists = yes } }
+			FRA = { exists = yes }
 		}
 		
 		days_remove = 14
@@ -203,7 +203,7 @@ USA_Collect_Great_War_Debt = {
 		icon = eng_propaganda_campaigns
 
 		allowed = {
-			AND = { tag = USA ENG = { exists = yes } }
+			ENG = { exists = yes }
 		}
 		
 		days_remove = 14
@@ -224,7 +224,7 @@ USA_Collect_Great_War_Debt = {
 		icon = eng_propaganda_campaigns
 
 		allowed = {
-			AND = { tag = USA ITA = { exists = yes } }
+			ITA = { exists = yes }
 		}
 		
 		days_remove = 14
@@ -245,7 +245,7 @@ USA_Collect_Great_War_Debt = {
 		icon = eng_propaganda_campaigns
 
 		allowed = {
-			AND = { tag = USA YUG = { exists = yes } }
+			YUG = { exists = yes }
 		}
 		
 		days_remove = 14
@@ -266,7 +266,7 @@ USA_Collect_Great_War_Debt = {
 		icon = eng_propaganda_campaigns
 
 		allowed = {
-			AND = { tag = USA SOV = { exists = yes } }
+			SOV = { exists = yes }
 		}
 		
 		days_remove = 14

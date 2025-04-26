@@ -1,0 +1,101 @@
+add_namespace = vm.chinese
+
+country_event = {
+    id = vm.chinese.0
+    title = vm.chinese.0.t
+    desc = vm.chinese.0.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+	hidden = yes
+
+    option = {
+		every_other_country = {
+			limit = { is_literally_china = yes }
+			
+			country_event = vm.chinese.1
+		}
+    }
+}
+
+country_event = {
+    id = vm.chinese.1
+    title = vm.chinese.1.t
+    desc = vm.chinese.1.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option = {
+        name = "vm.chinese.1.a"
+		
+		ai_chance = {
+			base = 10
+
+			modifier = {
+				factor = 0
+				
+				has_war = yes
+			}
+			
+			modifier = {
+				factor = 0
+								
+				every_country = {
+					limit = { has_country_flag = chinese_unity_attacker }
+					
+					tag = JAP
+				}
+			}
+		}
+		
+		every_country = {
+			limit = { has_country_flag = chinese_unity_attacker }
+			
+			declare_war_on = {
+				target = PREV
+				type = topple_government
+			}
+			
+			PREV = { clr_country_flag = chinese_unity_attacker }
+		}
+		
+        FROM = { country_event = { id = vm.chinese.2 } }
+    }
+    option = {
+        name = "vm.chinese.1.b"
+		
+		ai_chance = {
+			base = 0
+		}
+		
+        FROM = { country_event = { id = vm.chinese.3 } }
+    }
+}
+
+country_event = {
+    id = vm.chinese.2
+    title = vm.chinese.2.t
+    desc = vm.chinese.2.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option = {
+        name = "vm.chinese.2.a"
+        
+		add_war_support = 0.05
+    }
+}
+
+country_event = {
+    id = vm.chinese.3
+    title = vm.chinese.3.t
+    desc = vm.chinese.3.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option = {
+        name = "vm.chinese.3.a"
+        
+		add_war_support = -0.05
+    }
+}

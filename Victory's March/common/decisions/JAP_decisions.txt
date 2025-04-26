@@ -3572,9 +3572,9 @@ JAP_Chinese_Occupation = {
 		cost = 25
 
 		complete_effect = {
-			608 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP }}
-			614 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP }}
-			597 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP }}
+			608 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP }}
+			614 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP }}
+			597 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP }}
 		}
 	}
 	
@@ -3772,13 +3772,13 @@ JAP_Chinese_Occupation = {
 		cost = 25
 
 		complete_effect = {
-			598 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			613 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			606 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			596 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			749 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			595 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			600 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			598 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			613 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			606 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			596 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			749 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			595 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			600 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
 		}
 	}
 	
@@ -4063,14 +4063,14 @@ JAP_Chinese_Occupation = {
 		cost = 25
 
 		complete_effect = {
-			607 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			620 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			602 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			744 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			750 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			603 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			605 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			748 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			607 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			620 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			602 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			744 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			750 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			603 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			605 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			748 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
 		}
 	}
 	
@@ -4362,9 +4362,9 @@ JAP_Chinese_Occupation = {
 		cost = 25
 
 		complete_effect = {
-			751 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			752 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
-			601 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation } add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			751 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			752 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
+			601 = { add_dynamic_modifier = {modifier = JAP_Japanese_Pacification scope = JAP}}
 		}
 	}
 	

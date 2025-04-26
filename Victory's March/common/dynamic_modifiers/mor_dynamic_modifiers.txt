@@ -1,0 +1,56 @@
+MOR_chaliph_rule = {
+	enable = { always = yes }
+	icon = GFX_idea_por_monarchist_uprising
+
+	research_speed_factor = MOR_research #
+	production_factory_max_efficiency_factor = MOR_prod_eff
+	production_speed_buildings_factor = MOR_build #
+	consumer_goods_factor = MOR_consumer #
+	industrial_capacity_dockyard = MOR_doc_output #
+	industrial_capacity_factory = MOR_mil_output #
+	stability_factor = MOR_stab #
+}
+MOR_house = {
+	enable = { always = yes }
+	icon = GFX_idea_por_monarchist_uprising
+
+	consumer_goods_factor = MOR_money #
+	stability_factor = MOR_stab_h #
+	political_power_factor = MOR_pp_h #
+}
+MOR_army = {
+	enable = { always = yes }
+	icon = GFX_idea_NORDIC_army_monarchist
+
+	army_org = MOR_organization #
+	cavalry_attack_factor = MOR_cav_nas #
+	cavalry_defence_factor = MOR_cav_def #
+	army_speed_factor = MOR_army_speed #
+	equipment_capture_factor = MOR_capture #
+	army_attack_factor = MOR_attack #
+	research_speed_factor = MOR_res #
+	army_armor_attack_factor = MOR_armor_attack #
+	army_armor_breakthrough_factor = MOR_armor_attack #
+	land_doctrine_cost_factor = MOR_doctrine #
+}
+MOR_expluatation = {
+	enable = { always = yes }
+
+	consumer_goods_factor = mor_consumer_goods_factor_from_expluataion_var
+	
+	production_speed_buildings_factor = mor_building_speed_from_expluataion_var
+	industrial_capacity_factory = mor_industrial_capacity_from_expluataion_var
+	production_factory_max_efficiency_factor = mor_production_max_from_expluataion_var
+	production_factory_efficiency_gain_factor = mor_prod_growth_from_expluataion_var
+}
+MOR_berber_insurgency = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_mor_berber_separatism
+	
+	recruitable_population_factor = -0.5
+	local_building_slots_factor = -0.33
+	state_resources_factor = -0.5
+	state_production_speed_buildings_factor = -0.33
+	army_speed_factor_for_controller = -0.33
+}

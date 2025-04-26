@@ -1,0 +1,5657 @@
+MON_Stalinist_takeover = {
+	MON_Stalinist_takeover99 = {
+		priority = 9
+		icon = generic_assassination
+		is_good = yes
+		fire_only_once = yes
+		visible = {
+			if = {
+			AND = {
+			
+			has_idea = MON_affairs_2
+			NOT = {
+			has_country_leader = {
+    name = "Khorloogiin Choibalsan"
+    ruling_only = yes
+}
+
+}}}}
+cost = 75
+complete_effect = {
+remove_ideas = MON_affairs_2
+}
+}
+	MON_Stalinist_takeover11 = {
+		priority = 10
+		icon = generic_ignite_civil_war
+		days_mission_timeout = 150
+		fire_only_once = yes
+		visible = {
+			NOT = {
+				has_completed_focus = MON_advent_of_political_turmoil
+			}}
+		available = {
+		OR = {
+				has_completed_focus = MON_stalinist_crackdown
+			has_completed_focus = MON_save_the_father		
+		}}
+		activation = {	
+				has_completed_focus = MON_state
+		}
+		cancel_if_not_visible = yes
+		is_good = no
+		timeout_effect = {
+			country_event = mon.666	
+		}
+	}
+	MON_Stalinist_takeover22 = {
+		priority = 10
+		icon = generic_ignite_civil_war
+		days_mission_timeout = 90
+		fire_only_once = yes
+		available = {
+				has_completed_focus = MON_declare_the_power_of_eternal_heaven
+		}
+		activation = {
+			has_completed_focus = MON_advent_of_political_turmoil
+		}
+
+		cancel_if_not_visible = yes
+		is_good = no
+		complete_effect = {
+			country_event = mon.161
+		}
+		timeout_effect = {
+			country_event = mon.666
+		}
+	}
+	MON_Stalinist_takeover3 = {
+		priority = 9
+		icon = decision_eng_propaganda_campaigns
+		fire_only_once = no
+		cost = 50
+		visible = {
+			has_completed_focus = MON_rescind_the_religious_persecution 
+			NOT = {
+				has_completed_focus = MON_save_the_father}
+		}
+		is_good = yes
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = MON_Stalinist_takeover11 
+				days = 90
+			}
+		}
+		
+	}
+		
+		
+
+	MON_Stalinist_takeover4 = {
+		priority = 8
+		icon = decision_eng_propaganda_campaigns
+		fire_only_once = no
+		cost = 25
+		visible = {
+			has_completed_focus = MON_rescind_the_religious_persecution 
+			NOT = {
+				has_completed_focus = MON_save_the_father}
+		}
+		is_good = yes
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = MON_Stalinist_takeover11 
+				days = 50
+			}
+		}
+		
+	}
+MON_Stalinist_takeover5 = {
+		priority = 7
+		icon = decision_eng_propaganda_campaigns
+		fire_only_once = no
+		cost = 50
+		visible = {
+			has_completed_focus = MON_rescind_the_religious_persecution 
+			NOT = {
+				has_completed_focus = MON_save_the_father}
+		}
+		is_good = yes
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = MON_Stalinist_takeover11 
+				days = 70
+			
+				
+			}
+			army_experience = 10
+		}
+		
+	}
+}
+
+MON_japanese_occupation = {
+	MON_japanese_occupation_1 = { ##first occupation, north chahar
+		priority = 10
+		icon = infiltrate_state
+		days_mission_timeout = 100
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 612
+			}
+			
+		}
+		available = {
+				always = no
+		}
+		activation = {
+				has_completed_focus = MON_state
+		}
+		is_good = no
+		timeout_effect = {
+			country_event = mon.14
+		}
+	}
+	
+	MON_japanese_occupation_2 = { ##first occupation, south chahar
+		priority = 10
+		icon = infiltrate_state
+		days_mission_timeout = 130
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 611
+			}
+			 highlight_color_while_active = 3
+		}
+		available = {
+				always = no
+		}
+		activation = {
+				has_completed_focus = MON_state
+		}
+		is_good = no
+		timeout_effect = {
+			country_event = mon.50
+		}
+	}
+	
+	###Can deny expansion, ahistorical
+	
+	# mon_japanese_occupation_5 = { ##third occupation, zamiin
+		# priority = 10
+		# icon = infiltrate_state
+		# days_mission_timeout = 45
+		# fire_only_once = yes
+		# highlight_states = {
+			# highlight_state_targets = {
+				# state = 960
+			# }
+		# }
+		# available = {
+			# and = {
+			# mon = {
+				# has_completed_focus = mon_fund_defence
+			
+			# divisions_in_border_state = {
+				# size > 6
+				# state = 960
+				# border_state = 921
+			# }
+			# men = {
+				# has_war_support < 0.6
+			# }}}}
+		# activation = {
+			# and = {
+				# country_exists = men
+				# men = {
+				# owns_state = 921	
+				# }
+			# }
+		# }
+		# is_good = no
+		# timeout_effect = {
+			# country_event = mon.53
+		# }
+	# }
+	
+	# mon_japanese_occupation_6  = { ##third occupation,hohhot
+		# priority = 10
+		# icon = infiltrate_state
+		# days_mission_timeout = 80
+		# fire_only_once = yes
+		# highlight_states = {
+			# highlight_state_targets = {
+				# state = 621
+			# }
+		# }
+		# available = {
+			# and = {
+			# 621 = {
+			# controller = {
+			# divisions_in_border_state = {
+				# size > 3
+				# state = 621
+				# border_state = 921
+			# }
+			# divisions_in_border_state = {
+				# size > 3
+				# state = 621
+				# border_state = 922
+			# }}
+			# men = {
+				# has_war_support < 0.6
+			# }
+			# }}}
+		# activation = {
+			# and = {
+				# country_exists = men
+			# men = {
+				# owns_state = 611
+				# owns_state = 921
+				# owns_state = 922
+			# }
+		# }}
+		
+		# is_good = no
+		# timeout_effect = {
+			# country_event = mon.54
+		# }
+	
+	# }
+	# mon_japanese_occupation_7 = { ##fourth occupation, suiyuan 
+		# priority = 10
+		# icon = infiltrate_state
+		# days_mission_timeout = 70
+		# fire_only_once = yes
+		# highlight_states = {
+			# highlight_state_targets = {
+				# state = 937
+			# }
+		# }
+		# available = {
+			# and = {
+			# 937 = {
+			# controller = {
+			# divisions_in_border_state = {
+				# size > 3
+				# state = 937
+				# border_state = 621
+			# }}}
+# men = {
+	# has_war_support < 0.65
+# }
+# }}
+		# activation = {
+			# and = {
+				# country_exists = men
+				# men = {
+				# owns_state = 621
+			# }}
+		# }
+		# is_good = no
+		# timeout_effect = {
+			# country_event = mon.55
+		# }
+	
+	# }
+	
+	# mon_japanese_occupation_8 = { ##fourth occupation,dariganga
+		# priority = 10
+		# icon = infiltrate_state
+		# days_mission_timeout = 60
+		# fire_only_once = yes
+		# highlight_states = {
+			# highlight_state_targets = {
+				# state = 920
+			# }
+		# }
+		# available = {
+			# and = {
+			# mon = {
+				# has_completed_focus = mon_fund_defence
+			# divisions_in_border_state = {
+				# size > 9
+				# state = 920
+				# border_state = 921
+			# }}
+
+# men = {
+	# has_war_support < 0.65
+# }
+# }}
+		# activation = {
+			# and = {
+				# country_exists = men
+				# men = {
+				# owns_state = 921
+				# owns_state = 960
+				# }
+			
+			# }
+		# }
+		# is_good = no
+		# timeout_effect = {
+			# country_event = mon.56
+		# }
+	
+	# }
+	
+	# mon_japanese_occupation_9 = { ##border war zamiin
+		# cost = 75
+		# highlight_states = {
+			# highlight_state_targets = {
+				# state = 960
+			# }
+		# }
+		# icon = border_war
+		# visible = {
+		
+			# mon = {
+			# not = { 
+				# owns_state = 960
+		# }}}
+		# available = {
+			# mon = {
+			# not = { 
+				# owns_state = 960
+			# }
+			# 960 = {
+			# is_demilitarized_zone = no
+		# }}}
+		# selectable_mission = yes
+		# fire_only_once = yes
+		# complete_effect = {
+			
+			# start_border_war = {
+				# change_state_after_war = yes
+				# attacker = {
+					# state = 909
+					# num_provinces = 3
+					# on_win = mon.57
+					# on_lose = mon.58
+				# }
+				# defender = {
+					# state = 960
+					# num_provinces = 1
+					# on_win = japan.25
+					# on_lose = japan.24
+				# }
+			
+			# }
+			# }
+		# }
+	# mon_japanese_occupation_10 = { ##border war dariganga
+		# cost = 75
+		# highlight_states = {
+			# highlight_state_targets = {
+				# state = 920
+			# }
+		# }    
+		# icon = border_war
+		# visible = {
+			# mon = {
+			# not = { 
+				# owns_state = 920
+		# }}}
+		# available = {
+			# mon = {
+			# not = { 
+				# owns_state = 920
+			# }
+			# 920 = {
+			# is_demilitarized_zone = no
+		# }}}
+		# selectable_mission = yes
+		# fire_only_once = yes
+		# complete_effect = {
+			
+			# start_border_war = {
+				# change_state_after_war = yes
+				# attacker = {
+					# state = 819
+					# num_provinces = 2
+					# on_win = mon.57
+					# on_lose = mon.58
+				# }
+				# defender = {
+					# state = 920
+					# num_provinces = 2
+					# on_win = japan.25
+					# on_lose = japan.24
+				# }
+			
+			# }
+			# }
+		# }
+}
+
+
+
+
+
+MON_recruit = {
+	MON_recruit1 = {
+	icon = GFX_decision_generic_prepare_civil_war
+	cost = 25
+	fire_only_once = yes
+	selectable_mission = yes
+	complete_effect = {
+		load_oob = MON_DM
+	}
+	visible = {
+		has_completed_focus = MON_Dayar_Mongol
+	}
+	}
+	
+	
+	MON_recruit2 = {
+	icon = GFX_decision_generic_prepare_civil_war
+	cost = 25
+	fire_only_once = yes
+	selectable_mission = yes
+	complete_effect = {
+		load_oob = MON_CHAHA
+	}
+		visible = {
+			has_completed_focus = MON_secure_the_chahar_stronghold
+	}
+	}
+	
+	
+	MON_recruit3 = {
+	icon = GFX_decision_generic_prepare_civil_war
+	cost = 25
+	fire_only_once = yes
+	selectable_mission = yes
+	complete_effect = {
+		load_oob = MON_TUVA
+	}
+	visible = {
+		has_completed_focus = MON_secure_tuvan_clans
+		}
+	}
+}
+
+
+MON_Incite = {
+	MON_Incite1 = { ##begin chag
+	priority = 9
+	icon = GFX_decision_generic_prepare_civil_war
+	cost = 50
+	fire_only_once = yes
+	selectable_mission = yes
+	days_remove = 60
+	remove_effect = {
+		MON = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5000
+				producer = MON
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -100
+				producer = MON
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = -100
+				producer = MON
+			}
+			activate_decision = MON_Incite11
+		}
+	}}
+	
+	MON_Incite11 = { ##chag attak
+	priority = 10
+	icon = GFX_decision_generic_ignite_civil_war
+	cost = 250
+	fire_only_once = yes
+	selectable_mission = yes
+	visible = {
+		if = {
+		has_decision = MON_Incite1 
+	}}
+	days_remove = 15
+	remove_effect = {
+		country_event = mon.37
+	}}
+		
+		
+	
+	MON_Incite2 = { ##fund ilkh
+	priority = 7
+	icon = GFX_decision_generic_prepare_civil_war
+	cost = 50
+	fire_only_once = yes
+	selectable_mission = yes
+	days_remove = 60
+	remove_effect = {
+		MON = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5000
+				producer = MON
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -100
+				producer = MON
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = -100
+				producer = MON
+			}
+			activate_decision = MON_Incite22
+		}
+		}}
+	
+	MON_Incite22 = { ##ilkh attack
+	priority = 8
+	icon = GFX_decision_generic_ignite_civil_war
+	cost = 250
+	fire_only_once = yes
+	selectable_mission = yes
+	visible = {
+		if = {
+		has_decision = MON_Incite2
+	}}
+	days_remove = 15
+	remove_effect = {
+		country_event = mon.38
+	}}
+
+}
+
+MON_khalk = {
+	MON_khalk1 = {
+	cost = 50 
+	icon = border_war
+		activation = {
+			tag = MON
+			has_completed_focus = MON_stage_an_incident_at_khalkhingol
+		}
+		selectable_mission = yes
+		fire_only_once = yes
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 819
+					num_provinces = 2
+					on_win = mon.34
+					on_lose = mon.35
+				}
+				defender = {
+					state = 761
+					num_provinces = 3
+					on_win = wtt_manchukou.24
+					on_lose = wtt_manchukou.25
+				}
+			
+			}
+			}
+		}
+
+	MON_khalk3 = {
+	cost = 150
+		icon = generic_industry
+		visible = {
+			
+			has_border_war_with = MAN
+		}
+		selectable_mission = yes
+		fire_only_once = yes
+		complete_effect = {
+			
+				finalize_border_war = {
+				attacker_win = yes
+				attacker = 819
+				defender = 761
+			}
+		}}
+	}
+# MON_Jur = {
+	# MON_Jur1 = { ##atatck barag
+	# cost = 50 
+	# icon = border_war
+		# activation = {
+			# has_completed_focus = MON_make_the_jurchen_gambit
+		# }
+		# visible = {
+			# NOT = {
+				# has_country_flag = MON_Jurwin1
+			# }}
+		# available = {
+		# AND = {
+			# MAN = {
+			# has_war = yes
+		# }
+		# MON = {
+			# has_war = no
+		# }}}
+		# selectable_mission = yes
+		# fire_only_once = no
+		# complete_effect = {
+			
+				# start_border_war = {
+				# change_state_after_war = yes
+				# attacker = {
+					# state = 819
+					# num_provinces = 3
+					# on_win = mon.36
+					# on_lose = mon.35
+				# }
+				# defender = {
+					# state = 761
+					# num_provinces = 4
+					# on_win = wtt_manchukou.24
+					# on_lose = wtt_manchukou.25
+				# }
+			# }
+			# }
+			
+		# }
+	# MON_Jur2 = { ##barag win
+	# cost = 100
+		# icon = generic_industry
+		 # visible = {
+		 # AND = {
+			# has_border_war_with = MAN
+		# NOT = {
+			# has_country_flag = MON_Jurwin1
+		# }}}
+		# selectable_mission = yes
+		# fire_only_once = yes
+		
+		# complete_effect = {
+				
+					# finalize_border_war = {
+						# attacker_win = yes 
+						# attacker = 819
+						# defender = 761
+					# }
+			# }
+		# }
+	
+	# MON_Jur3 = { ##khyalar
+	# cost = 75
+	# icon = border_war
+		# activation = {
+			# has_completed_focus = MON_make_the_jurchen_gambit
+		# }
+		# visible = {
+		# NOT = {
+			# MON = {
+			# controls_state = 927
+		# }}
+			# MON = {
+				# has_country_flag = MON_Jurwin1
+			# }}
+		# available = {
+		# AND = {
+			# MAN = {
+			# has_war = yes
+			# }
+		# MON = {
+			# has_war = no
+		# }}}
+		# selectable_mission = yes
+		# fire_only_once = no
+		# complete_effect = {
+			# MAN = {
+				# create_wargoal = {
+					# type = take_state_focus 
+					# target = MON
+					# generator = { 927 761 }
+				# }
+			# }
+				# start_border_war = {
+				# change_state_after_war = yes
+				# attacker = {
+					# state = 761
+					# num_provinces = 2
+					# on_win = mon.57
+					# on_lose = mon.58
+				# }
+				# defender = {
+					# state = 927
+					# num_provinces = 1
+					# on_win = japan.25
+					# on_lose = japan.24
+				# }
+			# }
+			# }
+			
+		# }
+	# MON_Jur4 = { #khyalar win
+	# cost = 150
+		# icon = generic_industry
+		 # visible = {
+			# AND = {
+			# has_country_flag = MON_Jurwin1
+			# has_border_war_with = MAN
+		# }}
+		# selectable_mission = yes
+		# fire_only_once = yes
+		
+		# complete_effect = {
+			
+					# finalize_border_war = {
+						# attacker_win = yes 
+						# attacker = 761
+						# defender = 927
+					# }
+			# }
+		# }
+	# MON_Jur5 = { ##develop khyalar
+		# cost = 100
+		# icon = generic_industry
+		# visible = {
+		# AND = {
+			# MON = {
+				# controls_state = 927 
+				# controls_state = 761
+		# }}}
+		# selectable_mission = yes
+		# fire_only_once = yes
+		# complete_effect = {
+			# 927 = {
+			# add_core_of = MON
+				# add_building_construction = {
+					# type = air_base
+					# level = 1
+					# instant_build = yes
+				# }
+				# add_building_construction = {
+					# type = supply_node
+					# level = 1
+					# instant_build = yes
+					# province = 4852
+				# }
+				
+			# }
+			# 761 = {
+			# add_core_of = MON
+			# add_building_construction = {
+					# type = air_base
+					# level = 1
+					# instant_build = yes
+				# }
+			# }
+			
+			# build_railway = {
+				# level = 1
+				# start_province = 13150
+				# target_province = 4852
+			# }
+			
+			# build_railway = {
+				# level = 1
+				# start_province = 10578
+				# target_province = 7743
+			# }
+		# }
+		# }
+			
+	
+	# }
+MON_bauxite = {
+	MON_bauxite1 = {
+		priority = 5
+		icon = aluminium
+		cost = 150
+		activation = {
+			tag = MON
+			has_completed_focus = MON_bauxitefocus
+		}
+		visible = {
+			NOT = {
+				has_idea = MON_BauxPay_2 
+		}}
+		available = {
+			
+			FRA = {
+				controls_state = 741
+				controls_state = 670
+			}
+		}
+		selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			FRA = {
+				country_event = mon.28
+		}}
+		}
+		
+		# MON_bauxite2 = {
+		# priority = 5
+		# icon = aluminium
+		# cost = 150
+		# activation = {
+			# tag = MON
+			# has_completed_focus = MON_bauxitefocus
+		# }
+		# visible = {
+			# NOT = {
+				# has_idea = MON_BauxPay_2 
+		# }}
+		# available = {
+			
+			# MAL = {
+				# controls_state = 918
+				# controls_state = 919
+			# }
+		# }
+		# selectable_mission = yes 
+		# is_good = yes
+		# complete_effect = {
+			# ENG = {
+				# country_event = mon.30
+		# }}
+		# }
+		
+		MON_bauxite3 = {
+		priority = 5
+		icon = aluminium
+		cost = 150
+		activation = {
+			tag = MON
+			has_completed_focus = MON_bauxitefocus
+		}
+		visible = {
+			NOT = {
+				has_idea = MON_BauxPay_2 
+		}}
+		available = {
+		
+		INS = {
+				controls_state = 668
+				controls_state = 669
+			}
+		}
+		selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			HOL = {
+				country_event = mon.32
+		}}
+		}
+}
+
+MON_ChiMil = {
+	MON_ChiMil1 = {
+	cost = 100
+	icon = generic_army_support
+	fire_only_once = yes
+	activation = {
+		tag = MON
+		has_completed_focus = MON_Chi_Mil
+	}
+	available = {
+		MON = {
+			controls_state = 616
+		}
+	}
+	selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			set_country_flag = MON_chimil_token1
+	}
+}
+
+MON_ChiMil2 = {
+	cost = 100
+	icon = generic_army_support
+	fire_only_once = yes
+	activation = {
+		tag = MON
+		has_completed_focus = MON_Chi_Mil
+	}
+	available = {
+		MON = {
+			controls_state = 283
+		}
+	}
+	selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			
+			set_country_flag = MON_chimil_token2
+	}
+}
+
+MON_ChiMil3 = {
+	cost = 100
+	icon = generic_army_support
+	fire_only_once = yes
+	activation = {
+		tag = MON
+		has_completed_focus = MON_Chi_Mil
+	}
+	available = {
+		MON = {
+			controls_state = 621
+		}
+	}
+	selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			
+			set_country_flag = MON_chimil_token3
+	}
+}
+
+MON_ChiMil4 = {
+	cost = 100
+	icon = generic_army_support
+	fire_only_once = yes
+	activation = {
+		tag = MON
+		has_completed_focus = MON_Chi_Mil
+	}
+	available = {
+		MON = {
+			controls_state = 746
+		}
+	}
+	selectable_mission = yes 
+		is_good = yes
+	complete_effect = {
+		set_country_flag = MON_chimil_token4
+	}
+	
+}
+
+MON_ChiMil5 = {
+	cost = 100
+	icon = generic_army_support
+	fire_only_once = yes
+	activation = {
+		tag = MON
+		has_completed_focus = MON_Chi_Mil
+	}
+	available = {
+		MON = {
+			controls_state = 617
+		}
+	}
+	selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			
+			set_country_flag = MON_chimil_token5
+	}
+}
+}
+
+
+
+MON_econ_intervention = {
+	MON_econ_intervention1 = {
+		cost = 50
+		icon = GFX_decision_generic_construction
+		fire_only_once = yes
+		activation = {
+			tag = MON
+			has_completed_focus = MON_soviet_economics
+		}
+		visible = {
+			if = {
+			NOT = {
+				
+				has_country_flag = MON_econ_token3
+			
+		}
+		}	}
+		selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			add_ideas = MON_eco_1
+			set_country_flag = MON_econ_token2
+		}
+	}
+		
+	
+	MON_econ_intervention11 = {
+	cost = 50
+		fire_only_once = yes
+		icon = GFX_decision_generic_construction
+		visible = {
+			if = {
+			MON = {
+					has_idea = MON_eco_1
+				}
+			}
+		
+			NOT = {
+				has_country_flag = MON_econ_token3
+				
+				}
+		}
+		
+		selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = MON_eco_1
+				add_idea = MON_eco_2
+			}
+		}
+	}
+	
+	
+	
+	MON_econ_intervention2 = {
+		icon = GFX_decision_generic_civil_support
+		cost = 50
+		fire_only_once = yes
+		activation = {
+			tag = MON
+			has_completed_focus = MON_soviet_economics
+		}
+		visible = {
+			if = {
+			NOT = {
+				has_country_flag = MON_econ_token2
+			}
+		}}
+		
+
+		
+		selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			add_ideas = MON_eco_3
+			set_country_flag = MON_econ_token3
+		}
+	}
+	
+	
+	MON_econ_intervention22 = {
+	icon = GFX_decision_generic_civil_support
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			if = {
+				MON = {
+					has_idea = MON_eco_3
+				}
+			}
+			NOT = {
+				has_country_flag = MON_econ_token2
+				}
+		}
+		selectable_mission = yes 
+		is_good = yes
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = MON_eco_3
+				add_idea = MON_eco_4
+			}
+		}
+	}
+	
+	
+	
+	MON_econ_NEP_bad = {
+	fire_only_once = yes
+	days_mission_timeout = 250
+	is_good = no
+	icon = GFX_decision_generic_break_treaty
+	activation = {
+		if = {
+			MON = {
+				has_completed_focus = MON_NEP
+			}}}
+	available = {
+	if = {
+		has_country_flag = MON_econ_token1
+	}}
+	
+	
+	
+	complete_effect = {
+		remove_ideas = {
+			MON_NEP_ohmygod
+	}}
+	timeout_effect = {
+		MON = {
+			leave_faction = yes
+			
+		}
+		SOV = {
+			declare_war_on = {
+				target = MON
+				type = topple_government
+		}}}
+	
+	}
+		
+	
+	
+	MON_econ_NEP_good = {
+	fire_only_once = yes
+	selectable_mission = yes
+	cost = 100
+	is_good = yes
+	visible = {
+		if = {
+		MON = {
+			has_active_mission = MON_econ_NEP_bad
+	}}}
+	complete_effect = {
+		set_country_flag = MON_econ_token1
+	}
+	}
+} 
+	
+	
+MON_market_econ_category = {
+	
+	MON_market_econ_1 = {##mining corps
+		fire_only_once = yes
+		icon = GFX_decision_generic_construction
+		selectable_mission = yes
+		cost = 100
+		available = {
+		if = {
+			AST  = {
+				has_opinion = {
+					target = MON
+					value > 69
+				}
+			}
+		}}
+	complete_effect = {
+	AST = {
+	add_timed_idea = {
+		idea = MON_NMC_payments
+		days = 300
+	}}
+		MON = {
+		add_timed_idea = {
+		idea = MON_NMC_idea
+		days = 300
+		}
+		add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+	}
+	}}
+	
+	
+	MON_market_econ_2 = {##extra mining
+		fire_only_once = yes
+		icon = GFX_decision_generic_construction
+		selectable_mission = yes
+		cost = 200
+		available = {
+			if = {
+				has_idea = MON_NMC_idea
+		}}
+		complete_effect = {
+			add_resource = {
+					type = oil
+					amount = 3
+					state = 820 
+				}
+			# add_resource = {
+					# type = oil
+					# amount = 2
+					# state = 909
+				# }
+			add_resource = {
+					type = steel
+					amount = 5
+					state = 819
+				}
+			# add_resource = {
+					# type = steel
+					# amount = 4
+					# state = 915
+				# }
+			# add_resource = {
+					# type = chromium
+					# amount = 4
+					# state = 910
+				# }
+			add_resource = {
+					type = tungsten
+					amount = 2
+					state = 818
+				}
+		}	
+	}
+	MON_market_econ_3 = {##consumer stimulus
+		fire_only_once = yes
+		icon = GFX_decision_generic_political_discourse
+		selectable_mission = yes
+		cost = 100
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = MON_consumer_stimulus
+				days = 100
+			}
+				add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+			
+		}
+	}
+	MON_market_econ_4 = {##devalue the togrog
+		fire_only_once = yes
+		icon = GFX_decision_generic_political_rally
+		selectable_mission = yes
+		cost = 100
+		complete_effect = {
+			add_ideas = MON_devalued_currency
+			add_stability = -0.05
+		}
+	}
+	MON_market_econ_5 = {##farming subsidies
+		fire_only_once = yes
+		icon = GFX_decision_gre_paying_ifc_debt
+		selectable_mission = yes
+		cost = 100
+		complete_effect = {
+			add_timed_idea = { 
+			idea = MON_farming_sub
+			days = 90
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
+	}
+	
+	MON_market_econ_6 = {##privatise railroads
+		fire_only_once = yes
+		icon = GFX_decision_generic_merge_plant_materiel
+		selectable_mission = yes
+		cost = 150
+		complete_effect = {
+			add_ideas = MON_MRC
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
+	}
+	
+	MON_market_econ_7 = {##foreign military investment
+		fire_only_once = yes
+		icon = GFX_decision_generic_factory
+		selectable_mission = yes
+		cost = 150
+		available = {
+		if = {
+		USA = {
+			has_opinion = {
+				target = MON
+				value > 69
+		}}}}
+		complete_effect = {
+			add_ideas = MON_truck_prefab
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
+	}
+	
+	MON_market_econ_8 = {##relinquish state control of industry
+		fire_only_once = yes
+		icon = GFX_decision_generic_construction
+		selectable_mission = yes
+		cost = 150
+		complete_effect = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+		}
+	}
+	
+	MON_market_econ_9 = { ##domestic minting
+	icon = GFX_decision_hol_attract_foreign_investors
+	fire_only_once = yes
+		selectable_mission = yes
+		cost = 100
+		available = {
+			if = {
+				has_idea = MON_devalued_currency
+		}}
+		complete_effect = {
+			add_stability = 0.15
+			add_political_power = 100
+		}
+}
+MON_market_econ_10 = {##re-instate the gold standard
+icon = GFX_decision_gre_investment_decisions
+		fire_only_once = yes
+		selectable_mission = yes
+		cost = 150
+		available = {
+			if = {
+				has_idea = MON_devalued_currency
+		}}
+		complete_effect = {
+		remove_ideas = MON_devalued_currency
+		add_ideas = MON_gold_standard
+		}
+	}
+}
+
+MON_greatermon_category = {
+	MON_greatermon_1 = {##Pressure Soviets
+	fire_only_once = yes
+	icon = GFX_decision_generic_operation
+		selectable_mission = yes
+		cost = 150
+		available = {
+			if = {
+			AND = {
+			SOV = {
+				has_war = yes }
+			has_army_manpower = {
+				size > 300000
+			}
+			num_divisions_in_states = {
+			count > 29
+			states = { 818 820 330 817 }
+			
+		}}}}
+		
+		complete_effect = {
+		custom_effect_tooltip = MON_Sovietborder_EXPL
+			SOV = {
+				country_event = { id = soviet.72 days = 3 }
+			}}
+	}
+	
+	MON_greatermon_2 = {##Pressure China
+	fire_only_once = yes
+	icon = GFX_decision_generic_operation
+		selectable_mission = yes
+		cost = 150
+		available = {
+		
+		
+		if = {
+			AND = {
+			has_army_manpower = {
+				size > 300000
+			}
+		# divisions_in_state = {
+				
+				# size > 2
+				# state = 956
+			# }
+	
+		divisions_in_state = {
+				
+			size > 9
+				state = 817
+			}
+		# divisions_in_state = {
+				
+				# size > 6
+				# state = 909
+			# }
+		}}}
+		
+		complete_effect = {
+			CHI = {
+				country_event = { id = china.206 days = 3 }
+			}}
+	}
+	MON_greatermon_3 = {##West Govi SHX
+	fire_only_once = yes
+	icon = GFX_decision_generic_operation
+		selectable_mission = yes
+		cost = 150
+		visible = {
+		if = {
+		AND = {
+			CHI = {
+			owns_state = 611
+			}
+			SHX = {
+				# owns_state = 937
+				owns_state = 621 
+			}}}}
+			available = {
+		if = {
+			AND = {
+			has_army_manpower = {
+				size > 250000
+			}
+		# divisions_in_state = {
+				
+				# size > 9
+				# state = 909
+			# }
+		divisions_in_state = {
+				
+				size > 9
+				state = 817
+			}
+
+		}}}
+		complete_effect = {
+			CHI = {
+				country_event = { id = china.207 days = 3 }
+			}}
+	}
+	
+	MON_greatermon_4 = {##West Govi JAp
+	fire_only_once = yes
+	icon = GFX_decision_generic_operation
+		selectable_mission = yes
+		cost = 150
+		visible = {
+		if = {
+		OR = {
+			MEN = {
+				# owns_state = 937
+				owns_state = 621 
+				# owns_state = 921
+				owns_state = 612
+			}
+			JAP = {
+				# owns_state = 937
+				owns_state = 621 
+				# owns_state = 921
+				owns_state = 612
+			}
+			MAN = {
+				# owns_state = 937
+				owns_state = 621
+# owns_state = 921
+				owns_state = 612				
+			}
+			}}}
+			
+			available = {
+		if = {
+			AND = {
+			has_army_manpower = {
+				size > 400000
+			}
+		# divisions_in_state = {
+				
+				# size > 9
+				# state = 909
+			# }
+		divisions_in_state = {
+				
+				size > 9
+				state = 817
+			}
+		# divisions_in_state = {
+				
+				# size > 9
+				# state = 920
+			# }
+		divisions_in_state = {
+				
+				size > 9
+				state = 819
+			}
+
+		}}}
+		complete_effect = {
+			JAP = {
+				country_event = { id = japan.23 days = 3 }
+			}}
+	}
+	
+	MON_greatermon_5 = {##Greater Mongolia
+	fire_only_once = yes
+	icon = GFX_decision_eng_trade_unions_support
+		selectable_mission = yes
+		cost = 50
+		
+		available = {
+			if = {
+			AND = {
+			all_controlled_state = {
+			
+			}
+					controls_state = 618
+					# controls_state = 957
+					controls_state = 760
+					# controls_state = 970
+					controls_state = 756
+					controls_state = 329
+					# controls_state = 959
+					# controls_state = 939
+					# controls_state = 937 
+					controls_state = 611
+					controls_state = 621
+					controls_state = 612
+					# controls_state = 921
+					controls_state = 761
+					
+			}}}
+		complete_effect = {
+			set_cosmetic_tag = MON_GreaterMongolia
+					#china
+					add_state_core = 618
+					# add_state_core = 957
+					add_state_core = 760
+					# add_state_core = 970
+					add_state_core = 756
+					# add_state_core = 959
+					# add_state_core = 939
+					# add_state_core = 937 
+					add_state_core = 611
+					add_state_core = 621
+					add_state_core = 612
+					# add_state_core = 921
+					add_state_core = 761
+					# add_state_core = 916
+					add_state_core = 746 
+					# add_state_core = 922
+					##manchu
+					# add_state_core = 927
+					# add_state_core = 934 
+					add_state_core = 610
+					# add_state_core = 925
+					add_state_core = 715
+					# add_state_core = 928
+					# add_state_core = 930
+					##sov
+					add_state_core = 564 
+					add_state_core = 563 
+					# add_state_core = 938 
+					add_state_core = 566
+					# add_state_core = 947 
+					add_state_core = 654 
+add_country_leader_trait = MON_great_uniter
+		}
+	}
+	
+	MON_greatermon_6 = {##peace soviets
+	fire_only_once = yes
+		selectable_mission = yes
+		cost = 150
+		visible = {
+			if = {
+			AND = {
+				MON = {
+					has_war_with = SOV
+					controls_state = 329
+					# controls_state = 959
+					# controls_state = 939
+					controls_state = 564
+					
+			}}}}
+		complete_effect = {
+		 white_peace = SOV
+		 transfer_state = 329
+					# transfer_state = 959
+					# transfer_state = 939
+					transfer_state = 564
+		}
+	}
+	
+	MON_greatermon_7 = {##peace china
+	fire_only_once = yes
+		selectable_mission = yes
+		cost = 150
+		visible = {
+			if = {
+			AND = {
+				MON = {
+					has_war_with = CHI
+					# controls_state = 932
+					controls_state = 616
+					controls_state = 760
+
+			}}}}
+		complete_effect = {
+		white_peace = CHI
+		white_peace = XSM
+		white_peace = SHX
+		white_peace = SIK
+		white_peace = PRC
+		white_peace = GXC
+		white_peace = YUN
+		# transfer_state = 932
+		transfer_state = 616
+		transfer_state = 760
+		}
+		
+	}
+	MON_greatermon_8 = {##peace japan
+	fire_only_once = yes
+		selectable_mission = yes
+		cost = 150
+		visible = {
+			if = {
+			AND = {
+				OR = {
+					has_war_with = MAN
+					has_war_with = JAP
+					has_war_with = MEN
+				}
+					controls_state = 761
+					controls_state = 612
+					controls_state = 611
+					controls_state = 621
+					# controls_state = 937
+					controls_state = 921
+					
+
+			}}}
+		complete_effect = {
+		white_peace = MEN
+		white_peace = MAN
+		white_peace = JAP
+		white_peace = SIA
+	# transfer_state = 937
+transfer_state = 621
+# transfer_state = 921
+transfer_state = 612
+transfer_state = 611
+transfer_state = 761
+		}
+	}
+	}
+
+		
+MON_yuan_category = {
+	MON_yuan_999 = { ##form empire 
+	fire_only_once = yes
+	icon = generic_monarchy
+		selectable_mission = yes
+		cost = 50
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 608 }
+			}
+		}
+	visible = {
+	AND = {
+		has_completed_focus = MON_restore_the_dragon_throne
+		617 = { controls_or_subject_of = yes }
+		755 = { controls_or_subject_of = yes }
+		622 = { controls_or_subject_of = yes }
+		615 = { controls_or_subject_of = yes }
+		613 = { controls_or_subject_of = yes }
+		594 = { controls_or_subject_of = yes }
+		325 = { controls_or_subject_of = yes }
+		608 = { controls_or_subject_of = yes }
+		605 = { controls_or_subject_of = yes }
+		}
+	}
+	complete_effect = {
+		set_cosmetic_tag = MON_Yuan_2
+		remove_country_leader_trait = visionary_of_the_new_yuan
+		remove_country_leader_trait = legitimate_heir
+		add_country_leader_trait = yuan_emperor
+		set_country_leader_name = {
+			ideology = neutrality
+			name = "Setsen Khan Demchugdongrub"
+		}
+		custom_effect_tooltip = china_EXPL
+		hidden_effect = {
+		every_state = {
+				limit = { is_core_of = CHI }
+				add_core_of = ROOT
+			}
+		}}
+	}
+
+	
+	MON_yuan_1 = { ##xinjiang invade
+	fire_only_once = yes
+	icon = GFX_decision_generic_industry
+		selectable_mission = yes
+		cost = 150
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 760 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_surmount_the_taihang_mountains
+		}
+		available = {
+			if = {
+			AND = {
+				has_completed_focus = MON_surmount_the_taihang_mountains
+# divisions_in_border_state = {
+				# size > 2
+				# state = 955
+				# border_state = 957
+	# }
+
+divisions_in_border_state = {
+				size > 3
+				state = 818
+				border_state = 760
+	}}}}
+		
+		
+		days_remove = 30
+		
+		remove_effect = {
+		MON = {
+				declare_war_on = {
+				type = annex_everything
+				target = SIK
+			}
+			}
+		SIK = {
+			add_timed_idea = {
+				idea = MON_hordes_coming2
+				days = 95
+			}
+			leave_faction = yes
+			}
+		}
+	}
+	MON_yuan_korea = { ##korea coup
+	fire_only_once = yes
+	days_mission_timeout = 50
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 527 }
+			}
+		}
+		priority = 10
+		icon = generic_ignite_civil_war
+		fire_only_once = yes
+		visible = {
+			NOT = {
+				has_completed_focus = MON_harbintruce
+			}}
+		available = {	
+				has_completed_focus = MON_harbintruce
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			country_event = mon.94
+		}
+	}
+	
+	
+	
+	MON_yuan_111 = { ##xinjiang coup
+	fire_only_once = yes
+	icon = GFX_decision_eng_blackshirt_march
+		selectable_mission = yes
+		cost = 75
+		days_remove = 30
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 617 }
+			}
+		}
+		visible = {
+
+				has_completed_focus = MON_Ma
+		}
+		available = {
+			if = {
+			AND = {
+				has_completed_focus = MON_Ma
+				has_equipment = {
+					infantry_equipment > 7499
+				}
+				OR = {
+				has_collaboration = {
+					target = SIK
+					value > 0.2
+				}
+				network_strength = {
+					target = SIK
+					value > 69
+				}
+				}
+				SIK = {
+					has_war = yes
+					OR = {
+					has_war_support < 0.5
+					has_stability < 0.5
+				}
+				}
+# divisions_in_border_state = {
+				# size > 1
+				# state = 955
+				# border_state = 957
+	# }
+divisions_in_border_state = {
+				size > 3
+				state = 818
+				border_state = 760
+	}
+}}}
+		
+		
+		complete_effect = { 
+			add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -7500
+    
+}}	
+
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = SIK_token_puppet
+			}
+		MON = {
+			country_event = { id = mon.59 hours = 0 }
+		}
+	}}
+	MON_yuan_122 = { ##xinjiang develop
+	fire_only_once = yes
+	icon = GFX_decision_generic_construction
+		selectable_mission = yes
+		cost = 75
+		days_remove = 50
+		
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 759 }
+			}
+		}
+		available = {
+			if = {
+			AND = {
+				617 = {
+					controls_or_subject_of = yes 
+				}
+				760 = {
+					controls_or_subject_of = yes 
+				}
+				759 = {
+					controls_or_subject_of = yes 
+				}
+			}
+			NOT = {
+					has_idea = MON_CivUse2
+				}
+		}}
+		complete_effect = {
+			add_ideas = MON_CivUse2
+		}
+		remove_effect = {
+		remove_ideas = MON_CivUse2
+			build_railway = {
+				start_province = 1781
+				target_province = 4947
+				level = 1
+			}
+			build_railway = {
+				start_province = 1781
+				target_province = 4709
+				level = 1
+			}	
+			617 = { 
+			add_building_construction = {
+				type = air_base
+				level = 1
+			}}
+			759 = {
+			add_building_construction = {
+				type = supply_node
+				level = 1
+				province = 4947
+			}
+			add_building_construction = {
+				type = air_base
+				level = 1
+			}}
+		
+			
+		}
+	}
+	
+	MON_yuan_2 = { ##XSM war
+	fire_only_once = yes
+	icon = GFX_decision_generic_prepare_civil_war
+		selectable_mission = yes
+		cost = 150
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 970 }
+			}
+		}
+		visible = {
+				has_completed_focus = MON_surmount_the_taihang_mountains
+		}
+		available = {
+			if = {
+			AND = {
+				has_completed_focus = MON_surmount_the_taihang_mountains
+# divisions_in_border_state = {
+				# size > 3
+				# state = 817
+				# border_state = 970
+	# }
+divisions_in_border_state = {
+				size > 3
+				state = 817
+				border_state = 756
+	}
+}}}
+		days_remove = 30
+		
+		remove_effect = {
+		MON = {
+				declare_war_on = {
+				type = annex_everything
+				target = XSM
+			}
+			}
+		XSM = {
+			add_timed_idea = {
+				idea = MON_hordes_coming2
+				days = 90
+			}
+			leave_faction = yes
+			}
+		}
+	}
+	MON_yuan_221 = { ##XSM Puppet
+	fire_only_once = yes
+	icon = GFX_decision_generic_arrest
+		selectable_mission = yes
+		cost = 75
+		days_remove = 30
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 755 }
+			}
+		}
+		visible = {
+				has_completed_focus = MON_Ma
+		}
+		available = {
+			if = {
+			AND = {
+				has_completed_focus = MON_Ma
+				has_equipment = {
+					infantry_equipment > 7499
+				}
+				OR = {
+				has_collaboration = {
+					target = XSM
+					value > 0.2
+				}
+				network_strength = {
+					target = XSM
+					value > 69
+				}
+				}
+				XSM = {
+					has_war = yes
+					OR = {
+					has_war_support < 0.5
+					has_stability < 0.5
+				}
+				}
+				# divisions_in_border_state = {
+				# size > 2
+				# state = 817
+				# border_state = 970
+	# }
+divisions_in_border_state = {
+				size > 2
+				state = 817
+				border_state = 756
+	}
+}}}
+		
+		
+		complete_effect = { 
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -7500
+    
+		}}	
+
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = XSM_token_puppet 
+			}
+		country_event = { id = mon.60 hours = 0 }
+	}
+	}
+	
+	
+	
+	# MON_yuan_3 = { ##SHX
+	# fire_only_once = yes
+		# selectable_mission = yes
+		# icon = GFX_decision_hol_draw_up_staff_plans
+		# cost = 150
+		# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 937 }
+			# }
+		# }
+		# visible = {
+			# has_completed_focus = MON_surmount_the_taihang_mountains
+		# }
+		# days_remove = 45
+		# available = {
+			# if = {
+			# AND = {
+				# NOT = {
+					# has_idea = MON_CivUse
+				# }
+			# has_completed_focus = MON_surmount_the_taihang_mountains
+			# divisions_in_state = {
+				# size > 7
+				# state = 909
+			# }
+			# strength_ratio = {
+    # tag = SHX
+    # ratio > 2
+# }
+		# }}}
+		# complete_effect = {
+			# add_ideas = MON_CivUse
+			# 909 = {
+			# add_building_construction = {
+				# type = supply_node
+				# province = 1723
+				# level = 1
+			# }}
+			# build_railway = {
+				# level = 1
+				# start_province = 12539
+				# target_province = 1723
+			# }
+		# }
+		# remove_effect = {
+		# remove_ideas = MON_CivUse
+		# MON = {
+				# declare_war_on = {
+    # target = SHX
+    # type = annex_everything
+# }
+			# add_timed_idea = {
+			# idea = MON_SHX
+			# days = 45
+		# }
+			# }
+		# SHX = {
+			# add_timed_idea = {
+				# idea = MON_hordes_coming2
+				# days = 80
+			# }
+			# leave_faction = yes
+			
+		
+		# }}
+	# }
+	MON_yuan_333 = { ##Puppet SHX
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_hol_exchange_intelligence_data
+		cost = 50
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 615 }
+			}
+		}
+		days_remove = 30
+		visible = {
+			has_completed_focus = MON_Ma
+		}
+		available = {
+			if = {
+			AND = {
+				has_completed_focus = MON_Ma
+				OR = {
+				has_collaboration = {
+					target = SHX
+					value > 0.2
+				}
+				network_strength = {
+					target = SHX
+					value > 69
+				}
+				}
+				SHX = {
+					has_war = yes
+					AND = {
+					OR = {
+					has_war_support < 0.5
+					has_stability < 0.5
+					}
+					OR = {
+					has_opinion = {
+						target = MON
+						value > 59
+					}
+					has_opinion = {
+						target = CHI
+						value < 30
+					}
+				}
+				}
+				# divisions_in_border_state = {
+					# size > 4
+					# state = 909
+					# border_state = 937
+				# }
+				# divisions_in_border_state = {
+					# size > 4
+					# state = 909
+					# border_state = 621
+				# }
+				strength_ratio = {
+    tag = SHX
+    ratio > 1
+}
+
+		}
+		NOT = {
+					has_idea = MON_CivUse
+		}
+		}
+		}}
+		complete_effect = {
+			add_ideas = MON_CivUse2
+		}
+		remove_effect = {
+		remove_ideas = MON_CivUse2
+		MON = {
+			hidden_effect = {
+				set_country_flag = SHX_token_puppet
+			}
+			country_event = { id = mon.61 hours = 0 }	
+		
+		}}
+	}
+	
+	MON_yuan_334 = { ##SHX breakaway
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 615 }
+			}
+		}
+		priority = 10
+		icon = GFX_decision_eng_trade_unions_demand
+		days_mission_timeout = 250
+		fire_only_once = yes
+		activation = {	
+				has_country_flag = SHX_token_puppet
+		}
+		available = {
+		AND = {
+			SHX = {
+					num_of_military_factories > 5
+					num_of_civilian_factories > 4
+				}
+			}
+		}
+		complete_effect = {
+		add_political_power = 75
+		}
+		timeout_effect = {
+		add_political_power = -50
+			release = SHX
+		SHX = {
+			every_unit_leader = { set_nationality = CHI }
+		}
+		CHI = {
+		annex_country = { target = SHX transfer_troops = yes }
+		}}
+		is_good = no
+	}
+	
+	MON_yuan_691 = { ##TIB
+	fire_only_once = yes
+		selectable_mission = yes
+		cost = 50
+		icon = GFX_decision_generic_nationalism
+		days_remove = 45
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 757 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_integrate_or_submit
+		}
+		available = {
+			OR = {
+			has_completed_focus = MON_the_symbol_of_the_east
+				AND = {
+					has_completed_focus = MON_integrate_or_submit
+						OR = {
+							TIB = {
+								has_opinion = {
+									target = MON
+									value > 74
+								}
+							}
+							MON = {
+								network_strength = {
+									target = TIB
+									value > 69
+								}
+							}
+						}
+					}
+			}
+		}
+		remove_effect= {
+			hidden_effect = {
+				set_country_flag = TIB_token_puppet
+			}
+			MON = {
+				puppet = TIB
+			}
+		}
+}
+			
+	
+	MON_yuan_692 = { ##BHU
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 324 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_integrate_or_submit
+		}
+		selectable_mission = yes
+		cost = 35
+		icon = GFX_decision_eng_trade_unions_support
+		days_remove = 45
+		available = {
+			OR = {
+			has_completed_focus = MON_the_symbol_of_the_east
+				AND = {
+					has_completed_focus = MON_integrate_or_submit
+						OR = {
+							BHU = {
+								has_opinion = {
+									target = MON
+									value > 69
+								}
+							}
+							MON = {
+								network_strength = {
+									target = BHU
+									value > 64
+								}
+							}
+						}
+					}
+			}
+		}
+		remove_effect= {
+			MON = {
+				puppet = BHU
+			}
+		}
+}
+	
+	MON_yuan_693 = { ##NEP
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 323 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_integrate_or_submit
+		}
+		selectable_mission = yes
+		cost = 35
+		icon = GFX_decision_generic_decision
+		days_remove = 45
+		available = {
+			OR = {
+			has_completed_focus = MON_the_symbol_of_the_east
+				AND = {
+					has_completed_focus = MON_integrate_or_submit
+						OR = {
+							NEP = {
+								has_opinion = {
+									target = MON
+									value > 69
+								}
+							}
+							MON = {
+								network_strength = {
+									target = NEP
+									value > 64
+								}
+							}
+						}
+					}
+			}
+		}
+		remove_effect= {
+			MON = {
+				puppet = NEP
+			}
+		}
+}
+	
+	MON_yuan_222 = { ##XSM Claims by TIB
+	fire_only_once = yes
+	icon = GFX_decision_generic_operation
+		selectable_mission = yes
+		cost = 125
+		days_remove = 75
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 757 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_develop_the_bureau
+		}
+		available = {
+			if = {
+			AND = {
+				has_country_flag = TIB_token_puppet
+				NOT = {
+					has_idea = MON_CivUse2
+				}
+				604 = {
+					controls_or_subject_of = yes 
+				}
+			has_completed_focus = MON_develop_the_bureau
+			TIB = {
+				is_puppet_of = MON
+			}
+			NEP = {
+			is_puppet_of = MON
+			}
+			BHU = {
+			is_puppet_of = MON
+			}
+		}
+		}}
+			
+		complete_effect = {
+		add_ideas = MON_CivUse2
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = TIB_token_puppet2
+			}
+		remove_ideas = MON_CivUse2
+		TIB = {
+			puppet = NEP
+			puppet = BHU
+			transfer_state = 604
+			add_state_core = 755 
+			add_state_core = 323
+			add_state_core = 324
+			add_state_core = 434
+			add_state_claim = 441
+			add_state_claim = 787
+			add_ideas = MON_reintegrate
+			}
+			757 = {
+			add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+			}
+			604 = {
+			add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+			}
+		}
+		
+	}
+	
+	MON_yuan_694 = { ##Ghurkas
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 323 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_develop_the_bureau
+		}
+		selectable_mission = yes
+		cost = 75
+		icon = GFX_decision_generic_military
+		days_remove = 30
+		available = {
+			if = {
+			AND = {
+				TIB = {
+					is_puppet_of = MON
+				}
+				OR = {
+				NEP = {
+					is_puppet_of = TIB
+				}
+				TIB = {
+					owns_state = 323
+				}
+				}
+				has_country_flag = TIB_token_puppet2
+			}}}
+		remove_effect = {
+			TIB = {
+				army_experience = 75
+				add_ideas = NEP_royal_army_2
+				
+			}
+		}
+	}
+	
+	MON_yuan_695 = { ##Resources
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 757 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_develop_the_bureau
+		}
+		selectable_mission = yes
+		cost = 75
+		icon = GFX_decision_generic_construction
+		days_remove = 60
+		available = {
+			if = {
+			AND = {
+				NOT = {
+					has_idea = MON_CivUse2
+				}
+				TIB = {
+					is_puppet_of = MON
+				}
+				OR = {
+				NEP = {
+					is_puppet_of = TIB
+				}
+				TIB = {
+					owns_state = 323
+				}
+				}
+				has_country_flag = TIB_token_puppet2
+			}}}
+			complete_effect = {
+				add_ideas = MON_CivUse2
+			}
+		remove_effect = {
+			remove_ideas = MON_CivUse2
+			601 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+				add_resource = {
+					type = tungsten
+					amount = 2
+				}
+			}
+			757 = {
+				add_resource = {
+					type = steel 
+					amount = 8
+				}
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			322 = {
+				add_resource = {
+					type = steel 
+					amount = 4
+				}
+				add_resource = {
+					type = tungsten
+					amount = 5
+				}
+			}
+			758 = {
+				add_resource = {
+					type = steel 
+					amount = 5
+				}
+			}
+			323 = {
+				add_resource = {
+					type = steel 
+					amount = 3
+				}
+				add_resource = {
+					type = chromium 
+					amount = 2
+				}
+				add_resource = {
+					type = tungsten 
+					amount = 1
+				}
+			}
+			324 = {
+				add_resource = {
+					type = steel 
+					amount = 4
+				}
+				add_resource = {
+					type = chromium 
+					amount = 1
+				}
+				add_resource = {
+					type = tungsten 
+					amount = 4
+				}
+			}
+		}
+	}
+	
+	MON_yuan_4 = { ##PRC
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 622 }
+			}
+		}
+		selectable_mission = yes
+		cost = 125
+		icon = GFX_decision_infiltrate_state
+		available = {
+			if = {
+			has_completed_focus = MON_surmount_the_taihang_mountains
+		}}
+		visible = {
+			has_completed_focus = MON_surmount_the_taihang_mountains
+		}
+		days_remove = 45
+		remove_effect = {
+			MON = {
+				declare_war_on = {
+				type = annex_everything
+				target = PRC
+			}
+			}
+			PRC = {
+			hidden_effect = {
+			add_ideas = MON_desperate_defence
+			}
+			add_timed_idea = {
+				idea = MON_hordes_coming2
+				days = 70
+			}
+			leave_faction = yes
+		}
+		}
+	}
+	
+	
+	MON_yuan_5 = { ##MEN resources
+	fire_only_once = yes
+	selectable_mission = yes
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 611 }
+			}
+		}
+		icon = GFX_decision_eng_trade_unions_demand
+		cost = 100
+		fire_only_once = yes
+		days_remove = 85
+		visible = {
+			has_completed_focus = MON_encircle_mao
+		}
+		available = {
+		
+		AND = {
+		NOT = {
+					has_idea = MON_CivUse3
+				}
+		MON = {
+			is_in_faction_with = JAP
+		}
+		country_exists = MEN
+		MEN = {
+			is_puppet_of = JAP
+		}
+			has_completed_focus = MON_encircle_mao
+		strength_ratio = {
+			tag = MEN
+			ratio > 1.25
+		}
+		strength_ratio = {
+			tag = JAP
+			ratio > 0.4
+		}
+		}}
+		complete_effect = {
+			add_ideas = MON_CivUse3
+			MEN = {
+			# give_resource_rights = { 
+				# receiver  = MON
+				# state = 921
+			# }
+			give_resource_rights = { 
+				receiver = MON
+				state = 611
+			}
+		}}
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = MEN_token_puppet
+			}
+			remove_ideas = MON_CivUse3
+			MON = {
+				# remove_resource_rights = 921
+				remove_resource_rights = 611
+			}
+		}
+		}
+		
+		
+	MON_yuan_551 = { ##MEN ownership
+	fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 611 }
+			}
+		}
+		icon = GFX_decision_generic_political_rally
+		days_mission_timeout = 150
+		fire_only_once = yes
+		activation = {	
+		AND = {
+				has_completed_focus = MON_encircle_mao
+				has_country_flag = MEN_token_puppet
+				MON = {
+					is_in_faction_with = JAP
+				}
+				country_exists = MEN
+				MEN = {
+					is_puppet_of = JAP
+				}
+			}
+		}
+		available = {
+			strength_ratio = {
+			tag = MEN
+			ratio > 1.5
+		}
+		strength_ratio = {
+			tag = JAP
+			ratio > 0.6
+		}
+		}
+		complete_effect = {
+			country_event = { id = mon.63 days = 0 }
+			add_war_support = 0.05
+		}
+		timeout_effect = {
+			add_political_power = -75
+		}
+		is_good = yes
+		}
+	
+
+	MON_yuan_6 = { ##TAN
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 329 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_tuva_bargain
+		}
+		selectable_mission = yes
+		icon = GFX_decision_eng_trade_unions_support
+		cost = 75
+		available = {
+			if = {
+			AND = {
+			has_equipment = {
+					infantry_equipment > 7499
+				}
+			has_completed_focus = MON_tuva_bargain
+				OR = {
+				has_collaboration = {
+					target = TAN
+					value > 0.25
+				}
+				network_strength = {
+					target = TAN
+					value > 69
+				}
+				}
+				TAN = {
+					AND = {
+					OR = {
+					has_war_support < 0.6
+					has_stability < 0.6
+					}
+					OR = {
+					has_opinion = {
+						target = MON
+						value > 59
+					}
+					has_opinion = {
+						target = SOV
+						value < 25
+					}
+				}
+				}
+				# divisions_in_border_state = {
+					# size > 1
+					# state = 917
+					# border_state = 329
+				# }
+				# divisions_in_border_state = {
+					# size > 1
+					# state = 913
+					# border_state= 329
+				# }
+				divisions_in_border_state = {
+					size > 1
+					state = 820
+					border_state = 329
+				}
+		}}}}
+		days_remove = 60
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -7500
+			}
+		}
+		remove_effect = {
+		country_event = { id = mon.62 days = 0 }
+		
+		}
+	}
+	
+	MON_yuan_8 = { ##CHI Fortify Xikang
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_mountain_fortification
+		cost = 75
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 601 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+		}
+		available = {
+			if = {
+			AND = {
+			has_country_flag = TIB_token_puppet
+			NOT = {
+					has_idea = MON_CivUse
+				}
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+			601 = {
+			controls_or_subject_of = yes
+			}
+			TIB = {
+				is_puppet_of = MON
+			}
+		}}}
+		days_remove = 45
+		complete_effect = {
+			add_ideas = MON_CivUse
+			TIB = {
+				add_ideas = MON_CivUse
+			}
+		}
+		remove_effect = {
+		remove_ideas = MON_CivUse
+		hidden_effect = {
+			set_country_flag = xikang_flag
+		TIB = {
+			remove_ideas = MON_CivUse
+		}
+		601 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 10856
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4407
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = 5102
+			}
+			add_building_construction = {
+				type = air_base
+				level = 1
+			}
+
+		}}
+	}}
+	MON_yuan_811 = { ##CHI Tianshui Develop
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_merge_plant_aircraft
+		cost = 60
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 753 }
+			}
+		}
+		days_remove = 90
+		visible = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+		}
+		available = {
+			if = {
+			AND = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+			753 = {
+			controls_or_subject_of = yes
+			}
+			NOT = {
+					has_idea = MON_CivUse2
+				}
+		}}}
+		complete_effect = {
+			add_ideas = MON_CivUse2
+		}
+		remove_effect = {
+		remove_ideas = MON_CivUse2
+		hidden_effect = {
+			set_country_flag = tianshui_flag
+			}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			producer = MON
+			amount = 250
+		}
+			remove_ideas = MON_CivUse
+		753 = {
+			add_building_construction = {
+				type = supply_node
+				province = 2045
+				level = 1
+			}
+			add_building_construction = {
+				type = air_base
+				level = 2
+			}
+			}
+			build_railway = {
+				level = 1
+				start_province = 12669
+				target_province = 2045
+			}
+		}}
+
+	MON_yuan_812 = { ##CHI Rail develop
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_operation
+		cost = 100
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 817 }
+			}
+		}
+		visible = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+		}
+		available = {
+			if = {
+			AND = {
+			has_country_flag = xikang_flag
+			817 = {
+				controls_or_subject_of = yes
+			}
+			757 = {
+				controls_or_subject_of = yes
+			}
+			755 = {
+				controls_or_subject_of = yes
+			}
+			601 = {
+				controls_or_subject_of = yes
+			}
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+			NOT = {
+					has_idea = MON_CivUse3
+				}
+			
+		}}}
+		days_remove = 90
+		complete_effect = {
+		add_ideas = MON_CivUse3
+		}
+		remove_effect = {
+		hidden_effect = {
+			set_country_flag = china_rail_token
+		}
+		
+		remove_ideas= MON_CivUse3
+			add_equipment_to_stockpile = {
+				type = train_equipment
+				producer = MON
+				amount = 15
+			}
+			601 = {
+				add_building_construction = {
+					type = supply_node 
+					level = 1
+					province = 10856
+				}
+			}
+			build_railway = {
+				level = 1
+				start_province = 4987
+				target_province = 5033
+			}
+			build_railway = {
+				level = 1
+				start_province = 8010
+				target_province = 5033
+			}
+			build_railway = {
+				level = 1
+				start_province = 10856
+				target_province = 5033
+			}
+			build_railway = {
+				level = 1
+				start_province = 5033
+				target_province = 7940
+			}
+			build_railway = {
+				level = 1
+				start_province = 7940
+				target_province = 12669
+			}
+		}}
+		
+	MON_yuan_814 = { ##CHI sabotage
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_trucks
+		cost = 100
+		days_remove = 75
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 752 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_alongside_the_empire_of_the_sun
+		}
+		available = {
+		NOT = {
+			has_war_with = CHI
+		}
+			if = {
+			AND = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+			# divisions_in_border_state = {
+				# size > 3
+				# state = 936
+				# border_state = 752
+			# }
+			divisions_in_border_state = {
+				size > 3
+				state = 601
+				border_state = 752
+			}
+		}}}
+		remove_effect = {
+		hidden_effect = {
+			set_country_flag = ganzi_raid_token
+		}
+			army_experience = 45
+			752 = {
+				add_dynamic_modifier = {
+					modifier = MON_MON_Military
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				producer = CHI
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				producer = CHI
+				amount = 75
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				producer = CHI
+				amount = 100
+			}
+		}}
+		
+	MON_yuan_813 = { ##CHI war
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_jap_conquer_china
+		cost = 100
+		days_remove = 30
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 613 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_alongside_the_empire_of_the_sun
+		}
+		available = {
+			if = {
+			AND = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+			has_country_flag = tianshui_flag
+			has_country_flag = xikang_flag
+			has_country_flag = china_rail_token
+				NOT = {
+					has_idea = MON_CivUse
+				}
+		}}}
+		complete_effect = {
+		add_command_power = -75
+		add_ideas = MON_CivUse
+		}
+		remove_effect = {
+		if = {
+		limit = {
+			has_country_flag = ganzi_raid_token
+			}
+		752 = {
+			remove_dynamic_modifier = { modifier = MON_MON_Military
+		}}}
+			
+			MON = {
+			remove_ideas = MON_CivUse
+				declare_war_on = {
+				type = annex_everything
+				target = CHI
+			}
+			add_timed_idea = {
+				idea = MON_china_invasion
+				days = 45
+			}
+			add_war_support = 0.05
+			}
+		}}
+	MON_yuan_815 = { ##CHI dominate
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_eng_trade_unions_demand
+		cost = 150
+		days_remove = 30
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 613 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_alongside_the_empire_of_the_sun
+		}
+		available = {
+			if = {
+			AND = {
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+			strength_ratio = {
+				tag = CHI
+				ratio > 2.5
+			}
+		}}}
+		complete_effect = {
+		add_ideas = MON_CivUse
+		}
+		remove_effect = {
+		remove_ideas = MON_CivUse
+		if = {
+		limit = {
+			has_country_flag = ganzi_raid_token
+			}
+		752 = {
+			remove_dynamic_modifier = { modifier = MON_MON_Military
+		}}}
+		MON = {
+			country_event = {id = mon.65 days = 0 }
+		}
+			hidden_effect = {
+				set_country_flag = china_puppet_token
+			}
+		}
+	}
+	
+	MON_yuan_816 = { ##CHI clamp down
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_speech
+		cost = 100
+		days_remove = 30
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 613 }
+			}
+		}
+		visible = {
+			has_country_flag = china_puppet_token
+		}
+		available = {
+			if = {
+			AND = {
+			NOT = {
+				has_idea = MON_CivUse3
+			}
+			has_completed_focus = MON_alongside_the_empire_of_the_sun
+
+		}}}
+		complete_effect = {
+		add_ideas = MON_CivUse3
+		}
+		remove_effect = {
+		remove_ideas = MON_CivUse3
+		CHI = {
+			add_timed_idea = {
+			idea = MON_clampdown
+			days = 250
+		}}}
+			
+	}
+	MON_yuan_9 = { ##GXC
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_reorganize_irregulars
+		cost = 150
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 599 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_go_south
+		has_completed_focus = MON_surmount_the_taihang_mountains
+		}
+		available = {
+			if = {
+			AND = {
+			has_completed_focus = MON_go_south
+			has_completed_focus = MON_surmount_the_taihang_mountains
+	
+		}}}
+		days_remove = 45
+		remove_effect = {
+				MON = {
+			declare_war_on = {
+				type = annex_everything
+				target = GXC
+			}
+			}
+		GXC = {
+			add_timed_idea = {
+				idea = MON_hordes_coming2
+				days = 75
+			}
+			leave_faction = yes
+		}
+		}
+	}
+	MON_yuan_991 = { ##GXC puppet
+	fire_only_once = yes
+		selectable_mission = yes
+		icon = GFX_decision_generic_form_nation
+		cost = 75
+		days_remove = 30
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 594 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_go_south
+		has_completed_focus = MON_Ma
+		}
+		available = {
+			if = {
+			AND = {
+				has_completed_focus = MON_go_south
+				has_completed_focus = MON_Ma
+				has_equipment = {
+					infantry_equipment > 7499
+				}
+				OR = {
+				has_collaboration = {
+					target = GXC
+					value > 0.2
+				}
+				network_strength = {
+					target = GXC
+					value > 69
+				}
+				}
+				GXC = {
+					has_war = yes
+					OR = {
+					has_war_support < 0.5
+					has_stability < 0.5
+				}
+				}
+				divisions_in_border_state = {
+					size > 3
+					state = 603
+					border_state = 599
+				}
+				divisions_in_border_state = {
+					size > 3
+					state = 602
+					border_state = 599
+				}
+				divisions_in_border_state = {
+					size > 3
+					state = 600
+					border_state = 593
+				}
+				divisions_in_border_state = {
+					size > 3
+					state = 595
+					border_state = 593
+				}
+		}}
+
+		}
+		complete_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment 
+			amount = -7500
+		}}
+		remove_effect = {
+			country_event = { id = mon.64 days = 0 }
+		}
+		
+	}
+	MON_yuan_10 = { ##YUN war
+	fire_only_once = yes
+	icon = GFX_decision_infiltrate_state
+		selectable_mission = yes
+		cost = 150
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 325 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_go_south
+		has_completed_focus = MON_surmount_the_taihang_mountains
+		}
+		available = {
+			if = {
+			AND = {
+			has_completed_focus = MON_go_south
+			has_completed_focus = MON_surmount_the_taihang_mountains
+}}}
+		days_remove = 45
+		remove_effect= {
+			MON = {
+			declare_war_on = {
+				type = annex_everything
+				target = YUN
+			}
+			}
+		YUN = {
+			add_timed_idea = {
+				idea = MON_hordes_coming2
+				days = 60
+			}
+			leave_faction = yes
+		}
+		}
+	}
+	MON_yuan_1015 = { ##YUN war GXC puppet
+	fire_only_once = yes
+	icon = GFX_decision_generic_ignite_civil_war
+		selectable_mission = yes
+		cost = 75
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 325 }
+			}
+		}
+		visible = {
+		has_completed_focus = MON_go_south
+		has_completed_focus = MON_Ma
+		}
+		available = {
+			if = {
+			AND = {
+			has_completed_focus = MON_Ma
+			has_completed_focus = MON_go_south
+			has_equipment = { infantry_equipment > 4999
+				
+			}
+			has_equipment = {
+				artillery_equipment > 99
+				
+			}
+			GXC = {
+				is_puppet_of = MON
+			}
+		}}
+}
+		days_remove = 45
+		complete_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -5000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = -100
+		}
+		GXC = {
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+			producer = MON
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 100
+			producer = MON
+		}
+		}}		
+		remove_effect= {
+			GXC = {
+			declare_war_on = {
+				type = annex_everything
+				target = YUN
+			}
+		
+		}
+	}
+}
+}
+
+MON_greatwall_category = {
+	MON_greatwall_11 = { ##Mongolian wall
+	fire_only_once = yes
+	icon = GFX_decision_border_war
+		selectable_mission = yes
+		cost = 60
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 819 }
+			}
+		}
+	available = {
+		AND = {
+		819 = {controls_or_subject_of = yes
+		}
+		# 921 = {controls_or_subject_of = yes
+		# }
+		612 = {
+			controls_or_subject_of = yes
+		}
+		NOT = {
+			has_idea = MON_CivUse2
+		}
+	}}
+	days_remove = 60
+	complete_effect = {
+		add_ideas = MON_CivUse2
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse2
+	819 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10708
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4792
+			}}
+	# 921 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 12448
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 1551
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 4222
+			# }
+			# }
+	612 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7578
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10363
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7648
+			}}
+	}}
+	
+	MON_greatwall_22 = { ##central west wall
+	fire_only_once = yes
+	icon = GFX_decision_generic_construction
+		selectable_mission = yes
+		cost = 45
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 932 }
+			}
+		}
+	available = {
+		AND = {
+		617 = {controls_or_subject_of = yes
+		}
+		760 = {controls_or_subject_of = yes
+		}
+		# 932 = {
+			# controls_or_subject_of = yes
+		# }
+		# 933 = {
+			# controls_or_subject_of = yes
+		# }
+		NOT = {
+			has_idea = MON_CivUse2
+		}
+	}}
+	days_remove = 70
+	complete_effect = {
+		add_ideas = MON_CivUse2
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse2
+	617 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4709
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 12656 
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10614
+			}}
+	760 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 12524
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1838
+			}}
+	# 932 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 12820
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 7971
+			# }}
+	# 933 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 2028 
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 5100
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 12327
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 12776
+			# }}
+	}}
+	
+	MON_greatwall_33 = { ##Central wall
+	fire_only_once = yes
+	icon = GFX_decision_generic_mountain_fortification
+		selectable_mission = yes
+		cost = 90
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 621 }
+			}
+		}
+	available = {
+		AND = {
+		756 = {controls_or_subject_of = yes
+		}
+		616 = {controls_or_subject_of = yes
+		}
+		# 937 = {
+			# controls_or_subject_of = yes
+		# }
+		746 = {
+			controls_or_subject_of = yes
+		}
+		621= {
+			controls_or_subject_of = yes
+		}
+		622= {
+			controls_or_subject_of = yes
+		}
+		611= {
+			controls_or_subject_of = yes
+		}
+		# 922= {
+			# controls_or_subject_of = yes
+		# }
+		608= {
+			controls_or_subject_of = yes
+		}
+		614= {
+			controls_or_subject_of = yes
+		}
+		NOT = {
+
+			has_idea = MON_CivUse3
+		}
+	}}
+	days_remove = 75
+	complete_effect = {
+		add_ideas = MON_CivUse3
+	}
+	remove_effect = {
+		hidden_effect = {
+			set_country_flag = central_wall_token
+		}
+		remove_ideas = MON_CivUse3
+		756 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 12750
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 8055
+			}}
+		616 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 8081
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1985
+			}}
+		
+		# 937 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 10629
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 2087
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 4525
+			# }}
+	
+		746 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1959
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10854
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10451
+			}}
+		621 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10424
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7048
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7158
+			}}
+		622 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7659
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1458
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7208
+			}}
+		611 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4612
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 952
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4495
+			}}
+			
+		# 922 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 1590
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 6904
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 9776
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 1137
+			# }}
+		608 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 12026
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 6828
+			}}
+			
+		614 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4208
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10053
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4093
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4058
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 12062
+			}}
+		}
+	}
+	
+	MON_greatwall_331 = { ##central wall defences
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 621 }
+			}
+		}
+	icon = GFX_decision_generic_factory
+	cost = 125
+	days_remove = 60
+	available = {
+		AND = {
+		has_country_flag = central_wall_token
+		756 = {controls_or_subject_of = yes
+		}
+		616 = {controls_or_subject_of = yes
+		}
+		# 937 = {
+			# controls_or_subject_of = yes
+		# }
+		746 = {
+			controls_or_subject_of = yes
+		}
+		621= {
+			controls_or_subject_of = yes
+		}
+		622= {
+			controls_or_subject_of = yes
+		}
+		611= {
+			controls_or_subject_of = yes
+		}
+		# 922= {
+			# controls_or_subject_of = yes
+		# }
+		608= {
+			controls_or_subject_of = yes
+		}
+		614= {
+			controls_or_subject_of = yes
+		}
+		has_tech = interwar_antiair 
+		has_tech = radio_detection 
+		NOT = {
+			has_idea = MON_CivUse3
+		}
+	}}
+	complete_effect = {
+	add_ideas = MON_CivUse3
+	}
+	remove_effect = {
+	remove_ideas = MON_CivUse3
+	746 = {
+		add_building_construction = {
+			type = radar_station
+			level = 1
+		}
+		add_building_construction = {
+			type = anti_air_building
+			level = 1
+		}
+	
+	}
+	615 = {
+		add_building_construction = {
+			type = radar_station
+			level = 1
+		}
+		add_building_construction = {
+			type = anti_air_building
+			level = 1
+		}
+			add_building_construction = {
+			type = air_base
+			level = 1
+		}
+	}
+	621 = {
+		add_building_construction = {
+			type = radar_station
+			level = 1
+		}
+		add_building_construction = {
+			type = anti_air_building
+			level = 1
+		}
+			add_building_construction = {
+			type = air_base
+			level = 1
+		}
+	}
+	622 = {
+		add_building_construction = {
+			type = radar_station
+			level = 1
+		}
+		add_building_construction = {
+			type = anti_air_building
+			level = 1
+		}
+	}}
+	}
+	
+	
+	MON_greatwall_44 = { ##Manchurian wall
+fire_only_once = yes
+	icon = GFX_decision_generic_merge_plant_materiel
+		selectable_mission = yes
+		cost = 75
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 328 }
+			}
+		}
+	available = {
+		AND = {
+		610 = {controls_or_subject_of = yes
+		}
+		# 925 = {controls_or_subject_of = yes
+		# }
+		715 = {
+			controls_or_subject_of = yes
+		}
+		# 923= {
+			# controls_or_subject_of = yes
+		# }
+		# 928= {
+			# controls_or_subject_of = yes
+		# }
+		# 930= {
+			# controls_or_subject_of = yes
+		# }
+		# 931= {
+			# controls_or_subject_of = yes
+		# }
+		761= {
+			controls_or_subject_of = yes
+		}
+		# 927= {
+			# controls_or_subject_of = yes
+		# }
+		# 934= {
+			# controls_or_subject_of = yes
+		# }
+		
+		NOT = {
+			has_idea = MON_CivUse3
+		}
+	}}
+	days_remove = 50
+	complete_effect = {
+		add_ideas = MON_CivUse3
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse3
+	610 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 6988
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7575
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7633
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 3828
+			}}
+		# 925 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 4514
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 9927
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 12469
+			# }}
+		715 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1558
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1627
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1502
+			}
+			}
+		# 923 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 9905
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 814
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 881
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 3955
+			# }}
+		# 928 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 12485
+			# }
+			# }
+			# 930 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 1847
+			# }
+			# }
+			# 931 = {
+				# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 4506
+			# }}
+		761 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 10612
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 12690 
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7743
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4745
+			}}
+		# 927 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 4852
+			# }}
+		# 934 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 1776
+			# }}
+		hidden_effect= { 
+			set_country_flag = manchu_wall_token
+		}
+		}
+	}
+	
+	MON_greatwall_441 = { ##Manchu wall defence
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 328 }
+			}
+		}
+		icon = GFX_decision_hol_draw_up_staff_plans
+		cost = 100
+		days_remove = 60
+	available = {
+		AND = {
+		has_country_flag = manchu_wall_token
+		756 = {controls_or_subject_of = yes
+		}
+		616 = {controls_or_subject_of = yes
+		}
+		# 937 = {
+			# controls_or_subject_of = yes
+		# }
+		746 = {
+			controls_or_subject_of = yes
+		}
+		621= {
+			controls_or_subject_of = yes
+		}
+		622= {
+			controls_or_subject_of = yes
+		}
+		611= {
+			controls_or_subject_of = yes
+		}
+		# 922= {
+			# controls_or_subject_of = yes
+		# }
+		608= {
+			controls_or_subject_of = yes
+		}
+		614= {
+			controls_or_subject_of = yes
+		}
+		has_tech = interwar_antiair 
+		has_tech = radio_detection 
+		NOT = {
+			has_idea = MON_CivUse2
+		}
+	}}
+	complete_effect = {
+	add_ideas = MON_CivUse2
+	}
+	remove_effect = {
+	remove_ideas = MON_CivUse2
+	328 = {
+		add_building_construction = {
+			type = radar_station
+			level = 1
+		}
+		add_building_construction = {
+			type = anti_air_building
+			level = 1
+		}
+		add_building_construction = {
+			type = air_base
+			level = 1
+		}
+	}
+	# 926 = {
+		# add_building_construction = {
+			# type = radar_station
+			# level = 1
+		# }
+		# add_building_construction = {
+			# type = anti_air_building
+			# level = 1
+		# }
+	# }
+	# 931 = {
+		# add_building_construction = {
+			# type = radar_station
+			# level = 1
+		# }
+		# add_building_construction = {
+			# type = anti_air_building
+			# level = 1
+		# }
+	# }
+	}
+	}
+	
+	MON_greatwall_55 = { ##Liaotung Perimeter
+	fire_only_once = yes
+	icon = GFX_decision_generic_operation
+		selectable_mission = yes
+		cost = 50
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 716 }
+			}
+		}
+	available = {
+		AND = {
+		716 = {controls_or_subject_of = yes
+		}
+		# 924 = {controls_or_subject_of = yes
+		# }
+		# 967 = {
+			# controls_or_subject_of = yes
+		# }
+		# 966 = {
+			# controls_or_subject_of = yes
+		# }
+		NOT = {
+			has_idea = MON_CivUse2
+		}
+	}}
+	days_remove = 45
+	complete_effect = {
+		add_ideas = MON_CivUse2
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse2
+		716 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 6860
+			}}
+		# 924 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 6893
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 11836
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 9831
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 11815
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 9835
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 6837
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 11886
+			# }
+			# }
+		# 967 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 916
+			# }}
+			
+			# 966 = {
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 11808
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 3849
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 6804
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 6910
+			# }
+			# add_building_construction = {
+				# type = bunker
+				# level = 2
+				# province = 987
+			# }
+			# }
+		}
+	}
+	
+	MON_greatwall_66 = { ##Central Coastal Forts
+	available = {
+		AND = {
+			has_completed_focus = MON_greatwall66
+		609= {
+			controls_or_subject_of = yes
+		}
+		608= {
+			controls_or_subject_of = yes
+		}
+		597= {
+			controls_or_subject_of = yes
+		}
+		613= {
+			controls_or_subject_of = yes
+		}
+		596= {
+			controls_or_subject_of = yes
+		}
+		595= {
+			controls_or_subject_of = yes
+		}
+		NOT = {
+			OR = {
+			has_idea = MON_CivUse
+			has_idea = MON_CivUse2
+			has_idea = MON_CivUse3
+		}}}}
+		
+	}
+	
+	MON_greatwall_77 = { ##Manchu Coastal Forts
+	available = {
+		AND = {
+			has_completed_focus = MON_greatwall66
+		716= {
+			controls_or_subject_of = yes
+		}
+		745= {
+			controls_or_subject_of = yes
+		}
+		NOT = {
+			OR = {
+			has_idea = MON_CivUse
+			has_idea = MON_CivUse2
+			has_idea = MON_CivUse3
+		}}}}
+	}
+	
+	MON_greatwall_99 = { ##Korea Coastal Forts
+	available = {
+		AND = {
+			has_completed_focus = MON_greatwall66
+		527= {
+			controls_or_subject_of = yes
+		}
+		525= {
+			controls_or_subject_of = yes
+		}
+		NOT = {
+			OR = {
+			has_idea = MON_CivUse
+			has_idea = MON_CivUse2
+			has_idea = MON_CivUse3
+		}}}}
+	}
+	
+	MON_greatwall_88 = { ##South Coastal Forts
+	available = {
+		AND = {
+			has_completed_focus = MON_greatwall66
+		591 = {
+			controls_or_subject_of = yes
+		}
+		592= {
+			controls_or_subject_of = yes
+		}
+		593= {
+			controls_or_subject_of = yes
+		}
+		594= {
+			controls_or_subject_of = yes
+		}
+		NOT = {
+			OR = {
+			has_idea = MON_CivUse
+			has_idea = MON_CivUse2
+			has_idea = MON_CivUse3
+		}}}}
+	}
+}
+
+MON_yuan_ships_cateogry = {
+	MON_yuan_ships_1 = {
+		selectable_mission = yes
+}}
+
+
+
+MON_yuan_southern_category = { 
+	MON_yuan_southern_151 = { ##flame tanks
+		icon = generic_research
+		selectable_mission = yes
+		cost = 75
+		days_remove = 30
+		fire_only_once = yes
+		available = {
+		AND = {
+		has_completed_focus = MON_go_south
+		has_tech = gwtank_chassis  
+		}
+		NOT = {
+			has_idea = MON_CivUse
+		}}
+	complete_effect = {
+		add_ideas = MON_CivUse
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse
+		custom_effect_tooltip = flame_tank_expl
+		create_equipment_variant = {
+			name = "Od Iyesi"
+			type = heavy_tank_flame_chassis_1
+			modules = {
+				main_armament_slot = flamethrower 
+				tank_engine_type = tank_diesel_engine 
+				tank_armor_type = tank_riveted_armor 
+				tank_suspension_type = tank_bogie_suspension 
+				tank_heavy_turret_type = tank_heavy_two_man_tank_turret 
+				tank_radio_module = tank_radio_1 
+				tank_special_module = expanded_fuel_tank 
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 7
+			}
+		}
+	}
+}
+
+	MON_yuan_southern_1 = { ##yunnan mountains
+	icon = GFX_decision_oil
+		selectable_mission = yes
+		cost = 75
+		days_remove = 30
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 747 }
+			}
+		}
+		available = {
+			AND = {
+			has_completed_focus = MON_exploit_the_south
+				747= {
+					controls_or_subject_of = yes
+				}
+				325= {
+					controls_or_subject_of = yes
+				}
+	}
+		NOT = {
+			has_idea = MON_CivUse
+		}
+	}
+	complete_effect = {
+		add_ideas = MON_CivUse
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse
+		747 = {
+			add_resource = {
+				type = oil
+				amount = 1
+			}
+			add_resource = {
+				type = tungsten
+				amount = 3
+			}
+			add_resource = {
+				type = steel
+				amount = 2
+			}
+		}
+		325 = {
+			add_resource = {
+				type = oil
+				amount = 2
+			}
+			add_resource = {
+				type = aluminium
+				amount = 2
+		}
+		}
+	}
+	}
+	
+	MON_yuan_southern_2 = { ##GXC mountains
+		selectable_mission = yes
+		icon = GFX_decision_aluminium
+		fire_only_once = yes
+		cost = 55
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 594 }
+			}
+		}
+		available = {
+			AND = {
+			has_completed_focus = MON_exploit_the_south
+				594 = {
+					controls_or_subject_of = yes
+				}
+			NOT = {
+			has_idea = MON_CivUse
+		}}}
+	days_remove = 30
+	complete_effect = {
+		add_ideas = MON_CivUse
+	}
+	remove_effect = {
+		remove_ideas = MON_CivUse
+		594 = {
+			add_resource = {
+				type = oil
+				amount = 6
+			}
+			add_resource = {
+				type = steel
+				amount = 2
+			}
+			add_resource = {
+				type = aluminium
+				amount = 10
+			}
+	}}}
+
+	# MON_yuan_southern_3 = { ##GXC claims tonkin
+	# icon = GFX_decision_generic_civil_support
+		# selectable_mission = yes
+		# fire_only_once = yes
+		# cost = 90
+		# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 971 }
+			# }
+		# }
+		# available = {
+			# AND = {
+			# has_completed_focus = MON_the_unconquered_jungles
+			# GXC = {
+				# is_puppet_of = MON
+			# }
+	# }}
+		# complete_effect = {
+		# hidden_effect = {
+			# FRA = {
+				# country_event = { id = france.37 days = 3 }
+		# }}
+			# GXC = {
+				# add_state_core = 971
+				# add_state_core = 325
+		# }}
+# }	
+	
+	# MON_yuan_southern_4 = { ##GXC border war tonkin
+	# icon = GFX_decision_generic_reorganize_irregulars
+		# selectable_mission = yes
+		# fire_only_once = yes
+		# cost = 50
+		# days_remove = 30
+		# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 971 }
+			# }
+		# }
+		# available = {
+			# AND = {
+			# has_completed_focus = MON_the_unconquered_jungles
+			# has_equipment = {
+				# infantry_equipment > 4999
+			# }
+			# has_equipment = {
+				# artillery_equipment > 149
+			# }
+			# 325 = {
+				# controls_or_subject_of = yes
+			# }
+			# GXC = {
+				# is_puppet_of = MON
+				# 971 = {
+				# is_core_of = GXC
+				# }
+			# }
+	# }}	
+	# complete_effect = {
+		# add_equipment_to_stockpile = {
+			# type = infantry_equipment
+			# amount = -5000
+		# }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment
+			# amount = -150
+		# }
+		# GXC = {
+			# add_equipment_to_stockpile = {
+			# type = infantry_equipment
+			# amount = 5000
+			# producer = MON
+		# }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment
+			# amount = 150
+			# producer = MON
+		# }
+		# }}
+	# remove_effect = {
+		# start_border_war = {
+			# change_state_after_war = yes
+				# attacker = {
+					# state = 325
+					# num_provinces = 4
+					# on_win = mon.57
+					# on_lose = mon.58
+				# }
+				# defender = {
+					# state = 971
+					# num_provinces = 3
+					# on_win = france.35
+					# on_lose = france.36
+				# }
+# }			
+# }
+# }
+MON_yuan_southern_44 = { ##GXC Claims Burm
+icon = GFX_decision_hol_draw_up_staff_plans
+		selectable_mission = yes
+		cost = 125
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 983 }
+			}
+		}
+		available = {
+			AND = {
+
+			has_completed_focus = MON_the_unconquered_jungles
+			GXC = {
+				owns_state = 325 
+				owns_state =747
+				# owns_state = 992
+				is_puppet_of = MON
+			}
+	}}
+		complete_effect = {
+			hidden_effect = {
+			set_country_flag = GXC_burma_token
+			
+				RAJ = {
+					country_event = { id = tfv_raj.45 days = 5 }
+				}}
+			GXC = {
+				# add_state_claim = 985
+				# add_state_claim = 986
+				add_state_core = 747
+		}}
+}	
+
+# MON_yuan_southern_441 = { ##GXC Borderwar north burm
+		# selectable_mission = yes
+		# icon = GFX_decision_generic_prepare_civil_war
+		# fire_only_once = yes
+		# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 986 }
+			# }
+		# }
+		# cost = 45
+		# days_remove = 15
+		# available = {
+			# AND = {
+			# any_country = {
+				# AND = {
+				# owns_state  = 986 
+				# has_war = yes
+			# }
+			# }
+			# has_completed_focus = MON_the_unconquered_jungles
+			# GXC = {
+				# owns_state = 992
+				# is_puppet_of = MON
+			# }
+			# has_country_flag = GXC_burma_token
+	# }}	
+		# complete_effect = {
+		# }
+		# remove_effect = {
+		# GXC = {
+		# start_border_war = {
+			# change_state_after_war = yes
+				# attacker = {
+					# state = 992
+					# num_provinces = 1
+					# on_win = mon.66
+					# on_lose = mon.58
+				# }
+				# defender = {
+					# state = 986
+					# num_provinces = 3
+					# on_win = tfv_raj.46
+					# on_lose = tfv_raj.47
+				# }
+# }
+# }}
+# }
+# MON_yuan_southern_442 = { ##GXC Borderwar south burm
+		# icon = GFX_decision_border_war
+		# selectable_mission = yes
+		# fire_only_once = yes
+		# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 985 }
+			# }
+		# }
+		# cost = 35
+		# days_remove = 15
+		# available = {
+			# AND = {
+			# any_country = {
+				# AND = {
+				# owns_state  = 985 
+				# has_war = yes
+			# }
+			# }
+			# has_completed_focus = MON_the_unconquered_jungles
+			# GXC = {
+				# owns_state = 747
+				# is_puppet_of = MON
+			# }
+			# has_country_flag = GXC_burma_token
+	# }}	
+		# complete_effect = {
+		# }
+		# remove_effect = {
+		# GXC = {
+		# start_border_war = {
+			# change_state_after_war = yes
+				# attacker = {
+					# state = 747
+					# num_provinces = 2
+					# on_win = mon.67
+					# on_lose = mon.58
+				# }
+				# defender = {
+					# state = 985
+					# num_provinces = 1
+					# on_win = tfv_raj.46
+					# on_lose = tfv_raj.47
+				# }
+# }
+# }
+# }}
+	
+# MON_yuan_southern_771 = { ## Claims laos
+# icon = GFX_decision_generic_industry
+# fire_only_once = yes
+	# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 977 }
+			# }
+		# }
+		# cost = 50
+		# days_remove = 15
+		# selectable_mission = yes
+		# available = {
+			# AND = {
+			# any_country = {
+				# AND = {
+				# owns_state = 977 
+				# owns_state = 976
+				# has_war = yes
+			# }
+			# }
+			# has_completed_focus = MON_the_unconquered_jungles
+			# has_equipment = {
+				# infantry_equipment > 2999
+			# }
+			# has_equipment = {
+				# artillery_equipment > 74
+			# }
+		# }}
+		# complete_effect = {
+		# add_equipment_to_stockpile = {
+			# type = infantry_equipment
+			# amount = -3000
+		# }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment
+			# amount = -75
+		# }
+		# SIA = {
+			# add_equipment_to_stockpile = {
+			# type = infantry_equipment
+			# amount = 3000
+			# producer = MON
+		# }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment
+			# amount = 75
+			# producer = MON
+		# }
+		# }}
+		# remove_effect = {
+			# SIA = {
+			# start_border_war = {
+			# change_state_after_war = yes
+				# attacker = {
+					# state = 869
+					# num_provinces = 4
+					# on_win = japan.26
+					# on_lose = japan.24
+				# }
+				# defender = {
+					# state = 977
+					# num_provinces = 3
+					# on_win = france.35
+					# on_lose = france.36
+				# }
+			
+	# }
+	# }}}	
+	
+# MON_yuan_southern_8 = { ##SIA Claims cambo
+# icon = GFX_decision_generic_military
+# fire_only_once = yes
+	# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 975 }
+			# }
+		# }
+		# cost = 50
+		# days_remove = 30
+		# selectable_mission = yes
+		# available = {
+			# AND = {
+			# any_country = {
+				# AND = {
+				# owns_state = 973
+				# owns_state = 974 
+				# owns_state = 975 
+				# has_war = yes
+			# }
+			# }
+			# has_completed_focus = MON_the_unconquered_jungles
+			# has_equipment = {
+				# infantry_equipment > 2999
+			# }
+			# has_equipment = {
+				# artillery_equipment > 74
+			# }
+		# }}
+		# complete_effect = {
+		# add_equipment_to_stockpile = {
+			# type = infantry_equipment
+			# amount = -3000
+		# }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment
+			# amount = -75
+		# }
+		# SIA = {
+			# add_equipment_to_stockpile = {
+			# type = infantry_equipment
+			# amount = 3000
+			# producer = MON
+		# }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment
+			# amount = 75
+			# producer = MON
+		# }
+		# }}
+		# remove_effect = {
+			# SIA = {
+		# start_border_war = {
+			# change_state_after_war = yes
+				# attacker = {
+					# state = 994
+					# num_provinces = 2
+					# on_win = japan.27
+					# on_lose = japan.24
+				# }
+				# defender = {
+					# state = 975
+					# num_provinces = 1
+					# on_win = france.35
+					# on_lose = france.36
+				# }
+			
+	# }
+	# }}
+	# }	
+	
+
+	
+	MON_yuan_southern_6 = { ##War SIA
+	icon = GFX_decision_generic_ignite_civil_war
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 289 }
+			}
+		}
+		cost = 175
+		days_remove = 60
+		selectable_mission = yes
+		available = {
+			AND = {
+			has_completed_focus = MON_the_unconquered_jungles
+			has_completed_focus = MON_natural_borders
+			NOT = {
+				has_idea = MON_CivUse2
+
+	}}}
+		complete_effect = {
+		add_ideas = MON_CivUse2
+		}
+		remove_effect = {
+			remove_ideas = MON_CivUse2
+			
+		SIA = {
+			add_ideas = MON_SIA_jungles
+			add_timed_idea = {
+				idea = MON_hordes_coming2
+				days = 90
+			}
+		}}
+}
+	MON_yuan_southern_7 = { ##sway SIA
+	icon = GFX_decision_hol_exchange_intelligence_data
+	fire_only_once = yes
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 289 }
+			}
+		}
+		cost = 100
+		days_remove = 60
+		selectable_mission = yes
+		available = {
+			AND = {
+			has_completed_focus = MON_the_unconquered_jungles
+				has_equipment = {
+					infantry_equipment > 9999
+				}
+				OR = {
+				has_collaboration = {
+					target = SIA
+					value > 0.2
+				}
+				network_strength = {
+					target = SIA
+					value > 69
+				}
+				}
+				SIA = {
+					OR = {
+					has_war = yes
+					AND = {
+					has_war_support < 0.5
+					has_stability < 0.5
+					}
+					has_opinion = {
+						target = MON
+						value > 74
+				}}}
+				
+		NOT = {
+			has_war_with = SIA
+		}
+		}}
+		complete_effect = { 
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -10000
+    
+		}}	
+
+		remove_effect = {
+		country_event = { id = mon.68 hours = 0 }
+	}
+	}	
+
+MON_yuan_southern_5 = { ##Seize Indochina
+		selectable_mission = yes
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 286 }
+			}
+		}
+		cost = 150
+		days_remove = 60
+		icon = oppression
+		available = {
+			AND = {
+				NOT = {
+					has_idea = MON_CivUse3
+				}
+			has_completed_focus = MON_the_unconquered_jungles
+			286 = { 
+				CONTROLLER = { 
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+					}
+				} 
+			}
+			670 = { 
+				CONTROLLER = { 
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+					}
+				} 
+			}
+			671 = { 
+				CONTROLLER = { 
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+					}
+				} 
+			}}}
+		complete_effect = {
+			add_ideas = MON_CivUse3
+		}
+		remove_effect = {
+		hidden_effect = {
+			set_country_flag = indochina_war_token
+		}
+		
+		
+			if = {
+			limit = {
+				16 = { NOT = { is_controlled_by = FRA } } } #Paris has fallen
+			VIC = {
+				add_timed_idea = {
+					idea = MON_hordes_coming2
+					days = 80
+				}
+			}}
+			else_if = {
+				limit = { 16 = { is_controlled_by = FRA }}  #Paris stands
+			FRA = {
+				add_timed_idea = {
+					idea = MON_hordes_coming2
+					days = 80
+				}
+			}}
+			MON = {
+			remove_ideas = MON_CivUse3
+			declare_war_on = {
+				target = FRA
+				type = take_state_focus
+				generator = { 286 }
+		}
+		}}
+	}	
+
+MON_yuan_southern_51 = { ##Indochina peace
+		selectable_mission = yes
+		fire_only_once = yes
+		cost = 100
+		icon = generic_nationalism
+		visible = {
+			if = {
+			AND = {
+				has_country_flag = indochina_war_token
+				any_country = {
+					owns_state = 286
+				}
+			}
+		}}
+			
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 330 }
+			}
+		}
+		available = {
+			AND = {
+			has_completed_focus = MON_the_unconquered_jungles
+			741 = {controls_or_subject_of = yes
+			}
+			# 972 = {controls_or_subject_of = yes
+			# }
+			286 = {controls_or_subject_of = yes
+			}
+			671 = {controls_or_subject_of = yes
+			}
+			670 = {controls_or_subject_of = yes
+			}
+			# 971 = {
+				# controls_or_subject_of = yes
+			# }
+			OR = {
+			has_war_with = FRA
+			has_war_with = VIC
+			}
+	}}
+		complete_effect = {
+			if = {
+				limit = {
+				has_war_with = FRA
+			}
+			white_peace = FRA
+			}
+			else_if = {
+				limit = {
+				has_war_with = VIC
+			}
+			white_peace = VIC
+			}
+			
+			if = {
+			limit = {
+			SIA = {
+			OR = {
+				is_puppet_of = MON
+				is_in_faction_with = MON
+			}}}
+			SIA = {
+				# transfer_state = 977
+				# transfer_state = 973
+				# transfer_state = 974
+				# transfer_state = 975
+				# transfer_state = 976
+				transfer_state = 741
+				# transfer_state = 979
+				# transfer_state = 980
+				# transfer_state = 978
+			}	
+			MON  = {
+				transfer_state = 671
+				# transfer_state = 972
+				transfer_state = 286
+			}
+			}
+			
+			else_if = {
+				MON = {
+				# transfer_state = 977
+				# transfer_state = 973
+				# transfer_state = 974
+				# transfer_state = 975
+				# transfer_state = 976
+				transfer_state = 741
+				# transfer_state = 979
+				# transfer_state = 980
+				# transfer_state = 978
+				transfer_state = 671
+				# transfer_state = 972
+				transfer_state = 286	
+			}}
+		}
+}
+MON_yuan_southern_551 = { ##Buy Indochina
+icon = eng_trade_unions_support
+fire_only_once = yes
+		selectable_mission = yes
+		highlight_states = {
+			highlight_state_targets = {
+				targets = { 671 }
+			}
+		}
+		available = {
+			AND = {
+			has_completed_focus = MON_the_unconquered_jungles
+			GXC = {
+				is_puppet_of = MON
+			}
+			SIA = {
+				is_puppet_of = MON
+			}
+			16 = { NOT = { is_controlled_by = FRA } } #Paris has fallen
+			286 = { 
+				CONTROLLER = { 
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+					}
+				} 
+			}
+			670 = { 
+				CONTROLLER = { 
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+					}
+				} 
+			}
+			671 = { 
+				CONTROLLER = { 
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+					}
+				} 
+			}
+			custom_trigger_tooltip = {
+				tooltip = demand_indochina_focus_tt
+				OR = {
+					286 = { 
+						CONTROLLER = { 
+							OR = { 
+								tag = FRA 
+								tag = VIC
+								is_subject_of = FRA
+								is_subject_of = VIC 
+							} 
+						}
+					}
+					670 = { 
+						CONTROLLER = { 
+							OR = { 
+								tag = FRA 
+								tag = VIC 
+								is_subject_of = FRA
+								is_subject_of = VIC
+							} 
+						}
+					}
+					671 = { 
+						CONTROLLER = { 
+							OR = { 
+								tag = FRA 
+								tag = VIC 
+								is_subject_of = FRA
+								is_subject_of = VIC
+							} 
+						}
+					}
+				}
+			}
+		}}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			if = {
+				limit = {
+					FRA = {
+						OR = {
+							controls_state = 671
+							671 = { CONTROLLER = { is_subject_of = FRA } }
+							controls_state = 670
+							670 = { CONTROLLER = { is_subject_of = FRA } }
+							controls_state = 286
+							286 = { CONTROLLER = { is_subject_of = FRA } }
+						}
+					}
+				}
+				FRA = { country_event = { id = france.38 } }
+			}
+			else_if = {
+				limit = {
+					VIC = {
+						OR = {
+							controls_state = 671
+							controls_state = 670
+							controls_state = 286
+							671 = { CONTROLLER = { is_subject_of = VIC } }
+							670 = { CONTROLLER = { is_subject_of = VIC } }
+							286 = { CONTROLLER = { is_subject_of = VIC } }
+						}
+					}
+				}
+				VIC = { country_event = { id = france.38 } }
+			}
+		}
+
+	}
+
+
+	# MON_yuan_southern_10 = { ##Develop SIA military
+	# icon = generic_merge_plant_ship
+	# fire_only_once = yes
+	# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 998 }
+			# }
+		# }
+		# cost = 75
+		# days_remove = 60
+		# selectable_mission = yes
+		# available = {
+			# AND = {
+			# has_completed_focus = MON_plant_rubber_thai
+			# NOT = {
+				# has_idea = MON_CivUse2
+			# }
+			# 724 = {
+				# controls_or_subject_of = yes }
+			# 998 = {
+				# controls_or_subject_of = yes }
+			# 997 = {
+				# controls_or_subject_of = yes }
+			# 999 = {
+				# controls_or_subject_of = yes }
+			# 289 = {
+				# controls_or_subject_of = yes }
+			# 868  = {
+				# controls_or_subject_of = yes }
+	# }}	
+	# complete_effect = {
+	# add_ideas = MON_CivUse2
+	# }
+	# remove_effect = {
+	# hidden_effect = {
+		# set_country_flag = siam_military_token
+	# }
+	# remove_ideas = MON_CivUse2 
+	# build_railway = {
+		# start_province = 1308
+		# target_province = 12230
+		# level = 1
+	# }
+	# build_railway = {
+		# start_province =12173
+		# target_province = 12360
+		# level = 1
+	# }
+	# 724 = {
+		# add_building_construction = {
+			# type = naval_base 
+			# province = 7236
+			# level = 2
+		# }
+	# }
+	# 868 = {
+		# add_building_construction = {
+			# type = supply_node 
+			# province = 12360
+			# level = 1
+		# }
+		# add_building_construction = {
+			# type = air_base
+			# level = 1
+		# }
+	# }
+	# 998 = {add_building_construction = {
+			# type = naval_base 
+			# province = 12230
+			# level = 1
+		# }
+	# }
+	# 999 = {
+		# add_building_construction = {
+			# type = air_base
+			# level = 2
+		# }
+	# }
+	# }
+# }
+	# MON_yuan_southern_111 = { ##Develop SIA resource
+	# icon = rubber
+	# fire_only_once = yes
+	# days_remove = 50
+	# cost = 50
+	# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 999 }
+			# }
+		# }
+		# selectable_mission = yes
+		# available = {
+			# AND = {
+			# has_completed_focus = MON_plant_rubber_thai
+			# NOT = {
+				# has_idea = MON_CivUse
+			# }
+			# 869 = {
+				# controls_or_subject_of = yes }
+			# 996 = {
+				# controls_or_subject_of = yes }
+		
+			# 993= {
+				# controls_or_subject_of = yes }
+			# }}
+			
+		# complete_effect = {
+			# add_ideas = MON_CivUse
+		# }
+		# remove_effect = {
+		# hidden_effect = {
+		# set_country_flag = siam_resource_token
+	# }
+			# remove_ideas = MON_CivUse
+		# 869 = {
+			# add_resource = {
+				# type = steel
+				# amount = 5
+			# }
+			# add_resource = {
+				# type = rubber
+				# amount = 4
+			# }
+		# }
+		# 996 = {
+		# add_resource = {
+				# type = rubber
+				# amount = 3
+			# }
+		# }
+		# 993 = {
+			# add_resource = {
+				# type = aluminium 
+				# amount = 4
+			# }
+			# add_resource = {
+				# type = tungsten
+				# amount = 3
+			# }
+		# }
+	# }}
+
+	# MON_yuan_southern_112 = { ##Develop SIA industry
+	# icon = generic_factory
+	# fire_only_once = yes
+	# cost = 100
+	# days_remove = 90
+	# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 994 }
+			# }
+		# }
+		# selectable_mission = yes
+		# available = {
+			# AND = {
+			# has_completed_focus = MON_plant_rubber_thai
+			# NOT = {
+				# has_idea = MON_CivUse3
+			# }
+			# 289 = {
+				# controls_or_subject_of = yes }
+			# 994 = {
+				# controls_or_subject_of = yes }
+			# 868 = {
+				# controls_or_subject_of = yes }
+			# }}
+	# complete_effect = {
+		# add_ideas = MON_CivUse3
+	# }
+	# remove_effect = {
+	# hidden_effect = {
+		# set_country_flag = siam_industry_token
+	# }
+		# remove_ideas = MON_CivUse3
+		# 289 = {
+		# add_building_construction = {
+			# type = infrastructure
+			# level = 1
+			# instant_build = yes
+		# }
+		# add_building_construction = {
+			# type = industrial_complex
+			# level = 1
+			# instant_build = yes
+		# }
+		# add_building_construction = {
+			# type = arms_factory
+			# level = 1
+			# instant_build = yes
+		# }
+		# add_building_construction = {
+			# type = dockyard
+			# level = 1
+			# instant_build = yes
+		# }
+		# add_extra_state_shared_building_slots = 3
+		# }
+		# 994 = {
+		# add_building_construction = {
+			# type = industrial_complex
+			# level = 1
+			# instant_build = yes
+		# }
+		# add_building_construction = {
+			# type = arms_factory
+			# level = 1
+			# instant_build = yes
+		# }
+		# add_extra_state_shared_building_slots = 2
+		# }
+		# 868 = {
+		# add_building_construction = {
+			# type = industrial_complex
+			# level = 2
+			# instant_build = yes
+		# }
+		# add_building_construction = {
+			# type = arms_factory
+			# level = 1
+			# instant_build = yes
+		# }
+
+		# add_extra_state_shared_building_slots = 3
+		# }
+	# }
+# }
+	
+	# MON_yuan_southern_9 = { ##SIA WAR Burma Viet mal
+	# icon = generic_colonial_administration
+	# fire_only_once = yes
+	# cost = 50
+	# days_remove = 30
+	# highlight_states = {
+			# highlight_state_targets = {
+				# targets = { 995 }
+			# }
+		# }
+		# selectable_mission = yes
+		# available = {
+			# AND = {
+			# has_country_flag = siam_industry_token
+			# has_country_flag = siam_military_token
+			# has_country_flag = siam_resource_token
+			# has_completed_focus = MON_the_unconquered_jungles
+			# NOT = {
+				# has_idea = MON_CivUse3
+			# }
+			# SIA = {
+				# is_puppet_of = MON
+			# }
+			# MAL = {
+				# has_war = yes
+			# }
+			# RAJ = {
+				# has_war = yes
+			# }
+	# }}
+			# complete_effect = {
+				# add_ideas = MON_CivUse3
+				# SIA = {
+					# army_experience = 75
+					# navy_experience = 25
+					# air_experience = 35
+				# }
+			# }
+			# remove_effect = {
+			# remove_ideas = MON_CivUse3
+			# SIA = {
+				# add_timed_idea = {
+					# idea = MON_SIA_jungles2
+					# days = 90
+				# }
+				# declare_war_on = {
+					# target = FRA
+					# type = take_state_focus
+					# generator = { 741 670 978 980 979 }
+				# }
+				# declare_war_on = {
+					# target = MAL
+					# type = take_state_focus
+					# generator = { 981 918 982 }
+				# }
+				# declare_war_on = {
+					# target = RAJ
+					# type = take_state_focus
+					# generator = { 988 989 984 }
+				# }				
+			# }
+			# }
+# }
+MON_yuan_southern_131 = { ##Form Burma
+	priority = 25
+	fire_only_once = yes
+	icon = GFX_decision_generic_form_nation
+	highlight_states = {
+			highlight_state_targets = {
+				targets = { 288 }
+			}
+		}
+		selectable_mission = yes
+	visible = {
+	has_completed_focus = MON_the_unconquered_jungles
+	# 983 = { controls_or_subject_of = yes } 
+	640 = { controls_or_subject_of = yes }
+	288 = { controls_or_subject_of = yes }
+	}
+	available = {
+	AND = {
+	has_equipment = {
+					infantry_equipment > 7499
+				}
+	NOT = {
+		has_idea = MON_CivUse3
+	}
+	has_completed_focus = MON_the_unconquered_jungles
+	# 983 = { controls_or_subject_of = yes } 
+	640 = { controls_or_subject_of = yes }
+	288 = { controls_or_subject_of = yes }
+	}}
+	complete_effect = {
+	add_ideas = MON_CivUse3
+	add_equipment_to_stockpile = {
+		type = infantry_equipment 
+		amount = -7500
+	}
+	}
+	remove_effect = {
+	remove_ideas = MON_CivUse3
+	MON = {
+	puppet = BRM
+		set_autonomy = {
+		target =BRM
+		autonomous_state = autonomy_wtt_imperial_subject
+		}
+	}
+	BRM = {
+	# transfer_state = 983
+	transfer_state = 640
+	transfer_state = 288
+	add_equipment_to_stockpile = {
+		type = infantry_equipment 
+		producer = MON
+	amount = 7500
+	}
+		add_timed_idea = {
+			idea = MON_SIA_jungles2
+			days = 90
+		}
+		load_oob = BRM_army
+		retire_ideology_leader = neutrality 
+		add_ideas = MON_rulership
+		promote_character = {
+    character = BRM_ba_maw
+    ideology = despotism
+	}
+}
+}
+}
+}

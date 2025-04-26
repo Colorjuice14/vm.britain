@@ -1,0 +1,191 @@
+﻿l_english:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+ 
+################################### FOCUSES                     \n      §H§!
+ 
+ TUR_Return_To_Glory:0 "Return To Glory"
+ TUR_Return_To_Glory_desc:0 ""
+ 
+ TUR_Subjugate_The_Albanians:0 "Subjugate The Albanians"
+ TUR_Subjugate_The_Albanians_desc:0 ""
+ 
+ TUR_Subjugate_Bulgaria:0 "Subjugate Bulgaria"
+ TUR_Subjugate_Bulgaria_desc:0 ""
+ 
+ TUR_Revenge_For_Vienna:0 "Revenge For Vienna"
+ TUR_Revenge_For_Vienna_desc:0 ""
+ 
+ TUR_Reclaim_Romania:0 "Reclaim Romania"
+ TUR_Reclaim_Romania_desc:0 ""
+ 
+ TUR_Reclaim_Yugoslavia:0 "Reclaim Yugoslavia"
+ TUR_Reclaim_Yugoslavia_desc:0 ""
+ 
+ TUR_Restoring_Our_Traditions:0 "Restoring Our Traditions"
+ TUR_Restoring_Our_Traditions_desc:0 ""
+ 
+ TUR_Millet_System:0 "Millet System"
+ TUR_Millet_System_desc:0 ""
+ 
+ TUR_Jannisary_Corps:0 "Jannisary Corps"
+ TUR_Jannisary_Corps_desc:0 ""
+ 
+ TUR_Shepard_The_Middle_East:0 "Shepard The Middle East"
+ TUR_Shepard_The_Middle_East_desc:0 ""
+ 
+ TUR_A_New_Empire:0 "A New Empire"
+ TUR_A_New_Empire_desc:0 ""
+ 
+ TUR_Turkish_Pragmatism:0 "Turkish Pragmatism"
+ TUR_Turkish_Pragmatism_desc:0 ""
+ 
+ TUR_Reach_Out_To_Allies:0 "Reach Out To Allies"
+ TUR_Reach_Out_To_Allies_desc:0 ""
+ 
+ TUR_Egyptian_Suzerainty:0 "Egyptian Suzerainty"
+ TUR_Egyptian_Suzerainty_desc:0 ""
+ 
+ TUR_Right_To_Cyprus:0 "Right To Cyprus"
+ TUR_Right_To_Cyprus_desc:0 ""
+ 
+ TUR_Jordan_And_Palestine:0 "Jordan-Palestine Claim"
+ TUR_Jordan_And_Palestine_desc:0 ""
+ 
+ TUR_Reach_Out_To_Axis:0 "Reach Out To Axis"
+ TUR_Reach_Out_To_Axis_desc:0 ""
+ 
+ TUR_Acquire_Romanian_Oil:0 "Acquire Romanian Oil"
+ TUR_Acquire_Romanian_Oil_desc:0 ""
+ 
+ TUR_Axis_Manufacturing:0 "Axis Manufacturing"
+ TUR_Axis_Manufacturing_desc:0 ""
+ 
+ TUR_Approve_The_Funkplan:0 "Approve The Funkplan"
+ TUR_Approve_The_Funkplan_desc:0 ""
+ 
+ TUR_German_Military_Cooperation:0 "German Military Cooperation"
+ TUR_German_Military_Cooperation_desc:0 ""
+ 
+ TUR_From_The_Ashes_An_Eagle_Rises:0 "From The Ashes A New Eagle Rises"
+ TUR_From_The_Ashes_An_Eagle_Rises_desc:0 ""
+ 
+ TUR_Unite_The_Rum:0 "Unite The Rum"
+ TUR_Unite_The_Rum_desc:0 ""
+ 
+ TUR_Invade_Hispania:0 "Invade Hispania"
+ TUR_Invade_Hispania_desc:0 ""
+ 
+ TUR_Secure_The_Maghreb:0 "Secure The Maghreb"
+ TUR_Secure_The_Maghreb_desc:0 ""
+ 
+ TUR_Subdue_Arabia:0 "Subdue Arabia"
+ TUR_Subdue_Arabia_desc:0 ""
+ 
+ TUR_Reclaim_Egypt:0 "Reclaim Egypt"
+ TUR_Reclaim_Egypt_desc:0 ""
+ 
+ TUR_Liberate_The_Pakistani:0 "Liberate The Pakistani"
+ TUR_Liberate_The_Pakistani_desc:0 ""
+ 
+ TUR_Rescue_The_Azeri:0 "Rescue The Azeri"
+ TUR_Rescue_The_Azeri_desc:0 ""
+ 
+ TUR_Modern_Tanzimat:0 "Modern Tanzimat"
+ TUR_Modern_Tanzimat_desc:0 ""
+ 
+ TUR_Return_Of_Ottoman_Caliphate:0 "Return Of Ottoman Caliphate"
+ TUR_Return_Of_Ottoman_Caliphate_desc:0 ""
+ 
+ TUR_The_Kurdish_Question:0 "The Kurdish Question"
+ TUR_The_Kurdish_Question_desc:0 ""
+ 
+################################### Ideas                   \n      §H§! 
+
+ TUR_Shepard_Of_Middle_East:0 "Shepard of Middle East"
+ TUR_Shepard_Of_Middle_East_desc:0 ""
+ 
+################################### OTHER                   \n      §H§! 
+
+ TUR_CALIPH:0 "Ottoman Caliphate"
+ TUR_CALIPH_DEF:0 "the Ottoman Caliphate"
+ TUR_CALIPH_ADJ:0 "Ottoman"
+ 
+ TUR_RUM:0 "Sultanate of Rûm"
+ TUR_RUM_DEF:0 "the Sultanate of Rûm"
+ TUR_RUM_ADJ:0 "Rumi"
+ 
+################################### BOP                   \n      §H§! 
+
+TUR_faction_power_balance:0 "Turkish Factionalism"
+TUR_Kemalism:0 "Kemalism"
+TUR_Traditionalism:0 "Traditionalism"
+TUR_balance_range:0 "Balanced"
+
+TUR_Minor_Kemalist_Influence:0 "Minor Kemalist Influence"
+TUR_Moderate_Kemalist_Influence:0 "Moderate Kemalist Influence"
+TUR_Major_Kemalist_Influence:0 "Major Kemalist Influence"
+
+TUR_Minor_Traditionalist_Influence:0 "Minor Traditionalist Influence"
+TUR_Moderate_Traditionalist_Influence:0 "Moderate Traditionalist Influence"
+TUR_Major_Traditionalist_Influence:0 "Major Traditionalist Influence"
+
+################################### EVENTS                   \n      §H§! 
+
+ turkey.2.t:0 "The Ottoman Revival"
+ turkey.2.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has issued a proclamation: the newly reborn Ottoman Empire will return to its former glory at any cost. This declaration marks a significant shift in the empire's direction, aiming for restoration.\n\nThe Sultan outlined a vision of resurgence, inspired by the empire's past. He emphasized reviving the cultural, economic, and military strength that once made the Ottoman Empire a global power. The Sultan's words have energized the populace, sparking a strong sense of nationalism and determination.\n\nThe commitment to this revival is clear. The Sultan has called for investments in modernizing the military, revitalizing the economy, and fostering cultural pride. This agenda includes reclaiming lost territories and influence.\n\nHowever, this quest for glory faces challenges. Neighboring nations and global powers are watching closely, wary of potential destabilization. The Sultan's proclamation sets the stage for geopolitical maneuvering and strategic alliances, as the Ottoman Empire seeks to become a formidable player on the world stage again.\n\nAs the empire embarks on this path, the Sultan's proclamation serves as a rallying cry for the people, urging them to embrace their heritage and strive for greatness. The world now watches as the Ottoman Empire begins its journey toward a future shaped by its past."
+ turkey.2.a:0 "A return to glory!"
+ 
+ turkey.3.t:0 "A New Era for the Ottoman Empire"
+ turkey.3.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has proclaimed a transformative vision for the newly reborn Ottoman Empire. The Sultan has announced plans to reform the government into a new, forward-looking empire, shedding the constraints of the past to embrace the future.\n\nThe first priority in this grand reform is overhauling the government administration. The Sultan aims to modernize the administrative structure, making it more efficient and responsive to the needs of the people. This reform is intended to lay a strong foundation for the empire's future growth and stability.\n\nFollowing the administrative reforms, the Sultan plans to reassess the empire's position on the world stage. This involves reevaluating diplomatic relationships, forging new alliances, and establishing the Ottoman Empire as a significant and respected global power.\n\nThe Sultan's proclamation signals a bold departure from tradition, aiming to create an empire that is dynamic, progressive, and poised for the challenges of the modern world. The people of the Ottoman Empire are called upon to support these reforms, embracing change as the key to a prosperous and influential future. The world watches closely as the Ottoman Empire embarks on this ambitious journey of renewal and transformation."
+ turkey.3.a:0 "A new empire!"
+ 
+ turkey.4.t:0 "The Revival of the Roman Legacy"
+ turkey.4.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has proclaimed that the Ottoman Empire is calling back to the legacy of the Sultanate of Rûm. The Sultan plans to establish a new Roman Empire, rising from the Byzantine and Ottoman Empires.\n\nThis vision includes a return to the former borders of the Roman Hegemony. The Sultan's proclamation marks a shift in the empire's trajectory, aiming to reclaim historical territories and restore the ancient Roman Empire.\n\nThe Sultan's plan involves efforts to strengthen the empire's military, economy, and political influence. By invoking the legacy of the Roman Empire, the Sultan seeks to unite the people under a shared heritage and inspire a sense of purpose and pride.\n\nThis declaration has captured the attention of the world. Neighboring nations and global powers are closely monitoring the Ottoman Empire's actions, aware of the potential for significant geopolitical changes. The Sultan's vision sets the stage for a new era of ambition and expansion."
+ turkey.4.a:0 "Our Hegemony will be secured."
+ 
+ turkey.6.t:0 "Ottoman Request for Suzerainty Over Egypt"
+ turkey.6.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has formally requested suzerainty over Egypt from us. As the self-proclaimed custodian of the Middle East for the Allies, the Sultan seeks to extend Ottoman influence and stewardship over this crucial region.\n\nThis request represents a strategic move by the Ottoman Empire to assert its authority and strengthen its position within the Allied framework. By gaining control over Egypt, the Ottoman Empire aims to enhance its political and economic influence in the Middle East, leveraging Egypt's strategic importance."
+ turkey.6.a:0 "Very well."
+ turkey.6.b:0 "We will not entertain this power-play."
+ 
+ turkey.7.t:0 "Ottoman Request for Suzerainty Over Cyprus"
+ turkey.7.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has formally requested suzerainty over Cyprus from us. As the self-proclaimed custodian of the Middle East for the Allies, the Sultan seeks to extend Ottoman influence and stewardship over this strategically important island.\n\nThis request marks a strategic move by the Ottoman Empire to assert its authority and strengthen its position within the Allied framework. By gaining control over Cyprus, the Ottoman Empire aims to enhance its political and military presence in the Eastern Mediterranean, leveraging the island's strategic significance."
+ turkey.7.a:0 "Very well."
+ turkey.7.b:0 "We will not entertain this power-play."
+ 
+ turkey.5.t:0 "Proclamation of the Ottoman Caliphate"
+ turkey.5.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has proclaimed that the Ottoman Empire is now the religious and political leader of the Middle East and all Islamic peoples. Declaring the establishment of the Ottoman Caliphate, the Sultan aims to unite the Islamic world under a single banner.\n\nThis declaration signifies a major shift in the empire's identity and mission. The Sultan asserts that the Ottoman Caliphate will serve as the guardian and unifier of the Islamic faith, championing the interests and well-being of Muslims worldwide.\n\nThe announcement has sparked widespread reactions. Supporters see it as a call to unity and a revival of Islamic leadership, while others view it as a potential source of regional and global tension. The Sultan's vision includes efforts to strengthen ties among Muslim-majority nations and communities, fostering solidarity and cooperation."
+ turkey.5.a:0 "A united Islamic world."
+ 
+ turkey.8.t:0 "Ottoman Request for Suzerainty Over Jordan and Palestine"
+ turkey.8.d:0 "[From.GetLeader], Sultan of the Ottoman Empire, has formally requested suzerainty over Jordan and Palestine from Great Britain. As the self-proclaimed custodian of the Middle East for the Allies, the Sultan seeks to extend Ottoman influence and stewardship over these crucial territories.\n\nThis request marks a strategic move by the Ottoman Empire to assert its authority and strengthen its position within the Allied framework. By gaining control over Jordan and Palestine, the Ottoman Empire aims to enhance its political and economic influence in the region, leveraging the strategic importance of these areas."
+ turkey.8.a:0 "Very well."
+ turkey.8.b:0 "We will not entertain this power-play."

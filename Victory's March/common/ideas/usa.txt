@@ -2266,7 +2266,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				cv_fighter = {
+				cv_small_plane_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
@@ -2304,7 +2304,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				cv_cas = {
+				cv_small_plane_cas_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
@@ -2325,7 +2325,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				cv_cas = {
+				small_plane_naval_bomber_airframe = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}

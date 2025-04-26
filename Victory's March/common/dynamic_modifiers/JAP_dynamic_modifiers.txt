@@ -14,16 +14,16 @@ JAP_Zaibatsus = {
 	local_resources_factor = JAP_Zaibatsus_Resource_Extraction
 }
 
-JAP_Japanese_Occupation = {
-	enable = { always = yes }
+# JAP_Japanese_Occupation = {
+	# enable = { always = yes }
 
-	icon = GFX_modifiers_sabotaged_resource
+	# icon = GFX_modifiers_sabotaged_resource
 	
-	local_non_core_manpower = -0.75 
-	local_factories  = -0.99
-	state_resources_factor = -0.99
-	production_speed_buildings_factor = -0.5
-}
+	# local_non_core_manpower = -0.75 
+	# local_factories  = -0.99
+	# state_resources_factor = -0.99
+	# production_speed_buildings_factor = -0.5
+# }
 
 JAP_Zaibatsu_Monopoly = {
 	enable = { always = yes }

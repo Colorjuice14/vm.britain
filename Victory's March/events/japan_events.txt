@@ -737,7 +737,7 @@ add_namespace = JAP
 			country_event = JAP.20
 			
 			ai_chance = {
-				base = 8
+				base = 100
 			}
 		}
 		
@@ -750,7 +750,7 @@ add_namespace = JAP
 
 			
 			ai_chance = {
-				base = 1
+				base = 0
 			}
 		}
 		
@@ -762,7 +762,7 @@ add_namespace = JAP
 			country_event = JAP.22
 			
 			ai_chance = {
-				base = 1
+				base = 0
 			}
 		}
 	}
@@ -1877,3 +1877,293 @@ add_namespace = JAP
 			IRQ = { add_timed_idea = { idea = Soviet_Communist_Militants days = 365 } }
 		}
 	}
+	
+	## Mongolia
+	
+	# Dominate Mengu -> Dem
+country_event = {
+	id = japan.49
+	title = japan.49.t
+	desc = japan.49.d
+	picture = GFX_report_event_demchug_event
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = japan.49.a
+		MEN = {
+			transfer_state = 612
+			set_cosmetic_tag = MEN_militaryzone
+
+	hidden_effect = {
+	load_oob = "MEN_1936"
+	}
+		}
+		612 = { 
+			add_core_of = MEN
+		remove_dynamic_modifier = {
+			modifier = MON_Japanese_Military }
+		}
+
+}
+}
+	
+# Dominate Mengu -> Shouxin
+country_event = {
+	id = japan.50
+	title = japan.50.t
+	desc = japan.50.d
+	picture = GFX_report_event_xoushin_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = japan.50.a
+		MEN = {
+			transfer_state = 612
+			set_cosmetic_tag = MEN_Auton
+		promote_character = {
+		character = MEN_shouxin
+		}
+	hidden_effect = {
+	load_oob = "MEN_1936"
+	retire_character = MEN_prince_demchugdongrub
+}}
+		612 = { 
+			add_core_of = MEN
+		remove_dynamic_modifier = {
+			modifier = MON_Japanese_Military }
+		}
+
+
+}}
+
+##overlordship of Goryeo
+country_event = {
+id = japan.51
+title = japan.51.t
+desc = japan.51.d
+picture = GFX_report_event_army2_event
+fire_only_once = yes
+is_triggered_only = yes
+
+option = { ##submit
+	name = japan.51.a
+	
+	ai_chance = {
+			base = 1
+			modifier = {
+				add = 10
+				if = {
+				MON = {
+				has_army_manpower = {
+				size > 800000
+				}}}
+				add = 20 
+				if = {
+					MON = {
+				has_army_manpower = {
+				size > 1000000
+				}}}
+					}
+				}
+	MON = {
+		transfer_state = 745
+		transfer_state = 527
+		transfer_state = 525
+		
+		set_truce = {
+			target = JAP
+			days = 100
+		}
+	}
+	}
+	
+	
+
+option = { ##fuck off
+	name = japan.51.b
+	ai_chance = { base = 15 }
+	MON = {
+		
+		create_wargoal = {
+		type = take_claimed_state
+		generator = { 745 527 525 }
+	}
+		add_state_claim = 745
+		add_state_claim = 527
+		add_state_claim =  525
+	}
+}}
+
+country_event = {
+	id = japan.52
+	title = japan.52.t
+	desc = japan.52.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = japan.52.a
+	MON = {
+		hidden_effect = {
+			country_event = { days = 600 id = mon.49 }
+		}}
+	MEN = {
+		transfer_state = 621
+		transfer_state = 920
+		transfer_state = 937
+		transfer_state = 922
+		}
+		621 = {
+			add_core_of = MEN }
+			920 = {
+			add_core_of = MEN }
+			937 = {
+			add_core_of = MEN }
+			922 = {
+			add_core_of = MEN }
+			746 = {add_core_of = MEN }
+		621 = { 	
+		remove_dynamic_modifier = {
+			modifier = MON_Japanese_Military }
+		}
+		920 = { 	
+		set_demilitarized_zone = yes
+		remove_dynamic_modifier = {
+			modifier = MON_Japanese_Military }
+		}
+		937 = { 	
+		remove_dynamic_modifier = {
+			modifier = MON_Japanese_Military }
+		}
+		922 = { 	
+		remove_dynamic_modifier = {
+			modifier = MON_Japanese_Military }
+		}
+		921 = {
+		set_demilitarized_zone = yes 
+		}
+	}}
+
+country_event = {
+	id = japan.53
+	title = japan.53.t
+	desc = japan.53.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #capitualte
+	name = japan.53.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 40
+				if = {
+				MON = {
+				has_army_manpower = {
+				size > 450000
+				}}}
+				add = 200
+				if = {
+					MON = {
+				has_army_manpower = {
+				size > 500000
+				}}}
+					}
+				}
+
+		MON = {
+			country_event = { id=mon.47 hours = 0 }
+			transfer_state = 937
+			transfer_state = 621
+			transfer_state = 921
+			transfer_state = 612
+			transfer_state = 611
+			transfer_state = 761
+		}
+	}
+
+	option = { #war it is
+		name = japan.53.b
+		ai_chance = {
+		base = 10
+		}
+		MON = {
+		country_event = { id=mon.48 hours = 0 }	
+		}
+	}
+}
+
+
+country_event = { ##generic border loss
+id = japan.54
+	title = japan.54.t
+	desc = japan.54.d
+	picture = GFX_report_event_japanese_soldiers_03
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+	name = japan.54.a
+	add_political_power = -50
+	add_stability = -0.025
+	add_war_support = -0.05
+}}	
+
+country_event = { ##generic border win
+id = japan.55
+	title = japan.55.t
+	desc = japan.55.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+	name = japan.55.a
+	add_political_power = 75
+	army_experience = 30
+	add_stability = 0.025
+	add_war_support = 0.05
+}}
+
+country_event = { ##siam laos border win
+id = japan.56
+	title = japan.56.t
+	desc = japan.56.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+	name = japan.56.a
+	add_political_power = 75
+	army_experience = 30
+	add_stability = 0.025
+	add_war_support = 0.05
+}}
+
+country_event = { ##siam cambo border win
+id = japan.57
+	title = japan.57.t
+	desc = japan.57.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+	name = japan.57.a
+	add_political_power = 75
+	army_experience = 30
+	add_stability = 0.025
+	add_war_support = 0.05
+	transfer_state = 973
+	transfer_state = 974
+	transfer_state = 976
+}}

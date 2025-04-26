@@ -1,0 +1,68 @@
+air_wings = {
+	330 = { ##UB Airwings
+		small_plane_airframe_0 = { 
+			owner = "MON"
+			amount = 10
+			version_name = "I-15"
+		}
+		
+		small_plane_airframe_1 = { 
+			owner = "MON"
+			amount = 10
+			version_name = "I-16"
+		}
+		
+		small_plane_cas_airframe_0 = {
+			owner = "MON"
+			amount = 30
+			version_name = "R-5"
+		}
+	}
+	
+	912 = { ##Khentii
+		small_plane_airframe_0 = { 
+			owner = "MON"
+			amount = 10
+			version_name = "I-15"
+		}
+		
+		small_plane_airframe_1 = { 
+			owner = "MON"
+			amount = 10
+			version_name = "I-16"
+		}
+		
+		small_plane_cas_airframe_0 = {
+			owner = "MON"
+			amount = 30
+			version_name = "R-5"
+		}
+	}
+	
+	819 = { ##Dornod
+		small_plane_airframe_0 = { 
+			owner = "MON"
+			amount = 20
+			version_name = "I-15"
+		}
+		
+		small_plane_cas_airframe_0 = {
+			owner = "MON"
+			amount = 30
+			version_name = "R-5"
+		}
+	}
+	
+	818 = { ##Khovd
+		small_plane_airframe_0 = { 
+			owner = "MON"
+			amount = 20
+			version_name = "I-15"
+		}
+		
+		small_plane_cas_airframe_0 = {
+			owner = "MON"
+			amount = 30
+			version_name = "R-5"
+		}
+	

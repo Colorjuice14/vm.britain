@@ -2158,153 +2158,153 @@
 				}
 			}
 			
-			hidden_effect = {
-				609 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+			# hidden_effect = {
+				# 609 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				608 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 608 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				614 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 614 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 
-				597 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 597 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				607 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 607 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				598 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 598 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				613 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 613 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				749 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 749 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				596 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 596 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				595 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 595 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				600 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 600 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				620 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 620 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				744 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
+				# 744 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
 				
-				750 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				602 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				605 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				748 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				603 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				751 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				752 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				601 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-				606 = {
-					add_dynamic_modifier = {
-						modifier = JAP_Japanese_Occupation
-						scope = JAP
-					}
-				}
-			}
+				# 750 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 602 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 605 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 748 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 603 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 751 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 752 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 601 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+				# 606 = {
+					# add_dynamic_modifier = {
+						# modifier = JAP_Japanese_Occupation
+						# scope = JAP
+					# }
+				# }
+			# }
 			
 			custom_effect_tooltip = JAP_Occupation_Tooltip
 			
@@ -6432,7 +6432,7 @@
 					transfer_state_to = RGC
 			}
 			
-			set_autonomy = { target = RGC autonomy_state = autonomy_integrated_puppet }
+			set_autonomy = { target = RGC autonomy_state = autonomy_wtt_imperial_protectorate }
 		}
 	}
 	
@@ -6510,27 +6510,27 @@
 		
 			custom_effect_tooltip = JAP_Reorganize_Warlords_Tooltip
 			
-			598 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			613 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			606 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			596 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			749 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			595 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			600 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			607 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			620 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			602 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			744 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			750 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			603 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			605 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			748 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			751 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			752 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			601 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			608 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			614 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			597 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 598 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 613 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 606 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 596 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 749 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 595 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 600 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 607 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 620 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 602 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 744 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 750 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 603 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 605 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 748 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 751 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 752 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 601 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 608 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 614 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 597 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
 			
 			hidden_effect = {
 				#Guangxi Clique
@@ -6686,7 +6686,7 @@
 				RGC = { add_ideas = JAP_Hakko_Ichiu }
 				RGC = { add_ideas = JAP_Moderate_Public_Support }
 				
-				set_autonomy = { target = RGC autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = { target = RGC autonomy_state = autonomy_wtt_imperial_protectorate }
 				
 				# Menjiang
 				
@@ -6767,27 +6767,27 @@
 				524 = { transfer_state_to = JAP }
 			}
 			
-			598 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			613 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			606 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			596 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			749 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			595 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			600 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			607 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			620 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			602 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			744 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			750 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			603 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			605 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			748 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			751 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			752 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			601 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			608 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			614 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
-			597 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 598 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 613 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 606 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 596 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 749 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 595 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 600 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 607 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 620 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 602 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 744 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 750 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 603 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 605 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 748 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 751 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 752 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 601 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 608 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 614 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
+			# 597 = { remove_dynamic_modifier = { modifier = JAP_Japanese_Occupation }}
 		}
 	}
 	

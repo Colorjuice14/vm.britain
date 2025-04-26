@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+			Chinese_Unity = {
+				picture = chi_chinese_unity
+				
+				available = {
+					is_literally_china = yes
+				}
+				
+				removal_cost = -1
+
+				modifier = {
+					
+				}
+			}
+		}
+}

@@ -193,10 +193,10 @@ if = {
 		target = EGY
 		autonomous_state = autonomy_dominion
 	}
-	set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_dominion
-	}
+	# set_autonomy = {
+		# target = IRE
+		# autonomous_state = autonomy_dominion
+	# }
 	set_autonomy = {
 		target = MAL
 		autonomous_state = autonomy_integrated_puppet
@@ -226,9 +226,43 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	
+	set_autonomy = {
+		target = OMA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	
+	set_autonomy = {
+		target = BRM
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+	
+	set_autonomy = {
+		target = PAL
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = KUW
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+	}
+	
 	else = {
 		puppet = MAL
 		puppet = RAJ
+		puppet = JOR
+		puppet = PAL
+		puppet = EGY
+		puppet = KUW
+		puppet = OMA
 	}
 }
 
@@ -569,7 +603,10 @@ recruit_character = ENG_stewart_menzies
 recruit_character = ENG_maxwell_aitken
 recruit_character = ENG_thomas_moore
 
-
+recruit_character = ENG_john_cockcroft
+recruit_character = ENG_charles_goodeve
+recruit_character = ENG_nevil_shute
+recruit_character = ENG_robert_watson_watt
 
 if = {
 	limit = {

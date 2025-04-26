@@ -1,0 +1,15 @@
+scripted_gui = {
+
+	mor_parliament_decision_ui = {
+		context_type = decision_category
+		window_name = "mor_parliament_decision_ui_window"
+
+		properties = {
+			parliament_icon = {
+				frame = MOR_SUPPORT
+			}
+		}
+	}
+	
+}
+

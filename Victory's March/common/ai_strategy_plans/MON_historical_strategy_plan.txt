@@ -1,0 +1,64 @@
+MON_historical = {
+	name = "Mongol historical plan"
+	desc = ""
+
+	allowed = {
+		original_tag = MON
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		MON_state #2
+		MON_open_affairs #5
+		MON_the_question_of_state_faith #5
+		MON_address_the_power_struggle #5
+		MON_state_atheism #10
+		MON_department_store #5
+		MON_extend_the_religious_persecution_acts #5
+		MON_expand_the_likbez_program #10
+		MON_dismantle_dissident_institutions #5
+		MON_stalinist_crackdown #5
+		MON_promote_unbiased_education #10
+		MON_encourage_modern_agrarianism #10
+		MON_positive_hero #10 
+		MON_fund_the_national_university #10
+		MON_finalise_the_religious_genocide #5
+		MON_livestock #5
+		MON_reintegrate_soviet_doctrine #10
+		MON_loan_soviet_industrial_knowhow #10
+		MON_soviet_economics #2
+		MON_marxist #5
+		MON_elevate_precious_metal_exploitation #10
+		MON_fund_defense #5
+		MON_legacy_of_the_great_wall #5
+		MON_learn_from_the_revolutionary_past #10
+		MON_soil #5
+		MON_labour #5
+		MON_the_symbol_of_the_state #5
+		MON_unity_in_faith #5
+		MON_collectivization_of_society #15
+		
+		MON_enlist_in_the_great_patriotic_war #5
+		MON_collectives #10
+		MON_collectivize_the_military_sector #10
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

@@ -1,0 +1,81 @@
+﻿l_english:
+ MOR_buy_portugues_equipment:0 "Buy Portuguese Equipment"
+ 
+ MOR_buy_infantry_equipment:0 "Buy Portuguese Infantry Equipment"
+ MOR_buy_artillery:0 "Buy Portuguese Artillery"
+ MOR_buy_support_equipment:0 "Buy Portuguese Support Equipment"
+ 
+ MOR_peace:0 "Peace with France"
+ 
+ new_berbers:0 "Arrival of the Berber Volunteers"
+ 
+ berbers_arrive:0 "Every 45 days new §HBerber Volunteers§! will arrive"
+ 
+ MOR_iron_plan:0 "Iron Plan"
+ 
+ MOR_mine_chromium_in_marakesh:0 "Mine Chromium in Marrakech"
+ MOR_build_millitary_factory:0 "Build Millitary Factory in Casablanca"
+ MOR_build_civil_factory:0 "Build Civilian Factory in Casablanca"
+ MOR_tungsten:0 "Tungsten mining in Casablanca"
+ MOR_steel:0 "Steel mining in Marrakesh"
+ MOR_expand_marakesh:0 "Expand Marrakech"
+ 
+ MOR_support_monarchism:0 "Support Monarchists"
+ MOR_support_democrats:0 "Support Democrats"
+ MOR_support_federalism:0 "Support Federalists"
+ 
+ anguastie_end:0 "End of Angustiae"
+ stronk_democrats:0 "the Democratic Move"
+ stronk_fed:0 "the Federalist Move"
+ stronk_monarch:0 "the Monarchist Move"
+ 
+ MOR_federal_parliament:0 "Federal Parliament"
+ MOR_federal_parliament_desc:0 "The Federal Parliament is the only authorized organization representing the interests of the North African People. Only with the consent of parliament can any law be passed.\n\nCurrent Prime-Minister = Allal-al-Fassi"
+ MOR_anguastiae:0 "Angustiae"
+ MOR_anguastiae_desc:0 "After the end of the liberation war, political instability reached its maximum. Protests and riots, the cunning moves of the Sultan, the growth of ideas of federalism in Algeria and Tunisia, all this will soon result in a decisive course of the struggle.\n\nFederalist Influence: [?MOR_FEDERALISM|H]\n\nArabist Influence: [?MOR_ARABISM|H]\n\nMonarchist Influence: [?MOR_MONARCHISM|H]"
+
+ MOR_organize_debats:0 "Provoke Debate"
+ MOR_more_power_to_parliament:0 "Expand the power of Parliament"
+ MOR_fund_parliament:0 "Bribery of Parliamentarians"
+ 
+ improving_roads:0 "Federal Infrastructure Act"
+ improving_work:0 "Workers' Rights Act"
+ uncompromiss_reform:0 "Uncompromising Agrarian Reform Act"
+ improving_blago:0 "General Prosperity Act"
+ 
+ MOR_Egypt_desc:0 "We have achieved great success, first Algeria and Tunisia, then Libya, and after that we are thinking about Egypt. We need to negotiate with the British so that they give us Egypt.\n\nCurrent Relations with British: [?Egypt_Rel|H]%"
+ 
+ fsb:0 "Creation of FSC"
+ MOR_lybian_uprising:0 "Lybian Uprising"
+ MOR_lybian_uprising_desc:0 "Our brothers from Libya have been arriving under the Italian boot for a long time! Our Federation has no right to tolerate this! Fortunately, our people in Libya are already working on preparing an uprising.\n\nCurrent preparations for the uprising: [?Lybian_Prep|H]%"
+ 
+ MOR_Kill:0 "Political assassination"
+ MOR_Start_Uprising:0 "Beginning of the Uprising"
+ MOR_Agitation:0 "Mass Agitation"
+ MOR_Support_Sannusites:0 "Support the Sannusite Order"
+ MOR_Send_Weapon_to_Lybia:0 "Send weapons to Libya"
+ 
+ MOR_peace_spa:0 "Peace with Spain"
+ 
+ MOR_Egypt:0 "Egyptian Game"
+ MOR_Send_Army_to_eng:0 "Send Equipment to the UK"
+ MOR_Send_Volunteers_to_eng:0 "Send Volunteers to the UK"
+ MOR_Industrial_Help:0 "Send Help to Britain"
+ MOR_Negotiations:0 "Negotiations with the British"
+ MOR_Control_Egy:0 "Seizure of power in Egypt"
+ 
+ MOR_bop_support_left:0 "Support Traditionalists"
+ MOR_bop_support_right:0 "Support Modernists"
+ 
+ MOR_ult_arab:0 "Send Ultimatum to [FROM.GetName]"
+ 
+ MOR_arabian:0 "Arabian Diplomacy"
+ 
+ MOR_remove_tax:0 "Cancellation of the Faith Tax"
+ 
+ MOR_economic_expluatation_cat:0 "Economic Exploitation"
+ MOR_exploitation_efficiency_decreases:0 "Declining Exploitation Efficiency"
+ MOR_exploitate_industry:0 "Exploitate Industry"
+ MOR_exploitate_workers:0 "Exploitation of Workers"
+ MOR_exploitate_machine_tools:0 "Exploitation of Machine Tools"
+ MOR_normalize_the_process:0 "Normalize the Process"

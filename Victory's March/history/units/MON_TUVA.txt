@@ -1,0 +1,62 @@
+division_template = {
+	name = "Tuva Polk Diviziin"				# Represents a corps of 3 NRA divisions (2 brigades of 2 regiments each)
+	division_names_group = TAN_MNT_01
+									# Militia-level training and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+	
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		
+	}
+	support = {
+		engineers = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12695
+		division_template = "Tuva Polk Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7799
+		division_template = "Tuva Polk Diviziin"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1834
+		division_template = "Tuva Polk Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4882
+		division_template = "Tuva Polk Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}

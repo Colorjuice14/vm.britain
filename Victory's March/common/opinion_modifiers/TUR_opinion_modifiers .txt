@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	TUR_Shepard_Of_Middle_East = {
+			value = 100
+		}
+}

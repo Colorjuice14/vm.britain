@@ -21,7 +21,7 @@ focus_tree = {
 	
 	default = no
 
-	shared_focus = Commonwealth_form_joint_alliance
+	shared_focus = Joint_Commonwealth_The_Commonwealth
 
 #	focus = {
 #		id = CAN_

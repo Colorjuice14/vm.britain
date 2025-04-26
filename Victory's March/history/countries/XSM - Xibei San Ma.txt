@@ -30,15 +30,12 @@ recruit_character = XSM_zi_shen
 recruit_character = XSM_Xiao_Shuxuan
 
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
+add_ideas = {
+	PRC_government_corruption
+	CHI_ineffective_bureaucracy_warlord
+	Chinese_Unity
 }
+
 
 1939.1.1 = {
 

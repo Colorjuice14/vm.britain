@@ -21,6 +21,7 @@ if = {
 }
 
 recruit_character = CHI_chiang_kaishek
+recruit_character = RGC_wang_jingwei
 recruit_character = CHI_zhang_guotao
 recruit_character = CHI_weng_wenhao
 recruit_character = CHI_tu_yuming
@@ -56,6 +57,7 @@ recruit_character = CHI_chen_yi
 recruit_character = CHI_soong_mei_ling
 recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
+recruit_character = CHI_wang_ganchang
 
 set_stability = 0.2
 set_war_support = 0.5
@@ -102,6 +104,7 @@ if = {
 
 add_ideas = {
 	german_advisors
+	Chinese_Unity
 }
 
 600 = { #Jiangxi
@@ -167,17 +170,38 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}		
 	add_ideas = {
-		CHI_nine_power_treaty
+		#CHI_nine_power_treaty
 		CHI_army_corruption_1
 		CHI_ineffective_bureaucracy
 		CHI_incompetent_officers
 		free_trade
 		CHI_hyper_inflation_1
+		CHI_Rural_Economic_Collapse
 	}
 }
 save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
+
+# set_autonomy = {
+    # target = SHX
+    # autonomous_state = autonomy_warlord_state
+# }
+
+# set_autonomy = {
+    # target = XSM
+    # autonomous_state = autonomy_warlord_state
+# }
+
+# set_autonomy = {
+    # target = YUN
+    # autonomous_state = autonomy_warlord_state
+# }
+
+# set_autonomy = {
+    # target = GXC
+    # autonomous_state = autonomy_warlord_state
+# }
 
 1939.1.1 = {
 

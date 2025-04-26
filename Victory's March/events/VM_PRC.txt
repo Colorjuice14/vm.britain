@@ -1,0 +1,893 @@
+###########################
+# Chinese Events
+###########################
+
+add_namespace = vm.prc
+
+# Zunyi
+
+country_event = {
+    id = vm.prc.1
+    title = vm.prc.1.t
+    desc = vm.prc.1.d
+    picture = GFX_report_event_chinese_soldiers_fighting      
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.1.a"
+        log = "vm.prc.1.a.log"
+        add_political_power = 40
+        add_stability = 0.05
+    }
+}
+
+# On New Democracy
+
+country_event = {
+    id = vm.prc.2
+    title = vm.prc.2.t
+    desc = vm.prc.2.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.2.a"
+        log = "vm.prc.2.a.log"
+        add_political_power = 50
+        add_stability = 0.10
+    }
+}
+
+# Yan'an Rectification Movement
+
+country_event = {
+    id = vm.prc.3
+    title = vm.prc.3.t
+    desc = vm.prc.3.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.3.a"
+        log = "vm.prc.3.a.log"
+		
+		remove_ideas = PRC_power_struggles
+    }
+}
+
+# Peoples Republic 
+
+country_event = {
+    id = vm.prc.4
+    title = vm.prc.4.t
+    desc = vm.prc.4.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.4.a"
+        log = "vm.prc.4.a.log"
+		
+		set_cosmetic_tag = PRC_proclaimed
+		
+		add_political_power = 100
+        add_stability = 0.25
+    }
+}
+
+# Cultural Revolution
+
+country_event = {
+    id = vm.prc.5
+    title = vm.prc.5.t
+    desc = vm.prc.5.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.5.a"
+        log = "vm.prc.5.a.log"
+        add_political_power = 70
+        add_stability = -0.15
+    }
+}
+
+# Great Leap
+
+country_event = {
+    id = vm.prc.6
+    title = vm.prc.6.t
+    desc = vm.prc.6.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.6.a"
+        log = "vm.prc.6.a.log"
+        
+		add_dynamic_modifier = {
+					modifier = PRC_Great_Leap_Forward
+				}
+    }
+}
+
+# Cult
+
+country_event = {
+    id = vm.prc.7
+    title = vm.prc.7.t
+    desc = vm.prc.7.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.7.a"
+        log = "vm.prc.7.a.log"
+        
+		add_dynamic_modifier = { modifier = PRC_Cult_Of_Mao_Zedong }
+		add_political_power = 50
+    }
+}
+
+# Struggle Sessions
+
+country_event = {
+    id = vm.prc.8
+    title = vm.prc.8.t
+    desc = vm.prc.8.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.8.a"
+        log = vm.prc.8.a.log
+		
+        add_political_power = 50
+        add_stability = -0.10
+    }
+}
+
+# Social Market Economy
+
+country_event = {
+    id = vm.prc.9
+    title = vm.prc.9.t
+    desc = vm.prc.9.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.9.a"
+        log = vm.prc.9.a.log
+        add_political_power = 60
+        add_stability = 0.10
+    }
+}
+
+# Roads and Belts
+
+country_event = {
+    id = vm.prc.10
+    title = vm.prc.10.t
+    desc = vm.prc.10.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.10.a"
+        log = vm.prc.10.a.log
+		
+		add_ideas = PRC_Roads_And_Belts_Initiative_Originator
+    }
+}
+
+# Common Program
+
+country_event = {
+    id = vm.prc.11
+    title = vm.prc.11.t
+    desc = vm.prc.11.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.11.a"
+        log = vm.prc.11.a.log
+        add_political_power = 50
+        add_stability = 0.10
+    }
+}
+
+# Regional Admin
+
+country_event = {
+    id = vm.prc.12
+    title = vm.prc.12.t
+    desc = vm.prc.12.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.12.a"
+        log = vm.prc.12.a.log
+        add_political_power = 40
+        add_stability = 0.08
+    }
+}
+
+# Roads and Belts Invite
+
+country_event = {
+    id = vm.prc.13
+    title = vm.prc.13.t
+    desc = vm.prc.13.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.13.a"
+        log = vm.prc.13.a.log
+		
+		ai_chance = { factor = 90 }
+		
+		add_ideas = PRC_Roads_And_Belts_Initiative
+		
+		PRC = { country_event = { id = vm.prc.14 hours = 6 } }
+    }
+	
+	 option {
+        name = "vm.prc.13.b"
+        log = vm.prc.13.b.log
+		
+		ai_chance = { factor = 10 }
+		
+		PRC = { country_event = { id = vm.prc.15 hours = 6 } }
+    }
+}
+
+# Accepted
+
+country_event = {
+    id = vm.prc.14
+    title = vm.prc.14.t
+    desc = vm.prc.14.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.14.a"
+        log = vm.prc.14.a.log
+		
+		add_political_power = 25
+    }
+}
+
+# Declined
+
+country_event = {
+    id = vm.prc.15
+    title = vm.prc.15.t
+    desc = vm.prc.15.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.15.a"
+        log = vm.prc.15.a.log
+		
+		create_wargoal = {
+            target = FROM
+            type = puppet_wargoal_focus
+			expire = 0
+        }
+    }
+}
+
+# Purging Deng Xiaoping and Zhou Enlai
+
+country_event = {
+    id = vm.prc.16
+    title = vm.prc.16.t
+    desc = vm.prc.16.d
+    picture = GFX_report_event_chinese_soldiers_fighting       
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.16.a"
+        log = vm.prc.16.a.log
+        
+		retire_character = PRC_zhou_enlai
+		retire_character = PRC_Deng_Xiaoping
+    }
+}
+
+# Purging Gang Of Four
+
+country_event = {
+    id = vm.prc.17
+    title = vm.prc.17.t
+    desc = vm.prc.17.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.17.a"
+        log = vm.prc.17.a.log
+       
+		retire_character = PRC_Jiang_Qing
+		retire_character = PRC_Yao_Wenyuan
+		retire_character = PRC_Zhang_Chunqiao
+		retire_character = PRC_Wang_Hongwen
+    }
+}
+
+# Project 571
+
+country_event = {
+    id = vm.prc.18
+    title = vm.prc.18.t
+    desc = vm.prc.18.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.18.a"
+        log = vm.prc.18.a.log
+        
+		activate_mission = Civil_War_Erupts
+    }
+}
+
+# Sway Lin Biao
+
+country_event = {
+    id = vm.prc.19
+    title = vm.prc.19.t
+    desc = vm.prc.19.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.19.a"
+        log = vm.prc.19.a.log
+        
+		
+    }
+}
+
+# Eliminate Mao Zedong
+
+country_event = {
+    id = vm.prc.20
+    title = vm.prc.20.t
+    desc = vm.prc.20.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.20.a"
+        log = vm.prc.20.a.log
+        add_political_power = -30
+        add_stability = -0.15
+        
+		retire_character = PRC_mao_zedong
+    }
+}
+
+# Deng Assumes Chairmanship
+
+country_event = {
+    id = vm.prc.21
+    title = vm.prc.21.t
+    desc = vm.prc.21.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.21.a"
+        log = vm.prc.21.a.log
+        
+		promote_character = {
+			character = PRC_Deng_Xiaoping
+			ideology = marxism
+		}
+    }
+}
+
+# Ask for Hong Kong
+
+country_event = {
+    id = vm.prc.22
+    title = vm.prc.22.t
+    desc = vm.prc.22.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.22.a"
+        log = vm.prc.22.a.log
+        
+		ai_chance = { factor = 80 }
+		
+		PRC = { country_event = { id = vm.prc.23 hours = 12 } }
+    }
+	
+	option {
+        name = "vm.prc.22.a"
+        log = vm.prc.22.a.log
+        
+		ai_chance = { factor = 20 }
+		
+		PRC = { country_event = { id = vm.prc.24 hours = 12 } }
+    }
+}
+ # Accept
+country_event = {
+    id = vm.prc.23
+    title = vm.prc.23.t
+    desc = vm.prc.23.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.23.a"
+        log = vm.prc.23.a.log
+        add_political_power = 50
+        add_stability = 0.10
+		
+		326 = { transfer_state_to = PRC }
+    }
+}
+# Decline
+country_event = {
+    id = vm.prc.24
+    title = vm.prc.24.t
+    desc = vm.prc.24.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.24.a"
+        log = vm.prc.24.a.log
+        add_political_power = -40
+        add_stability = -0.10
+    }
+}
+
+# Ask for Macau
+
+country_event = {
+    id = vm.prc.25
+    title = vm.prc.25.t
+    desc = vm.prc.25.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.25.a"
+        log = vm.prc.25.a.log
+		
+		ai_chance = { factor = 90 }
+		
+        PRC = { country_event = { id = vm.prc.26 hours = 12 } }
+    }
+    option {
+        name = "vm.prc.25.b"
+        log = vm.prc.25.b.log
+		
+		ai_chance = { factor = 10 }
+		
+        PRC = { country_event = { id = vm.prc.27 hours = 12 } }
+    }
+}
+# Accept
+country_event = {
+    id = vm.prc.26
+    title = vm.prc.26.t
+    desc = vm.prc.26.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.26.a"
+        log = vm.prc.26.a.log
+        add_political_power = 50
+        add_stability = 0.10
+		
+		729 = { transfer_state_to = PRC }
+    }
+}
+# Decline
+country_event = {
+    id = vm.prc.27
+    title = vm.prc.27.t
+    desc = vm.prc.27.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.27.a"
+        log = vm.prc.27.a.log
+        add_political_power = -40
+        add_stability = -0.10
+    }
+}
+
+# Ask for Guangzhouwan
+
+country_event = {
+    id = vm.prc.28
+    title = vm.prc.28.t
+    desc = vm.prc.28.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.28.a"
+        log = vm.prc.28.a.log
+		ai_chance = { factor = 90 }
+        PRC = { country_event = { id = vm.prc.29 hours = 12 } }
+    }
+    option {
+        name = "vm.prc.28.b"
+        log = vm.prc.28.b.log
+		ai_chance = { factor = 10 }
+        PRC = { country_event = { id = vm.prc.30 hours = 12 } }
+    }
+}
+# Accept
+country_event = {
+    id = vm.prc.29
+    title = vm.prc.29.t
+    desc = vm.prc.29.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.29.a"
+        log = vm.prc.29.a.log
+        add_political_power = 50
+        add_stability = 0.10
+		
+		728 = { transfer_state_to = PRC }
+    }
+}
+#Decline
+country_event = {
+    id = vm.prc.30
+    title = vm.prc.30.t
+    desc = vm.prc.30.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.30.a"
+        log = vm.prc.30.a.log
+        add_political_power = -40
+        add_stability = -0.10
+    }
+}
+
+# Invite to Roads and Belts Cooperation
+
+country_event = {
+    id = vm.prc.31
+    title = vm.prc.31.t
+    desc = vm.prc.31.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.31.a"
+        log = vm.prc.31.a.log
+        PRC = { country_event = { id = vm.prc.32 hours = 12 } }
+		
+		add_ideas = PRC_Roads_And_Belts_Initiative_3
+		
+		add_opinion_modifier = {
+			target = PRC
+			modifier = PRC_Roads_And_Belts_Member
+		}
+		
+		add_ai_strategy  = {
+			type = alliance
+			id = PRC
+			value = 200
+		}
+		
+		ai_chance = {
+			base = 10
+
+			modifier = {
+				factor = 3
+				add = 50
+				
+				has_government = communism
+			}
+			
+			modifier = {
+				factor = 3
+				add = 10
+				
+				has_government = neutrality
+			}
+			
+			modifier = {
+				factor = 3
+				add = 20
+				
+				num_of_factories < 25
+			}
+			
+			modifier = {
+				factor = 0
+				
+				has_government = fascism
+			}
+			
+			modifier = {
+				factor = 0
+				
+				has_government = democratic
+			}
+		}
+    }
+    option {
+        name = "vm.prc.31.b"
+        log = vm.prc.31.b.log
+        PRC = { country_event = { id = vm.prc.33 hours = 12 } }
+		
+		ai_chance = {
+			base = 10
+		}
+    }
+}
+
+# Accept
+
+country_event = {
+    id = vm.prc.32
+    title = vm.prc.32.t
+    desc = vm.prc.32.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.32.a"
+        log = vm.prc.32.a.log
+		
+		add_offsite_building = { type = industrial_complex level = 1 }
+		
+		add_to_variable = { var = PRC_RB_BS value = 0.025 tooltip = PRC_RAB_TT }
+				add_to_variable = { var = PRC_RB_CG value = 0.025 }
+				add_to_variable = { var = PRC_RB_TO value = 0.025 }
+				add_to_variable = { var = PRC_RB_OG value = 0.025 }
+    }
+}
+
+# Decline
+
+country_event = {
+    id = vm.prc.33
+    title = vm.prc.33.t
+    desc = vm.prc.33.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.33.a"
+        log = vm.prc.33.a.log
+        add_political_power = -40
+        add_stability = -0.10
+    }
+}
+
+# Invite to Roads and Belts Imperialism
+
+country_event = {
+    id = vm.prc.34
+    title = vm.prc.34.t
+    desc = vm.prc.34.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.34.a"
+        log = vm.prc.34.a.log
+        PRC = { country_event = { id = vm.prc.35 hours = 12 } }
+		
+		add_ideas = PRC_Roads_And_Belts_Initiative
+		
+		add_opinion_modifier = {
+			target = PRC
+			modifier = PRC_Roads_And_Belts_Member
+		}
+		
+		ai_chance = {
+			base = 10
+
+			modifier = {
+				factor = 3
+				add = 50
+				
+				has_government = communism
+			}
+			
+			modifier = {
+				factor = 3
+				add = 10
+				
+				has_government = neutrality
+			}
+			
+			modifier = {
+				factor = 3
+				add = 20
+				
+				num_of_factories < 25
+			}
+			
+			modifier = {
+				factor = 0
+				
+				has_government = fascism
+			}
+			
+			modifier = {
+				factor = 0
+				
+				has_government = democratic
+			}
+		}
+    }
+    option {
+        name = "vm.prc.34.b"
+        log = vm.prc.34.b.log
+        PRC = { country_event = { id = vm.prc.36 hours = 12 } }
+		
+		ai_chance = {
+			base = 10
+		}
+    }
+}
+
+# Accept
+
+country_event = {
+    id = vm.prc.35
+    title = vm.prc.35.t
+    desc = vm.prc.35.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.35.a"
+        log = vm.prc.35.a.log
+		
+		add_political_power = 50
+    }
+}
+
+# Decline
+
+country_event = {
+    id = vm.prc.36
+    title = vm.prc.36.t
+    desc = vm.prc.36.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.36.a"
+        log = vm.prc.36.a.log
+        
+		add_political_power = -25
+    }
+}
+
+# Demand Subjugation Roads and Belts
+
+country_event = {
+    id = vm.prc.37
+    title = vm.prc.37.t
+    desc = vm.prc.37.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.37.a"
+        log = vm.prc.37.a.log
+		
+		ai_chance = {
+			base = 10
+
+			modifier = {
+				factor = 3
+				add = 50
+				
+				has_government = communism
+			}
+			
+			modifier = {
+				factor = 3
+				add = 10
+				
+				has_government = neutrality
+			}
+			
+			modifier = {
+				factor = 3
+				add = 20
+				
+				num_of_factories < 25
+			}
+			
+			modifier = {
+				factor = 0
+				
+				has_government = fascism
+			}
+			
+			modifier = {
+				factor = 0
+				
+				has_government = democratic
+			}
+		}
+		
+         PRC = { country_event = { id = vm.prc.38 hours = 12 } }
+    }
+    option {
+        name = "vm.prc.37.b"
+        log = vm.prc.37.b.log
+		
+		ai_chance = {
+			base = 10
+		}
+		
+        PRC = { country_event = { id = vm.prc.39 hours = 12 } }
+    }
+}
+
+# Accept
+
+country_event = {
+    id = vm.prc.38
+    title = vm.prc.38.t
+    desc = vm.prc.38.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.38.a"
+        log = vm.prc.38.a.log
+
+		set_autonomy = {
+			target = FROM
+			autonomous_state = autonomy_integrated_puppet
+		}
+    }
+}
+
+# Decline
+
+country_event = {
+    id = vm.prc.39
+    title = vm.prc.39.t
+    desc = vm.prc.39.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+    is_triggered_only = yes
+
+    option {
+        name = "vm.prc.39.a"
+        log = vm.prc.39.a.log
+        add_political_power = -60
+        
+		create_wargoal = {
+            target = FROM
+            type = puppet_wargoal_focus
+        }
+		
+		add_war_support = 0.05
+    }
+}

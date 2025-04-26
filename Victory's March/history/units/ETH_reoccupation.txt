@@ -1,0 +1,105 @@
+﻿division_template = {
+	name = "Communist Revolutionary Militia"		
+	division_names_group = ETH_INF_01
+
+	# Note: Represents both regular infantry and militia units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 5010
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 12812
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 4995
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 8062
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2072
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 1984
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 5041
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 7980
+		division_template = "Communist Revolutionary Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ETH"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+#################################

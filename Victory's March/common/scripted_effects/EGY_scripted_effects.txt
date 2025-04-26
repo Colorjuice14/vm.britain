@@ -1,0 +1,76 @@
+EGY_great_depression_level_down = {
+	if = {
+		limit = { has_idea = ege_great_depression_3 }
+		custom_effect_tooltip = USA_great_depression_down_tt
+		remove_ideas = ege_great_depression_3
+	}
+	if = {
+		limit = { has_idea = ege_great_depression_2 }
+		custom_effect_tooltip = USA_great_depression_down_tt
+		swap_ideas = {
+			remove_idea = ege_great_depression_2
+			add_idea = ege_great_depression_3
+		}
+	}
+	if = {
+		limit = { has_idea = ege_great_depression }
+		custom_effect_tooltip = USA_great_depression_down_tt
+		swap_ideas = {
+			remove_idea = ege_great_depression
+			add_idea = ege_great_depression_2
+		}
+	}
+}
+EGY_national_poverty_level_down = {
+	if = {
+		limit = { has_idea = national_poverty_3 }
+		custom_effect_tooltip = EGY_national_poverty_down_tt
+		remove_ideas = national_poverty_3
+	}
+	if = {
+		limit = { has_idea = national_poverty_2 }
+		custom_effect_tooltip = EGY_national_poverty_down_tt
+		swap_ideas = {
+			remove_idea = national_poverty_2
+			add_idea = national_poverty_3
+		}
+	}
+	if = {
+		limit = { has_idea = national_poverty }
+		custom_effect_tooltip = EGY_national_poverty_down_tt
+		swap_ideas = {
+			remove_idea = national_poverty
+			add_idea = national_poverty_2
+		}
+	}
+}
+EGY_purge_of_democracy_level_up = {
+	if = {
+		limit = { has_idea = purge_of_democracy_1 }
+		swap_ideas = {
+			remove_idea = purge_of_democracy_1
+			add_idea = purge_of_democracy_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = purge_of_democracy_2 }
+		swap_ideas = {
+			remove_idea = purge_of_democracy_2
+			add_idea = purge_of_democracy_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = purge_of_democracy_3 }
+		swap_ideas = {
+			remove_idea = purge_of_democracy_3
+			add_idea = purge_of_democracy_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = purge_of_democracy_4 }
+		swap_ideas = {
+			remove_idea = purge_of_democracy_4
+			add_idea = purge_of_democracy_5
+		}
+	}
+}

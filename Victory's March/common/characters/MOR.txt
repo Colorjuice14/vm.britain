@@ -1,0 +1,38 @@
+characters={
+	MOR_abd_el_krim={
+		name="Abd-el Krim"
+		portraits={
+			army={
+				small="GFX_idea_krim"
+				large="GFX_portrait_krim"
+			}
+		}
+	}
+	MOR_belyaev={
+		name="Ivan Belyaev"
+		portraits={
+			army={
+				small="GFX_idea_belyaev"
+				large="GFX_portrait_belyaev"
+			}
+		}
+	}
+	MOR_ern={
+		name="Nikolay Ern"
+		portraits={
+			army={
+				small="GFX_idea_ern"
+				large="GFX_portrait_ern"
+			}
+		}
+	}
+	
+	MOR_mukri={
+		name="Muhammad al-Muqri"
+		portraits={
+			civilian={
+				small="GFX_idea_mukri"
+			}
+		}
+	}
+}

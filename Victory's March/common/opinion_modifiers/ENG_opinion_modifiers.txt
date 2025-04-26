@@ -2,4 +2,16 @@ opinion_modifiers = {
 	eng_offers_of_protection = {
 			value = 50
 	}
+	
+	uk_middle_east_strategy_good = {
+			value = 15
+	}
+	
+	uk_middle_east_strategy_bad = {
+			value = -30
+	}
+	
+	uk_scandinavian_initiative = {
+			value = 15
+	}
 }

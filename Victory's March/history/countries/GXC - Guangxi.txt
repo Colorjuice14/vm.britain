@@ -32,14 +32,10 @@ recruit_character = GXC_lei_zhong
 recruit_character = GXC_Chen_Gongbo
 
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
+add_ideas = {
+	PRC_government_corruption
+	CHI_ineffective_bureaucracy_warlord
+	Chinese_Unity
 }
 
 1939.1.1 = {

@@ -1,6 +1,8 @@
 autonomy_state = {
 	id = autonomy_corporate_state
 	
+	default = no
+	
 	is_puppet = yes
 	
 	min_freedom_level = 0.2
@@ -45,9 +47,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Death or Dishonor"
-		OVERLORD = { has_government = fascism }
-		ROOT = { has_government = fascism }
+		OVERLORD = { tag = USA }
 	}
 	
 	can_take_level = {

@@ -1,0 +1,1085 @@
+characters={
+
+##Com Stuff
+
+
+	MON_khorloogiin_choibalsan_111={
+		name="Khorloogiin Choibalsan"
+		portraits={
+			army={
+				small="gfx/interface/advisors/MON_choi.dds"
+				large="gfx/leaders/MON/Portrait_Choibalsan.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MON/Portrait_Choibalsan.dds"
+				small = "gfx/interface/advisors/MON_choi.dds"
+			}
+		}
+		corps_commander={
+		
+			traits={ harsh_leader politically_connected cavalry_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=821895
+			visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ dictator
+		stalins_mongol
+		rearmer }
+			expire="1948.1.1.1"
+			id=141038
+		}
+		
+		advisor = {
+			
+			visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+			
+	
+		slot = high_command
+		idea_token = choibalsan1
+			ledger = army
+			traits = { army_regrouping_66 }
+			
+		}
+		
+		advisor = {
+		
+			visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+				
+				cost = 50
+				
+				idea_token = choibalsan2
+		slot = army_chief 
+			available = {
+				if = {
+					has_completed_focus = MON_choifoc
+					}}
+			traits = { red_army_director }
+		}
+		advisor = {
+			available = {
+				if = {
+					OR = {
+					has_idea = MON_affairs_1
+					has_idea = MON_affairs_2
+				}}
+				}
+				visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+				
+		idea_token = choibalsan3			
+		slot = political_advisor
+			
+			traits = { mongolian_revolutionary }
+		
+		
+	}
+	}
+	
+	MON_peljidiin_genden={
+		name="Peljidiin Genden"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Genden.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ nationalist_figure leftist_moderate }
+			expire="1936.3.7.1"
+			id=-1
+		}
+	}
+	
+	MON_anandyn_amar = {
+		name = "Anandyn Amar"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/MON/Portrait_Anandyn_Amar.dds"
+				small = "gfx/interface/advisors/MON_amar.dds"
+			}
+		}
+		country_leader = {
+			ideology=marxism
+			traits={ feudal_troublemaker leftist_moderate }
+			expire="1939.1.1.1"
+
+		}
+		advisor = {
+			slot = political_advisor
+			visible = {
+			if = {
+				NOT = {
+				has_country_flag = MON_crackdown
+			}}
+			}
+			idea_token = amar1
+			traits = { science_group }
+		}
+	}
+	
+	MON_yumjaagiin_tsedenbal={
+		name="Yumjaagiin Tsedenbal"
+		portraits={
+			
+			army={
+				large="gfx/leaders/MON/Portrait_Yumjaagiin.dds"
+				small = "gfx/interface/advisors/MON_yumjag.dds"
+			}
+			civilian = {
+			large="gfx/leaders/MON/Portrait_Yumjaagiin.dds"
+				small = "gfx/interface/advisors/MON_yumjag.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer armor_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=898394
+			visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+				
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { dictator
+				great_architect
+				reconciliator }
+			expire = 1948.1.1.1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = yumjag1
+			traits = {	army_armored_2}
+			visible = {
+				has_completed_focus = MON_stalinist_crackdown
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+			}
+		
+		
+		advisor = {
+			slot = political_advisor
+			traits = { minister_of_defence }
+			idea_token = yumjag2
+			
+			available = {
+				if = {
+					AND = {
+					has_completed_focus = MON_fund_defence 
+					has_completed_focus = MON_stalinist_crackdown 
+				}
+				} }
+				visible = {
+				if = {
+					AND = {
+					has_completed_focus = MON_fund_defence 
+					has_completed_focus = MON_stalinist_crackdown 
+				}
+				} 
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+		
+		
+	}}
+MON_gelegdorjiin_demid = {
+			name = "Gelegdorjiin Demid"
+			portraits={
+			army={
+				large="gfx/leaders/MON/Portrait_Demid.dds"
+				small = "gfx/interface/advisors/MON_demid.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MON/Portrait_Demid.dds"
+				small = "gfx/interface/advisors/MON_demid.dds"
+			}
+		}
+		
+		
+		corps_commander={
+			
+			traits={ career_officer cavalry_officer politically_connected }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=22081900
+			visible = {
+				if = {
+					NOT = {
+						has_completed_focus = MON_stalinist_crackdown
+			}}}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				inexperienced_leader
+				nationalist_symbol
+			}
+		}
+		advisor = {
+			visible = {
+				if = {
+					NOT = {
+						has_completed_focus = MON_stalinist_crackdown
+			}}}
+			slot = political_advisor
+			idea_token = demid1
+				available = {
+				if = {
+				has_completed_focus = MON_fund_defence } }
+			
+			traits = { minister_of_defence }
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = demid2
+			traits = { the_popular_general } 
+			visible = {
+				if = {
+					NOT = {
+						has_completed_focus = MON_stalinist_crackdown
+			}}}
+		}
+		advisor = {
+			slot = army_chief
+			cost = 50
+			idea_token = demid3
+			available = {
+				if = {
+					has_completed_focus = MON_demidfoc
+					}}
+			traits = {experienced_leader}
+			visible = {
+				if = {
+					NOT = {
+						has_completed_focus = MON_stalinist_crackdown
+			}}}
+		}
+	}
+	
+	
+	
+##Fashy
+	MON_borjigiin_loyalists={
+		name="Borjigiin Loyalists"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Yurt.dds"
+			}
+		}
+		country_leader={
+			ideology=tengri_rexism
+			traits={ divided_interests }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	MON_manzu = {
+		name = "Noyon Khan Manzushir Sambadondogiin Tserendorj"
+		portraits = {
+		civilian = {
+			large = "gfx/leaders/MON/Portrait_Tserendorj.dds"
+		}
+		army = {
+			large = "gfx/leaders/MON/Portrait_Tserendorj.dds"
+		}
+		}
+		
+		country_leader = {
+			ideology = tengri_rexism
+			traits = { nationalist_figure2 spirit_of_bk}
+		}
+		
+		corps_commander = {
+			traits = { trait_reckless politically_connected aggressive_assaulter}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		visible = {
+				if = {
+					NOT = {
+						has_government = communism
+				}}}
+				}		
+			
+		}
+		
+	MON_navaan = {
+		name = "Setsen Khan Navaanneren"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/Portrait_Navaanneren.dds"
+			}
+		}
+		country_leader = {
+			ideology = tengri_rexism
+			traits = { nationalist_figure gentle_scholar spirit_of_progress}
+		}
+	}
+	
+	MON_genepil_fashy = {
+		name = "Khatun Genepil"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/Portrait_Genepil.dds"
+			}
+			army = {
+				large = "gfx/leaders/MON/Portrait_Genepil.dds"
+			}
+		}
+		country_leader = {
+		traits = { young_queen }
+		ideology = tengri_rexism
+		expire = "1965.1.1.1"	
+		}
+		corps_commander = {
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			visible = {
+				if = {
+					NOT = {
+					OR = {
+						has_government = communism
+						has_completed_focus = MON_side_with_the_confucian_bureaucrats
+				}}}
+				}	
+		}
+		}
+	
+	
+
+##Royalty
+	MON_confucian_bureaucracy={
+		name="Confucian Bureaucracy"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_YCBG.dds"
+			}
+		}
+		country_leader={
+			ideology=monastic_feudalism
+			traits={ YCBG social_revolutionary }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	MON_de = { 
+		name = "Taiji Khan Demchugdongrub"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEN/Portrait_De.dds"
+				small = "gfx/interface/advisors/MON_De.dds"
+			}
+		}
+		
+		
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = de1
+			traits = {weak_figurehead}
+			visible = {
+				if = {
+					has_country_flag = MON_de_arrive
+				}
+				NOT = {
+				OR = {
+					has_country_flag = MON_lkhumbe
+					has_completed_focus = MON_the_true_son_of_heaven
+				}
+			}
+		}}
+		
+		field_marshal = {
+			traits={ cavalry_officer politically_connected spirit_of_genghis_improved}
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				if = {
+					has_country_flag = MON_de_arrive
+				}
+				NOT = {
+					has_country_flag = MON_lkhumbe
+				}
+				
+			}
+		}
+		
+		country_leader = {
+		ideology = despotism
+		traits = { 
+				legitimate_heir }
+		expire="1965.1.1.1"	
+		}
+	}
+	
+	
+	MON_genepil_monarch = {
+		name = "Khatun Genepil"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/Portrait_Genepil.dds"
+			}
+			army = {
+				large = "gfx/leaders/MON/Portrait_Genepil.dds"
+			}
+		}
+		country_leader = {
+		traits = { young_queen }
+		ideology = monastic_feudalism
+		expire = "1965.1.1.1"	
+		}
+		corps_commander = {
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			visible = {
+				if = {
+					NOT = {
+					OR = {
+						has_government = communism
+						has_completed_focus = MON_side_with_the_borjigin_loyalists
+				}}}
+				}	
+		}
+		}
+			
+		
+	
+		
+		
+
+##Democ
+	MON_jamsrangiin_tseveen={
+		name="Jamsrangiin Tseveen"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Tseveen.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+
+
+
+##Commanders
+
+	
+	MON_jamyangiin_lhagvasüren={
+		name="Jamyangiin Lhagvasüren"
+		portraits={
+			army={
+				small="gfx/interface/advisors/MON_lhag.dds"
+				large="gfx/leaders/MON/Portrait_Lhagvasuren.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer trait_engineer combined_arms_expert }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = lhag1
+			traits = { army_CombinedArms_1 }
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				inexperienced_leader
+				nationalist_symbol
+			}
+		}
+	}
+	
+	MON_gonchigiin_bumstend={
+		name="Gonchigiin Bumstend"
+		portraits={
+			army={
+				small="gfx/interface/advisors/MON_bums.dds"
+			}
+			army={
+				large="gfx/leaders/MON/Portrait_Bumstend.dds"
+			}
+		}
+					
+		corps_commander={
+			traits={ old_guard war_hero trickster guerilla_fighter }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=777134
+			visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+		}
+		advisor = {
+		idea_token = bums1
+		visible = {
+				NOT = {
+					OR = {
+					has_country_flag = MON_rebuild_empire
+					has_country_flag = MON_empowered_moderates
+				}}}
+			slot = high_command
+			ledger = army
+			
+			traits = { master_guerilla }
+		}
+	}
+	
+	
+	
+##Recruitable Russian
+
+MON_shtern = {
+	name = "Grigory Shtern"
+	portraits = {
+		army = {
+			small = "gfx/interface/ideas/idea_alexander_golovanov.dds"
+			large = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_1.dds"
+		}
+	}
+	
+	corps_commander = {
+		traits = { war_hero winter_specialist cavalry_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill =1 
+		planning_skill = 4
+		logistics_skill = 2
+		visible = {
+				if = {
+					
+						has_country_flag = MON_khalk_win
+			}}
+	}
+	
+	advisor = {
+	idea_token = shtern1
+		slot = high_command
+		ledger = army 
+		traits = { far_east }
+	visible = {
+				if = {
+					
+						has_country_flag = MON_khalk_win
+			}}
+	}
+}
+
+MON_yakov = {
+	name = "Yakov Smushkevich"
+	portraits = {
+		army= {
+			small = "gfx/interface/advisors/idea_yakov_smushkevich.dds"
+		}
+	}
+	
+	advisor = {
+		slot = air_chief
+		idea_token = yakov1
+		traits = { air_chief_all_weather_2 }
+		visible = {
+				if = {
+					
+						has_country_flag = MON_khalk
+			}}
+	}
+}
+
+
+MON_snej = {
+	name = "Josef Šnejdárek"
+	portraits = {
+		army = {
+			small = "gfx/interface/advisors/MON_snej.dds"
+			large = "gfx/leaders/MON/portrait_josef_snejdarek.dds"
+		}}
+	advisor = {
+		slot = high_command
+		ledger = army
+		idea_token = snej1
+		traits = { firepower_kills }
+		visible = {
+				if = {
+					
+						has_completed_focus = MON_supremacy_of_firepower
+			}}
+	}
+	
+	field_marshal = {
+		traits={ defensive_doctrine thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			visible = {
+				if = {
+					
+						has_completed_focus = MON_supremacy_of_firepower
+			}}
+		}	
+}
+
+
+
+
+##Recruitable Chinese
+MON_ulanhu = {
+	name = "Ulanhu"
+	portraits = {
+		army = {
+			small = "gfx/interface/advisors/MON_ulanhu.dds"
+			large = "gfx/leaders/MON/Portrait_Ulanhu.dds"
+		}}
+	
+	advisor = {
+	slot = theorist
+	ledger = army
+	idea_token = ulanhu1
+	traits = { long_march_veteran }
+	visible = {
+				if = {
+					AND = {
+						has_country_flag = MON_chimil_token4
+						has_completed_focus = MON_study_the_reunification_campaigns 
+			}}
+	}}
+	
+	corps_commander = {
+		
+			traits = { 
+				politically_connected
+				guerilla_fighter
+				commando
+				}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			
+			visible = {
+				if = {
+					
+						has_country_flag = MON_chimil_token4
+			}}
+		}
+	}
+
+MON_darijaya = {
+	name = "Jasagh Darijaya"
+	portraits = {
+		army = {
+			small = "gfx/interface/ideas/idea_asia_generic_land_4.dds"
+			large = "gfx/leaders/MON/portrait_asia_generic_land_14.dds"
+		}}
+	corps_commander = {
+	traits = { 
+				politically_connected
+				infantry_officer
+				}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			visible = {
+				if = {
+					
+						has_country_flag = MON_chimil_token1
+			}}
+	}
+}
+
+MON_hongbin = {
+	name = "Ma Hongbin"
+	portraits = {
+		army = {
+			small = "gfx/interface/ideas/idea_generic_fascist_asia.dds"
+			large = "gfx/leaders/MON/Portrait_Ma_hongbin.dds"
+		}}
+	corps_commander = {
+		traits = { 
+				politically_connected
+				war_hero
+				cavalry_officer
+				inspirational_leader
+				}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+			visible = {
+				if = {
+					
+						has_country_flag = MON_chimil_token2
+			}}
+	}
+}
+
+MON_zuoyi = {
+	name = "Fu Zuoyi"
+	portraits = {
+		army = {
+			small = "gfx/interface/ideas/idea_asia_generic_land_2.dds"
+			large = "gfx/leaders/MON/portrait_chi_fu_zuoyi.dds"
+		}}
+	corps_commander = {
+		traits = { 
+				politically_connected
+				inflexible_strategist
+				infantry_officer
+				}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			visible = {
+				if = {
+					
+						has_country_flag = MON_chimil_token3
+			}}
+	}
+}
+
+MON_ospan = {
+	name = "Ospan Batyr"
+	portraits = {
+		army = {
+			small = "gfx/interface/ideas/idea_asia_generic_land_4.dds"
+			large = "gfx/leaders/MON/portrait_asia_generic_land_9.dds"
+		}}
+		corps_commander = {
+	traits = { 
+				politically_connected
+				desert_fox
+				aggressive_assaulter
+				offensive_doctrine
+				}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			visible = {
+				if = {
+					
+						has_country_flag = MON_chimil_token5
+			}}
+	}
+}	
+	
+	
+
+##Theorists
+
+MON_yanjmaa = {
+	name = "Sükhbaataryn Yanjmaa"
+	portraits={
+		army = {
+		large = "gfx/leaders/MON/Portrait_Yanjmaa.dds"
+		small = "gfx/interface/advisors/MON_yanjmaa.dds"
+		}
+		civilian = {
+		small = "gfx/interface/advisors/MON_yanjmaa.dds"
+		}
+	}
+	advisor = {
+		slot = theorist 
+		idea_token = yanjmaa1
+		ledger = army
+			traits = { superior_firepower_lady }
+		available = {
+				if = {
+					
+						has_completed_focus = MON_legacy_of_damdin_skhbaatar
+	}}}
+	
+	advisor = {
+		slot = political_advisor
+		idea_token = yanjmaa2
+		traits = { lady_on_the_council }
+		available = {
+				if = {
+					
+						has_completed_focus = MON_expand_our_cabinet
+			}}
+	}
+	corps_commander = {
+	traits = { 
+				politically_connected
+				war_hero
+				old_guard
+				media_personality
+				cavalry_officer
+				}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			visible = {
+				if = {
+					
+						has_completed_focus = MON_fund_defence
+			}}
+	}
+	}
+
+MON_breeder = {
+	name = "National Stables"
+	
+	portraits = {
+		army = {
+			small = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_2.dds"
+	}}
+	
+	advisor = {
+		slot = theorist
+		idea_token = breeder1
+		ledger = army
+		traits = { horse_breeder}
+		available = {
+				if = {
+					
+						has_completed_focus = MON_history_of_the_hordes
+			}}
+	}
+}
+
+MON_academy = {
+	name = "Mongolia Military Academy"
+	portraits = {
+		army = {
+			small = "gfx/interface/advisors/MON_academy.dds"
+		}}
+	advisor = {
+		slot = theorist
+		ledger = army
+		idea_token = academy1
+		traits = { military_academy }
+		available = {
+				if = {
+					
+						has_completed_focus = MON_mil_academy
+			}}
+	}
+}
+	
+##Political Advisors
+
+MON_jambyn = { ##GenSec1
+	name = "Jambyn Lkhümbe"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/MON_jambyn.dds"
+	}}
+	
+	advisor = {
+		slot = political_advisor
+		idea_token = jambyn1
+		traits = { general_secretary_1 }
+		visible = {
+			if = {
+				NOT = {
+					has_country_flag = MON_lkhumbe
+			}}}
+	}
+}
+
+MON_luvsansharav = {
+	name = "Dorjjavyn Luvsansharav"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/MON_luvsansharav.dds"
+		}}
+	advisor = {
+		slot = political_advisor
+		idea_token = luvsansharav1
+		traits = {general_secretary_2 }
+		visible = {
+			if = {
+
+					has_country_flag = MON_lkhumbe
+			}
+			NOT = {
+				has_country_flag = MON_crackdown
+			}
+			}
+	}
+}
+
+MON_bat = {
+	name = "Bat-Ochiryn Eldev-Ochir"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/MON_bat.dds"
+		}}
+	advisor = {
+		slot = political_advisor
+		idea_token = bat1
+		traits = { general_secretary_3 }
+		visible = {
+			if = {
+
+					has_country_flag = MON_lkhumbe
+			}
+			NOT = {
+				has_completed_focus = MON_stalinist_crackdown
+			}
+			}
+	
+	}
+}
+
+
+MON_baas = {
+	name = "Banzarjavyn Baasanjav"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/MON_baas.dds"
+			}}
+	advisor = {
+		slot = political_advisor
+		idea_token = baas1
+		traits = {general_secretary_4}
+		visible = {
+			if = {
+				
+				has_country_flag = MON_crackdown
+			}
+	}}
+}
+
+MON_badrakh = {
+	name = "Ölziin Badrakh"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/MON_badrakh.dds"
+			}}
+	advisor = {
+		slot = political_advisor
+		idea_token = badrakh1
+		traits = { finance_minister }
+		visible = {
+			if = {
+				NOT = {
+					has_country_flag = MON_lkhumbe
+			}}}
+	}
+}
+
+MON_shijee = {
+	name = "Zolbingiin Shijee"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/MON_shijee.dds"
+			}}
+	advisor = {
+		slot = political_advisor
+		idea_token = shijee1
+		traits  = { collectivizer }
+		visible = {
+			if = {
+				NOT = {
+					has_country_flag = MON_lkhumbe
+		}}}
+	}
+}
+
+MON_mikhail = {
+	name = "Mikhial Frinovsky"
+	portraits = {
+		civilian = {
+			small = "gfx/interface/advisors/idea_mikhail_frinovsky.dds"
+			}}
+	advisor = {
+		slot = political_advisor
+		idea_token = mikhail1
+		traits = { nkvd_rezident }
+		visible = {
+			has_completed_focus = MON_stalinist_crackdown
+		}
+}}
+	
+	
+	
+}
+

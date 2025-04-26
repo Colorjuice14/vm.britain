@@ -1,0 +1,149 @@
+characters={
+
+##Com Stuff
+
+
+	COI_khorloogiin_choibalsan_COINATION={
+		name="Khorloogiin Choibalsan"
+		portraits={
+			army={
+				small="gfx/interface/advisors/MON_choi.dds"
+				large="gfx/leaders/MON/Portrait_Choibalsan.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MON/Portrait_Choibalsan.dds"
+				small = "gfx/interface/advisors/MON_choi.dds"
+			}
+		}
+		corps_commander={
+		
+			traits={ harsh_leader politically_connected cavalry_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+	
+
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ dictator
+		stalins_mongol
+		rearmer }
+			expire="1948.1.1.1"
+		
+		}
+		
+		advisor = {
+			
+	
+		slot = high_command
+		idea_token = choibalsan1
+			ledger = army
+			traits = { army_regrouping_66 }
+			
+		}
+		
+		advisor = {
+
+				cost = 50
+				
+				idea_token = choibalsan2
+		slot = army_chief 
+
+			traits = { red_army_director }
+		}
+		advisor = {
+
+				
+		idea_token = choibalsan3			
+		slot = political_advisor
+			
+			traits = { mongolian_revolutionary }
+		
+		
+	}
+	}
+	
+	
+	
+	
+	COI_yumjaagiin_tsedenbal_COINATION={
+		name="Yumjaagiin Tsedenbal"
+		portraits={
+			
+			army={
+				large="gfx/leaders/MON/Portrait_Yumjaagiin.dds"
+				small = "gfx/interface/advisors/MON_yumjag.dds"
+			}
+			civilian = {
+			large="gfx/leaders/MON/Portrait_Yumjaagiin.dds"
+				small = "gfx/interface/advisors/MON_yumjag.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer armor_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+				
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { dictator
+				great_architect
+				reconciliator }
+			expire = 1948.1.1.1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = yumjag4
+			traits = {	army_armored_2}
+}
+		
+		
+		advisor = {
+			slot = political_advisor
+			traits = { minister_of_defence }
+			idea_token = yumjag3
+
+		}
+		
+	}
+
+	COI_gonchigiin_bumstend_COINATION={
+		name="Gonchigiin Bumstend"
+		portraits={
+			army={
+				small="gfx/interface/advisors/MON_bums.dds"
+			}
+			army={
+				large="gfx/leaders/MON/Portrait_Bumstend.dds"
+			}
+		}
+					
+		corps_commander={
+			traits={ old_guard war_hero trickster guerilla_fighter }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			
+
+		}
+		advisor = {
+		idea_token = bums6
+
+			slot = high_command
+			ledger = army
+			
+			traits = { master_guerilla }
+		}
+	}
+}
+

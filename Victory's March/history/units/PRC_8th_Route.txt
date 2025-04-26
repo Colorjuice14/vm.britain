@@ -1,0 +1,79 @@
+#############################################
+# Division Templates for the 8th Route Army
+#############################################
+
+division_template = {
+	name = "8th Route Infantry Division"			# Represents a standard infantry division of the 8th Route Army
+	division_names_group = E8_ROUTE_INF_01
+	regiments = {
+		infantry   = { x = 0 y = 0 }
+		infantry   = { x = 0 y = 1 }
+		artillery  = { x = 1 y = 0 }
+		infantry   = { x = 0 y = 2 }				# Additional infantry battalion for size
+	}
+	support_companies = {
+		recon = 1
+		engineer = 1
+		artillery_support = 1
+	}
+}
+
+division_template = {
+	name = "8th Route Independent Brigade"			# Represents a smaller, independent brigade unit
+	division_names_group = E8_ROUTE_IND_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+#############################################
+##### OOB: 8th Route Army (Historical)
+#############################################
+
+units = {
+	##### 8th Route Army (Operating in northern China during the Sino-Japanese War)
+	# Division 1 - "1st Infantry Division"
+	division = {	# "1st Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8049							# Example province ID (e.g., a province in Shanxi)
+		division_template = "8th Route Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.90
+	}
+	# Division 2 - "2nd Infantry Division"
+	division = {	# "2nd Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 8049
+		division_template = "8th Route Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.90
+	}
+	# Division 3 - "3rd Infantry Division"
+	division = {	# "3rd Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 8049
+		division_template = "8th Route Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.90
+	}
+	# Independent Brigade - "Independent Brigade"
+	division = {	# "Independent Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 8049
+		division_template = "8th Route Independent Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.80
+	}
+}

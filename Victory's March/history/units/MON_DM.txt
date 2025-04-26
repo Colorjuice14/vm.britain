@@ -1,0 +1,48 @@
+division_template = {
+	name = "Tsagaan Khas Diviziin"
+	division_names_group = MON_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry  = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+units = {
+division = {
+	division_name = {  
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Tsagaan Khas Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+division = {
+	division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "Tsagaan Khas Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+division = {
+	division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4801
+		division_template = "Tsagaan Khas Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+}

@@ -1,0 +1,51 @@
+SIA_historical = {
+	name = "Thai historical plan"
+	desc = ""
+
+	allowed = {
+		original_tag = SIA
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+
+	ai_national_focuses = {
+		SIA_Military_Factionalism
+		SIA_Military_as_Protectors
+		SIA_Inspired_by_March_on_Rome
+		SIA_Six_Principles_of_Khana_Ratsadon
+		SIA_Supreme_Power_of_Thai_People
+		SIA_Eliminate_Civilian_Resistance
+		SIA_Control_the_Royalty
+		SIA_Call_for_Vote
+		SIA_Establish_Phibuns_Dictatorship
+		SIA_National_Security
+		SIA_Cultural_Mandates
+		SIA_Economic_Welfare
+		SIA_Equality_of_Thai_People
+		SIA_Pan_Thai_Nationalism
+		SIA_Rights_and_Liberties
+		SIA_Thai_Propaganda
+		SIA_Public_Education
+		SIA_Proclaim_Great_Kingdom_of_Thailand
+		SIA_Seek_Closer_Relations_To_Japan
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+

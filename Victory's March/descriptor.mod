@@ -9,5 +9,5 @@ tags={
 	"Balance"
 }
 name="Victory's March"
-supported_version="1.14.5"
+supported_version="1.16.1"
 remote_file_id="3205529496"

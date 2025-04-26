@@ -1,0 +1,22 @@
+capital = 419
+
+
+add_ideas = {
+	extensive_conscription
+	tot_economic_mobilisation
+	limited_exports
+	MON_imperial
+	MON_widespread_illiteracy
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 90
+	neutrality = 10
+}
+

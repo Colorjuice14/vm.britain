@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_english:0
 ################################### TRAITS                      \n      §H§!
  #####
  
@@ -29,56 +29,818 @@
  
 ################################### OPINION MODIFIERS           \n      §H§!
  
- 
- 
+ uk_middle_east_strategy_bad: "Middle East Strategy"
+ uk_middle_east_strategy_good: "Middle East Strategy"
+ uk_scandinavian_initiative: "Scandinavian Initiative"
  
 ################################### FOCUSES                     \n      §H§!
  
- ENG_Beneleux_Buffer_States:0 "Beneleux Buffer States"
- ENG_Beneleux_Buffer_States_desc:0 ""
+  UK_His_Majestys_Armed_Forces: "His Majesty’s Armed Forces"
+  UK_His_Majestys_Armed_Forces_desc: "Invest in modernizing and expanding our armed forces to project our global interests and secure the nation’s future."
+
+  UK_War_Department: "War Department"
+  UK_War_Department_desc: "Reorganize the military’s administrative and logistical structures to improve operational efficiency and readiness for our national defense."
+
+  UK_Secret_Intelligence_Service: "Secret Intelligence Service"
+  UK_Secret_Intelligence_Service_desc: "Enhance our covert operations to gather critical intelligence and safeguard our national security."
+
+  UK_Bomba_Kryptologiczna: "Bomba Kryptologiczna"
+  UK_Bomba_Kryptologiczna_desc: "Develop advanced cryptographic systems to secure our communications and intercept enemy signals."
+
+  UK_Tizard_Mission: "Tizard Mission"
+  UK_Tizard_Mission_desc:0 "Send a diplomatic and technical delegation abroad to acquire cutting‐edge research that will boost our domestic innovation."
+
+  UK_MAUD_Committee: "MAUD Committee"
+  UK_MAUD_Committee_desc: "Support the MAUD Committee’s efforts in radar and electronic warfare research to maintain our technological edge."
+  
+  UK_Ultra: "Ultra"
+  UK_Ultra_desc: "Ultra was the designation adopted by British military intelligence in June 1941 for wartime signals intelligence obtained by breaking high-level encrypted enemy radio and teleprinter communications."
+
+  UK_Operations: "Operations"
+  UK_Operations_desc: "Plan and execute strategic operations to protect our interests and uphold our position on the global stage."
+
+  UK_Home_Guard: "Home Guard"
+  UK_Home_Guard_desc: "Bolster local defense forces to protect our soil from invasion and internal unrest."
+
+  UK_Re_Armament: "Re-Armament"
+  UK_Re_Armament_desc: "Modernize and expand our military hardware to ensure that our armed forces are prepared for future challenges."
+
+  UK_RADAR: "RADAR"
+  UK_RADAR_desc: "Advance radar technology to improve early warning and air defense systems that protect our skies."
+
+  shadow_scheme_focus: "Shadow Scheme"
+  shadow_scheme_desc: "Implement secret industrial measures to bolster our wartime production capacity when conventional methods fall short."
+
+  UK_Dispersed_Industry: "Dispersed Industry"
+  UK_Dispersed_Industry_desc: "Disperse key industrial assets across our nation to reduce vulnerability to enemy air raids and ensure continuous production."
+
+  UK_Royal_Ordinance_Factories: "Royal Ordinance Factories"
+  UK_Royal_Ordinance_Factories_desc: "Modernize our state-run factories to support increased military production and research needs."
+
+  UK_Royal_Arsenal: "Royal Arsenal"
+  UK_Royal_Arsenal_desc: "Expand and upgrade our armaments production facilities to provide a steady stream of modern weaponry for our forces."
+
+  UK_Royal_Gunpowder_Factory: "Royal Gunpowder Factory"
+  UK_Royal_Gunpowder_Factory_desc: "Boost our munitions output by modernizing gunpowder production, a critical component of our military supply."
+
+  UK_Royal_Small_Arms_Factory: "Royal Small Arms Factory"
+  UK_Royal_Small_Arms_Factory_desc: "Enhance production of small arms to equip our soldiers with reliable and effective weapons."
+
+  UK_Birmingham_Small_Arms_Company: "Birmingham Small Arms Company"
+  UK_Birmingham_Small_Arms_Company_desc: "The Birmingham Small Arms Company Limited is a major British industrial combine, a group of businesses manufacturing military and sporting firearms; bicycles; motorcycles; cars; buses and bodies; steel; iron castings; hand, power, and machine tools; coal cleaning and handling plants; sintered metals; and hard chrome process."
+
+  UK_Allow_Private_Contruction: "Allow Private Construction"
+  UK_Allow_Private_Contruction_desc: "Permit private companies to build critical ROFs, easing the burden on the state."
+
+  UK_Bristol_ROFs: "Bristol ROFs"
+  UK_Bristol_ROFs_desc: "Upgrade munitions factories in Bristol to maximize production efficiency in support of our wartime needs."
+
+  UK_Somerset_ROFs: "Somerset ROFs"
+  UK_Somerset_ROFs_desc: "Modernize production facilities in Somerset to ensure a steady supply of materials for our military industry."
+
+  UK_Northumberland_ROFs: "Northumberland ROFs"
+  UK_Northumberland_ROFs_desc: "Invest in Northumberland’s industrial capacity to bolster our munitions output."
+
+  UK_Linlithgow_ROFs: "Linlithgow ROFs"
+  UK_Linlithgow_ROFs_desc: "Expand production in Linlithgow, contributing to our overall industrial resilience."
+
+  UK_The_Royal_Navy: "The Royal Navy"
+  UK_The_Royal_Navy_desc: "Maintain and modernize the world’s preeminent navy to protect our trade and project our power globally."
+
+  UK_Legacy_Of_The_Royal_Navy: "Legacy of The Royal Navy"
+  UK_Legacy_Of_The_Royal_Navy_desc: "Build on the storied traditions of our Navy to ensure continued maritime dominance."
+
+  UK_Carrier_Expertise: "Carrier Expertise"
+  UK_Carrier_Expertise_desc: "Develop specialized knowledge and tactics to operate and maintain aircraft carriers effectively in our fleet."
+
+  UK_Light_Ship_Expertise: "Light Ship Expertise"
+  UK_Light_Ship_Expertise_desc: "Enhance the capabilities of our light warships, ensuring rapid response and effective patrol operations."
+
+  UK_Heavy_Ship_Expertise: "Heavy Ship Expertise"
+  UK_Heavy_Ship_Expertise_desc: "Upgrade our heavy warship designs to improve firepower and durability in large-scale naval engagements."
+
+  UK_Control_Shipping_Routes: "Control Shipping Routes"
+  UK_Control_Shipping_Routes_desc: "Establish strategic control over critical shipping lanes to secure our trade and military logistics."
+
+  UK_Britannia_Rules_The_Waves: "Britannia Rules the Waves"
+  UK_Britannia_Rules_The_Waves_desc: "Assert our naval supremacy by dominating global shipping routes and enforcing maritime law."
+
+  UK_War_Emergency_Programmes: "War Emergency Programmes"
+  UK_War_Emergency_Programmes_desc: "Implement urgent measures to ramp up production and mobilize resources in the face of looming conflict."
+
+  UK_Illustrious_Class: "Illustrious-Class"
+  UK_Illustrious_Class_desc: ""
+
+  UK_Implacable_Class: "Implacable-Class"
+  UK_Implacable_Class_desc: ""
+
+  UK_Nelson_Class: "Nelson-Class"
+  UK_Nelson_Class_desc: ""
+
+  UK_Renown_Class: "Renown-Class"
+  UK_Renown_Class_desc: ""
+
+  UK_York_Class: "York-Class"
+  UK_York_Class_desc: ""
+
+  UK_Fiji_Class: "Fiji-Class"
+  UK_Fiji_Class_desc: ""
+
+  UK_Dido_Class: "Dido-Class"
+  UK_Dido_Class_desc: ""
+
+  UK_Tribal_Class: "Tribal-Class"
+  UK_Tribal_Class_desc: ""
+
+  UK_L_M_Class: "L&M-Class"
+  UK_L_M_Class_desc: ""
+
+  UK_Hunt_Class: "Hunt-Class"
+  UK_Hunt_Class_desc: ""
+
+  UK_T_U_Class: "T&U-Class"
+  UK_T_U_Class_desc: ""
+
+  UK_V_Class: "V-Class"
+  UK_V_Class_desc: ""
+
+  UK_Amphion_Class: "Amphion-Class"
+  UK_Amphion_Class_desc: ""
+
+  UK_The_Royal_Airforce: "Our Royal Air Force"
+  UK_The_Royal_Airforce_desc: "Modernize and expand our air power to ensure control of the skies and provide support for all military operations."
+
+  UK_Directorate_Of_Aeuronautical_Production: "Directorate of Aeronautical Production"
+  UK_Directorate_Of_Aeuronautical_Production_desc: "Streamline the production of advanced aircraft to maintain a technological and operational advantage for our air force."
+
+  UK_Oceanic_Air_Forces: "Oceanic Air Forces"
+  UK_Oceanic_Air_Forces_desc: "Develop long-range air capabilities to project power over the seas and support our naval operations."
+
+  UK_Naval_Bombers: "Naval Bombers"
+  UK_Naval_Bombers_desc: "Equip our fleet with specialized bombers to strike enemy vessels and provide critical maritime support."
+
+  UK_Naval_Fighters: "Naval Fighters"
+  UK_Naval_Fighters_desc: "Enhance our air superiority over the oceans with fighters optimized for maritime operations."
+
+  UK_Fairey_Barracuda: "Fairey Barracuda"
+  UK_Fairey_Barracuda_desc: "Deploy the Barracuda as a versatile naval strike aircraft, balancing speed and payload capacity to support our fleet."
+
+  UK_Fairey_Firefly: "Fairey Firefly"
+  UK_Fairey_Firefly_desc: "Utilize the Firefly for reconnaissance and precision strikes against enemy naval targets, bolstering our maritime operations."
+
+  UK_Fairey_Swordfish: "Fairey Swordfish"
+  UK_Fairey_Swordfish_desc: "Field the legendary Swordfish for torpedo bombing and maritime patrol, ensuring reliable performance in our naval campaigns."
+
+  UK_Continental_Air_Forces: "Continental Air Forces"
+  UK_Continental_Air_Forces_desc: "Strengthen our air defenses and long-range bombing capabilities to secure our home front and project power abroad."
+
+  UK_Strategic_Bombing: "Strategic Bombing"
+  UK_Strategic_Bombing_desc: "Develop a strategic bombing campaign to cripple enemy infrastructure and disrupt industrial production critical to our defense."
+
+  UK_De_Havilland_Mosquito: "De Havilland Mosquito"
+  UK_De_Havilland_Mosquito_desc: "Deploy the Mosquito for high-speed, multi-role missions ranging from reconnaissance to precision bombing in support of our operations."
+
+  UK_Avro_Lancaster: "Avro Lancaster"
+  UK_Avro_Lancaster_desc: "Utilize the Lancaster heavy bomber to execute deep-penetration strikes against enemy industrial centers, bolstering our offensive capability."
+
+  UK_Air_Support: "Air Support"
+  UK_Air_Support_desc: "Develop dedicated air support capabilities to provide close air support and battlefield reconnaissance for our ground forces."
+
+  UK_Hawker_Hurricane: "Hawker Hurricane"
+  UK_Hawker_Hurricane_desc: "Modernize the Hurricane to ensure our skies remain defended by reliable and effective fighter aircraft."
+
+  UK_Supermarine_Spitfire: "Supermarine Spitfire"
+  UK_Supermarine_Spitfire_desc: "Enhance the performance of the Spitfire to maintain our air superiority and secure our strategic interests."
+
+  UK_Bristol_Beaufighter: "Bristol Beaufighter"
+  UK_Bristol_Beaufighter_desc: "Deploy the Beaufighter as a versatile heavy fighter and ground-attack aircraft to disrupt enemy operations on our behalf."
+
+  UK_Hawker_Typhoon: "Hawker Typhoon"
+  UK_Hawker_Typhoon_desc: "Field the Typhoon for its powerful ground-attack capabilities, effective against enemy armor and fortifications protecting our lands."
+
+  UK_Hawker_Tempest: "Hawker Tempest"
+  UK_Hawker_Tempest_desc: "Utilize the Tempest to gain air superiority and provide effective escort and strike support for our troops."
+
+  UK_Per_Adua_ad_Astra: "Per Adua ad Astra"
+  UK_Per_Adua_ad_Astra_desc: "Through adversity to the stars. Our RAF is the finest airforce with the finest pilots in the world."
+
+  UK_The_Royal_Armoured_Corps: "The Royal Armoured Corps"
+  UK_The_Royal_Armoured_Corps_desc: "Reorganize and modernize our armoured units to ensure a formidable and flexible ground force in defense of our nation."
+
+  UK_Infantry_Tanks: "Infantry Tanks"
+  UK_Infantry_Tanks_desc: "Develop rugged infantry tanks to support our ground troops and deliver decisive firepower in close combat."
+
+  UK_Light_Tank_VII: "Light Tank VII"
+  UK_Light_Tank_VII_desc: "Introduce the Light Tank VII for rapid reconnaissance and support in fast-moving battlefield situations on our frontlines."
+
+  UK_Light_Tank_VIII: "Light Tank VIII"
+  UK_Light_Tank_VIII_desc: "Upgrade our light tank fleet to enhance mobility and effectiveness in combined arms operations."
+
+  UK_Sexton: "Sexton Self-Propelled Howitzer"
+  UK_Sexton_desc: "Deploy the Sexton for mobile artillery support, combining robust firepower with mechanized flexibility to support our forces."
+
+  UK_Matilda_Mk_I: "Matilda Mk I"
+  UK_Matilda_Mk_I_desc: "Equip our ground forces with the reliable Matilda Mk I, a cornerstone of our tank production and a symbol of our armored might."
+  
+  UK_Valentine: "Valentine Tank"
+  UK_Valentine_desc: "Field the Valentine for its balanced performance and robust design, a mainstay in our armored divisions."
+
+  UK_Cromwell: "Cromwell Tank"
+  UK_Cromwell_desc: "Deploy the fast and agile Cromwell to exploit breakthroughs and deliver decisive strikes with our armored units."
+
+  UK_Matilda_Mk_II: "Matilda Mk II"
+  UK_Matilda_Mk_II_desc: "Upgrade to the Matilda Mk II for improved armor and firepower to keep our tanks competitive on modern battlefields."
+
+  UK_Churchill: "Churchill Tank"
+  UK_Churchill_desc: "Utilize the Churchill for heavy infantry support, combining formidable armor with reliable performance for our advancing troops."
+
+  UK_Centurion: "Centurion Tank"
+  UK_Centurion_desc: "Modernize our armored forces with the Centurion, a versatile tank designed to meet the challenges of modern warfare."
+
+  UK_Cheiftan: "Cheiftan Tank"
+  UK_Cheiftan_desc: "Develop the Cheiftan as a next-generation armored vehicle to lead the evolution of our tank designs into the future."
+
+  UK_Cruiser_Tank_Doctrine: "Cruiser Tank Doctrine"
+  UK_Cruiser_Tank_Doctrine_desc: "Adopt new operational doctrines that maximize the effectiveness of our cruiser tanks in rapid maneuvers and fast strikes."
+
+  UK_Cruiser_Mk_I_V: "Cruiser Mk I/V"
+  UK_Cruiser_Mk_I_V_desc: "Field the Cruiser Mk I/V series for fast, flexible armored operations that keep our forces agile on the modern battlefield."
+
+  UK_Cruiser_Mk_IV: "Cruiser Mk IV"
+  UK_Cruiser_Mk_IV_desc: "Upgrade to the Cruiser Mk IV for enhanced mobility and firepower in fast-paced combat scenarios to maintain our edge."
+
+  UK_Cruiser_Mk_VI_Crusader: "Cruiser Mk VI Crusader"
+  UK_Cruiser_Mk_VI_Crusader_desc: "Deploy the Crusader to achieve rapid breakthroughs and flexible armored engagements that enhance our offensive capability."
+
+  UK_Tank_Destroyers: "Tank Destroyers"
+  UK_Tank_Destroyers_desc: "Develop specialized tank destroyers to counter enemy armor with focused firepower and rapid mobility for our defensive operations."
+
+  UK_Archer: "Archer Tank Destroyer"
+  UK_Archer_desc: "Utilize the Archer to deliver precision anti-tank strikes and support our infantry in neutralizing enemy armored advances."
+
+  UK_Sherman_Firefly: "Sherman Firefly"
+  UK_Sherman_Firefly_desc: "Field the Sherman Firefly to provide reliable, high-powered anti-tank support, crucial to our combined arms strategy."
+
+  UK_Achilles: "Achilles Tank Destroyer"
+  UK_Achilles_desc: "Deploy the Achilles for its specialized anti-tank capabilities designed to neutralize enemy armored breakthroughs and protect our flanks."
+
+  UK_Cruiser_Tank_Doctrine: "Cruiser Tank Doctrine"
+  UK_Cruiser_Tank_Doctrine_desc: "Implement innovative tactical doctrines to maximize the mobility and striking power of our cruiser tanks."
+
+  UK_Tank_Destroyers: "Tank Destroyers"
+  UK_Tank_Destroyers_desc: "Specialize in destroyers designed to counter enemy armor with precision, ensuring our forces remain resilient."
+
+  UK_Churchill: "Churchill Tank"
+  UK_Churchill_desc: "Utilize the Churchill to support our infantry with heavy armor and sustained firepower in defensive operations."
+
+  UK_Centurion: "Centurion Tank"
+  UK_Centurion_desc: "Modernize our armored divisions with the versatile Centurion, built to meet contemporary battlefield challenges."
+
+  UK_Cheiftan: "Cheiftan Tank"
+  UK_Cheiftan_desc: "Lead our tank evolution with the Cheiftan, a next-generation armored vehicle designed for decisive breakthroughs."
+
+  UK_Cruiser_Tank_Doctrine: "Cruiser Tank Doctrine"
+  UK_Cruiser_Tank_Doctrine_desc: "Adopt advanced operational doctrines to enhance the effectiveness of our cruiser tanks in rapid maneuvers."
+
+  UK_Cruiser_Mk_I_V: "Cruiser Mk I/V"
+  UK_Cruiser_Mk_I_V_desc: "Field our Cruiser Mk I/V series to maintain fast and flexible armored operations, supporting our rapid response strategy."
+
+  UK_Cruiser_Mk_IV: "Cruiser Mk IV"
+  UK_Cruiser_Mk_IV_desc: "Upgrade to the Mk IV to improve our tanks’ mobility and firepower in modern combat scenarios."
+
+  UK_Cruiser_Mk_VI_Crusader: "Cruiser Mk VI Crusader"
+  UK_Cruiser_Mk_VI_Crusader_desc: "Deploy the Crusader to execute rapid breakthroughs and flexible engagements, reinforcing our armored tactics."
+
+  UK_Tank_Destroyers: "Tank Destroyers"
+  UK_Tank_Destroyers_desc: "Develop specialized platforms to counter enemy armor with precision and speed, ensuring our defensive posture remains strong."
+
+  UK_Archer: "Archer Tank Destroyer"
+  UK_Archer_desc: "Utilize the Archer for its precision anti-tank capabilities, providing crucial support to our infantry in countering enemy armor."
+
+  UK_Sherman_Firefly: "Sherman Firefly"
+  UK_Sherman_Firefly_desc: "Deploy the Sherman Firefly for reliable anti-tank operations, reinforcing our ground forces with proven firepower."
+
+  UK_Achilles: "Achilles Tank Destroyer"
+  UK_Achilles_desc: "Field the Achilles to deliver specialized anti-tank strikes that protect our formations from armored assaults."
  
- ENG_alliance_with_germany_fascism:0 "Align With Germany"
- ENG_alliance_with_germany_fascism_desc:0 ""
+ ##
  
- ENG_pre_empt_the_strategic_threat:0 "Only One Sun in the Sky"
+  # Homefront and Domestic Policies
+  UK_Appeasement: "Appeasement Policy"
+  UK_Appeasement_desc: "Adopt a cautious appeasement strategy to delay open conflict while preparing the nation's defenses."
+
+  UK_Prepare_For_The_Incoming_War: "Prepare for the Incoming War"
+  UK_Prepare_For_The_Incoming_War_desc: "Mobilize resources and strengthen national defenses in anticipation of an inevitable conflict."
+
+  UK_Information_Campaigns: "Information Campaigns"
+  UK_Information_Campaigns_desc: "Launch a series of public information campaigns to bolster morale and keep the populace informed."
+
+  UK_Switch_Off_That_Light: "Switch Off That Light"
+  UK_Switch_Off_That_Light_desc: "Cut off misleading propaganda channels to ensure public focus remains on the real threats."
+
+  UK_British_Austerity: "British Austerity"
+  UK_British_Austerity_desc: "Implement strict austerity measures to conserve resources during these challenging times."
+
+  UK_Ministry_Of_Supply: "Ministry of Supply"
+  UK_Ministry_Of_Supply_desc: "Establish a centralized ministry to streamline the production and distribution of essential war materials."
+
+  UK_Bargain_With_The_Trade_Unions: "Bargain with the Trade Unions"
+  UK_Bargain_With_The_Trade_Unions_desc: "Negotiate with trade unions to secure industrial peace and ensure uninterrupted production."
+
+  UK_Military_Training_Act: "Military Training Act"
+  UK_Military_Training_Act_desc: "Enact legislation to enhance military training and build a well-prepared home defense force."
+
+  UK_Home_Guard: "Home Guard"
+  UK_Home_Guard_desc: "Mobilize local volunteer forces to protect the home front and support the regular military."
+
+  UK_RADAR: "Radar Development"
+  UK_RADAR_desc: "Invest in radar technology to establish early warning systems and strengthen national defenses."
+
+  UK_Air_Raid_Wardens: "Air Raid Wardens"
+  UK_Air_Raid_Wardens_desc: "Organize civilian air raid wardens to prepare for and mitigate the effects of enemy air attacks."
+
+  UK_National_Services_Act: "National Services Act"
+  UK_National_Services_Act_desc: "Implement a national services act to streamline conscription and maximize available manpower."
+
+  UK_Schedule_Of_Reserved_Occupations: "Schedule of Reserved Occupations"
+  UK_Schedule_Of_Reserved_Occupations_desc: "Designate essential industries and occupations to ensure critical sectors remain operational."
+
+  UK_Expand_Naval_Program: "Expand Naval Program"
+  UK_Expand_Naval_Program_desc: "Increase naval production and modernize the fleet to secure Britain's maritime interests."
+
+  UK_Steady_As_She_Goes: "Steady As She Goes"
+  UK_Steady_As_She_Goes_desc: "Maintain a balanced course by reinforcing military readiness while keeping the economy stable."
+
+  UK_Operations: "Strategic Operations"
+  UK_Operations_desc: "Launch strategic operations to secure key territories and weaken enemy positions."
+
+  # Diplomatic and Intelligence Branches
+  UK_Support_Poland: "Support for Poland"
+  UK_Support_Poland_desc: "Extend diplomatic and military support to Poland as a bulwark against aggression."
+
+  UK_Bomba_Kryptologiczna: "Bomba Kryptologiczna"
+  UK_Bomba_Kryptologiczna_desc: "Invest in cryptologic research to gain a technological edge in codebreaking and intelligence."
+
+  UK_Defend_The_Balkans: "Defend the Balkans"
+  UK_Defend_The_Balkans_desc: "Secure our interests in the Balkans by preventing hostile powers from gaining influence."
+
+  uk_sanction_italy_focus: "Sanction Italy"
+  uk_sanction_italy_desc: "Impose economic sanctions on Italy to pressure policy changes and limit its influence."
+
+  ENG_war_with_italy: "War with Italy"
+  ENG_war_with_italy_desc: "Initiate military action to topple Italy's government and secure strategic advantages in the region."
+
+  UK_Support_Yugoslavia: "Support Yugoslavia"
+  UK_Support_Yugoslavia_desc: "Provide assistance to Yugoslavia to bolster its resistance against external threats."
+
+  UK_Support_Romania: "Support Romania"
+  UK_Support_Romania_desc: "Extend diplomatic support to Romania to help it maintain sovereignty and resist hostile pressure."
+
+  UK_Support_Greece: "Support Greece"
+  UK_Support_Greece_desc: "Aid Greece in defending its democratic values and territorial integrity during turbulent times."
+
+  UK_Invite_The_Balkans: "Invite the Balkans"
+  UK_Invite_The_Balkans_desc: "Encourage Balkan nations to join the democratic alliance and fortify regional cooperation."
+
+  uk_scandinavian_focus: "Scandinavian Initiative"
+  uk_scandinavian_desc: "Forge closer ties with Scandinavian countries to counter emerging threats from the north."
+
+  UK_Support_Finnish_Neutrality: "Support Finland"
+  UK_Support_Finnish_Neutrality_desc: "Provide military and diplomatic support to Finland to strengthen its defense and autonomy."
+
+  ENG_norwegian_intervention: "Norwegian Intervention"
+  ENG_norwegian_intervention_desc: "Intervene in Norway to secure strategic interests and counter potential hostile influences."
+
+  UK_Support_Norway: "Support Norway"
+  UK_Support_Norway_desc: "Provide military and diplomatic support to Norway to strengthen its defense and autonomy."
+
+  ENG_swedish_intervention: "Swedish Intervention"
+  ENG_swedish_intervention_desc: "Intervene in Sweden to protect democratic values and maintain stability in the region."
+
+  UK_Support_Swedish_Neutrality: "Support Sweden"
+  UK_Support_Swedish_Neutrality_desc: "Provide military and diplomatic support to Sweden to strengthen its defense and autonomy."
+
+  ENG_danish_intervention: "Danish Intervention"
+  ENG_danish_intervention_desc: "Intervene in Denmark to counter threats and reinforce democratic governance in the region."
+
+  # Middle East and Beyond
+  UK_Defend_The_Middle_East: "Defend the Middle East"
+  UK_Defend_The_Middle_East_desc: "Secure our interests in the Middle East by preventing hostile powers from gaining influence."
+
+  UK_Support_Afghanistan: "Support Afghanistan"
+  UK_Support_Afghanistan_desc: "Offer diplomatic and military assistance to Afghanistan to help it achieve stability and independence."
+
+  UK_Secure_Iraq: "Secure Iraq"
+  UK_Secure_Iraq_desc: "Overthrow the regime with communist or fascist influence in Iraq to pave the way for a democratic future and secure the region."
+
+  UK_Support_Iraq: "Support Iraq"
+  UK_Support_Iraq_desc: "Extend support to Iraq to help it maintain stability and resist external pressures."
+
+  UK_Secure_Iran: "Secure Iran"
+  UK_Secure_Iran_desc: "Overthrow the regime with communist or fascist influence in Iran, ensuring that democratic values are upheld and reforms can flourish."
+
+  UK_Support_Iran: "Support Iran"
+  UK_Support_Iran_desc: "Provide assistance to Iran to encourage a stable, democratic governance that aligns with British interests."
+
+  UK_Invite_Saudi: "Invite Saudi Arabia"
+  UK_Invite_Saudi_desc: "Engage with Saudi Arabia to build closer ties and enhance mutual security cooperation in the region."
+
+  UK_Support_Turkey: "Support Turkey"
+  UK_Support_Turkey_desc: "Assist Turkey in preserving its democratic institutions and countering external pressures."
+
+  UK_Invite_Turkey: "Invite Turkey"
+  UK_Invite_Turkey_desc: "Invite Turkey to join the democratic alliance, strengthening collective security and shared values."
+
+  # Fascist
  
- uk_fortify_overseas:0 "Fortify Overseas"
- uk_fortify_overseas_desc:0 ""
+  UK_Vote_Of_No_Confidence: "Vote of No Confidence"
+  UK_Vote_Of_No_Confidence_desc: "Reject the weak, appeasing policies of the old guard and demand a new, strong direction for our nation."
+
+  UK_A_Change_In_Course: "A Change in Course"
+  UK_A_Change_In_Course_desc: "Embrace a radical shift away from outdated doctrines; the time has come to steer Britain towards greatness under resolute leadership."
+
+  UK_Permit_Royalty_And_Peers_In_Commons: "Permit Royalty and Peers in Commons"
+  UK_Permit_Royalty_And_Peers_In_Commons_desc: "Modernize our parliamentary system by granting our nobility and elites a decisive role in governance, ensuring tradition and strength prevail."
+
+  UK_Sir_Oswald_Ernald_Mosley: "Sir Oswald Ernald Mosley"
+  UK_Sir_Oswald_Ernald_Mosley_desc: "Under Mosley’s visionary command, Britain will rise anew. His charismatic leadership promises a rebirth of national pride and power."
+
+  UK_Commonwealth_Trade: "Commonwealth Trade"
+  UK_Commonwealth_Trade_desc: "Exploit our imperial network to secure lucrative trade routes and reinforce our economic might in support of our fascist ambitions."
+
+  UK_King_Edward_VIII: "King Edward VIII"
+  UK_King_Edward_VIII_desc: "Celebrate the enlightened monarchy. King Edward VIII embodies the union of modern ambition with venerable tradition—a cornerstone of our new order."
+
+  ENG_Rejoin_The_Kingdoms: "Rejoin the Kingdoms"
+  ENG_Rejoin_The_Kingdoms_desc: "Reclaim lost territories and reunite the fractured realms under one mighty banner. The imperial dream must be restored."
+
+  ENG_Angevin_Empire: "Angevin Empire"
+  ENG_Angevin_Empire_desc: "Revitalize the legacy of the Angevin rulers by reasserting British dominance over historic lands, ensuring our empire’s eternal glory."
+
+  UK_The_German_Alliance: "The German Alliance"
+  UK_The_German_Alliance_desc: "Forge a pragmatic alliance with Germany. In a turbulent Europe, our shared strength and ambition will secure mutual interests."
+
+  UK_Let_The_Giant_Sleep: "Let the Giant Sleep"
+  UK_Let_The_Giant_Sleep_desc: "Allow the old order to slumber while we reshape Britain into a modern, assertive power—a nation reborn from its ashes."
+
+  UK_Anti_Communist_Defense: "Anti-Communist Defense"
+  UK_Anti_Communist_Defense_desc: "Prepare to crush the insidious threat of communism. Our fascist regime will not tolerate subversion and must act decisively."
+
+  UK_Protect_Scandinavian_States: "Protect Scandinavian States"
+  UK_Protect_Scandinavian_States_desc: "Extend our guardianship over Scandinavian nations, shielding them from radical ideologies and securing our northern flank."
+
+  UK_Protect_Baltic_States: "Protect Baltic States"
+  UK_Protect_Baltic_States_desc: "Stand as the bulwark for the Baltic states against extremist forces. Our intervention will cement stability and loyalty."
+
+  UK_Protect_The_Bosphorous: "Protect the Bosphorous"
+  UK_Protect_The_Bosphorous_desc: "Control the vital straits of the Bosphorous to deny enemy access and secure the gateway to our imperial ambitions."
+
+  UK_Formalize_Anti_Communism: "Formalize Anti-Communism"
+  UK_Formalize_Anti_Communism_desc: "Enshrine our anti-communist resolve in law and policy, solidifying alliances with like-minded nations under our new regime."
+
+  UK_European_Neutrality: "British Neutrality Act"
+  UK_European_Neutrality_desc: "Adopt a stance of strategic neutrality in Europe—protecting our interests while preparing to strike when opportunity arises."
+
+  UK_Negotiate_With_Germany: "Negotiate with Germany"
+  UK_Negotiate_With_Germany_desc: "Engage in high-stakes diplomacy with Germany to secure advantageous terms that further our national agenda."
+
+  ENG_enact_the_mosley_manifesto: "Enact the Mosley Manifesto"
+  ENG_enact_the_mosley_manifesto_desc: "Implement the radical tenets of Mosley’s vision to reshape our society and cement a future defined by strength and order."
+
+  ENG_Mosley_Nationalisation: "Mosley Nationalisation"
+  ENG_Mosley_Nationalisation_desc: "Consolidate vital industries under state control to fuel our resurgence and ensure the prosperity of our fascist state."
+
+  ENG_Mosley_Increased_School_Age_And_Pensions: "Increase School Age and Pensions"
+  ENG_Mosley_Increased_School_Age_And_Pensions_desc: "Reform education and welfare to fortify our national spirit and mobilize a loyal, capable workforce for the coming struggle."
+
+  ENG_Mosley_Corporate_State: "Mosley Corporate State"
+  ENG_Mosley_Corporate_State_desc: "Restructure the economy under a corporatist model to ensure efficiency, loyalty, and the dominance of our fascist ideology."
+
+  ENG_Mosley_Public_Works: "Mosley Public Works"
+  ENG_Mosley_Public_Works_desc: "Initiate grand public works to modernize our infrastructure, create employment, and demonstrate the might of our new government."
+
+  ENG_Biff_Boys: "Biff Boys"
+  ENG_Biff_Boys_desc: "Empower a new generation of loyal enforcers to maintain order and ensure that dissent is met with swift, uncompromising force."
+
+  UK_Expand_Colonial_Empire: "Expand the Colonial Empire"
+  UK_Expand_Colonial_Empire_desc: "Reassert British imperial dominance by extending our reach across the globe—reviving the glory of our colonial past."
+
+  UK_Secure_Oil_Imports: "Secure Oil Imports"
+  UK_Secure_Oil_Imports_desc: "Guarantee the steady flow of vital oil resources by controlling key routes and territories critical to our national strength."
+
+  UK_Expand_Indochinese_Colony: "Expand the Indochinese Colony"
+  UK_Expand_Indochinese_Colony_desc: "Assert British dominance in Southeast Asia by expanding our colonial holdings in Indochina to secure valuable resources."
+
+  UK_Expand_South_American_Colony: "Expand South American Colony"
+  UK_Expand_South_American_Colony_desc: "Extend our imperial reach into South America to tap into rich resources and establish strategic footholds."
+
+  UK_Expand_African_Colonies: "Expand African Colonies"
+  UK_Expand_African_Colonies_desc: "Bolster our empire by expanding colonial control in Africa—securing territories that will fuel our nation's ambitions."
+
+  UK_Establish_Chinese_Colony: "Establish a Chinese Colony"
+  UK_Establish_Chinese_Colony_desc: "Subdue local resistance and impose British rule to form a new colony in China, thereby protecting our interests in the region."
+
+  UK_Threat_To_Our_Colonies: "Threat To Our Colonies"
+  UK_Threat_To_Our_Colonies_desc: "Overthrow the repressive regime in Japan—a totalitarian power whose aggressive policies threaten our colonial holdings in Asia. Our decisive action will secure the future of our empire."
+  
+  UK_Cooperation_With_BUF: "Cooperation with BUF"
+  UK_Cooperation_With_BUF_desc: "Cooperate with the British Union of Fascists."
+  
+  UK_Nationalization_Of_Coal: "Nationalization of Coal"
+  UK_Nationalization_Of_Coal_desc: "Transition the coal industry into public hands to protect workers, ensure fair wages, and secure a reliable source of energy for the nation."
+  
+  UK_Nationalization_Of_Banking_Sector: "Nationalization of Banking Sector"
+  UK_Nationalization_Of_Banking_Sector_desc: "Transition the banking sector into public hands to protect the economy."
+  
+  UK_Strike_The_Red_Bear: "Strike The Red Bear"
+  UK_Strike_The_Red_Bear_desc: "The USSR is a threat to the safety of Europe. We must not wait for this threat to reach us."
+
+ # Monarchist
  
- uk_develop_the_commonwealth:0 "Develop the Commonwealth"
- uk_develop_the_commonwealth_desc:0 ""
+  UK_The_Earl_Of_Halifax: "The Earl of Halifax"
+  UK_The_Earl_Of_Halifax_desc: "Under Lord Halifax’s steady guidance, our government is reshaped to blend noble tradition with dynamic modern policies."
+
+  UK_His_Majestys_Foreign_Affairs: "His Majesty’s Foreign Affairs"
+  UK_His_Majestys_Foreign_Affairs_desc: "Under King Henry IX’s wise direction, our foreign policy reflects royal ambitions and a commitment to safeguarding our national interests."
+
+  UK_Recognize_Italian_Claims_To_Albania: "Recognize Italian Claims to Albania"
+  UK_Recognize_Italian_Claims_To_Albania_desc: "Acknowledge Italy’s historical claim in Albania, aligning our stance with time‑honored regional dynamics and pragmatic diplomacy."
+
+  UK_Negotiate_Abyssinia: "Negotiate Abyssinia"
+  UK_Negotiate_Abyssinia_desc: "Negotiate with Italy over the claims to Abyssinia and our holdings in the horn."
+
+  UK_Alliance_With_Italy: "Alliance with Italy"
+  UK_Alliance_With_Italy_desc: "Forge a strong alliance with Italy, uniting our interests under a shared vision of European order and imperial renewal."
+
+  UK_The_Germany_Issue: "The Germany Issue"
+  UK_The_Germany_Issue_desc: "Address the challenges posed by Germany through decisive diplomacy that upholds our sovereign and royal prerogatives."
+
+  UK_Address_The_Commonwealth: "Address the Commonwealth"
+  UK_Address_The_Commonwealth_desc: "Reform our ties with the Commonwealth to ensure that our imperial legacy is renewed in accordance with royal authority."
+
+  UK_The_Emperor_Of_India: "The Emperor of India"
+  UK_The_Emperor_Of_India_desc: "Reassess our colonial policy in India, securing our influence over the subcontinent."
+
+  UK_Rein_In_Dominions: "Rein In the Dominions"
+  UK_Rein_In_Dominions_desc: "Strengthen our bonds with the Dominions, ensuring that their loyalty remains firmly aligned with the crown."
+
+  UK_Ensure_Irish_Loyalty: "The King of Ireland"
+  UK_Ensure_Irish_Loyalty_desc: "The Crown of Ireland Act 1542 is an Act that was passed by the Parliament of Ireland on 18 June 1542, which created the title of "King of Ireland" for monarchs of England and their successors. Currently, this applies to only Northern Ireland while it has historically included the whole island. It is our job to rectify this."
+
+  UK_King_Henry_IX: "King Henry IX"
+  UK_King_Henry_IX_desc: "Crown Prince Henry, Duke of Gloucester, as King Henry IX—an energetic and resolute monarch chosen to lead our nation into a new era."
+
+  UK_Move_Cabinet_Meetings_To_Buckingham: "Move Cabinet Meetings to Buckingham"
+  UK_Move_Cabinet_Meetings_To_Buckingham_desc: "Shift the center of government to Buckingham, a symbolic step that reinforces the union between the crown and state."
+
+  UK_Suspend_Elections_Till_End_Of_War: "Suspend Elections Till End of War"
+  UK_Suspend_Elections_Till_End_Of_War_desc: "Temporarily halt PM elections to consolidate power and focus on national unity during turbulent times."
+
+  UK_Reclamation_Of_Royal_Lands: "Reclamation of Royal Lands"
+  UK_Reclamation_Of_Royal_Lands_desc: "Restore historic royal lands to the crown, reaffirming our right to govern with tradition and authority."
+
+  UK_Family_Ties: "Family Ties"
+  UK_Family_Ties_desc: "House Windsor is a product of the House of Oldenburg and the House of Saxe-Coburg and Gotha. These houses have historically held many thrones."
+
+  UK_House_Of_Oldenburg: "House of Oldenburg"
+  UK_House_Of_Oldenburg_desc: "Let us push the claims of the House of Oldenburg."
+
+  UK_Depose_House_Bernadotte: "Depose House Bernadotte"
+  UK_Depose_House_Bernadotte_desc: "Remove the unfit House Bernadotte from influence in Sweden, returning our family to power."
+
+  UK_The_Crown_Of_Greece: "The Crown of Greece"
+  UK_The_Crown_Of_Greece_desc: "Assert our claim over the Greek crown to extend our royal influence into the heart of the Mediterranean."
+
+  UK_Undo_The_February_Revolution: "Undo the February Revolution"
+  UK_Undo_The_February_Revolution_desc: "Reverse the revolutionary changes that undermined our traditional values and restore order under royal command in Russia."
+
+  UK_Congress_Poland: "Congress Poland"
+  UK_Congress_Poland_desc: "The Tsar of Russia, of the House of Oldenburg, was once the King of Poland. Let us return this title to our family."
+
+  UK_Duchy_Of_Finland: "Duchy of Finland"
+  UK_Duchy_Of_Finland_desc: "Integrate the Duchy of Finland into our dynastic realm, fortifying our northern frontier with steadfast royal authority."
+
+  UK_House_Of_Saxe_Coburg_And_Gotha: "House of Saxe-Coburg and Gotha"
+  UK_House_Of_Saxe_Coburg_And_Gotha_desc: "Let us push the claims of the House of Saxe-Coburg and Gotha."
+
+  ENG_The_Bulgarian_Crown: "The Bulgarian Crown"
+  ENG_The_Bulgarian_Crown_desc: "Assert our influence over the Bulgarian monarchy."
+
+  ENG_The_Portuguese_Crown: "The Portuguese Crown"
+  ENG_The_Portuguese_Crown_desc: "Restore the monarchy in Portugal."
+
+  ENG_The_Spanish_Crown: "The Spanish Crown"
+  ENG_The_Spanish_Crown_desc: "Extend our reach to Spain, restoring a monarchy that unites our shared history under a banner of renewed royal power."
+
+  ENG_The_Belgian_Crown: "The Belgian Crown"
+  ENG_The_Belgian_Crown_desc: "Secure Belgian allegiance by establishing a puppet regime that upholds the principles of our storied monarchical heritage."
+  
+  UK_Dieu_Et_Mon_Droit: "Dieu Et Mon Droit"
+  UK_Dieu_Et_Mon_Droit_desc: "God and my right."
+
+# Labour Party
+
+  UK_The_Labour_Party: "The Labour Party"
+  UK_The_Labour_Party_desc: "Under the leadership of Clement Atlee, the Labour Party stands for democratic socialism, prioritizing social welfare, workers’ rights, and progressive reforms for a fairer Britain."
+
+  UK_Social_Democracy_In_UK: "Social Democracy in the UK"
+  UK_Social_Democracy_In_UK_desc: "Embrace social democratic ideals to build a strong welfare state, empower the working class, and secure equal opportunities for all citizens."
+
+  UK_Labour_Foreign_Policy: "Labour Foreign Policy"
+  UK_Labour_Foreign_Policy_desc: "Pursue an internationalist agenda that champions human rights and solidarity with oppressed peoples, while promoting a progressive vision abroad."
+
+  UK_Seek_Closer_Ties_To_USSR: "Seek Closer Ties to the USSR"
+  UK_Seek_Closer_Ties_To_USSR_desc: "In a bid to strengthen the international workers’ movement, explore closer ties with the USSR—an alliance that may gradually boost communist influence within our ranks."
+
+  UK_Labour_Welfare_Policies: "Welfare Policies"
+  UK_Labour_Welfare_Policies_desc: "Implement comprehensive welfare reforms to protect the vulnerable, reduce inequality, and guarantee a dignified standard of living for all."
+  
+  UK_Low_Cost_Housing: "Low-Cost Housing"
+  UK_Low_Cost_Housing_desc: "Low-Cost housing programs to assist the vulnerable from housing shortages."
+
+  UK_Education_Act: "Education Act"
+  UK_Education_Act_desc: "Enact sweeping educational reforms to modernize the system, promote equal opportunity, and empower the next generation with knowledge."
+
+  UK_National_Health_Service: "National Health Service"
+  UK_National_Health_Service_desc: "Establish a universal health care system to ensure that every citizen has access to essential medical services, regardless of income."
+
+  UK_Nationalization_Of_Services: "Nationalization of Services"
+  UK_Nationalization_Of_Services_desc: "Bring critical public services under state control, enhancing efficiency and ensuring that resources are distributed for the benefit of all."
+
+  UK_Nationalize_Bank_Of_England: "Nationalize the Bank of England"
+  UK_Nationalize_Bank_Of_England_desc: "Secure our financial future by placing the Bank of England under public ownership, so that monetary policy serves the interests of the people rather than private profit."
+
+  UK_Nationalize_Coal_Industry: "Nationalize the Coal Industry"
+  UK_Nationalize_Coal_Industry_desc: "Transition the coal industry into public hands to protect workers, ensure fair wages, and secure a reliable source of energy for the nation."
+
+  UK_Nationalize_Electricity_And_Gas: "Nationalize Electricity and Gas"
+  UK_Nationalize_Electricity_And_Gas_desc: "Guarantee affordable and stable energy by bringing electricity and gas production under state control, benefiting all citizens."
+
+  UK_Nationalize_Steel_Industry: "Nationalize the Steel Industry"
+  UK_Nationalize_Steel_Industry_desc: "Strengthen our industrial base by nationalizing the steel sector, securing jobs, and modernizing production to meet the demands of a modern economy."
+
+  UK_Syndicalist_Workers_Federation: "Syndicalist Workers Federation"
+  UK_Syndicalist_Workers_Federation_desc: "Empower grassroots labor by establishing a federation that unites workers around the principles of syndicalism and direct action."
+
+  UK_West_Indies_Federation: "West Indies Federation"
+  UK_West_Indies_Federation_desc: "We should pass management of our colonial holdings in the Carribean to a federalized colony."
+  
+  UK_Integrate_Newfoundland: "Integrate Newfoundland"
+  UK_Integrate_Newfoundland_desc: "Newfoundland is the oldest colony in North America. Having recently given up its dominion classification in 1933, we now govern it directly. We should establish Newfoundland as a region of the United Kingdom."
+  
+  UK_Indian_Universities: "Indian Universities"
+  UK_Indian_Universities_desc: "India has talent amongst it that needs to be cultivated. We shall assist with the founding of universities."
+  
+  UK_Non_Discriminatory_Employment: "Non-Discriminatory Employment"
+  UK_Non_Discriminatory_Employment_desc: "India currently experiences a large amount of segregration and workforce discriminatory practices amongst its populations. We will illegalize such actions to benefit the economy."
+  
+  UK_The_Crown_Jewel_Of_The_Empire: "The Crown Jewel Of The Empire"
+  UK_The_Crown_Jewel_Of_The_Empire_desc: "India is, and always will be, the crown jewel of the British Empire. We cannot allow it to fall out of our hands."
+  
+  UK_Develop_Egypt: "Develop Egypt"
+  UK_Develop_Egypt_desc: "An investment into Egyptian industry and infrastructure will provide a boost to the economy and increase their contributions during wartime."
+  
+  UK_Development_In_Africa: "Development In Africa"
+  UK_Development_In_Africa_desc: "Our African holdings and subjects are woefully underdeveloped. If we wish for these lands to be useful during wartime, we need to invest into infrastructure and industry."
+  
+  UK_Remove_Communist_Influence: "Purge Communist Elements"
+  UK_Remove_Communist_Influence_desc: "Under the resolute leadership of King Henry IX, we will expunge dangerous communist influences from our state, safeguarding our national unity."
+
+  UK_Establish_The_Kings_Party: "Establish the King's Party"
+  UK_Establish_The_Kings_Party_desc: "In the name of King Henry IX, dismantle the old radical parties and form a new coalition party, uniting the nation under one banner."
+
+  UK_Expand_The_Household_Division: "Expand the Household Division"
+  UK_Expand_The_Household_Division_desc: "Strengthen our internal security by enlarging the Household Division—a cadre of elite soldiers sworn to protect the crown and ensure the realm's stability."
+
+  UK_Household_Cavalry: "Household Cavalry"
+  UK_Household_Cavalry_desc: "Develop a premier cavalry unit dedicated to the service of King Henry IX, combining tradition with modern tactics to rapidly respond to any threat."
+
+  UK_The_Life_Guards: "The Life Guards"
+  UK_The_Life_Guards_desc: "Forge an exalted unit of Life Guards that embodies the honor and martial excellence of our regime, ever vigilant in defense of the crown."
+
+  UK_The_Blues_And_Royals: "The Blues & Royals"
+  UK_The_Blues_And_Royals_desc: "Unite the storied traditions of our cavalry with cutting-edge military organization to form the Blues and Royals—an elite force loyal above all to King Henry IX."
+
+  UK_Foot_Guards: "Foot Guards"
+  UK_Foot_Guards_desc: "Recruit a steadfast infantry force that will serve as the backbone of our national defense, upholding the values of order and strength."
+
+  UK_Grenadier_Guards: "Grenadier Guards"
+  UK_Grenadier_Guards_desc: "Deploy the Grenadier Guards to secure our borders and exemplify the resolute combat spirit fostered under the dual guidance of King Henry IX."
+
+  UK_Coldstream_Guards: "Coldstream Guards"
+  UK_Coldstream_Guards_desc: "The Coldstream Guards shall form an unyielding front against any opposition, ensuring that the authority of the crown remains unchallenged."
+
+  UK_Scots_Guards: "Scots Guards"
+  UK_Scots_Guards_desc: "Honor our northern heritage by raising the Scots Guards—a unit renowned for their discipline and courage, protecting the realm with fierce determination."
+
+  UK_Irish_Guards: "Irish Guards"
+  UK_Irish_Guards_desc: "Integrate the Irish Guards into our military structure, forging unity across the Isles and ensuring that all subjects remain loyal to King Henry IX."
+
+  UK_Welsh_Guards: "Welsh Guards"
+  UK_Welsh_Guards_desc: "Mobilize the Welsh Guards to defend our borders and symbolize the strength and unity of the British nation under our new order."
+
+  UK_Expand_The_Labour_Coalition: "Expand The Labour Coalition"
+  UK_Expand_The_Labour_Coalition_desc: ""
+  
+  UK_Allow_Syndicalist_Unions: "Allow Syndicalist Unions"
+  UK_Allow_Syndicalist_Unions_desc: ""
+  
+  UK_Illegalize_Strike_Busting: "Illegalize Strike Busting"
+  UK_Illegalize_Strike_Busting_desc: ""
+  
+  UK_Require_Companies_To_Give_Stock_Options: "Require Stock Options"
+  UK_Require_Companies_To_Give_Stock_Options_desc: ""
+  
+  UK_Bust_Monopolies: "Bust Monopolies"
+  UK_Bust_Monopolies_desc: ""
+  
+  UK_The_Rural_Party: "The Rural Party"
+  UK_The_Rural_Party_desc: ""
+  
+  UK_Organize_Agriculture_Into_Unions: "Organize Agriculture Into Unions"
+  UK_Organize_Agriculture_Into_Unions_desc: ""
+  
+  UK_Safety_First: "Safety First"
+  UK_Safety_First_desc: ""
+  
+  UK_Agricultural_Investments: "Agricultural Investments"
+  UK_Agricultural_Investments_desc: ""
+  
+  UK_Rural_Wage_Subsidies: "Rural Wage Subsidies"
+  UK_Rural_Wage_Subsidies_desc: ""
+  
+  UK_The_Popular_Front: "The Popular Front"
+  UK_The_Popular_Front_desc: ""
+  
+  UK_Call_For_A_General_Election: "Call For A General Election"
+  UK_Call_For_A_General_Election_desc: ""
+  
+  UK_Harry_Pollitt: "Harry Pollitt"
+  UK_Harry_Pollitt_desc: ""
+  
+  UK_Sir_Herbet_Matthews: "Sir Herbet Matthews"
+  UK_Sir_Herbet_Matthews_desc: ""
+  
+  UK_Syndicalist_Workers_Federation: "Syndicalist Workers Federation"
+  UK_Syndicalist_Workers_Federation_desc: ""
+  
+ ENG_Beneleux_Buffer_States: "Beneleux Buffer States"
+ ENG_Beneleux_Buffer_States_desc: "We may have favorable relations to Germany but they still cannot be trusted. We should expand our buffer zone."
  
- ENG_Return_To_The_Mainland:0 "Return to the Mainland"
- ENG_Return_To_The_Mainland_desc:0 ""
+ ENG_alliance_with_germany_fascism: "Align With Germany"
+ ENG_alliance_with_germany_fascism_desc: ""
  
- ENG_Reach_Out_To_The_Italians:0 "Reach Out to the Italians"
- ENG_Reach_Out_To_The_Italians_desc:0 ""
+ ENG_pre_empt_the_strategic_threat: "Only One Sun in the Sky"
  
- ENG_Reforge_Portuguese_Alliance:0 "Reforge Portuguese Alliance"
- ENG_Reforge_Portuguese_Alliance_desc:0 ""
+ uk_fortify_overseas: "Fortify Overseas"
+ uk_fortify_overseas_desc: ""
  
- ENG_Rejoin_The_Kingdoms:0 "Rejoin the Kingdoms"
- ENG_Rejoin_The_Kingdoms_desc:0 ""
+ uk_develop_the_commonwealth: "Develop the Commonwealth"
+ uk_develop_the_commonwealth_desc: ""
  
- ENG_Angevin_Empire:0 "Angevin Empire"
- ENG_Angevin_Empire_desc:0 ""
+ ENG_Return_To_The_Mainland: "Return to the Mainland"
+ ENG_Return_To_The_Mainland_desc: ""
  
- ENG_Biff_Boys:0 "Biff Boys"
- ENG_Biff_Boys_desc:0 ""
+ ENG_Reach_Out_To_The_Italians: "Reach Out to the Italians"
+ ENG_Reach_Out_To_The_Italians_desc: ""
  
- ENG_Dominion_Cooperation:0 "Dominion Cooperation"
- ENG_Dominion_Cooperation_desc:0 ""
+ ENG_Reforge_Portuguese_Alliance: "Reforge Portuguese Alliance"
+ ENG_Reforge_Portuguese_Alliance_desc: ""
  
- ENG_Towards_Indian_Partnership:0 "Towards Indian Partnership"
- ENG_Towards_Indian_Partnership_desc:0 ""
+ ENG_Rejoin_The_Kingdoms: "Our Ancient Claim"
+ ENG_Rejoin_The_Kingdoms_desc: ""
  
- ENG_Dominion_Federalization:0 "Dominion Federalization"
- ENG_Dominion_Federalization_desc:0 ""
+ ENG_Angevin_Empire: "Angevin Empire"
+ ENG_Angevin_Empire_desc: ""
+ 
+ ENG_Biff_Boys: "Biff Boys"
+ ENG_Biff_Boys_desc: ""
+ 
+ UK_The_Royal_Marriage: "The Royal Marriage"
+ UK_The_Royal_Marriage_desc: ""
+ 
+ UK_The_Royal_Mistress: "The Royal Mistress"
+ UK_The_Royal_Mistress_desc: ""
+ 
+ UK_Edwards_Second_Home: "Edward's Second Home"
+ UK_Edwards_Second_Home_desc: ""
+ 
+ UK_Reward_The_Loyal: "Reward The Loyal"
+ UK_Reward_The_Loyal_desc: ""
+ 
+ UK_From_PM_To_Governor: "From PM to Governor"
+ UK_From_PM_To_Governor_desc: ""
+ 
+ UK_Preempt_American_Intervention: "Preempt American Intervention"
+ UK_Preempt_American_Intervention_desc: ""
+ 
+ UK_Handle_The_Quebec_Issue: "Handle The Quebec Issue"
+ UK_Handle_The_Quebec_Issue_desc: ""
+ 
+ UK_Negotiate_Naval_Hegemony: "Negotiate Naval Hegemony"
+ UK_Negotiate_Naval_Hegemony_desc: ""
  
  # Expand Colonies
- 
- ENG_Imperial_Ambitions:0 "Imperial Ambitions"
- ENG_Imperial_Ambitions_desc:0 ""
  
  ENG_Asian_Colonial_Charter:0 "Asian Colonial Charter"
  ENG_Asian_Colonial_Charter_desc:0 ""
@@ -115,10 +877,7 @@
 
  
  # Royal Roots
- 
- ENG_Royal_Roots:0 "Royal Roots"
- ENG_Royal_Roots_desc:0 ""
- 
+
  ENG_The_Bulgarian_Crown:0 "The Bulgarian Crown"
  ENG_The_Bulgarian_Crown_desc:0 ""
  
@@ -266,13 +1025,16 @@
  ENG_The_Mosley_Memorandum:0 "The Mosley Memorandum"
  ENG_The_Mosley_Memorandum_desc:0 "Mosley put forward a scheme in the "Mosley Memorandum" that called for high tariffs to protect British industries from international finance and transform the British Empire into an autarkic trading bloc, for state nationalisation of main industries, for higher school-leaving ages and pensions to reduce the labour surplus, and for a programme of public works to solve interwar poverty and unemployment. Furthermore, the memorandum laid out the foundations of the corporate state which intended to combine businesses, workers and the government into one body"
  
- ENG_Mosley_Nationalisation_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YConstruction Speed§!: §G+10.00%§!\n\n"
- ENG_Mosley_Increase_School_Age_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nResearch Speed: §G+10.00%§!\n\n"
- ENG_Mosley_Corporate_State_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nConsumer Goods Factories factor: §Y-10.0%§!\n\n"
- ENG_Mosley_Public_Works_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YCivilian Factory§! construction speed: §G+5.00%§! \n§YSynthetic Refinery§! construction speed: §G+10.00%§!\n\n"
+ ENG_Mosley_Nationalisation_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YConstruction Speed§!:0 §G+10.00%§!\n\n"
+ ENG_Mosley_Increase_School_Age_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nResearch Speed:0 §G+10.00%§!\n\n"
+ ENG_Mosley_Corporate_State_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nConsumer Goods Factories factor:0 §Y-10.0%§!\n\n"
+ ENG_Mosley_Public_Works_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YCivilian Factory§! construction speed:0 §G+5.00%§! \n§YSynthetic Refinery§! construction speed:0 §G+10.00%§!\n\n"
 
  ENG_Union_Councils:0 "Union Councils"
  ENG_Union_Ownership:0 "Union Ownership"
+ 
+ UK_Cooperative_Trade_Unions: "Cooperative Trade Unions"
+ UK_Cooperative_Trade_Unions_desc: "The government has bargained with the trade unions for longer shifts and more productivity in exchange for a broader recognition of union rights in various industries."
  
 ################################### DECISIONS                   \n      §H§! 
  
@@ -310,7 +1072,7 @@
  britain.29.desc:0 "Asserting rightful claims to territories once under Angevin rule, particularly in France, British forces launch a decisive offensive, swiftly securing key regions. This bold endeavor symbolizes a triumphant resurgence of British power and influence on the European stage. Drawing upon historical ties and strategic vision, the UK reaffirms its role as a dominant force in shaping the continent's destiny.\n\nWhile some may view our actions with skepticism, we stand unwavering in our commitment to reclaiming our rightful place in history. The recreation of the Angevin Empire heralds a new chapter of strength and leadership for the United Kingdom, ensuring our enduring presence in the annals of time."
  britain.29.a:0 "Dieu et mon droit."
 
- britain.30.t:0 "Edward VII, King of England and France"
+ britain.30.t:0 "Edward VIII, King of England and France"
  britain.30.desc:0 "Edward VIII of House Windsor, inexperienced upon taking the throne, has now surpassed expectations. He has proclaimed himself a new title; King of France with his other titles, King of the United Kingdom and Dominions of the British Empire, and Emperor of India. The French have not been under English control since the House of Plantagenet during the 12th and 13th century. Where will this newfound confidence in our King lead us now?"
  britain.30.a:0 "Rex Angliae e Gaule Dei Gratia"
  
@@ -332,19 +1094,19 @@
  britain.34.a:0 "We shall replace the members of Parliament."
  britain.34.b:0 "We will let it be."
  
- britain.35.t:0 "Family Ties: Belgium"
+ britain.35.t:0 "Family Ties:0 Belgium"
  britain.35.desc:0 "Leopold III belongs to the house 'of Belgium'. This royal house was changed from the original title 'Saxe-Coburg-Gotha' which our own house, 'Windsor' is also derived from. Leopold, and the Belgian throne, have never been in control, chained down by a constitution. It is time we put in place an monarchy with unshackled power under Leopold III."
  britain.35.a:0 "Let us put Leopold III on the throne."
  
- britain.36.t:0 "Family Ties: Portugal"
+ britain.36.t:0 "Family Ties:0 Portugal"
  britain.36.desc:0 "Dom Duarte Nuno belongs to the house 'Bragança'. This royal house was changed from the original title 'Saxe-Coburg-Gotha' which our own house, 'Windsor' is also derived from. Dom Duarte Nuno, and the Portuguese throne, have never been in control, chained down by a constitution. It is time we put in place an monarchy with unshackled power under Dom Duarte Nuno."
  britain.36.a:0 "Let us put Dom Duarte Nuno on the throne."
  
- britain.37.t:0 "Family Ties: Bulgaria"
+ britain.37.t:0 "Family Ties:0 Bulgaria"
  britain.37.desc:0 "Tsar Ferdinand I belongs to the house 'Battenberg'. This royal house was changed from the original title 'Saxe-Coburg-Gotha' which our own house, 'Windsor' is also derived from. Tsar Ferdinand I, while he is infamous for his actions during and prior to the Great War, we should put him back into power."
  britain.37.a:0 "Let us put Tsar Ferdinand I on the throne."
  
- britain.38.t:0 "Last Resort: Franco-British Union"
+ britain.38.t:0 "Last Resort:0 Franco-British Union"
  britain.38.desc:0 "Reynaud supporter Charles de Gaulle had arrived in London earlier today and Monnet told him about the proposed Franco-British union. De Gaulle is trying to convince Churchill that some dramatic move is essential to give Reynaud the support which he needs to keep his Government in the war. De Gaulle called Reynaud and told him that the British prime minister proposed a union between their countries, an idea which Reynaud immediately supported.\n\nDe Gaulle, Monnet, Vansittart, and Pleven quickly agreed to the document proclaiming a joint citizenship, foreign trade, currency, war cabinet, and military command. Churchill withdrew the armistice approval, and at 3 p.m. the War Cabinet is meeting again to consider the union document. Despite the radical nature of the proposal, Churchill and the ministers recognize the need for a dramatic act to encourage the French and reinforce Reynaud's support within his cabinet.\n\nOther French leaders are less enthusiastic."
  britain.38.a:0 "We shall be one nation!"
  britain.38.b:0 "This is a poor idea."
@@ -387,27 +1149,27 @@
  britain.44.a:0 "Unfortunate."
  
  # Cairo Conference Results
- britain.45.t:0 "Conclusion: Cairo Declaration"
+ britain.45.t:0 "Conclusion:0 Cairo Declaration"
  britain.45.desc:0 "At the Cairo Conference, we discussed a wide range of crucial topics vital to our collective efforts in confronting Axis aggression and shaping the post-war world. Among the key issues deliberated were military strategy, with a particular focus on coordinating Allied operations in both the European and Pacific theaters to expedite the defeat of Axis powers. Additionally, we engaged in extensive discussions on post-war planning, emphasizing the importance of preserving freedom, democracy, and self-determination while addressing the reconstruction of war-torn nations and the establishment of international institutions for peace and security.\n\nThe conference provided an opportunity to develop a comprehensive strategy for the Asia-Pacific region, including plans for the defeat of Japan and the liberation of occupied territories.\n\nOverall, the discussions at the Cairo Conference were substantive and productive, reaffirming our commitment to unity, cooperation, and the pursuit of a better world for all."
  britain.45.a:0 "Success."
  
  britain.46.t:0 "Operation OVERLORD"
- britain.46.desc:0 "Operation OVERLORD is the planned naval invasion of Normandy. Our objective is clear: to establish a foothold on the beaches of Normandy and launch a decisive offensive against the Nazi forces occupying Western Europe.\n\nWith the combined strength of Allied air, sea, and ground forces, we aim to secure victory and liberate France from tyranny. Our courage, resolve, and sacrifice will be tested, but we march forward united in our commitment to freedom and justice.\n\nVictory in Normandy will be a pivotal moment in the war, heralding the beginning of the end for Hitler's regime and bringing hope to millions across the continent."
+ britain.46.desc:0 "Operation OVERLORD is the planned naval invasion of Normandy. Our objective is clear:0 to establish a foothold on the beaches of Normandy and launch a decisive offensive against the Nazi forces occupying Western Europe.\n\nWith the combined strength of Allied air, sea, and ground forces, we aim to secure victory and liberate France from tyranny. Our courage, resolve, and sacrifice will be tested, but we march forward united in our commitment to freedom and justice.\n\nVictory in Normandy will be a pivotal moment in the war, heralding the beginning of the end for Hitler's regime and bringing hope to millions across the continent."
  britain.46.a:0 "A decisive blow."
  
  britain.47.t:0 "Operation HUSKY"
  britain.47.desc:0 "Operation HUSKY is the planned naval invasion of Sicily. Our goal is to establish a beachhead on the shores of Sicily, paving the way for the liberation of the island from Axis control. Through meticulous planning, coordinated air and naval support, and the bravery of our soldiers on the ground, we will overcome the challenges posed by enemy defenses and terrain.\n\nVictory in Sicily will not only weaken the Axis foothold in the Mediterranean but also bolster Allied momentum towards ultimate victory in Europe."
  britain.47.a:0 "The soft underbelly."
  
- britain.48.t:0 "General Secretary Election: Bill Alexander"
+ britain.48.t:0 "General Secretary Election:0 Bill Alexander"
  britain.48.desc:0 "Our position of General Secretary of the Communist Party of Great Britain has been won by Bill Alexander. Alexander is a Marxist-Leninist and a veteran of the International Brigade with involvement in the Spanish Civil War. Alexander's appointment as General Secretary of the Communist Party of Great Britain heralds a new era of Marxist-Leninist leadership within the party. With his extensive experience as a veteran of the International Brigade and his active participation in the Spanish Civil War, Alexander brings a profound understanding of revolutionary struggle and international solidarity to his role. With him at the helm, the Communist Party of Great Britain is poised to play a leading role in the ongoing struggle for workers' liberation and the triumph of socialism on a global scale."
  britain.48.a:0 "For the Party!"
  
- britain.49.t:0 "General Secretary Election: Jock Hoston"
+ britain.49.t:0 "General Secretary Election:0 Jock Hoston"
  britain.49.desc:0 "Our position of General Secretary of the Communist Party of Great Britain has been won by Jock Haston. Haston is a Trotskyist and believer in the Permanent Revolution. Haston is a formidable figure within the Trotskyist movement, known for his unwavering commitment to the principles of Permanent Revolution and international socialism.\n\nAs a staunch advocate for workers' rights and social justice, he is dedicated to mobilizing the proletariat towards the overthrow of capitalism and the establishment of a socialist society. Haston's leadership promises to invigorate the party, galvanizing members and supporters in the struggle for a world free from exploitation and oppression. Under his guidance, the Communist Party of Great Britain will continue to be a driving force for radical change and revolutionary action in pursuit of a better future for all."
  britain.49.a:0 "For the Party!"
  
- britain.50.t:0 "General Secretary Election: Reg Birch"
+ britain.50.t:0 "General Secretary Election:0 Reg Birch"
  britain.50.desc:0 "Our position of General Secretary of the Communist Party of Great Britain has been won by Reginald Birch. Birch is a trade unionist and a staunch advocate for workers' rights.\n\nWith his background in labor activism and dedication to the principles of socialism, Birch brings a wealth of experience and a clear vision for advancing the interests of the working class in Great Britain.\n\nAs General Secretary, Birch is committed to promoting social and economic equality, challenging capitalist exploitation, and building a more just and equitable society. His leadership will undoubtedly invigorate the Communist Party of Great Britain and strengthen its role in advocating for progressive change and solidarity among the working people."
  britain.50.a:0 "For the Party!"
  
@@ -444,8 +1206,8 @@
  ANG_UK_fascism_DEF:0 "Angevin Empire"
  ANG_UK_democratic:0 "Angevin Republic"
  ANG_UK_democratic_DEF:0 "Angevin Republic"
- ANG_UK_neutrality:1 "Angevin Empire"
- ANG_UK_neutrality_DEF:1 "Angevin Empire"
+ ANG_UK_neutrality:01 "Angevin Empire"
+ ANG_UK_neutrality_DEF:01 "Angevin Empire"
  ANG_UK_communism:0 "Angevin People's Republic"
  ANG_UK_communism_DEF:0 "Angevin People's Republica"
  ANG_UK_fascism_ADJ:0 "Angevin"

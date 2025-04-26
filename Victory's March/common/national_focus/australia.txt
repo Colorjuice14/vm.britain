@@ -19,7 +19,7 @@
 	
 	default = no
 	
-	shared_focus = Commonwealth_form_joint_alliance
+	shared_focus = Joint_Commonwealth_The_Commonwealth
 	
 	continuous_focus_position = { x = 50 y = 1000 }
 

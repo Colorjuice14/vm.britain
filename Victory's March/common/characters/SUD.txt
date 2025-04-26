@@ -1,0 +1,17 @@
+characters={
+	SUD_Stewart_Symes={
+		name = "Sir George Stewart Symes"
+		
+		portraits={
+			civilian={
+				large = GFX_portrait_george_stewart_symes
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

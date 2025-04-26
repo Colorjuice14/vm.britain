@@ -1,0 +1,8 @@
+style = {
+	name = PRC_focus_style
+
+	unavailable = GFX_focus_unavailable_prc
+	completed = GFX_focus_completed_prc
+	available = GFX_focus_can_start_prc
+	current = GFX_focus_current_prc
+}
