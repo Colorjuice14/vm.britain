@@ -781,9 +781,6 @@
   UK_Sir_Herbet_Matthews: "Sir Herbet Matthews"
   UK_Sir_Herbet_Matthews_desc: ""
   
-  UK_Syndicalist_Workers_Federation: "Syndicalist Workers Federation"
-  UK_Syndicalist_Workers_Federation_desc: ""
-  
  ENG_Beneleux_Buffer_States: "Beneleux Buffer States"
  ENG_Beneleux_Buffer_States_desc: "We may have favorable relations to Germany but they still cannot be trusted. We should expand our buffer zone."
  
@@ -996,6 +993,304 @@
  
  ENG_Extend_Protection_To_Sweden:0 "Extend Protection to Sweden"
  ENG_Extend_Protection_To_Sweden_desc:0 ""
+ 
+ # Commie
+ # Anarchism
+ 
+ UK_Council_Democracy: "Council Democracy"
+ UK_Council_Democracy_desc: ""
+ 
+ UK_Federation_Of_Syndicates: "Federation Of Syndicates"
+ UK_Federation_Of_Syndicates_desc: ""
+ 
+ UK_Abolish_The_State_Aparatus: "Abolish The State Aparatus"
+ UK_Abolish_The_State_Aparatus_desc: ""
+ 
+ UK_Workers_Self_Management: "Worker Self Management"
+ UK_Workers_Self_Management_desc: ""
+ 
+ UK_Agricultural_Communes: "Agricultural Communes"
+ UK_Agricultural_Communes_desc: ""
+ 
+ UK_Mutual_Aid_Networks: "Mutual Aid Networks"
+ UK_Mutual_Aid_Networks_desc: ""
+ 
+ UK_Cultural_Collectives: "Cultural Collectives"
+ UK_Cultural_Collectives_desc: ""
+ 
+ UK_Worker_Owned_Credit_Union: "Worker-Owned Credit Unions"
+ UK_Worker_Owned_Credit_Union_desc: ""
+ 
+ UK_Community_Land_Trusts: "Community Land Trusts"
+ UK_Community_Land_Trusts_desc: ""
+ 
+ UK_Decentralized_Energy_Cooperatives: "Decentralized Energy Cooperatives"
+ UK_Decentralized_Energy_Cooperatives_desc: ""
+ 
+ UK_Cooperative_Industry_Federations: "Cooperative Industry Federations"
+ UK_Cooperative_Industry_Federations_desc: ""
+ 
+ UK_Anarchist_Pedagogy_Institutes: "Anarchist Pedagogy Institutes"
+ UK_Anarchist_Pedagogy_Institutes_desc: ""
+ 
+ UK_Defence_Council_Of_The_Isles: "Defence Council Of The Isles"
+ UK_Defence_Council_Of_The_Isles_desc: ""
+ 
+ UK_Irish_Anarchism: "Irish Anarchism"
+ UK_Irish_Anarchism_desc: ""
+ 
+ UK_Factory_Defense_Leagues: "Factory Defense Leagues"
+ UK_Factory_Defense_Leagues_desc: ""
+ 
+ UK_Volunteer_Defense_Brigades: "Volunteer Defense Brigades"
+ UK_Volunteer_Defense_Brigades_desc: ""
+ 
+ UK_Support_Anti_Colonial_Unions: "Support Anti-Colonial Unions"
+ UK_Support_Anti_Colonial_Unions_desc: ""
+ 
+ UK_The_New_Future: "The New Future"
+ UK_The_New_Future_desc: ""
+ 
+ UK_Anarchism_Knows_No_Borders: "Anarchism Knows No Borders"
+ UK_Anarchism_Knows_No_Borders_desc: ""
+ 
+ UK_Plant_The_Seeds_Of_Revolution: "Plant The Seeds Of Revolution"
+ UK_Plant_The_Seeds_Of_Revolution_desc: ""
+ 
+ UK_World_Syndicalist_Federation: "World Syndicalist Federation"
+ UK_World_Syndicalist_Federation_desc: ""
+ 
+ # Stalinist / Bukharinism
+ 
+ UK_Rewrite_The_Constitution: "Rewrite The Constitution"
+ UK_Rewrite_The_Constitution_desc: ""
+ 
+ UK_Empower_The_Prime_Minister: "Empower The Prime Minister"
+ UK_Empower_The_Prime_Minister_desc: ""
+ 
+ UK_Establish_Presidents_Council: "Establish Presidents Council"
+ UK_Establish_Presidents_Council_desc: ""
+ 
+ UK_Establish_Regional_Councils: "Establish Regional Councils"
+ UK_Establish_Regional_Councils_desc: ""
+ 
+ UK_Unite_The_Democratic_Left: "Unite The Democratic Left "
+ UK_Unite_The_Democratic_Left_desc: ""
+ 
+ UK_Suppress_Ultra_Left_Factions: "Suppress Ultra Left Factions"
+ UK_Suppress_Ultra_Left_Factions_desc: ""
+ 
+ UK_State_Security_Reform: "State Security Reform "
+ UK_State_Security_Reform_desc: ""
+ 
+ UK_Police_Political_Oversight: "Police Political Oversight "
+ UK_Police_Political_Oversight_desc: ""
+ 
+ UK_New_Economic_Policy: "New Economic Policy"
+ UK_New_Economic_Policy_desc: ""
+ 
+ UK_Support_Enriching_Landowners: "Support Enriching Landowners"
+ UK_Support_Enriching_Landowners_desc: ""
+ 
+ UK_Enshrine_Enrich_Yourselfs: "Enshrine Enrich Yourselfs"
+ UK_Enshrine_Enrich_Yourselfs_desc: ""
+ 
+ UK_Progressive_Agricultural_Tax: "Progressive Agricultural Tax"
+ UK_Progressive_Agricultural_Tax_desc: ""
+ 
+ UK_Cooperative_Industry_Councils: "Cooperative Industry Councils "
+ UK_Cooperative_Industry_Councils_desc: ""
+ 
+ UK_Partial_Nationalization_Drive: "Partial Nationalization Drive"
+ UK_Partial_Nationalization_Drive_desc: ""
+ 
+ UK_Institute_For_Economic_Research: "Institute For Economic Research"
+ UK_Institute_For_Economic_Research_desc: ""
+ 
+ UK_Technical_Workers_Incentive: "Technical Workers Incentive"
+ UK_Technical_Workers_Incentive_desc: ""
+ 
+ UK_Universal_Health_Cooperatives: "Universal Health Cooperatives"
+ UK_Universal_Health_Cooperatives_desc: ""
+ 
+ UK_Progressive_Housing_Program: "Progressive Housing Program"
+ UK_Progressive_Housing_Program_desc: ""
+ 
+ UK_National_Electrification_Plan: "National Electrification Plan"
+ UK_National_Electrification_Plan_desc: ""
+ 
+ UK_Transport_Cooperative_Development: "Transport Cooperative Development"
+ UK_Transport_Cooperative_Development_desc: ""
+ 
+ UK_Peasant_Market_Liberty: "Worker Market Liberty"
+ UK_Peasant_Market_Liberty_desc: ""
+ 
+ UK_Proletarian_Artistic_Freedom: "Proletarian Artistic Freedom "
+ UK_Proletarian_Artistic_Freedom_desc: ""
+ 
+ UK_Workers_Theatre_And_Cinema: "Workers Theatre And Cinema"
+ UK_Workers_Theatre_And_Cinema_desc: ""
+ 
+ UK_Co_Prosperity_Pact: "Co-Prosperity Pact"
+ UK_Co_Prosperity_Pact_desc: ""
+ 
+ UK_Commonwealth_Co_Prosperity_Pact: "Commonwealth Co-Prosperity Pact"
+ UK_Commonwealth_Co_Prosperity_Pact_desc: ""
+ 
+ UK_East_India_Trade_Reform: "Indian Trade Reform "
+ UK_East_India_Trade_Reform_desc: ""
+ 
+ UK_Toe_The_Line: "Toe The Line"
+ UK_Toe_The_Line_desc: ""
+ 
+ UK_Purge_The_Social_Fascists: "Purge The Social Fascists "
+ UK_Purge_The_Social_Fascists_desc: ""
+ 
+ UK_Establish_The_Peoples_Commissariat_For_State_Security: "Peoples Commissariat For State Security"
+ UK_Establish_The_Peoples_Commissariat_For_State_Security_desc: ""
+ 
+ UK_Mandatory_Party_Loyalty_Oath: "Mandatory Party Loyalty Oath"
+ UK_Mandatory_Party_Loyalty_Oath_desc: ""
+ 
+ UK_Peoples_Commissariat_For_Agriculture: "Peoples Commissariat For Agriculture "
+ UK_Peoples_Commissariat_For_Agriculture_desc: ""
+ 
+ UK_Agrarian_Nationalization_Act: "Agrarian Nationalization Act"
+ UK_Agrarian_Nationalization_Act_desc: ""
+ 
+ UK_Collectivize_The_Countryside: "Collectivize The Countryside"
+ UK_Collectivize_The_Countryside_desc: ""
+ 
+ UK_Wartime_Joint_Production_Councils: "Wartime Joint Production Councils"
+ UK_Wartime_Joint_Production_Councils_desc: ""
+ 
+ UK_Nationalize_Means_Of_Production: "Nationalize Means Of Production"
+ UK_Nationalize_Means_Of_Production_desc: ""
+ 
+ UK_Stakhanovite_Productivity_Drive: "Stakhanovite Productivity Drive"
+ UK_Stakhanovite_Productivity_Drive_desc: ""
+ 
+ UK_Total_Nationalization_Of_Industry: "Total Nationalization Of Industry "
+ UK_Total_Nationalization_Of_Industry_desc: ""
+ 
+ UK_Britains_First_Five_Year_Plan: "Britains First Five-Year-Plan"
+ UK_Britains_First_Five_Year_Plan_desc: ""
+ 
+ UK_Britains_Second_Five_Year_Plan: "Britains Second Five-Year-Plan"
+ UK_Britains_Second_Five_Year_Plan_desc: ""
+ 
+ UK_March_Of_The_Soviets: "March Of The Soviets"
+ UK_March_Of_The_Soviets_desc: ""
+ 
+ UK_Stalinist_Youth_And_Party_Schools: "Stalinist Youth And Party Schools"
+ UK_Stalinist_Youth_And_Party_Schools_desc: ""
+ 
+ UK_Peoples_Red_Radio_Service: "Peoples Red Radio Service"
+ UK_Peoples_Red_Radio_Service_desc: ""
+ 
+ UK_Socialist_Realism_Decree: "Socialist Realism Decree"
+ UK_Socialist_Realism_Decree_desc: ""
+ 
+ UK_Daily_Worker_Mass_Circulation: "Daily Worker Mass Circulation"
+ UK_Daily_Worker_Mass_Circulation_desc: ""
+ 
+ UK_Proletarian_Cadre_Academy: "Proletarian Cadre Academy"
+ UK_Proletarian_Cadre_Academy_desc: ""
+ 
+ UK_Cult_Of_Stalin: "Cult Of Stalin"
+ UK_Cult_Of_Stalin_desc: ""
+ 
+ UK_Anti_Fascist_Peoples_Front: "Anti-Fascist Peoples Front"
+ UK_Anti_Fascist_Peoples_Front_desc: ""
+ 
+ UK_British_Red_Army: "British Red Army"
+ UK_British_Red_Army_desc: ""
+ 
+ UK_Workers_Factory_Militias: "Workers Factory Militias"
+ UK_Workers_Factory_Militias_desc: ""
+ 
+ UK_Support_The_Indians_Workers_Movement: "Support The Indians Workers Movement"
+ UK_Support_The_Indians_Workers_Movement_desc: ""
+ 
+ # Agrarian Socialism
+ 
+ UK_Green_International_Revival: "Green International Revival"
+ UK_Green_International_Revival_desc: ""
+ 
+ UK_Solidaridad_Agricola: "Solidaridad Agrícola"
+ UK_Solidaridad_Agricola_desc: ""
+ 
+ UK_Aid_Hungarian_Peasant_Socialists: "Aid Hungarian Peasant Socialists"
+ UK_Aid_Hungarian_Peasant_Socialists_desc: ""
+ 
+ UK_Advisory_Mission_To_The_CCF: "Advisory Mission To The CCF"
+ UK_Advisory_Mission_To_The_CCF_desc: ""
+ 
+ UK_Land_Value_Taxation_Act: "Land Value Taxation Act"
+ UK_Land_Value_Taxation_Act_desc: ""
+ 
+ UK_Land_To_The_Tiller: "Land To The Tiller"
+ UK_Land_To_The_Tiller_desc: ""
+ 
+ UK_Nationalize_Railroads: "Nationalize Railroads"
+ UK_Nationalize_Railroads_desc: ""
+ 
+ UK_Embrace_The_Digger_Legacy: "Embrace The Digger Legacy"
+ UK_Embrace_The_Digger_Legacy_desc: ""
+ 
+ UK_Rural_Cooperative_Renaissance: "Rural Cooperative Renaissance"
+ UK_Rural_Cooperative_Renaissance_desc: ""
+ 
+ UK_Five_Year_Agrarian_Plan: "First Five-Year Agrarian Plan"
+ UK_Five_Year_Agrarian_Plan_desc: ""
+ 
+ UK_Second_Five_Year_Agrarian_Plan: "Second Five-Year Agrarian Plan"
+ UK_Second_Five_Year_Agrarian_Plan_desc: ""
+ 
+ UK_Land_Drainage_And_Reclamation_Drive: "Land Drainage And Reclamation Drive"
+ UK_Land_Drainage_And_Reclamation_Drive_desc: ""
+ 
+ UK_National_Grain_And_Rationing_Board: "National Grain And Rationing Board"
+ UK_National_Grain_And_Rationing_Board_desc: ""
+ 
+ UK_Rural_Electrification_Program: "Rural Electrification Program"
+ UK_Rural_Electrification_Program_desc: ""
+ 
+ UK_Farm_To_Market_Road_Programme: "Farm To Market Road Programme"
+ UK_Farm_To_Market_Road_Programme_desc: ""
+ 
+ UK_Mechanization_Subsidies_Act: "Mechanization Subsidies Act"
+ UK_Mechanization_Subsidies_Act_desc: ""
+ 
+ UK_Rural_Education_And_Extension_Service: "Rural Education And Extension Service"
+ UK_Rural_Education_And_Extension_Service_desc: ""
+ 
+ UK_Land_Credit_Union_Act: "Land Credit Union Act"
+ UK_Land_Credit_Union_Act_desc: ""
+ 
+ UK_Rural_Defense_Network: "Rural Defense Network"
+ UK_Rural_Defense_Network_desc: ""
+ 
+ UK_Cooperative_Armaments_Works: "Cooperative Armaments Works"
+ UK_Cooperative_Armaments_Works_desc: ""
+ 
+ UK_Tractor_Borne_Artillery: "Tractor-Borne Artillery"
+ UK_Tractor_Borne_Artillery_desc: ""
+ 
+ UK_Agro_Industrial_Armored_Trains: "Agro-Industrial Armored Trains"
+ UK_Agro_Industrial_Armored_Trains_desc: ""
+ 
+ UK_Militia_Air_Support_Squadrons: "Militia Air Support Squadrons"
+ UK_Militia_Air_Support_Squadrons_desc: ""
+ 
+ UK_Defensive_Camouflage: "Defensive Camouflage"
+ UK_Defensive_Camouflage_desc: ""
+ 
+ UK_Rapid_Deployment_Peasant_Cavalry: "Rapid-Deployment Peasant Cavalry"
+ UK_Rapid_Deployment_Peasant_Cavalry_desc: ""
+ 
+ UK_The_Green_Scouts: "The Green Scouts"
+ UK_The_Green_Scouts_desc: ""
  
 ################################### IDEAS                       \n      §H§!
  

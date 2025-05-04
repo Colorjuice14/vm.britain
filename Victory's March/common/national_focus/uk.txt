@@ -31,7 +31,7 @@ focus_tree = {
 		#prerequisite = { }
 		icon = GFX_focus_generic_concessions
 		mutually_exclusive = { focus = UK_Vote_Of_No_Confidence }
-		x = 76
+		x = 84
 		y = 0
 		#relative_position_id = tizard_mission_focus
 		cost = 10
@@ -1400,7 +1400,7 @@ focus_tree = {
 		#prerequisite = { }
 		mutually_exclusive = { focus = UK_Appeasement }
 		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
-		x = -41
+		x = -49
 		y = 0 
 		relative_position_id = UK_Appeasement
 		cost = 10
@@ -3730,7 +3730,7 @@ focus_tree = {
 		prerequisite = { focus = UK_A_Change_In_Course }
 		mutually_exclusive = { focus = UK_Permit_Royalty_And_Peers_In_Commons }
 		icon = GFX_focus_PER_strengthen_the_tudeh
-		x = 26
+		x = 30
 		y = 1
 		relative_position_id = UK_A_Change_In_Course
 		cost = 10
@@ -4229,9 +4229,9 @@ focus_tree = {
 		id = UK_Call_For_A_General_Election
 		available = { }
 		prerequisite = { focus = UK_The_Popular_Front }
-		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
+		icon = GFX_focus_generic_election
 		x = 0
-		y = 2
+		y = 4
 		relative_position_id = UK_The_Popular_Front
 		cost = 10
 		ai_will_do = {
@@ -4249,7 +4249,7 @@ focus_tree = {
 		id = UK_Harry_Pollitt
 		available = { }
 		prerequisite = { focus = UK_Call_For_A_General_Election }
-		mutually_exclusive = { focus = UK_Sir_Herbet_Matthews focus = UK_Syndicalist_Workers_Federation } 
+		mutually_exclusive = { focus = UK_Sir_Herbet_Matthews focus = UK_Council_Democracy } 
 		icon = GFX_focus_generic_soviet_politics
 		x = 0
 		y = 2
@@ -4267,12 +4267,1020 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = UK_Rewrite_The_Constitution
+		available = { }
+		prerequisite = { focus = UK_Harry_Pollitt }
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 1
+		relative_position_id = UK_Harry_Pollitt
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Empower_The_Prime_Minister
+		available = { }
+		prerequisite = { focus = UK_Rewrite_The_Constitution }
+		icon = GFX_focus_generic_soviet_politics
+		x = 0
+		y = 1
+		relative_position_id = UK_Rewrite_The_Constitution
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Establish_Presidents_Council
+		available = { }
+		prerequisite = { focus = UK_Empower_The_Prime_Minister }
+		mutually_exclusive = { focus = UK_Toe_The_Line }
+		icon = GFX_focus_generic_improve_the_administration
+		x = 4
+		y = 1
+		relative_position_id = UK_Empower_The_Prime_Minister
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Establish_Regional_Councils
+		available = { }
+		prerequisite = { focus = UK_Establish_Presidents_Council }
+		icon = GFX_focus_generic_self_management
+		x = 0
+		y = 1
+		relative_position_id = UK_Establish_Presidents_Council
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Unite_The_Democratic_Left
+		available = { }
+		prerequisite = { focus = UK_Establish_Regional_Councils }
+		icon = GFX_goal_generic_national_unity
+		x = -2
+		y = 1
+		relative_position_id = UK_Establish_Regional_Councils
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Suppress_Ultra_Left_Factions
+		available = { }
+		prerequisite = { focus = UK_Unite_The_Democratic_Left }
+		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Unite_The_Democratic_Left
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_State_Security_Reform
+		available = { }
+		prerequisite = { focus = UK_Establish_Regional_Councils }
+		icon = GFX_focus_generic_full_social_mobilization
+		x = 2
+		y = 1
+		relative_position_id = UK_Establish_Regional_Councils
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Police_Political_Oversight
+		available = { }
+		prerequisite = { focus = UK_State_Security_Reform }
+		icon = GFX_focus_generic_advanced_military_studies
+		x = 0
+		y = 1
+		relative_position_id = UK_State_Security_Reform
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_New_Economic_Policy
+		available = { }
+		prerequisite = { focus = UK_Establish_Regional_Councils } 
+		icon = GFX_focus_generic_currency_reforms
+		x = 0
+		y = 2
+		relative_position_id = UK_Establish_Regional_Councils
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Support_Enriching_Landowners
+		available = { }
+		prerequisite = { focus = UK_New_Economic_Policy }
+		icon = GFX_goal_generic_dangerous_deal
+		x = -2
+		y = 1
+		relative_position_id = UK_New_Economic_Policy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = UK_Enshrine_Enrich_Yourselfs
+		available = { }
+		prerequisite = { focus = UK_Support_Enriching_Landowners }
+		icon = GFX_goal_generic_propaganda
+		x = -1
+		y = 1
+		relative_position_id = UK_Support_Enriching_Landowners
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Progressive_Agricultural_Tax
+		available = { }
+		prerequisite = { focus = UK_Support_Enriching_Landowners }
+		icon = GFX_focus_generic_price_controls
+		x = 1
+		y = 1
+		relative_position_id = UK_Support_Enriching_Landowners
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Cooperative_Industry_Councils
+		available = { }
+		prerequisite = { focus = UK_Enshrine_Enrich_Yourselfs }
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = UK_Enshrine_Enrich_Yourselfs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Partial_Nationalization_Drive
+		available = { }
+		prerequisite = { focus = UK_Progressive_Agricultural_Tax }
+		icon = GFX_goal_generic_production
+		x = 0
+		y = 1
+		relative_position_id = UK_Progressive_Agricultural_Tax
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Institute_For_Economic_Research
+		available = { }
+		prerequisite = { focus = UK_Cooperative_Industry_Councils }
+		prerequisite = { focus = UK_Partial_Nationalization_Drive }
+		icon = GFX_focus_generic_university_1
+		x = 1
+		y = 1
+		relative_position_id = UK_Cooperative_Industry_Councils
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Technical_Workers_Incentive
+		available = { }
+		prerequisite = { focus = UK_Institute_For_Economic_Research }
+		icon = GFX_focus_generic_welfare
+		x = 0
+		y = 1
+		relative_position_id = UK_Institute_For_Economic_Research
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Universal_Health_Cooperatives
+		available = { }
+		prerequisite = { focus = UK_New_Economic_Policy }
+		icon = GFX_focus_generic_field_hostpital
+		x = 2
+		y = 1
+		relative_position_id = UK_New_Economic_Policy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Progressive_Housing_Program
+		available = { }
+		prerequisite = { focus = UK_Universal_Health_Cooperatives }
+		icon = GFX_focus_generic_low_cost_housing
+		x = 0
+		y = 1
+		relative_position_id = UK_Universal_Health_Cooperatives
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_National_Electrification_Plan
+		available = { }
+		prerequisite = { focus = UK_Progressive_Housing_Program }
+		icon = GFX_focus_generic_electrification
+		x = -1
+		y = 1
+		relative_position_id = UK_Progressive_Housing_Program
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Transport_Cooperative_Development
+		available = { }
+		prerequisite = { focus = UK_Progressive_Housing_Program }
+		icon = GFX_focus_CHL_connect_the_northern_railways
+		x = 1
+		y = 1
+		relative_position_id = UK_Progressive_Housing_Program
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Peasant_Market_Liberty
+		available = { }
+		prerequisite = { focus = UK_National_Electrification_Plan }
+		prerequisite = { focus = UK_Transport_Cooperative_Development }
+		icon = GFX_goal_generic_neutrality_focus
+		x = 1
+		y = 1
+		relative_position_id = UK_National_Electrification_Plan
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Proletarian_Artistic_Freedom
+		available = { }
+		prerequisite = { focus = UK_Peasant_Market_Liberty }
+		icon = GFX_goal_generic_propaganda
+		x = -1
+		y = 1
+		relative_position_id = UK_Peasant_Market_Liberty
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Workers_Theatre_And_Cinema
+		available = { }
+		prerequisite = { focus = UK_Peasant_Market_Liberty }
+		icon = GFX_goal_generic_propaganda
+		x = 1
+		y = 1
+		relative_position_id = UK_Peasant_Market_Liberty
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Co_Prosperity_Pact
+		available = { }
+		prerequisite = { focus = UK_Technical_Workers_Incentive }
+		prerequisite = { focus = UK_Peasant_Market_Liberty }
+		icon = GFX_goal_generic_improve_relations
+		x = 2
+		y = 1
+		relative_position_id = UK_Technical_Workers_Incentive
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Commonwealth_Co_Prosperity_Pact
+		available = { }
+		prerequisite = { focus = UK_Co_Prosperity_Pact }
+		icon = GFX_goal_generic_major_alliance
+		x = 0
+		y = 1
+		relative_position_id = UK_Co_Prosperity_Pact
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_East_India_Trade_Reform
+		available = { }
+		prerequisite = { focus = UK_Commonwealth_Co_Prosperity_Pact }
+		icon = GFX_focus_generic_monetary_union
+		x = 0
+		y = 1
+		relative_position_id = UK_Commonwealth_Co_Prosperity_Pact
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	focus = {
+		id = UK_Toe_The_Line
+		available = { }
+		prerequisite = { focus = UK_Empower_The_Prime_Minister }
+		mutually_exclusive = { focus = UK_Establish_Presidents_Council }
+		icon = GFX_focus_SOV_stalins_cult_of_personality
+		x = -4
+		y = 1
+		relative_position_id = UK_Empower_The_Prime_Minister
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Purge_The_Social_Fascists
+		available = { }
+		prerequisite = { focus = UK_Toe_The_Line }
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = -3
+		y = 1
+		relative_position_id = UK_Toe_The_Line
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Establish_The_Peoples_Commissariat_For_State_Security
+		available = { }
+		prerequisite = { focus = UK_Purge_The_Social_Fascists }
+		icon = GFX_focus_generic_secret_service_agency
+		x = 0
+		y = 1
+		relative_position_id = UK_Purge_The_Social_Fascists
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Mandatory_Party_Loyalty_Oath
+		available = { }
+		prerequisite = { focus = UK_Establish_The_Peoples_Commissariat_For_State_Security }
+		icon = GFX_SOV_muster_the_old_guard_ccp_2d_sov_compatibility
+		x = 0
+		y = 3 
+		relative_position_id = UK_Establish_The_Peoples_Commissariat_For_State_Security
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Peoples_Commissariat_For_Agriculture
+		available = { }
+		prerequisite = { focus = UK_Toe_The_Line }
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 3
+		y = 1
+		relative_position_id = UK_Toe_The_Line
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Agrarian_Nationalization_Act
+		available = { }
+		prerequisite = { focus = UK_Peoples_Commissariat_For_Agriculture }
+		icon = GFX_SOV_annex_tannu_tuva_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Peoples_Commissariat_For_Agriculture
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Collectivize_The_Countryside
+		available = { }
+		prerequisite = { focus = UK_Agrarian_Nationalization_Act }
+		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility
+		x = 0
+		y = 3
+		relative_position_id = UK_Agrarian_Nationalization_Act
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Wartime_Joint_Production_Councils
+		available = { }
+		prerequisite = { focus = UK_Toe_The_Line }
+		icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Toe_The_Line
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Nationalize_Means_Of_Production
+		available = { }
+		prerequisite = { focus = UK_Wartime_Joint_Production_Councils }
+		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility
+		x = -1
+		y = 1
+		relative_position_id = UK_Wartime_Joint_Production_Councils
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Stakhanovite_Productivity_Drive
+		available = { }
+		prerequisite = { focus = UK_Wartime_Joint_Production_Councils }
+		icon = GFX_focus_generic_workers
+		x = 1
+		y = 1
+		relative_position_id = UK_Wartime_Joint_Production_Councils
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Total_Nationalization_Of_Industry
+		available = { }
+		prerequisite = { focus = UK_Nationalize_Means_Of_Production }
+		prerequisite = { focus = UK_Stakhanovite_Productivity_Drive }
+		icon = GFX_SOV_expand_the_agitprop_ccp_2d_sov_compatibility
+		x = 1
+		y = 1
+		relative_position_id = UK_Nationalize_Means_Of_Production
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Britains_First_Five_Year_Plan
+		available = { }
+		prerequisite = { focus = UK_Total_Nationalization_Of_Industry }
+		icon = GFX_SOV_finish_the_five_year_plan_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Total_Nationalization_Of_Industry
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Britains_Second_Five_Year_Plan
+		available = { }
+		prerequisite = { focus = UK_Britains_First_Five_Year_Plan }
+		icon = GFX_SOV_third_five_year_plan_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Britains_First_Five_Year_Plan
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_March_Of_The_Soviets
+		available = { }
+		prerequisite = { focus = UK_Mandatory_Party_Loyalty_Oath }
+		prerequisite = { focus = UK_Collectivize_The_Countryside }
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		x = 0
+		y = 1
+		relative_position_id = UK_Britains_Second_Five_Year_Plan
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Stalinist_Youth_And_Party_Schools
+		available = { }
+		prerequisite = { focus = UK_March_Of_The_Soviets }
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		x = -2
+		y = 1
+		relative_position_id = UK_March_Of_The_Soviets
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Peoples_Red_Radio_Service
+		available = { }
+		prerequisite = { focus = UK_Stalinist_Youth_And_Party_Schools }
+		icon = GFX_focus_generic_radio_communication
+		x = 0
+		y = 1
+		relative_position_id = UK_Stalinist_Youth_And_Party_Schools
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Socialist_Realism_Decree
+		available = { }
+		prerequisite = { focus = UK_Peoples_Red_Radio_Service }
+		icon = GFX_focus_generic_soviet_politics
+		x = 0
+		y = 1
+		relative_position_id = UK_Peoples_Red_Radio_Service
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Daily_Worker_Mass_Circulation
+		available = { }
+		prerequisite = { focus = UK_Socialist_Realism_Decree }
+		icon = GFX_SOV_collectivist_propaganda_ccp_2d_sov_compatibility
+		x = 1
+		y = 1
+		relative_position_id = UK_Socialist_Realism_Decree
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Proletarian_Cadre_Academy
+		available = { }
+		prerequisite = { focus = UK_Socialist_Realism_Decree }
+		icon = GFX_focus_generic_advanced_military_studies
+		x = -1
+		y = 1
+		relative_position_id = UK_Socialist_Realism_Decree
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Cult_Of_Stalin
+		available = { }
+		prerequisite = { focus = UK_Daily_Worker_Mass_Circulation }
+		prerequisite = { focus = UK_Proletarian_Cadre_Academy }
+		icon = GFX_focus_fra_loyalty_stalin
+		x = 1
+		y = 1
+		relative_position_id = UK_Proletarian_Cadre_Academy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Anti_Fascist_Peoples_Front
+		available = { }
+		prerequisite = { focus = UK_March_Of_The_Soviets }
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 2
+		y = 1
+		relative_position_id = UK_March_Of_The_Soviets
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_British_Red_Army
+		available = { }
+		prerequisite = { focus = UK_Anti_Fascist_Peoples_Front }
+		icon = GFX_SOV_the_glory_of_the_red_army_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Anti_Fascist_Peoples_Front
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Workers_Factory_Militias
+		available = { }
+		prerequisite = { focus = UK_British_Red_Army }
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		x = 0
+		y = 1
+		relative_position_id = UK_British_Red_Army
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Support_The_Indians_Workers_Movement
+		available = { }
+		prerequisite = { focus = UK_March_Of_The_Soviets }
+		icon = GFX_focus_RAJ_all_india_forward_bloc
+		x = 0
+		y = 1
+		relative_position_id = UK_March_Of_The_Soviets
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
 		id = UK_Sir_Herbet_Matthews
 		available = { }
 		prerequisite = { focus = UK_Call_For_A_General_Election }
-		mutually_exclusive = { focus = UK_Harry_Pollitt focus = UK_Syndicalist_Workers_Federation } 
-		icon = GFX_focus_generic_soviet_politics
-		x = 4
+		mutually_exclusive = { focus = UK_Harry_Pollitt focus = UK_Council_Democracy } 
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		x = 13
 		y = 2
 		relative_position_id = UK_Call_For_A_General_Election
 		cost = 10
@@ -4288,14 +5296,940 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = UK_Syndicalist_Workers_Federation 
+		id = UK_Green_International_Revival
+		available = { }
+		prerequisite = { focus = UK_Sir_Herbet_Matthews }
+		icon = GFX_focus_generic_join_comintern
+		x = 0
+		y = 1
+		relative_position_id = UK_Sir_Herbet_Matthews
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Solidaridad_Agricola
+		available = { }
+		prerequisite = { focus = UK_Green_International_Revival }
+		icon = GFX_focus_ITA_peasants_rise
+		x = 0
+		y = 1
+		relative_position_id = UK_Green_International_Revival
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Aid_Hungarian_Peasant_Socialists
+		available = { }
+		prerequisite = { focus = UK_Green_International_Revival }
+		icon = GFX_focus_ITA_peasants_rise
+		x = -2
+		y = 1
+		relative_position_id = UK_Green_International_Revival
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Advisory_Mission_To_The_CCF
+		available = { }
+		prerequisite = { focus = UK_Green_International_Revival }
+		icon = GFX_focus_ITA_peasants_rise
+		x = 2
+		y = 1
+		relative_position_id = UK_Green_International_Revival
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Land_Value_Taxation_Act
+		available = { }
+		prerequisite = { focus = UK_Sir_Herbet_Matthews }
+		icon = GFX_focus_generic_price_controls
+		x = 5
+		y = 1
+		relative_position_id = UK_Sir_Herbet_Matthews
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Land_To_The_Tiller
+		available = { }
+		prerequisite = { focus = UK_Land_Value_Taxation_Act }
+		icon = GFX_focus_generic_annex_country
+		x = 1
+		y = 1
+		relative_position_id = UK_Land_Value_Taxation_Act
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Nationalize_Railroads
+		available = { }
+		prerequisite = { focus = UK_Land_Value_Taxation_Act }
+		icon = GFX_focus_generic_communist_industry
+		x = -1
+		y = 1
+		relative_position_id = UK_Land_Value_Taxation_Act
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Embrace_The_Digger_Legacy
+		available = { }
+		prerequisite = { focus = UK_Land_To_The_Tiller }
+		prerequisite = { focus = UK_Nationalize_Railroads }
+		icon = GFX_focus_generic_spur_communist_revolutions
+		x = 1
+		y = 1
+		relative_position_id = UK_Nationalize_Railroads
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Rural_Cooperative_Renaissance
+		available = { }
+		prerequisite = { focus = UK_Embrace_The_Digger_Legacy }
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = UK_Embrace_The_Digger_Legacy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Five_Year_Agrarian_Plan
+		available = { }
+		prerequisite = { focus = UK_Rural_Cooperative_Renaissance }
+		icon = GFX_focus_generic_agricultural_subsidies
+		x = -2
+		y = 1
+		relative_position_id = UK_Rural_Cooperative_Renaissance
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Second_Five_Year_Agrarian_Plan
+		available = { }
+		prerequisite = { focus = UK_Five_Year_Agrarian_Plan }
+		icon = GFX_focus_generic_agricultural_subsidies
+		x = 0
+		y = 2
+		relative_position_id = UK_Five_Year_Agrarian_Plan
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Land_Drainage_And_Reclamation_Drive
+		available = { }
+		prerequisite = { focus = UK_Rural_Cooperative_Renaissance }
+		icon = GFX_focus_generic_land_reclamation
+		x = 1
+		y = 1
+		relative_position_id = UK_Rural_Cooperative_Renaissance
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_National_Grain_And_Rationing_Board
+		available = { }
+		prerequisite = { focus = UK_Land_Drainage_And_Reclamation_Drive }
+		icon = GFX_focus_generic_price_controls
+		x = 0
+		y = 1
+		relative_position_id = UK_Land_Drainage_And_Reclamation_Drive
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Rural_Electrification_Program
+		available = { }
+		prerequisite = { focus = UK_National_Grain_And_Rationing_Board }
+		icon = GFX_focus_generic_energy
+		x = -1
+		y = 1
+		relative_position_id = UK_National_Grain_And_Rationing_Board
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Farm_To_Market_Road_Programme
+		available = { }
+		prerequisite = { focus = UK_Rural_Electrification_Program }
+		icon = GFX_focus_generic_monetary_union
+		x = 0
+		y = 3
+		relative_position_id = UK_Rural_Electrification_Program
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Mechanization_Subsidies_Act
+		available = { }
+		prerequisite = { focus = UK_National_Grain_And_Rationing_Board }
+		icon = GFX_focus_generic_purchase_mechanized_equipment
+		x = 1
+		y = 1
+		relative_position_id = UK_National_Grain_And_Rationing_Board
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Rural_Education_And_Extension_Service
+		available = { }
+		prerequisite = { focus = UK_Mechanization_Subsidies_Act }
+		prerequisite = { focus = UK_Rural_Electrification_Program }
+		icon = GFX_focus_generic_university_1
+		x = 1
+		y = 1
+		relative_position_id = UK_Rural_Electrification_Program
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Land_Credit_Union_Act
+		available = { }
+		prerequisite = { focus = UK_Rural_Education_And_Extension_Service }
+		icon = GFX_focus_generic_welfare
+		x = 0
+		y = 1
+		relative_position_id = UK_Rural_Education_And_Extension_Service
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Rural_Defense_Network
+		available = { }
+		prerequisite = { focus = UK_Sir_Herbet_Matthews }
+		icon = GFX_focus_generic_manpower
+		x = -4
+		y = 1
+		relative_position_id = UK_Sir_Herbet_Matthews
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Cooperative_Armaments_Works
+		available = { }
+		prerequisite = { focus = UK_Rural_Defense_Network }
+		icon = GFX_focus_generic_modernize_industry
+		x = 0
+		y = 1
+		relative_position_id = UK_Rural_Defense_Network
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Tractor_Borne_Artillery
+		available = { }
+		prerequisite = { focus = UK_Cooperative_Armaments_Works }
+		icon = GFX_focus_generic_improve_roads
+		x = -2
+		y = 1
+		relative_position_id = UK_Cooperative_Armaments_Works
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Agro_Industrial_Armored_Trains
+		available = { }
+		prerequisite = { focus = UK_Cooperative_Armaments_Works }
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		relative_position_id = UK_Cooperative_Armaments_Works
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Militia_Air_Support_Squadrons
+		available = { }
+		prerequisite = { focus = UK_Cooperative_Armaments_Works }
+		icon = GFX_SOV_increase_aircraft_production_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Cooperative_Armaments_Works
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Defensive_Camouflage
+		available = { }
+		prerequisite = { focus = UK_Militia_Air_Support_Squadrons focus = UK_Agro_Industrial_Armored_Trains focus = UK_Tractor_Borne_Artillery }
+		icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		relative_position_id = UK_Militia_Air_Support_Squadrons
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Rapid_Deployment_Peasant_Cavalry
+		available = { }
+		prerequisite = { focus = UK_Defensive_Camouflage }
+		icon = GFX_goal_generic_cavalry
+		x = 0
+		y = 1
+		relative_position_id = UK_Defensive_Camouflage
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_The_Green_Scouts
+		available = { }
+		prerequisite = { focus = UK_Rapid_Deployment_Peasant_Cavalry }
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 0
+		y = 1
+		relative_position_id = UK_Rapid_Deployment_Peasant_Cavalry
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = UK_Council_Democracy
 		available = { }
 		prerequisite = { focus = UK_Call_For_A_General_Election }
 		mutually_exclusive = { focus = UK_Harry_Pollitt focus = UK_Sir_Herbet_Matthews } 
-		icon = GFX_focus_generic_soviet_politics
-		x = -4
+		icon = GFX_focus_generic_social_democracy
+		x = -14
 		y = 2
 		relative_position_id = UK_Call_For_A_General_Election
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Federation_Of_Syndicates
+		available = { }
+		prerequisite = { focus = UK_Council_Democracy }
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = UK_Council_Democracy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Abolish_The_State_Aparatus
+		available = { }
+		prerequisite = { focus = UK_Federation_Of_Syndicates }
+		icon = GFX_focus_generic_advanced_military_studies
+		x = 0
+		y = 1
+		relative_position_id = UK_Federation_Of_Syndicates
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Workers_Self_Management
+		available = { }
+		prerequisite = { focus = UK_Abolish_The_State_Aparatus }
+		icon = GFX_focus_generic_communist
+		x = 3
+		y = 1
+		relative_position_id = UK_Abolish_The_State_Aparatus
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Agricultural_Communes
+		available = { }
+		prerequisite = { focus = UK_Workers_Self_Management }
+		icon = GFX_focus_generic_farmland
+		x = -2
+		y = 1
+		relative_position_id = UK_Workers_Self_Management
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = UK_Mutual_Aid_Networks
+		available = { }
+		prerequisite = { focus = UK_Workers_Self_Management }
+		icon = GFX_focus_generic_agricultural_subsidies
+		x = 2
+		y = 1
+		relative_position_id = UK_Workers_Self_Management
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Cultural_Collectives
+		available = { }
+		prerequisite = { focus = UK_Workers_Self_Management }
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		relative_position_id = UK_Workers_Self_Management
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Worker_Owned_Credit_Union
+		available = { }
+		prerequisite = { focus = UK_Mutual_Aid_Networks }
+		prerequisite = { focus = UK_Agricultural_Communes }
+		icon = GFX_focus_generic_welfare
+		x = 0
+		y = 1
+		relative_position_id = UK_Cultural_Collectives
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Community_Land_Trusts
+		available = { }
+		prerequisite = { focus = UK_Worker_Owned_Credit_Union }
+		icon = GFX_focus_generic_welfare
+		x = -2
+		y = 1
+		relative_position_id = UK_Worker_Owned_Credit_Union
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Decentralized_Energy_Cooperatives
+		available = { }
+		prerequisite = { focus = UK_Worker_Owned_Credit_Union }
+		icon = GFX_focus_generic_electrification
+		x = 2
+		y = 1
+		relative_position_id = UK_Worker_Owned_Credit_Union
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Cooperative_Industry_Federations
+		available = { }
+		prerequisite = { focus = UK_Worker_Owned_Credit_Union }
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = UK_Worker_Owned_Credit_Union
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Anarchist_Pedagogy_Institutes
+		available = { }
+		prerequisite = { focus = UK_Community_Land_Trusts }
+		prerequisite = { focus = UK_Decentralized_Energy_Cooperatives }
+		prerequisite = { focus = UK_Cooperative_Industry_Federations }
+		icon = GFX_focus_generic_advanced_military_studies
+		x = 0
+		y = 1
+		relative_position_id = UK_Cooperative_Industry_Federations
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Defence_Council_Of_The_Isles
+		available = { }
+		prerequisite = { focus = UK_Abolish_The_State_Aparatus }
+		icon = GFX_focus_generic_home_defense
+		x = -3
+		y = 1
+		relative_position_id = UK_Abolish_The_State_Aparatus
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Irish_Anarchism
+		available = { }
+		prerequisite = { focus = UK_Defence_Council_Of_The_Isles }
+		icon = GFX_focus_generic_annex_country
+		x = 0
+		y = 1
+		relative_position_id = UK_Defence_Council_Of_The_Isles
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Factory_Defense_Leagues
+		available = { }
+		prerequisite = { focus = UK_Defence_Council_Of_The_Isles }
+		icon = GFX_goal_generic_air_production
+		x = 2
+		y = 2
+		relative_position_id = UK_Defence_Council_Of_The_Isles
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Volunteer_Defense_Brigades
+		available = { }
+		prerequisite = { focus = UK_Defence_Council_Of_The_Isles }
+		icon = GFX_focus_generic_full_social_mobilization
+		x = -2
+		y = 2
+		relative_position_id = UK_Defence_Council_Of_The_Isles
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Support_Anti_Colonial_Unions
+		available = { }
+		prerequisite = { focus = UK_Irish_Anarchism }
+		icon = GFX_focus_generic_workers
+		x = 0
+		y = 1
+		relative_position_id = UK_Irish_Anarchism
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_The_New_Future
+		available = { }
+		prerequisite = { focus = UK_Support_Anti_Colonial_Unions }
+		prerequisite = { focus = UK_Volunteer_Defense_Brigades }
+		prerequisite = { focus = UK_Factory_Defense_Leagues }
+		icon = GFX_focus_generic_red_flags
+		x = 0
+		y = 1
+		relative_position_id = UK_Support_Anti_Colonial_Unions
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Anarchism_Knows_No_Borders
+		available = { }
+		prerequisite = { focus = UK_The_New_Future }
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 0
+		y = 1
+		relative_position_id = UK_The_New_Future
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_Plant_The_Seeds_Of_Revolution
+		available = { }
+		prerequisite = { focus = UK_Anarchism_Knows_No_Borders }
+		icon = GFX_focus_generic_spur_communist_revolutions
+		x = 0
+		y = 1
+		relative_position_id = UK_Anarchism_Knows_No_Borders
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = UK_World_Syndicalist_Federation
+		available = { }
+		prerequisite = { focus = UK_Plant_The_Seeds_Of_Revolution }
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+		relative_position_id = UK_Plant_The_Seeds_Of_Revolution
 		cost = 10
 		ai_will_do = {
 			factor = 1
