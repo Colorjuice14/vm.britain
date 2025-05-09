@@ -2,6 +2,91 @@ ideas = {
 
 	country = {
 	
+		UK_Syndicalist_Unions_1 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				communism_drift = 0.01
+			}
+		}
+		
+		UK_Syndicalist_Unions_2 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				communism_drift = 0.02
+			}
+		}
+		
+		UK_Syndicalist_Unions_3 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				communism_drift = 0.02
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		UK_Syndicalist_Unions_4 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.125
+				communism_drift = 0.02
+				consumer_goods_factor = -0.125
+			}
+		}
+	
+		UK_Unpopular_Prime_Minister = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.8
+				stability_factor = -0.2
+				surrender_limit = -0.5
+				conscription = -0.1
+				war_support_factor = -0.05
+			}
+		}
+	
 		ENG_Operation_Overlord = {
 			
 			allowed = {

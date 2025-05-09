@@ -167,7 +167,7 @@
   UK_Amphion_Class: "Amphion-Class"
   UK_Amphion_Class_desc: ""
 
-  UK_The_Royal_Airforce: "Our Royal Air Force"
+  UK_The_Royal_Airforce: "The Royal Air Force"
   UK_The_Royal_Airforce_desc: "Modernize and expand our air power to ensure control of the skies and provide support for all military operations."
 
   UK_Directorate_Of_Aeuronautical_Production: "Directorate of Aeronautical Production"
@@ -1212,6 +1212,9 @@
  UK_Support_The_Indians_Workers_Movement: "Support The Indians Workers Movement"
  UK_Support_The_Indians_Workers_Movement_desc: ""
  
+ UK_Price_Controls: "Price Controls"
+ UK_Price_Controls_desc: ""
+ 
  # Agrarian Socialism
  
  UK_Green_International_Revival: "Green International Revival"
@@ -1292,6 +1295,32 @@
  UK_The_Green_Scouts: "The Green Scouts"
  UK_The_Green_Scouts_desc: ""
  
+ # Industry
+ 
+ UK_Develop_The_Isles: "Develop The Isles"
+ UK_Develop_The_Isles_desc: ""
+ 
+ UK_Develop_Scottish_And_N_Irish_Industries: "Scottish And North Irish Industries"
+ UK_Develop_Scottish_And_N_Irish_Industries_desc: ""
+ 
+ UK_Develop_Welsh_Industries: "Welsh Industries"
+ UK_Develop_Welsh_Industries_desc: ""
+ 
+ UK_Develop_North_Industries: "Northern Industries"
+ UK_Develop_North_Industries_desc: ""
+ 
+ UK_Develop_Midland_Industries: "Midland Industries"
+ UK_Develop_Midland_Industries_desc: ""
+ 
+ UK_Develop_Southern_Industries: "Southern Industries"
+ UK_Develop_Southern_Industries_desc: ""
+ 
+ UK_Optimize_Production_Lines: "Optimize Production Lines"
+ UK_Optimize_Production_Lines_desc: ""
+ 
+ UK_Modernize_Production_Lines: "Modernize Production Lines"
+ UK_Modernize_Production_Lines_desc: ""
+ 
 ################################### IDEAS                       \n      §H§!
  
  ENG_Operation_Overlord:0 "Operation OVERLORD"
@@ -1320,16 +1349,22 @@
  ENG_The_Mosley_Memorandum:0 "The Mosley Memorandum"
  ENG_The_Mosley_Memorandum_desc:0 "Mosley put forward a scheme in the "Mosley Memorandum" that called for high tariffs to protect British industries from international finance and transform the British Empire into an autarkic trading bloc, for state nationalisation of main industries, for higher school-leaving ages and pensions to reduce the labour surplus, and for a programme of public works to solve interwar poverty and unemployment. Furthermore, the memorandum laid out the foundations of the corporate state which intended to combine businesses, workers and the government into one body"
  
- ENG_Mosley_Nationalisation_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YConstruction Speed§!:0 §G+10.00%§!\n\n"
- ENG_Mosley_Increase_School_Age_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nResearch Speed:0 §G+10.00%§!\n\n"
- ENG_Mosley_Corporate_State_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nConsumer Goods Factories factor:0 §Y-10.0%§!\n\n"
- ENG_Mosley_Public_Works_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YCivilian Factory§! construction speed:0 §G+5.00%§! \n§YSynthetic Refinery§! construction speed:0 §G+10.00%§!\n\n"
+ ENG_Mosley_Nationalisation_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YConstruction Speed§!: §G+10.00%§!\n\n"
+ ENG_Mosley_Increase_School_Age_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nResearch Speed: §G+10.00%§!\n\n"
+ ENG_Mosley_Corporate_State_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \nConsumer Goods Factories factor: §Y-10.0%§!\n\n"
+ ENG_Mosley_Public_Works_Tooltip:0 "Modify §Y$ENG_The_Mosley_Memorandum$§! by \n§YCivilian Factory§! construction speed: §G+5.00%§! \n§YSynthetic Refinery§! construction speed: §G+10.00%§!\n\n"
 
  ENG_Union_Councils:0 "Union Councils"
  ENG_Union_Ownership:0 "Union Ownership"
  
  UK_Cooperative_Trade_Unions: "Cooperative Trade Unions"
  UK_Cooperative_Trade_Unions_desc: "The government has bargained with the trade unions for longer shifts and more productivity in exchange for a broader recognition of union rights in various industries."
+ 
+ UK_Labour_Welfare_Policies: "Labour Welfare Policies"
+ UK_Education_Act_TT:0 "Modify §Y$UK_Labour_Welfare_Policies$§! by \nResearch Speed: §G+10%§!\n\n"
+ UK_National_Health_Service_TT:0 "Modify §Y$UK_Labour_Welfare_Policies$§! by \nArmy Morale Recovery: §G+20%§!\n\n"
+ UK_Low_Cost_Housing_TT:0 "Modify §Y$UK_Labour_Welfare_Policies$§! by \nGlobal Building Slots: §G+1§!\n\n"
+ UK_Price_Controls_TT:0 "Modify §Y$UK_Labour_Welfare_Policies$§! by \nConsumer Goods Factor: §Y+5.00%§! \nFactory Output: §G+10.00%§!\n\n"
  
 ################################### DECISIONS                   \n      §H§! 
  

@@ -2624,6 +2624,84 @@ country_event = {
 	}
 }
 
+# Vote Of No Confidence
+
+country_event = {
+	id = britain.54
+	title = britain.54.t
+	desc = britain.54.d
+	picture = GFX_report_event_chamberlain
+
+	fire_only_once = yes
+
+	immediate = { set_country_flag = chamberlain_resigned }
+	
+	# Labour
+	
+	option = {
+		name = britain.54.a
+		
+		create_country_leader = {
+			name = "Fallen Government"
+			desc = "POLITICS_FALLEN_GOVERNMENT_DESC"
+			picture = GFX_portrait_Fallen_Government
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				cabinet_crisis
+			}
+		}
+	}
+	
+	# Halifax
+	
+	option = {
+		name = britain.54.b
+		
+		promote_character = ENG_winston_churchill
+		
+		retire_character = ENG_neville_chamberlain
+		
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1935.12.17"
+		}
+		
+		create_country_leader = {
+			name = "Lord Edward Halifax"
+			desc = "POLITICS_EDWARD_HALIFAX_DESC"
+			picture = GFX_portrait_Lord_Edward_Halifax
+			expire = "1965.1.1"
+			ideology = centrism
+			traits = {
+				viceroy_emeritus
+				cautious_arbiter
+			}
+		}
+
+		add_ideas = UK_Unpopular_Prime_Minister
+	}
+	
+	# Mosley
+	
+	option = {
+		name = britain.54.c
+		
+		promote_character = ENG_oswald_mosley
+		
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = no
+			last_election = "1935.12.17"
+		}
+		
+		retire_character = ENG_neville_chamberlain
+
+		add_ideas = UK_Unpopular_Prime_Minister
+	}
+}
+
 add_namespace = britain.news
 
 news_event = {

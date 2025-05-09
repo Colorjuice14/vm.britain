@@ -1433,7 +1433,7 @@ focus_tree = {
 		id = UK_Develop_The_Isles
 		available = { }
 		prerequisite = { focus = UK_Appeasement focus = UK_Vote_Of_No_Confidence }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 21
 		y = 1
 		relative_position_id = UK_Vote_Of_No_Confidence
@@ -1453,7 +1453,7 @@ focus_tree = {
 		id = UK_Develop_Scottish_And_N_Irish_Industries
 		available = { }
 		prerequisite = { focus = UK_Develop_The_Isles }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 2
 		relative_position_id = UK_Develop_The_Isles
@@ -1474,7 +1474,7 @@ focus_tree = {
 		id = UK_Develop_Welsh_Industries
 		available = { }
 		prerequisite = { focus = UK_Develop_The_Isles }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -1
 		y = 1
 		relative_position_id = UK_Develop_The_Isles
@@ -1495,7 +1495,7 @@ focus_tree = {
 		id = UK_Develop_North_Industries
 		available = { }
 		prerequisite = { focus = UK_Develop_The_Isles }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 1
 		y = 1
 		relative_position_id = UK_Develop_The_Isles
@@ -1516,7 +1516,7 @@ focus_tree = {
 		id = UK_Develop_Midland_Industries
 		available = { }
 		prerequisite = { focus = UK_Develop_The_Isles }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -2
 		y = 2
 		relative_position_id = UK_Develop_The_Isles
@@ -1537,7 +1537,7 @@ focus_tree = {
 		id = UK_Develop_Southern_Industries
 		available = { }
 		prerequisite = { focus = UK_Develop_The_Isles }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 2
 		y = 2
 		relative_position_id = UK_Develop_The_Isles
@@ -1558,7 +1558,7 @@ focus_tree = {
 		available = { }
 		prerequisite = { focus = UK_Develop_Midland_Industries focus = UK_Develop_North_Industries focus = UK_Develop_Scottish_And_N_Irish_Industries focus = UK_Develop_Southern_Industries focus = UK_Develop_Welsh_Industries }
 		mutually_exclusive = { focus = UK_Modernize_Production_Lines }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_focus_generic_combined_arms
 		x = -1
 		y = 3
 		relative_position_id = UK_Develop_The_Isles
@@ -1579,7 +1579,7 @@ focus_tree = {
 		available = { }
 		prerequisite = { focus = UK_Develop_Midland_Industries focus = UK_Develop_North_Industries focus = UK_Develop_Scottish_And_N_Irish_Industries focus = UK_Develop_Southern_Industries focus = UK_Develop_Welsh_Industries }
 		mutually_exclusive = { focus = UK_Optimize_Production_Lines }
-		icon = GFX_focus_generic_aegean_sea_focus
+		icon = GFX_focus_generic_tank_production
 		x = 1
 		y = 3
 		relative_position_id = UK_Develop_The_Isles
@@ -1612,7 +1612,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+			# Event
 			
+			country_event = britain.54
 		}
 	}
 	
@@ -1633,7 +1635,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			# Event
 		}
 	}
 	
@@ -1653,7 +1655,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			# Event
 		}
 	}
 	
@@ -3741,7 +3743,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			add_political_power = 50
+			add_stability = 0.1
 		}
 	}
 	
@@ -3761,7 +3764,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
 			
+			remove_ideas = UK_Unpopular_Prime_Minister
 		}
 	}
 	
@@ -3773,7 +3781,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = UK_Social_Democracy_In_UK
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -3781,7 +3789,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			add_political_power = 25
+			add_war_support = 0.2
 		}
 	}
 	
@@ -3793,7 +3802,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = UK_Labour_Foreign_Policy
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -3821,7 +3830,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			add_dynamic_modifier = { modifier = UK_Labour_Welfare_Policies }
 		}
 	}
 	
@@ -3841,7 +3850,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			set_variable = { UK_LWF_RS = 0.1 }
+			custom_effect_tooltip = UK_Education_Act_TT
 		}
 	}
 	
@@ -3861,7 +3871,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			set_variable = { UK_LWF_AMF = 0.2 }
+			custom_effect_tooltip = UK_National_Health_Service_TT
 		}
 	}
 	
@@ -3901,7 +3912,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			# Building Slots
+			set_variable = { UK_LWF_GBS = 1 }
+			custom_effect_tooltip = UK_Low_Cost_Housing_TT
 		}
 	}
 	
@@ -3921,7 +3933,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			set_variable = { UK_LWF_CG = 0.05 }
+			set_variable = { UK_LWF_FO = 0.1 }
+			custom_effect_tooltip = UK_Price_Controls_TT
 		}
 	}
 	
@@ -5299,7 +5313,7 @@ focus_tree = {
 		id = UK_Green_International_Revival
 		available = { }
 		prerequisite = { focus = UK_Sir_Herbet_Matthews }
-		icon = GFX_focus_generic_join_comintern
+		icon = GFX_focus_prc_agrarian_socialism
 		x = 0
 		y = 1
 		relative_position_id = UK_Sir_Herbet_Matthews
@@ -8704,7 +8718,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = uk_mediterranean_focus
-		cost = 2
+		cost = 1
 
 		available_if_capitulated = yes
 
