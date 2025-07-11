@@ -90,6 +90,9 @@ ideologies = {
 			
 			social_democracy = {
 			}
+			
+			agrarian_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {

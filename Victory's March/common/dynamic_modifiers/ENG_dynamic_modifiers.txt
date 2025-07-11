@@ -32,3 +32,18 @@ UK_Labour_Welfare_Policies = {
 	consumer_goods_factor = UK_LWF_CG
 	industrial_capacity_factory = UK_LWF_FO
 }
+
+UK_Household_Guards = {
+	enable = { always = yes }
+	
+	icon = GER_limited_democratic_principles
+	
+	experience_gain_army_unit_factor = 0.05
+	
+	army_attack_factor = UK_HG_ATTK
+	army_defence_factor = UK_HG_DEF
+	army_speed_factor  = UK_HG_SPD
+	army_org_factor =  UK_HG_ORG
+	cavalry_attack_factor = UK_HG_CAV
+	breakthrough_factor = UK_HG_BRK
+}

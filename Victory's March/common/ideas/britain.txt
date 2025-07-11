@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 	
-		UK_Syndicalist_Unions_1 = {
+		UK_Reclamation_Of_Royal_Lands = {
 			
 			allowed = {
 				always = yes
@@ -13,61 +13,222 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = -0.05
-				communism_drift = 0.01
-			}
-		}
-		
-		UK_Syndicalist_Unions_2 = {
-			
-			allowed = {
-				always = yes
-			}
-
-			picture = generic_production_bonus
-			
-			removal_cost = -1
-			
-			modifier = {
-				industrial_capacity_factory = -0.05
-				communism_drift = 0.02
-			}
-		}
-		
-		UK_Syndicalist_Unions_3 = {
-			
-			allowed = {
-				always = yes
-			}
-
-			picture = generic_production_bonus
-			
-			removal_cost = -1
-			
-			modifier = {
-				industrial_capacity_factory = 0.1
-				communism_drift = 0.02
-				consumer_goods_factor = -0.1
-			}
-		}
-		
-		UK_Syndicalist_Unions_4 = {
-			
-			allowed = {
-				always = yes
-			}
-
-			picture = generic_production_bonus
-			
-			removal_cost = -1
-			
-			modifier = {
-				industrial_capacity_factory = 0.125
-				communism_drift = 0.02
-				consumer_goods_factor = -0.125
+				global_building_slots = 1
+				production_speed_buildings_factor = 0.05
 			}
 		}
 	
+		UK_Dieu_Et_Mon_Droit = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.5
+				puppet_cost_factor = -0.25
+			}
+		}
+	
+		UK_Rein_In_Dominions = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = -0.1
+			}
+		}
+	
+		UK_An_Unhappy_King = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.5
+				party_popularity_stability_factor = -0.2
+			}
+		}
+		
+		UK_London_Anti_Communist_Pact_Signatory = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = ARG_british_influences
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.05
+			}
+		}
+		
+		UK_The_Royal_Mistress = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = 0.2
+				party_popularity_stability_factor = 0.2
+			}
+		}
+		
+		UK_Queen_Frederica = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.2
+			}
+		}
+		
+		UK_Cooperation_With_BUF = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.2
+			}
+		}
+		
+		UK_European_Neutrality = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = 0.25
+				opinion_gain_monthly_factor = 0.1
+				trade_opinion_factor = 0.2
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		UK_Kings_Party = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.1
+				political_advisor_cost_factor = -0.9
+				stability_factor = -0.05
+				communism_drift = -0.2
+				political_power_gain = 0.25
+				democratic_drift = -0.1
+			}
+		}
+		
+		UK_Commonwealth_Trade = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				faction_trade_opinion_factor = 0.5
+			}
+		}
+		
+		UK_Remove_Communist_Influence = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = -0.15
+			}
+		}
+		
+		UK_Suspend_Elections_Till_End_Of_War = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.2
+				democratic_drift = -0.05
+			}
+		}
+	
+		UK_Nationalization_Of_Banking_Sector = {
+			
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.2
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
 		UK_Unpopular_Prime_Minister = {
 			
 			allowed = {
@@ -2272,6 +2433,699 @@ ideas = {
 			}
 		}
 
+		UK_Labour_Foreign_Policy = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				trade_opinion_factor = 0.1
+			}
+		}
+		UK_Labour_Welfare_Policies = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		UK_Education_Act = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		UK_National_Health_Service = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				manpower_factor = 0.05
+			}
+		}
+		UK_Low_Cost_Housing = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		UK_Price_Controls = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = 0.05
+			}
+		}
+		UK_Nationalization_Of_Services = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		UK_Nationalize_Coal_Industry = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		UK_Nationalize_Steel_Industry = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		UK_Nationalize_Bank_Of_England = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Nationalize_Coal_Industry = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				resource_gain_efficiency = 0.1
+			}
+		}
+		UK_Nationalize_Steel_Industry = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				resource_gain_efficiency = 0.1
+			}
+		}
+		UK_Nationalize_Electricity_And_Gas = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+			}
+		}
+		UK_Expand_The_Labour_Coalition = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Allow_Syndicalist_Unions = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.05
+				communism_drift = 0.05
+			}
+		}
+		UK_Illegalize_Strike_Busting = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+		UK_Bust_Monopolies = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		UK_The_Rural_Party = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		UK_Organize_Agriculture_Into_Unions = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		UK_Agricultural_Investments = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				global_building_slots = 1
+			}
+		}
+		UK_Rural_Wage_Subsidies = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_The_Popular_Front = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+		UK_Call_For_A_General_Election = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+			}
+		}
+		UK_Harry_Pollitt = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.02
+				political_power_gain = 0.05
+			}
+		}
+		UK_Rewrite_The_Constitution = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Empower_The_Prime_Minister = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.03
+				political_power_gain = 0.05
+			}
+		}
+		UK_Establish_Presidents_Council = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.05
+			}
+		}
+		UK_Establish_Regional_Councils = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Unite_The_Democratic_Left = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		UK_Suppress_Ultra_Left_Factions = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Constitutional_Crisis = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+			}
+		}
+		UK_New_Economic_Policy = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		UK_Support_Enriching_Landowners = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Worker_Market_Liberty = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.02
+			}
+		}
+		UK_Commonwealth_Co_Prosperity_Pact = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				faction_trade_opinion_factor = 0.3
+				political_power_gain = 0.05
+			}
+		}
+		UK_Enshrine_Enrich_Yourselfs = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Progressive_Agricultural_Tax = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		UK_Cooperative_Industry_Councils = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+			}
+		}
+		UK_Partial_Nationalization_Drive = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		UK_Institute_For_Economic_Research = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Technical_Workers_Incentive = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.02
+			}
+		}
+		UK_Universal_Health_Cooperatives = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				manpower_factor = 0.05
+			}
+		}
+		UK_Progressive_Housing_Program = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		UK_National_Electrification_Plan = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		UK_Transport_Cooperative_Development = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		UK_Proletarian_Artistic_Freedom = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.05
+			}
+		}
+		UK_Workers_Theatre_And_Cinema = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.05
+			}
+		}
+		UK_East_India_Trade_Reform = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = 0.2
+				political_power_gain = 0.05
+			}
+		}
+		UK_Purge_The_Social_Fascists = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.1
+			}
+		}
+		UK_Establish_The_Peoples_Commissariat_For_State_Security = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Mandatory_Party_Loyalty_Oath = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		UK_Peoples_Commissariat_For_Agriculture = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		UK_Agrarian_Nationalization_Act = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = 0.05
+			}
+		}
+		UK_Collectivize_The_Countryside = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+		UK_Wartime_Joint_Production_Councils = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		UK_Council_Democracy = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Abolish_The_State_Aparatus = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = 0.05
+			}
+		}
+		UK_Sir_Herbet_Matthews = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.05
+			}
+		}
+		UK_Green_International_Revival = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.05
+			}
+		}
+		UK_Embrace_The_Digger_Legacy = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.01
+				political_power_gain = 0.05
+			}
+		}
+		UK_Rural_Cooperative_Renaissance = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.05
+			}
+		}
+		UK_Land_Drainage_And_Reclamation_Drive = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				global_building_slots = 2
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		UK_Defence_Council_Of_The_Isles = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+			}
+		}
+		UK_The_New_Future = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.02
+				political_power_gain = 0.1
+			}
+		}
+		UK_Anarchism_Knows_No_Borders = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_World_Syndicalist_Federation = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		UK_March_Of_The_Soviets = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+			}
+		}
+		UK_Implement_Socialist_Realism = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		UK_Cult_Of_Stalin = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.05
+			}
+		}
+		UK_Stalinist_Youth_And_Party_Schools = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.02
+			}
+		}
+		UK_Peoples_Red_Radio_Service = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.02
+			}
+		}
+		UK_British_Red_Army = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+			}
+		}
+		UK_Workers_Factory_Militias = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		UK_Irish_Anarchism = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = -0.02
+			}
+		}
+		UK_Factory_Defense_Leagues = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		UK_Volunteer_Defense_Brigades = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+			}
+		}
+		UK_Plant_The_Seeds_Of_Revolution = {
+			allowed = { always = yes }
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = -0.05
+			}
+		}
 	}
 	
 	naval_manufacturer = {
@@ -2561,4 +3415,7 @@ ideas = {
 			}
 		}
 	}
+}
+}
+}
 }

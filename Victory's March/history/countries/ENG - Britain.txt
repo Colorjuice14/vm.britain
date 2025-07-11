@@ -608,6 +608,10 @@ recruit_character = ENG_charles_goodeve
 recruit_character = ENG_nevil_shute
 recruit_character = ENG_robert_watson_watt
 
+recruit_character = UK_Baron_Beaverbrook
+recruit_character = UK_Edward_Peacock
+recruit_character = UK_King_Henry_IX
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"

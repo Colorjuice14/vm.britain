@@ -14,4 +14,20 @@ opinion_modifiers = {
 	uk_scandinavian_initiative = {
 			value = 15
 	}
+	
+	uk_peacekeeping = {
+			value = 50
+	}
+	
+	uk_royal_marriage = {
+			value = 25
+	}
+	
+	uk_foreign_invader = {
+			value = -100
+	}
+	
+	uk_recognized_claims = {
+			value = 50
+	}
 }

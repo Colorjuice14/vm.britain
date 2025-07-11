@@ -19,11 +19,8 @@ joint_focus = {
 
     search_filters = { FOCUS_FILTER_POLITICAL }
 
-    completion_reward_joint_originator = {
-        
-    }
-    completion_reward_joint_member = {
-        
+    completion_reward = {
+        country_event = vm.britain.10
     }
 }
 
@@ -548,24 +545,24 @@ joint_focus = {
 
 joint_focus = {
     id = Joint_Commonwealth_AST_Indomitable_ANZAC
-    x = 0
+    x = 6
     y = 2
 	cost = 10
     relative_position_id = Joint_Commonwealth_AST_War_Bonds
-    prerequisite = { focus = Joint_Commonwealth_AST_Compulsory_Military_Service focus = Joint_Commonwealth_AST_Women_In_Service focus = Joint_Commonwealth_AST_The_RAAF }
+    prerequisite = { focus = Joint_Commonwealth_AST_Compulsory_Military_Service focus = Joint_Commonwealth_AST_Women_In_Service focus = Joint_Commonwealth_AST_The_RAAF focus = Joint_Commonwealth_NZL_Total_Mobilization }
     icon = GFX_focus_generic_military_mission
 	text_icon = NORDIC_focus_style
     joint_trigger = { is_commonwealth_nation = yes }
 
-	available = { OR = { tag = ENG tag = AST } }
+	available = { OR = { tag = ENG tag = AST tag = NZL } }
 
     search_filters = { FOCUS_FILTER_POLITICAL }
 
-    completion_reward_joint_originator = {
-        
-    }
-    completion_reward_joint_member = {
-        
+    completion_reward = {
+        if = {
+			limit = { OR = { tag = AST tag = NZL } }
+			country_event = vm.britain.11
+		}
     }
 }
 
@@ -924,7 +921,7 @@ joint_focus = {
 joint_focus = {
     id = Joint_Commonwealth_NZL_ANZUS
     x = -1
-    y = 3
+    y = 2
 	cost = 10
     relative_position_id = Joint_Commonwealth_NZL_Legation_To_Washington
     prerequisite = { focus = Joint_Commonwealth_NZL_Legation_To_Washington }
@@ -937,11 +934,11 @@ joint_focus = {
 
     search_filters = { FOCUS_FILTER_POLITICAL }
 
-    completion_reward_joint_originator = {
-        
-    }
-    completion_reward_joint_member = {
-        
+    completion_reward = {
+        if = {
+			limit = { OR = { tag = AST tag = NZL } }
+			country_event = vm.britain.11
+		}
     }
 }
 

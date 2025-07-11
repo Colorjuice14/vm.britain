@@ -1,5 +1,7 @@
 ﻿add_namespace = britain 
+add_namespace = vm.britain 
 add_namespace = AAT_britain_narvik
+add_namespace = vm.canada
 
 # Tizard mission event for USA
 country_event = {
@@ -2624,12 +2626,720 @@ country_event = {
 	}
 }
 
+ #   #  #   # 
+ #   #  ## ## 
+  # #   # # # 
+  # #   #   # 
+   #    #   # 
+
+# His Majesty's Armed Forces
+country_event = {
+    id = vm.britain.1
+    title = vm.britain.1.t
+    desc = vm.britain.1.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.1.a
+        army_experience = 10
+        navy_experience = 10
+        air_experience = 10
+        add_political_power = 40
+        add_stability = 0.03
+        add_war_support = 0.03
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Royal Armoured Corps Expansion
+country_event = {
+    id = vm.britain.2
+    title = vm.britain.2.t
+    desc = vm.britain.2.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.2.a
+        army_experience = 40
+        add_stability = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Royal Navy Expansion
+country_event = {
+    id = vm.britain.3
+    title = vm.britain.3.t
+    desc = vm.britain.3.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.3.a
+        navy_experience = 40
+        add_war_support = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Royal Air Force Expansion
+country_event = {
+    id = vm.britain.4
+    title = vm.britain.4.t
+    desc = vm.britain.4.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.4.a
+        air_experience = 40
+        add_war_support = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Ultra Intelligence Designation
+country_event = {
+    id = vm.britain.5
+    title = vm.britain.5.t
+    desc = vm.britain.5.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.5.a
+        
+		# Idea
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# MAUD Committee Formation
+country_event = {
+    id = vm.britain.6
+    title = vm.britain.6.t
+    desc = vm.britain.6.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.6.a
+        add_research_slot = 1
+		
+        add_breakthrough_progress = {
+			specialization = specialization_nuclear
+			value = 0.75
+		}
+		
+		add_tech_bonus = {
+			name = maud_focus
+			bonus = 0.75 # was 1
+			uses = 1
+			category = nuclear
+		}
+			
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Legacy of the Royal Navy
+country_event = {
+    id = vm.britain.7
+    title = vm.britain.7.t
+    desc = vm.britain.7.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.7.a
+        
+		# Idea
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Britannia Rules The Waves
+country_event = {
+    id = vm.britain.8
+    title = vm.britain.8.t
+    desc = vm.britain.8.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.8.a
+        
+		# Idea combination
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Per Ardua Ad Astra Celebration
+country_event = {
+    id = vm.britain.9
+    title = vm.britain.9.t
+    desc = vm.britain.9.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.9.a
+        
+		# Idea
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Commonwealth's Contribution
+country_event = {
+    id = vm.britain.10
+    title = vm.britain.10.t
+    desc = vm.britain.10.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.10.a
+        add_political_power = 50
+        add_stability = 0.1
+        add_war_support = 0.2
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Indomitable ANZAC Spirit
+country_event = {
+    id = vm.britain.11
+    title = vm.britain.11.t
+    desc = vm.britain.11.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.11.a
+        
+		# Idea
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# ANZUS Pact
+country_event = {
+    id = vm.britain.12
+    title = vm.britain.12.t
+    desc = vm.britain.12.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.12.a
+        
+		# Ideas
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown Jewel of the Empire
+country_event = {
+    id = vm.britain.13
+    title = vm.britain.13.t
+    desc = vm.britain.13.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.13.a
+       
+		# Idea
+	   
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Indian Autonomy
+country_event = {
+    id = vm.britain.14
+    title = vm.britain.14.t
+    desc = vm.britain.14.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.14.a
+        
+		set_autonomy = {
+				target = RAJ
+				autonomy_state = autonomy_dominion
+				end_wars = no 
+				end_civil_wars = no
+			}
+			
+		RAJ = { add_timed_idea = { idea = ENG_indian_autonomy_RAJ_idea days = 730 } }
+		custom_effect_tooltip = ENG_indian_autonomy_tt
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Guide the Colonies
+country_event = {
+    id = vm.britain.15
+    title = vm.britain.15.t
+    desc = vm.britain.15.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.15.a
+        
+		add_political_power = 60
+		
+			CAN = {
+				if = {
+					limit = {
+						is_subject_of = ENG
+					}
+					add_stability = 0.05
+					add_opinion_modifier = { target = ENG modifier = ENG_guiding_the_colonies }
+					add_ideas = ENG_guided_by_britain_1
+					hidden_effect = { country_event = { id =  mtg_britain.17 hours = 6 } }
+				}
+			}
+			SAF = {
+				if = {
+					limit = {
+						is_subject_of = ENG
+					}
+					add_stability = 0.05
+					add_opinion_modifier = { target = ENG modifier = ENG_guiding_the_colonies }
+					add_ideas = ENG_guided_by_britain_1
+					hidden_effect = { country_event = { id =  mtg_britain.17 hours = 6 } }
+				}
+			}
+			AST = {
+				if = {
+					limit = {
+						is_subject_of = ENG
+					}
+					add_stability = 0.05
+					add_opinion_modifier = { target = ENG modifier = ENG_guiding_the_colonies }
+					add_ideas = ENG_guided_by_britain_1
+					hidden_effect = { country_event = { id =  mtg_britain.17 hours = 6 } }
+				}
+			}
+			NZL = {
+				if = {
+					limit = {
+						is_subject_of = ENG
+					}
+					add_stability = 0.05
+					add_opinion_modifier = { target = ENG modifier = ENG_guiding_the_colonies }
+					add_ideas = ENG_guided_by_britain_1
+					hidden_effect = { country_event = { id =  mtg_britain.17 hours = 6 } }
+				}
+			}
+			MAL = {
+				if = {
+					limit = {
+						is_subject_of = ENG
+					}
+					add_stability = 0.05
+					add_opinion_modifier = { target = ENG modifier = ENG_guiding_the_colonies }
+					add_ideas = ENG_guided_by_britain_2
+					hidden_effect = { country_event = { id =  mtg_britain.17 hours = 6 } }
+				}
+			}
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Dissolving the British Empire
+country_event = {
+    id = vm.britain.16
+    title = vm.britain.16.t
+    desc = vm.britain.16.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.16.a
+        
+		set_global_flag = ENG_decolonized
+			add_stability = 0.1
+			add_popularity = { ideology = communism popularity = 0.05 }
+			add_political_power = 100
+			add_manpower = 100000
+			every_other_country = {
+				limit = {
+					is_subject_of = ENG
+					has_idea = ENG_guided_by_britain_2
+				}
+				remove_ideas = ENG_guided_by_britain_2
+				if = {
+					limit = {
+						NOT = { has_country_flag = ENG_remain_as_puppet }
+					}
+					ROOT = { set_autonomy = { target = PREV autonomy_state = autonomy_free } }
+					if = {
+						limit = {
+							NOT = { surrender_progress > 0.1 }
+						}
+						random = {
+							chance = 75
+							every_enemy_country = {
+								limit = {
+									has_war_with = PREV
+								}
+								white_peace = PREV
+							}
+							leave_faction = yes
+							remove_from_tech_sharing_group = commonwealth_research
+							set_country_flag = ENG_decolonization_left_faction
+							add_ai_strategy = {
+								type = alliance
+								id = "ENG"
+								value = -200
+							}
+							if = {
+								limit = {
+									original_tag = CAN
+								}
+								drop_cosmetic_tag = yes
+							}
+						}
+					}
+				}
+			}
+			every_other_country = {
+				limit = {
+					is_subject_of = ENG
+					has_idea = ENG_guided_by_britain_raj_2
+				}
+				remove_ideas = ENG_guided_by_britain_raj_2
+				if = {
+					limit = {
+						NOT = { has_country_flag = ENG_remain_as_puppet }
+					}
+					ROOT = { set_autonomy = { target = PREV autonomy_state = autonomy_free } }
+					if = {
+						limit = {
+							NOT = { surrender_progress > 0.1 }
+						}
+						random = {
+							chance = 75
+							every_enemy_country = {
+								limit = {
+									has_war_with = PREV
+								}
+								white_peace = PREV
+							}
+							leave_faction = yes
+							remove_from_tech_sharing_group = commonwealth_research
+							set_country_flag = ENG_decolonization_left_faction
+							add_ai_strategy = {
+								type = alliance
+								id = "ENG"
+								value = -200
+							}
+						}
+					}
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							has_dlc = "Together for Victory"
+							ENG = { has_completed_focus = ENG_the_three_nation_solution }
+							OR = {
+								has_idea = RAJ_marginalized_muslim_community
+								has_idea = RAJ_marginalized_muslim_community_angry
+							}
+						}
+						remove_ideas = RAJ_marginalized_muslim_community
+						remove_ideas = RAJ_marginalized_muslim_community_angry
+						add_ideas = RAJ_marginalized_muslim_community_happy
+					}
+				}
+			}
+			every_other_country = {
+				limit = {
+					is_subject_of = ENG
+					NOT = {
+						OR = {
+							tag = CAN
+							tag = SAF
+							tag = RAJ
+							tag = AST
+							tag = NZL
+							tag = MAL
+						}
+					}
+					OR = {
+						has_government = ROOT
+						has_government = neutrality
+					}
+				}
+				ROOT = {
+					set_autonomy = { target = PREV autonomy_state = autonomy_free }
+				}
+				if = {
+					limit = {
+						NOT = { surrender_progress > 0.1 }
+					}
+					random = {
+						chance = 50
+						every_enemy_country = {
+							limit = {
+								has_war_with = PREV
+							}
+							white_peace = PREV
+						}
+						leave_faction = yes
+						set_country_flag = ENG_decolonization_left_faction
+						add_ai_strategy = {
+							type = alliance
+							id = "ENG"
+							value = -200
+						}
+					}
+				}
+			}
+			every_other_country = {
+				limit = {
+					is_subject_of = ENG
+					NOT = {
+						OR = {
+							tag = CAN
+							tag = SAF
+							tag = RAJ
+							tag = AST
+							tag = NZL
+							tag = MAL
+						}
+					}
+					NOT = {
+						OR = {
+							has_government = ROOT
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					set_autonomy = { target = PREV autonomy_state = autonomy_free }
+				}
+				if = {
+					limit = {
+						NOT = { surrender_progress > 0.1 }
+					}
+					random = {
+						chance = 50
+						every_enemy_country = {
+							limit = {
+								has_war_with = PREV
+							}
+							white_peace = PREV
+						}
+						leave_faction = yes
+						set_country_flag = ENG_decolonization_left_faction
+						add_ai_strategy = {
+							type = alliance
+							id = "ENG"
+							value = -200
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { is_in_faction_with = CAN }
+					NOT = { is_in_faction_with = SAF }
+					NOT = { is_in_faction_with = RAJ }
+					NOT = { is_in_faction_with = AST }
+					NOT = { is_in_faction_with = NZL }
+				}
+				remove_from_tech_sharing_group = commonwealth_research
+			}
+			if = {
+				limit = {
+					has_war = yes
+				}
+				if = {
+					limit = {
+						CAN = {
+							has_war_together_with = ENG
+							has_country_flag = ENG_decolonization_left_faction
+						}
+					}
+					CAN = { create_faction = ENG_coalition_of_free_commonwealth_states }
+				}
+				else_if = {
+					limit = {
+						AST = {
+							has_war_together_with = ENG
+							has_country_flag = ENG_decolonization_left_faction
+						}
+					}
+					AST = { create_faction = ENG_coalition_of_free_commonwealth_states }
+				}
+				else_if = {
+					limit = {
+						RAJ = {
+							has_war_together_with = ENG
+							has_country_flag = ENG_decolonization_left_faction
+						}
+					}
+					RAJ = { create_faction = ENG_coalition_of_free_commonwealth_states }
+				}
+				else_if = {
+					limit = {
+						SAF = {
+							has_war_together_with = ENG
+							has_country_flag = ENG_decolonization_left_faction
+						}
+					}
+					SAF = { create_faction = ENG_coalition_of_free_commonwealth_states }
+				}
+				else_if = {
+					limit = {
+						NZL = {
+							has_war_together_with = ENG
+							has_country_flag = ENG_decolonization_left_faction
+						}
+					}
+					NZL = { create_faction = ENG_coalition_of_free_commonwealth_states }
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							CAN = {
+								has_war_together_with = ENG
+								has_country_flag = ENG_decolonization_left_faction
+							}
+						}
+						NOT = {
+							AST = {
+								has_war_together_with = ENG
+								has_country_flag = ENG_decolonization_left_faction
+							}
+						}
+						NOT = {
+							RAJ = {
+								has_war_together_with = ENG
+								has_country_flag = ENG_decolonization_left_faction
+							}
+						}
+						NOT = {
+							SAF = {
+								has_war_together_with = ENG
+								has_country_flag = ENG_decolonization_left_faction
+							}
+						}
+						NOT = {
+							NZL = {
+								has_war_together_with = ENG
+								has_country_flag = ENG_decolonization_left_faction
+							}
+						}
+					}
+					random_other_country = {
+						limit = {
+							NOT = {
+								OR = {
+									tag = CAN
+									tag = SAF
+									tag = RAJ
+									tag = AST
+									tag = NZL
+								}
+							}
+							has_country_flag = ENG_decolonization_left_faction
+						}
+						create_faction = ENG_coalition_of_free_commonwealth_states
+					}
+				}
+				every_other_country = {
+					limit = {
+						has_country_flag = ENG_decolonization_left_faction
+					}
+					random_other_country = {
+						limit = {
+							has_country_flag = ENG_decolonization_left_faction
+							is_faction_leader = yes
+						}
+						add_to_faction = PREV
+					}
+				}
+			}
+			clr_country_flag = ENG_switched_to_communism_civil_war_flag
+			custom_effect_tooltip = ENG_concessions_to_the_trade_unions_tt_2
+			hidden_effect = { news_event = { id = mtg_news.15 days = 1 } }
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
 # Vote Of No Confidence
 
 country_event = {
-	id = britain.54
-	title = britain.54.t
-	desc = britain.54.d
+	id = vm.britain.17
+	title = vm.britain.17.t
+	desc = vm.britain.17.d
 	picture = GFX_report_event_chamberlain
 
 	fire_only_once = yes
@@ -2639,7 +3349,7 @@ country_event = {
 	# Labour
 	
 	option = {
-		name = britain.54.a
+		name = vm.britain.17.a
 		
 		create_country_leader = {
 			name = "Fallen Government"
@@ -2656,10 +3366,8 @@ country_event = {
 	# Halifax
 	
 	option = {
-		name = britain.54.b
-		
-		promote_character = ENG_winston_churchill
-		
+		name = vm.britain.17.b
+				
 		retire_character = ENG_neville_chamberlain
 		
 		set_politics = {
@@ -2686,7 +3394,7 @@ country_event = {
 	# Mosley
 	
 	option = {
-		name = britain.54.c
+		name = vm.britain.17.c
 		
 		promote_character = ENG_oswald_mosley
 		
@@ -2700,6 +3408,1437 @@ country_event = {
 
 		add_ideas = UK_Unpopular_Prime_Minister
 	}
+}
+
+# Labour Party Ascendancy
+country_event = {
+    id = vm.britain.18
+    title = vm.britain.18.t
+    desc = vm.britain.18.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.18.a
+        add_political_power = 50
+		add_stability = 0.1
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Scandinavian Initiative
+country_event = {
+    id = vm.britain.19
+    title = vm.britain.19.t
+    desc = vm.britain.19.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.19.a
+        every_country = {
+				limit = {
+					OR = {
+						tag = NOR
+						tag = SWE
+						tag = DEN
+					}
+					NOT = {
+						OR = {
+							AND = {
+								is_in_faction_with = GER
+								GER = { has_government = fascism }
+							}
+							AND = {
+								is_in_faction_with = ITA
+								ITA = { has_government = fascism }
+							}
+						}
+					}
+				}
+				country_event = { id = generic.19 }
+				add_offsite_building = { type = arms_factory level = 2 }
+			}
+			
+			NOR = { add_opinion_modifier = { target = ENG modifier = uk_scandinavian_initiative } }
+			SWE = { add_opinion_modifier = { target = ENG modifier = uk_scandinavian_initiative } }
+			DEN = { add_opinion_modifier = { target = ENG modifier = uk_scandinavian_initiative } }
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Middle East Initiative
+country_event = {
+    id = vm.britain.20
+    title = vm.britain.20.t
+    desc = vm.britain.20.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.20.a
+        every_country = {
+				limit = {
+					OR = {
+						tag = PER
+						tag = IRQ
+						tag = AFG
+					}
+					NOT = {
+						OR = {
+							AND = {
+								is_in_faction_with = GER
+								GER = { has_government = fascism }
+							}
+							AND = {
+								is_in_faction_with = ITA
+								ITA = { has_government = fascism }
+							}
+						}
+					}
+				}
+				country_event = { id = generic.19 }
+				add_offsite_building = { type = arms_factory level = 2 }
+			}
+			
+			PER = { add_opinion_modifier = { target = ENG modifier = uk_middle_east_strategy_good } }
+			IRQ = { add_opinion_modifier = { target = ENG modifier = uk_middle_east_strategy_good } }
+			AFG = { add_opinion_modifier = { target = ENG modifier = uk_middle_east_strategy_good } }
+			KUW = { add_opinion_modifier = { target = ENG modifier = uk_middle_east_strategy_good } }
+			YEM = { add_opinion_modifier = { target = ENG modifier = uk_middle_east_strategy_bad } }
+			SAU = { add_opinion_modifier = { target = ENG modifier = uk_middle_east_strategy_good } }
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Balkan Initiative
+country_event = {
+    id = vm.britain.21
+    title = vm.britain.21.t
+    desc = vm.britain.21.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.21.a
+        every_country = {
+				limit = {
+					OR = {
+						tag = YUG
+						tag = GRE
+						tag = ROM
+					}
+					NOT = {
+						OR = {
+							AND = {
+								is_in_faction_with = GER
+								GER = { has_government = fascism }
+							}
+							AND = {
+								is_in_faction_with = ITA
+								ITA = { has_government = fascism }
+							}
+							GRE = { 
+								has_country_flag = GRE_britain_rebuffed
+							}
+						}
+					}
+				}
+				country_event = { id = generic.19 }
+				add_offsite_building = { type = arms_factory level = 2 }
+			}
+			YUG = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
+			GRE = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
+			ROM = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_good } }
+			BUL = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
+			HUN = { add_opinion_modifier = { target = ENG modifier = balkan_strategy_bad } }
+			hidden_effect = {
+				news_event = {
+					hours = 6 id = news.228
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Death or Dishonor"
+				}
+				country_event = {
+					id = DOD_yugoslavia.40
+					days = 5
+				}
+			}
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Sir Oswald Ernald Mosley Becomes Prime Minister
+country_event = {
+    id = vm.britain.22
+    title = vm.britain.22.t
+    desc = vm.britain.22.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.22.a
+        
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Formalize Anti-Communism Treaty
+country_event = {
+    id = vm.britain.23
+    title = vm.britain.23.t
+    desc = vm.britain.23.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.23.a
+        
+		every_country = {
+			limit = { has_idea = UK_London_Anti_Communist_Pact_Signatory }
+			country_event = { id = vm.britain.82 hours = 6 }
+		}
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# King Edward VIII Assumes De Facto Control
+country_event = {
+    id = vm.britain.24
+    title = vm.britain.24.t
+    desc = vm.britain.24.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.24.a
+        
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The German Alliance
+country_event = {
+    id = vm.britain.25
+    title = vm.britain.25.t
+    desc = vm.britain.25.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.25.a
+        
+		GER = { country_event = { id = generic.5 hours = 6 } }
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Royal Marriage
+country_event = {
+    id = vm.britain.26
+    title = vm.britain.26.t
+    desc = vm.britain.26.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.26.a
+        
+		add_ideas = UK_An_Unhappy_King
+		
+		add_ideas = UK_Queen_Frederica
+		
+		add_political_power = 200
+		
+		reverse_add_opinion_modifier = {
+                        target = GER
+                        modifier = uk_royal_marriage 
+                    }
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Royal Mistress
+country_event = {
+    id = vm.britain.27
+    title = vm.britain.27.t
+    desc = vm.britain.27.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.27.a
+        
+		swap_ideas = {
+			remove_idea = UK_An_Unhappy_King
+			add_idea = UK_The_Royal_Mistress
+		}
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Edward's Second Home
+country_event = {
+    id = vm.britain.28
+    title = vm.britain.28.t
+    desc = vm.britain.28.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.28.a
+        CAN = { country_event = { id = vm.britain.30 hours = 6 } }
+        ai_chance = { factor = 1 }
+    }
+}
+
+# From PM to Governor
+country_event = {
+    id = vm.britain.29
+    title = vm.britain.29.t
+    desc = vm.britain.29.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.29.a
+        CAN = { country_event = { id = vm.canada.1000 hours = 12 } }
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Proposal to Reunify Canada
+country_event = {
+    id = vm.britain.30
+    title = vm.britain.30.t
+    desc = vm.britain.30.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.30.a
+        ENG = { country_event = { id = vm.britain.31 hours = 12 } }
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = vm.britain.30.b
+        ENG = { country_event = { id = vm.britain.32 hours = 12 } }
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Canada Accepts Reunification
+country_event = {
+    id = vm.britain.31
+    title = vm.britain.31.t
+    desc = vm.britain.31.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = vm.britain.31.a
+        
+		set_autonomy = {
+			target = CAN
+			autonomous_state = autonomy_colony
+			end_wars = no
+			end_civil_wars = no
+		}
+		
+		hidden_effect = { country_event = { id = vm.britain.33 hours = 96 } }
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Canada Declines Reunification
+country_event = {
+    id = vm.britain.32
+    title = vm.britain.32.t
+    desc = vm.britain.32.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = vm.britain.32.a
+        
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Mackenzie King Appointed Governor-General
+country_event = {
+    id = vm.canada.1000
+    title = vm.canada.1000.t
+    desc = vm.canada.100.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = vm.canada.1000.a
+        
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Quebec Issue
+country_event = {
+    id = vm.britain.33
+    title = vm.britain.33.t
+    desc = vm.britain.33.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.33.a
+        
+		hidden_effect = { CAN = { release = QUE } }
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = QUE
+		}
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Expand the Labour Coalition
+country_event = {
+    id = vm.britain.34
+    title = vm.britain.34.t
+    desc = vm.britain.34.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.34.a
+        add_political_power = 20
+        add_stability = 0.02
+        add_ideas = UK_Expand_The_Labour_Coalition
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Declare the Popular Front
+country_event = {
+    id = vm.britain.35
+    title = vm.britain.35.t
+    desc = vm.britain.35.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.35.a
+        add_political_power = 25
+        add_stability = 0.01
+        add_ideas = UK_The_Popular_Front
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Call for a General Election
+country_event = {
+    id = vm.britain.36
+    title = vm.britain.36.t
+    desc = vm.britain.36.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.36.a
+        add_political_power = -50
+        add_stability = -0.1
+        add_war_support = -0.05
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Council Democracy
+country_event = {
+    id = vm.britain.37
+    title = vm.britain.37.t
+    desc = vm.britain.37.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.37.a
+        add_political_power = 25
+        add_stability = -0.05
+        add_ideas = UK_Council_Democracy
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Abolish the State Apparatus
+country_event = {
+    id = vm.britain.38
+    title = vm.britain.38.t
+    desc = vm.britain.38.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.38.a
+        add_political_power = 20
+        add_stability = -0.10
+        add_ideas = UK_Abolish_The_State_Aparatus
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Defence Council of the Isles
+country_event = {
+    id = vm.britain.39
+    title = vm.britain.39.t
+    desc = vm.britain.39.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.39.a
+        add_political_power = 15
+        add_stability = 0.02
+        add_war_support = 0.05
+        add_ideas = UK_Defence_Council_Of_The_Isles
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The New Future
+country_event = {
+    id = vm.britain.40
+    title = vm.britain.40.t
+    desc = vm.britain.40.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.40.a
+        add_political_power = 30
+        add_stability = -0.02
+        add_ideas = UK_The_New_Future
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Anarchism Knows No Borders
+country_event = {
+    id = vm.britain.41
+    title = vm.britain.41.t
+    desc = vm.britain.41.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.41.a
+        add_political_power = 25
+        add_war_support = 0.03
+        add_ideas = UK_Anarchism_Knows_No_Borders
+        ai_chance = { factor = 1 }
+    }
+}
+
+# World Syndicalist Federation
+country_event = {
+    id = vm.britain.42
+    title = vm.britain.42.t
+    desc = vm.britain.42.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.42.a
+        add_political_power = 40
+        add_stability = -0.05
+        add_war_support = 0.05
+        add_ideas = UK_World_Syndicalist_Federation
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Harry Pollitt Becomes Prime Minister
+country_event = {
+    id = vm.britain.43
+    title = vm.britain.43.t
+    desc = vm.britain.43.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.43.a
+        add_political_power = 30
+        add_stability = -0.02
+        add_ideas = UK_Harry_Pollitt
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Amending the Constitution
+country_event = {
+    id = vm.britain.44
+    title = vm.britain.44.t
+    desc = vm.britain.44.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.44.a
+        add_political_power = 20
+        add_stability = -0.05
+        add_ideas = UK_Constitutional_Crisis
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Empower the Prime Minister
+country_event = {
+    id = vm.britain.45
+    title = vm.britain.45.t
+    desc = vm.britain.45.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.45.a
+        add_political_power = 25
+        add_stability = -0.03
+        add_ideas = UK_Empower_The_Prime_Minister
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Toe the Line
+country_event = {
+    id = vm.britain.46
+    title = vm.britain.46.t
+    desc = vm.britain.46.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.46.a
+        add_stability = 0.02
+        add_political_power = 15
+        remove_ideas = UK_Constitutional_Crisis
+        ai_chance = { factor = 1 }
+    }
+}
+
+# March of the Soviets
+country_event = {
+    id = vm.britain.47
+    title = vm.britain.47.t
+    desc = vm.britain.47.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.47.a
+        add_war_support = 0.05
+        add_political_power = 20
+        add_ideas = UK_March_Of_The_Soviets
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Implement Socialist Realism
+country_event = {
+    id = vm.britain.48
+    title = vm.britain.48.t
+    desc = vm.britain.48.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.48.a
+        add_stability = 0.03
+        add_ideas = UK_Implement_Socialist_Realism
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Cult of Stalin
+country_event = {
+    id = vm.britain.49
+    title = vm.britain.49.t
+    desc = vm.britain.49.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.49.a
+        add_stability = 0.02
+        add_ideas = UK_Cult_Of_Stalin
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Establish President's Council
+country_event = {
+    id = vm.britain.50
+    title = vm.britain.50.t
+    desc = vm.britain.50.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.50.a
+        add_political_power = 20
+        add_stability = 0.02
+        add_ideas = UK_Establish_Presidents_Council
+        remove_ideas = UK_Constitutional_Crisis
+        ai_chance = { factor = 1 }
+    }
+}
+
+# New Economic Policy Adoption
+country_event = {
+    id = vm.britain.51
+    title = vm.britain.51.t
+    desc = vm.britain.51.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.51.a
+        add_political_power = 25
+        add_stability = 0.01
+        add_ideas = UK_New_Economic_Policy
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Support Enriching Landowners
+country_event = {
+    id = vm.britain.52
+    title = vm.britain.52.t
+    desc = vm.britain.52.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.52.a
+        add_political_power = 15
+        add_stability = 0.03
+        add_ideas = UK_Support_Enriching_Landowners
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Worker Market Liberty
+country_event = {
+    id = vm.britain.53
+    title = vm.britain.53.t
+    desc = vm.britain.53.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.53.a
+        add_political_power = 20
+        add_stability = 0.02
+        add_ideas = UK_Worker_Market_Liberty
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Commonwealth Co-Prosperity Pact
+country_event = {
+    id = vm.britain.54
+    title = vm.britain.54.t
+    desc = vm.britain.54.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.54.a
+        add_political_power = 30
+        add_stability = 0.02
+        add_ideas = UK_Commonwealth_Co_Prosperity_Pact
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Sir Herbert Matthews Becomes Prime Minister
+country_event = {
+    id = vm.britain.55
+    title = vm.britain.55.t
+    desc = vm.britain.55.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.55.a
+        add_political_power = 20
+        add_stability = 0.00
+        add_ideas = UK_Sir_Herbet_Matthews
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Green International Revival
+country_event = {
+    id = vm.britain.56
+    title = vm.britain.56.t
+    desc = vm.britain.56.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.56.a
+        add_political_power = 15
+        add_stability = 0.02
+        add_ideas = UK_Green_International_Revival
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Embrace the Digger Legacy
+country_event = {
+    id = vm.britain.57
+    title = vm.britain.57.t
+    desc = vm.britain.57.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.57.a
+        add_political_power = 15
+        add_stability = 0.01
+        add_ideas = UK_Embrace_The_Digger_Legacy
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Rural Cooperative Renaissance
+country_event = {
+    id = vm.britain.58
+    title = vm.britain.58.t
+    desc = vm.britain.58.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.58.a
+        add_political_power = 20
+        add_stability = 0.03
+        add_ideas = UK_Rural_Cooperative_Renaissance
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Permit Royalty in the House of Commons
+country_event = {
+    id = vm.britain.59
+    title = vm.britain.59.t
+    desc = vm.britain.59.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.59.a
+        add_stability = 0.05
+        add_political_power = 15
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Lord Halifax Becomes Prime Minister
+country_event = {
+    id = vm.britain.60
+    title = vm.britain.60.t
+    desc = vm.britain.60.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.60.a
+        add_political_power = 25
+        add_stability = -0.01
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Germany Issue
+country_event = {
+    id = vm.britain.61
+    title = vm.britain.61.t
+    desc = vm.britain.61.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.61.a
+        create_wargoal = {
+			type = topple_government
+			target = GER
+		}
+        ai_chance = { factor = 1 }
+    }
+	
+	option = {
+        name = vm.britain.61.b
+        add_stability = 0.1
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Coronation of King Henry IX
+country_event = {
+    id = vm.britain.62
+    title = vm.britain.62.t
+    desc = vm.britain.62.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.62.a
+        
+		promote_character = UK_King_Henry_IX
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Cabinet Meetings at Buckingham
+country_event = {
+    id = vm.britain.63
+    title = vm.britain.63.t
+    desc = vm.britain.63.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.63.a
+        add_stability = 0.02
+        add_political_power = 15
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Address the Commonwealth
+country_event = {
+    id = vm.britain.64
+    title = vm.britain.64.t
+    desc = vm.britain.64.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.64.a
+        add_stability = 0.03
+        add_war_support = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+
+# Colonial Ambitions
+country_event = {
+    id = vm.britain.65
+    title = vm.britain.65.t
+    desc = vm.britain.65.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.65.a
+        add_political_power = 30
+        add_stability = 0.01
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Establish the King's Party
+country_event = {
+    id = vm.britain.66
+    title = vm.britain.66.t
+    desc = vm.britain.66.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.66.a
+        remove_ideas = UK_Remove_Communist_Influence
+        remove_ideas = UK_Suspend_Elections_Till_End_Of_War
+		
+		add_ideas = UK_Kings_Party
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Expanding the Household Guard
+country_event = {
+    id = vm.britain.67
+    title = vm.britain.67.t
+    desc = vm.britain.67.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.67.a
+        
+		add_dynamic_modifier = {
+			modifier = UK_Household_Guards
+		}
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Dieu Et Mon Droit
+country_event = {
+    id = vm.britain.68
+    title = vm.britain.68.t
+    desc = vm.britain.68.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.68.a
+        add_ideas = UK_Dieu_Et_Mon_Droit
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Rein in the Dominions
+country_event = {
+    id = vm.britain.69
+    title = vm.britain.69.t
+    desc = vm.britain.69.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.69.a
+        		
+		CAN = { add_timed_idea = { idea = UK_Rein_In_Dominions days = 180 } }
+		SAF = { add_timed_idea = { idea = UK_Rein_In_Dominions days = 180 } }
+		AST = { add_timed_idea = { idea = UK_Rein_In_Dominions days = 180 } }
+		EGY = { add_timed_idea = { idea = UK_Rein_In_Dominions days = 180 } }
+		NZL = { add_timed_idea = { idea = UK_Rein_In_Dominions days = 180 } }
+		
+        ai_chance = { factor = 1 }
+    }
+}
+
+# House of Oldenburg Restoration
+country_event = {
+    id = vm.britain.70
+    title = vm.britain.70.t
+    desc = vm.britain.70.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.70.a
+        add_political_power = 30
+        ai_chance = { factor = 1 }
+    }
+}
+
+# House of Saxe-Coburg and Gotha Restoration
+country_event = {
+    id = vm.britain.71
+    title = vm.britain.71.t
+    desc = vm.britain.71.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.71.a
+        add_political_power = 30
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Greece
+country_event = {
+    id = vm.britain.72
+    title = vm.britain.72.t
+    desc = vm.britain.72.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.72.a
+        add_stability = 0.03
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Scandinavia
+country_event = {
+    id = vm.britain.73
+    title = vm.britain.73.t
+    desc = vm.britain.73.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.73.a
+        add_stability = 0.03
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Russia
+country_event = {
+    id = vm.britain.74
+    title = vm.britain.74.t
+    desc = vm.britain.74.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.74.a
+        add_stability = 0.03
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Bulgaria
+country_event = {
+    id = vm.britain.75
+    title = vm.britain.75.t
+    desc = vm.britain.75.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.75.a
+        add_stability = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Belgium
+country_event = {
+    id = vm.britain.76
+    title = vm.britain.76.t
+    desc = vm.britain.76.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.76.a
+        add_stability = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Portugal
+country_event = {
+    id = vm.britain.77
+    title = vm.britain.77.t
+    desc = vm.britain.77.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.77.a
+        add_stability = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# The Crown of Spain
+country_event = {
+    id = vm.britain.78
+    title = vm.britain.78.t
+    desc = vm.britain.78.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.78.a
+        add_stability = 0.02
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Anti-Communist Pact
+country_event = {
+    id = vm.britain.79
+    title = vm.britain.79.t
+    desc = vm.britain.79.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.79.a
+		
+		add_ideas = UK_London_Anti_Communist_Pact_Signatory
+		
+        ENG = { country_event = { id = vm.britain.80 hours = 6 } }
+        ai_chance = { factor = 10 }
+    }
+    option = {
+        name = vm.britain.79.b
+        ENG = { country_event = { id = vm.britain.81 hours = 6 } }
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Anti-Communist Pact Accepted by Partner
+country_event = {
+    id = vm.britain.80
+    title = vm.britain.80.t
+    desc = vm.britain.80.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = vm_signed_anti_comm_pact
+    }
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.80.a
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Anti-Communist Pact Rejected by Partner
+country_event = {
+    id = vm.britain.81
+    title = vm.britain.81.t
+    desc = vm.britain.81.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = vm_declined_anti_comm_pact
+    }
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.81.a
+		create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FROM
+			}
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Formalize London Anti-Communist Pact
+country_event = {
+    id = vm.britain.82
+    title = vm.britain.82.t
+    desc = vm.britain.82.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.britain.82.a
+        ENG = { add_to_faction = THIS }
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = vm.britain.82.b
+        remove_ideas = UK_London_Anti_Communist_Pact_Signatory
+        ai_chance = { factor = 1 }
+    }
 }
 
 add_namespace = britain.news

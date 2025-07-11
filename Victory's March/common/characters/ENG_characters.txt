@@ -1,3 +1,77 @@
 characters = {
+	UK_King_Henry_IX={
+		name=UK_King_Henry_IX
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_stanley_baldwin
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			traits = {  }
+			expire = "1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+	UK_Baron_Beaverbrook = {
+		name = UK_Baron_Beaverbrook
+		
+		portraits = {
+			army = {
+				small="GFX_idea_alan_brooke"
+			}
+			army = {
+				large=GFX_portrait_ENG_alan_brooke
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = UK_Baron_Beaverbrook
+			available  = {
+				has_completed_focus  = UK_Reward_The_Loyal 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				Baron_Beaverbrook 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 	
+	UK_Edward_Peacock = {
+		name = UK_Edward_Peacock
+		
+		portraits = {
+			army = {
+				small="GFX_idea_alan_brooke"
+			}
+			army = {
+				large=GFX_portrait_ENG_alan_brooke
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = UK_Edward_Peacock
+			available  = {
+				has_completed_focus  = UK_Reward_The_Loyal 
+			}
+			allowed  = {
+				original_tag  = ENG
+			}
+			traits  = {
+				merchant_banker 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 }
