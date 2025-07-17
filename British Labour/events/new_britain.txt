@@ -1,0 +1,475 @@
+﻿add_namespace = vm.uk.pol
+add_namespace = vm.uk.rev
+
+# Revolution
+country_event = {
+    id = vm.uk.rev.1
+    title = vm.uk.rev.1.t
+    desc = vm.uk.rev.1.d
+    picture = GFX_report_event_peasant_revolt
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+		name = vm.uk.rev.1.a
+		
+    }
+}
+
+# Leading the Revolution
+country_event = {
+    id = vm.uk.rev.2
+    title = vm.uk.rev.2.t
+    desc = vm.uk.rev.2.d
+    picture = GFX_report_event_generic_parliament
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+		name = vm.uk.rev.2.a
+		create_country_leader = {
+			name = "Syndicalist Council"
+			desc = "politics_uk_anarchist_council_desc"
+			picture = GFX_portrait_SPR_anarchist_commune
+			expire = "1965.1.1"
+			ideology = anarchist_communism
+			traits = {
+				
+			}
+		}
+		set_party_name = { 
+		ideology = communism
+		long_name = UK_syndicalist_party_long
+		name = UK_syndicalist_party_short
+		}
+		complete_national_focus = UK_Council_Democracy
+    }
+    option = {
+		name = vm.uk.rev.2.b
+		complete_national_focus = UK_CPGB
+    }
+}
+# Harry Pollitt Becomes Prime Minister
+country_event = {
+    id = vm.uk.rev.3
+    title = vm.uk.rev.3.t
+    desc = vm.uk.rev.3.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.3.a
+    }
+}
+
+# Amending the Constitution
+country_event = {
+    id = vm.uk.rev.4
+    title = vm.uk.rev.4.t
+    desc = vm.uk.rev.4.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.4.a
+    }
+}
+
+# The BCA
+country_event = {
+    id = vm.uk.rev.5
+    title = vm.uk.rev.5.t
+    desc = vm.uk.rev.5.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.5.a
+    }
+}
+
+# Trafalgar Square Military Parade
+country_event = {
+    id = vm.uk.rev.6
+    title = vm.uk.rev.6.t
+    desc = vm.uk.rev.6.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.6.a
+    }
+}
+
+# Implement Socialist Realism
+country_event = {
+    id = vm.uk.rev.7
+    title = vm.uk.rev.7.t
+    desc = vm.uk.rev.7.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.48.a
+        add_stability = 0.03
+        add_ideas = UK_Implement_Socialist_Realism
+    }
+}
+
+# Cult of Stalin
+country_event = {
+    id = vm.uk.rev.8
+    title = vm.uk.rev.8.t
+    desc = vm.uk.rev.8.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.8.a
+        add_stability = 0.02
+        add_ideas = UK_Cult_Of_Stalin
+    }
+}
+
+# Dutt's Coup
+country_event = {
+    id = vm.uk.rev.9
+    title = vm.uk.rev.9.t
+    desc = vm.uk.rev.9.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.9.a
+    }
+}
+
+# New Economic Policy Adoption
+country_event = {
+    id = vm.uk.rev.10
+    title = vm.uk.rev.10.t
+    desc = vm.uk.rev.10.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.10.a
+        add_political_power = 25
+        add_stability = 0.01
+        add_ideas = UK_New_Economic_Policy
+    }
+}
+
+# Support Enriching Landowners
+country_event = {
+    id = vm.uk.rev.11
+    title = vm.uk.rev.11.t
+    desc = vm.uk.rev.11.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.11.a
+        add_political_power = 15
+        add_stability = 0.03
+        add_ideas = UK_Support_Enriching_Landowners
+    }
+}
+
+# Worker Market Liberty
+country_event = {
+    id = vm.uk.rev.12
+    title = vm.uk.rev.12.t
+    desc = vm.uk.rev.12.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.12.a
+        add_political_power = 20
+        add_stability = 0.02
+        add_ideas = UK_Worker_Market_Liberty
+    }
+}
+
+# Commonwealth Co-Prosperity Pact
+country_event = {
+    id = vm.uk.rev.13
+    title = vm.uk.rev.13.t
+    desc = vm.uk.rev.13.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.13.a
+        add_political_power = 30
+        add_stability = 0.02
+        add_ideas = UK_Commonwealth_Co_Prosperity_Pact
+    }
+}
+# Council Democracy
+country_event = {
+    id = vm.uk.rev.14
+    title = vm.uk.rev.14.t
+    desc = vm.uk.rev.14.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.14.a
+        add_political_power = 25
+        add_stability = -0.05
+        add_ideas = UK_Council_Democracy
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Abolish the State Apparatus
+country_event = {
+    id = vm.uk.rev.15
+    title = vm.uk.rev.15.t
+    desc = vm.uk.rev.15.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.15.a
+        add_political_power = 20
+        add_stability = -0.10
+        add_ideas = UK_Abolish_The_State_Aparatus
+        ai_chance = { factor = 1 }
+    }
+}
+
+# Defence Council of the Isles
+country_event = {
+    id = vm.uk.rev.16
+    title = vm.uk.rev.16.t
+    desc = vm.uk.rev.16.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.16.a
+    }
+}
+
+# The New Future
+country_event = {
+    id = vm.uk.rev.17
+    title = vm.uk.rev.17.t
+    desc = vm.uk.rev.17.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.17.a
+    }
+}
+
+# Anarchism Knows No Borders
+country_event = {
+    id = vm.uk.rev.18
+    title = vm.uk.rev.18.t
+    desc = vm.uk.rev.18.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.18.a
+    }
+}
+
+# World Syndicalist Federation
+country_event = {
+    id = vm.uk.rev.19
+    title = vm.uk.rev.19.t
+    desc = vm.uk.rev.19.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.rev.19.a
+    }
+}
+# Labour Party Wins
+country_event = {
+    id = vm.uk.pol.1
+    title = vm.uk.pol.1.t
+    desc = vm.uk.pol.1.d
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+
+    immediate = { }
+
+    option = {
+        name = vm.uk.pol.1.a
+		create_country_leader = {
+			name = "Clement Attlee"
+			desc = "politics_uk_anarchist_council_desc"
+			picture = GFX_portrait_Clement_Attlee
+			expire = "1967.10.7"
+			ideology = socialism
+			traits = {
+				
+			}
+		}		
+	set_party_name = { 
+		ideology = democratic 
+		long_name = ENG_Labour_Long
+		name = ENG_Labour_Short
+	}
+		complete_national_focus = UK_soc_dem
+    }
+}
+
+#Expand Coalition
+country_event = {
+    id = vm.uk.pol.2
+    title = vm.uk.pol.2.t
+    desc = vm.uk.pol.2.d
+    picture = GFX_report_event_generic_rally2
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.2.a
+    }
+}
+# Popular Front Forms
+country_event = {
+    id = vm.uk.pol.3
+    title = vm.uk.pol.3.t
+    desc = vm.uk.pol.3.d
+    picture = GFX_report_event_generic_rally2
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.3.a
+	set_party_name = { 
+		ideology = communism
+		long_name = ENG_Labour_Coalition_Long
+		name = ENG_Labour_Coalition_Short
+	}
+	set_party_name = { 
+		ideology = democratic
+		long_name = ENG_Labour_Coalition_Long
+		name = ENG_Labour_Coalition_Short
+	}
+    }
+}
+# Popular Front wins Election
+country_event = {
+    id = vm.uk.pol.4
+    title = vm.uk.pol.4.t
+    desc = vm.uk.pol.4.d
+    picture = GFX_report_event_election_vote
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.4.a
+    }
+}
+# Disestablishment of the Church of England
+country_event = {
+    id = vm.uk.pol.5
+    title = vm.uk.pol.5.t
+    desc = vm.uk.pol.5.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.5.a
+    }
+}
+# British Monarchy Abolished!
+country_event = {
+    id = vm.uk.pol.6
+    title = vm.uk.pol.6.t
+    desc = vm.uk.pol.6.d
+    picture = GFX_report_event_eng_royal_family
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.6.a
+    }
+}
+# Market Socialism
+country_event = {
+    id = vm.uk.pol.7
+    title = vm.uk.pol.7.t
+    desc = vm.uk.pol.7.d
+    picture = GFX_report_event_generic_factory
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.7.a
+    }
+}
+# Republic
+country_event = {
+    id = vm.uk.pol.8
+    title = vm.uk.pol.8.t
+    desc = vm.uk.pol.8.d
+    picture = GFX_report_event_SOV_national_academy_of_sciences
+    is_triggered_only = yes
+    immediate = { }
+    option = {
+        name = vm.uk.pol.8.a
+    }
+}

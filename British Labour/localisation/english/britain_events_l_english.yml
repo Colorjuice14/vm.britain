@@ -1,0 +1,443 @@
+﻿l_english:
+ 
+ # Events
+ # uk.1 — 
+ uk.1.t: "Labour wins"
+ uk.1.d: ""
+ uk.1.a: ""
+ 
+ #Politics
+ vm.uk.pol.1.t: "Labour Government Elected"
+ vm.uk.pol.1.d: "The ousting of the Prime Minister has pushed the King towards dissolving Parliament and calling for a new election to find a popular mandate. Despite the Conservative Party winning the 1935 elections in a landslide, the recent governmental instability has led to massive popular support for the opposition led by Labour under Clement Attlee. The results have put Labour into slim majority in the Commons. Labour has already declared a firm stance against further German aggression and is preparing to advance social reforms, including expanded welfare programs and public health measures, while also promosing not to impose conscription for the near future."
+ vm.uk.pol.1.a: "How long will the Labour mandate hold?"
+ 
+ vm.uk.pol.2.t: "Labour Branches out"
+ vm.uk.pol.2.d: "On the tails of the surpise success in the recent snap election, [ENG.GetLeader] is seeking to expand the Labour coalition to gain support for more radical policies that the general party is divided on. The Labour Party has extended invitations to the Syndicalist League, Rural Unionists, and other left-leaning groups to join a broad coalition government.  By incorporating a wider array of movements—industrial workers, farmers, and progressive intellectuals—the government aims to shore up domestic support and unify policy on social welfare and defense."
+ vm.uk.pol.2.a: "It's a bold strategy. Let's see if it pays off for them."
+ 
+ vm.uk.pol.3.t: "The Popular Front forms"
+ vm.uk.pol.3.d: "[ENG.GetLeader]'s efforts to court rural and urban unions have paid off, and Labour has now rebranded itself as the 'Popular Front'. This new formation emphasizes socialist principles, collective ownership, and solidarity with international left movements. The Popular Front pledges expansive welfare reforms, public ownership of key industries, and a steadfast stance against authoritarianism abroad. Motions are being made for another early election which will determine whether [ENG.GetLeader]'s sought after reforms will become a reality."
+ vm.uk.pol.3.a: "Can the left keep a winning streak?"
+ 
+ vm.uk.pol.4.t: "Popular Front wins Election"
+ vm.uk.pol.4.d: "In an election widely seen as a referendum on [ENG.GetLeader]'s leadership and proposed policies, the Popular Front has managed to sweep the elections in a landslide. Just how far they are willing to go remains to be seen."
+ vm.uk.pol.4.a: "Let's get to work."
+ 
+ vm.uk.pol.5.t: "Disestablishment of the Church of England"
+ vm.uk.pol.5.d: ""
+ vm.uk.pol.5.a: ""
+ 
+ vm.uk.pol.6.t: "British Monarchy Abolished!"
+ vm.uk.pol.6.d: "Under the direction of Prime Minister [ENG.GetLeader], Labour has taken the final steps towards decoupling the British government from the old aristocracy."
+ vm.uk.pol.6.a: "The sun has set on the House of Windsor."
+ 
+ vm.uk.pol.7.t: "Market Socialism"
+ vm.uk.pol.7.d: ""
+ vm.uk.pol.7.a: ""
+ 
+ vm.uk.pol.8.t: "Res Publica"
+ vm.uk.pol.8.d: ""
+ vm.uk.pol.8.a: ""
+ 
+ vm.uk.pol.9.t: ""
+ vm.uk.pol.9.d: ""
+ vm.uk.pol.9.a: ""
+ 
+ vm.uk.pol.10.t: ""
+ vm.uk.pol.10.d: ""
+ vm.uk.pol.10.a: ""
+ 
+ vm.uk.pol.15.t: ""
+ vm.uk.pol.15.d: ""
+ vm.uk.pol.15.a: ""
+ 
+ #Revolution
+ vm.uk.rev.1.t: "Revolutionaries Storm Parliament!"
+ vm.uk.rev.1.d: "Angry and upset at the lack of action in Parliament, a mob has made its way into Buckingham Palace and the halls of Parliament demanding radical change. What is left of the current government is now in ruins."
+ vm.uk.rev.1.a: "Who let them in?"
+ 
+ vm.uk.rev.2.t: "The Revolution Takes Hold"
+ vm.uk.rev.2.d: "Following the takeover of Parliament and key British institutions, the revolutionaries have decided to gather trade union and Communist Party delegates together to choose a new path for Britain"
+ vm.uk.rev.2.a: "The trade unions convince a majority to move towards council democracy."
+ vm.uk.rev.2.b: "Harry Pollitt and the Communist Party of Great Britain wins over a majority of delegates."
+  
+ #Pollitt
+ vm.uk.rev.3.t:0 "Harry Pollitt Becomes Prime Minister"
+ vm.uk.rev.3.d:0 "Following the recent general election, Harry Pollitt has been selected to serve as Prime Minister.  A longtime Communist Party leader and trade union organizer, Pollitt brings experience in industrial management and mass mobilization—setting the stage for significant policy shifts in governance and economy."
+ vm.uk.rev.3.a:0 "Install Pollitt in Office"
+
+ vm.uk.rev.4.t:0 "Amending the Constitution"
+ vm.uk.rev.4.d:0 "Prime Minister [ENG.GetLeader] has introduced sweeping constitutional reforms to establish the [ENG.GetRulingParty] as the sole legal party.  Under the new amendments, all elected officials must be party members, and the office of Prime Minister is held for life or until voluntary resignation—-ending competitive party politics in Britain. Authority has shifted from Parliament to the Prime Minister’s office.  Decision-making powers are being centralised, reducing legislative oversight, and consolidating executive control to ensure swift implementation of party directives."
+ vm.uk.rev.4.a:0 "Consolidate Executive Power"
+
+ #Toe the Line
+ vm.uk.rev.5.t:0 "Stalinism Rebuked"
+ vm.uk.rev.5.d:0 "Prime Minister Pollitt has publicly committed to follow the old Marxist-Leninist model of governance through democratic centralism. In a move that has upset some party hardliners, Pollitt's administration is distancing itself from Moscow in order to pursue its own foreign policy objectives."
+ vm.uk.rev.5.a:0 "Marxism-Leninism-Pollittism?"
+
+ vm.uk.rev.6.t:0 "Trafalgar Square March"
+ vm.uk.rev.6.d:0 "Under [ENG.GetLeader]'s leadership, Britain has become the dominant socialist power in Western Europe. In celebration, a grand parade in Trafalgar Square has been organised involving the Red Army and various party officials, and propaganda celebrates class solidarity among the British people."
+ vm.uk.rev.6.a:0 "Display Military Solidarity"
+
+ vm.uk.rev.7.t:0 "Implement Socialist Realism"
+ vm.uk.rev.7.d:0 "The government mandates Socialist Realism as the official cultural doctrine.  All art, literature, and media must depict idealized scenes of working-class leadership, industrial triumph, and collective life—reinforcing the state’s ideological foundations through culture."
+ vm.uk.rev.7.a:0 "Enforce Cultural Doctrine"
+
+ vm.uk.rev.8.t:0 "Cult of Stalin"
+ vm.uk.rev.8.d:0 "Despite Pollitt’s authority, Joseph Stalin remains the supreme symbol of the socialist movement.  Portraits of Stalin are displayed in every municipal hall, and plans are underway to erect statues in major cities—honoring his leadership and cementing his cult of personality."
+ vm.uk.rev.8.a:0 "Honor the General Secretary"
+
+ # Establish President's Council defunct
+ vm.uk.rev.9.t:0 "Dutt's Coup!"
+ vm.uk.rev.9.d:0 "It seems that Prime Minister Harry Pollitt's position was much less secure than he had thought. A faction supported by Stalinist hardliners has forced Pollitt to resign his from his brief stint in office. He has been replaced as PM by Rajani Palme Dutt, member of the Communist Party's executive committee and former editor of The Daily Worker. Dutt has committed the party to model itself on the administration of Iosef Stalin. Party members and government officials will now be required to adhere strictly to directives from the Politburo, ensuring ideological unity and disciplined administration."
+ vm.uk.rev.9.a:0 "Another Member of the Comintern..."
+
+ vm.uk.rev.10.t:0 "Adopt the New Economic Policy"
+ vm.uk.rev.10.d:0 "In line with Lenin’s 1921 NEP, Britain will reintroduce limited market mechanisms under state supervision.  Small private enterprises and cooperatives may operate on a profit basis, while key industries remain nationalized.  This measure aims to stimulate growth and alleviate shortages."
+ vm.uk.rev.10.a:0 "Implement NEP Measures"
+
+ vm.uk.rev.11.t:0 "Support Enriching Landowners"
+ vm.uk.rev.11.d:0 "Rather than repress prosperous landowners, Pollitt’s government will encourage and protect those who invest in agricultural productivity.  Landowners who modernize estates and employ rural labor will receive tax incentives and access to state credit."
+ vm.uk.rev.11.a:0 "Empower Productive Estates"
+
+ vm.uk.rev.12.t:0 "Worker Market Liberty"
+ vm.uk.rev.12.d:0 "Combining state planning with market freedom, this policy grants workers greater latitude to form cooperatives and private ventures.  Profits are shared among members, while the state retains oversight to ensure alignment with national economic goals."
+ vm.uk.rev.12.a:0 "Expand Worker Enterprise"
+
+ vm.uk.rev.13.t:0 "Commonwealth Co-Prosperity Pact"
+ vm.uk.rev.13.d:0 "Britain will offer the New Economic Policy framework to Dominion and colonial governments, fostering mutual economic development.  Under the Co-Prosperity Pact, member territories share resources, coordinate trade policies, and receive technical aid to rebuild and modernize."
+ vm.uk.rev.13.a:0 "Sign the Pact"
+ 
+ # Council Democracy
+ vm.uk.rev.14.t:0 "Council Democracy"
+ vm.uk.rev.14.d:0 "The collective members of Parliament have voted to eliminate the office of Prime Minister.  From now on, legislation and executive decisions will be carried out directly by a plenary council of elected representatives.  This unprecedented shift places ultimate authority in the hands of Parliament itself, reflecting a new model of direct legislative governance."
+ vm.uk.rev.14.a:0 "Implement Council Rule"
+
+ vm.uk.rev.15.t:0 "Abolish the State Apparatus"
+ vm.uk.rev.15.d:0 "The Council has declared the existing state institutions obsolete and oppressive.  Ministries, civil service bodies, and centralized bureaucracies will be dismantled, to be replaced by networks of syndicate and union councils managing all aspects of society and economy at the grassroots level."
+ vm.uk.rev.15.a:0 "Dismantle the Ministry"
+
+ vm.uk.rev.16.t:0 "Defence Council of the Isles"
+ vm.uk.rev.16.d:0 "While civilian administration moves to a council model, the need for organized defense remains.  A new Defence Council of the Isles is formed, composed of elected syndicate delegates and former military officers, charged with coordinating militias, organizing training, and overseeing coastal and aerial defenses."
+ vm.uk.rev.16.a:0 "Establish Defence Council"
+
+ vm.uk.rev.17.t:0 "The New Future"
+ vm.uk.rev.17.d:0 "Anarcho-syndicalism is proclaimed the guiding ideology of the nation.  Power is to rest with workers’ and peasants’ councils, free from state coercion.  All sectors of the economy will be self-managed, and social services provided by federations of syndicates in a genuinely horizontal political order."
+ vm.uk.rev.17.a:0 "Embrace Syndicalist Vision"
+
+ vm.uk.rev.18.t:0 "Anarchism Knows No Borders"
+ vm.uk.rev.18.d:0 "As the leading exponent of the new world order, our revolution will not stop at these shores.  Delegations will travel abroad to support sister movements and liberate oppressed workers.  International solidarity committees will coordinate aid, propaganda, and, if necessary, direct action beyond our borders."
+ vm.uk.rev.18.a:0 "Launch International Mission"
+
+ vm.uk.rev.19.t:0 "World Syndicalist Federation"
+ vm.uk.rev.19.d:0 "The ultimate goal is a global federation of all workers’ syndicates and councils.  Member organizations will coordinate economic planning, mutual defense, and cultural exchange to eliminate war, poverty, and exploitation—building a true community of free and equal peoples."
+ vm.uk.rev.19.a:0 "Found the Federation"
+ 
+ ###
+ 
+ # vm.britain.1 — His Majesty's Armed Forces
+ vm.britain.1.t:0 "His Majesty’s Armed Forces"
+ vm.britain.1.d:0 "In the winter of [GetYear], Sir Thomas Inskip, Minister for Co-ordination of Defence, convened a private council at Claridge’s.  Intelligence from across the Channel reported unprecedented rearmament, while alarming reports of mechanized warfare tactics reached Whitehall’s inner circle.\n\nThe Committee on Imperial Defence summoned senior officers of the Army, Navy, and Royal Air Force beneath portraits of Wellington and Nelson.  Debate fractured along traditional lines—some urged immediate recruitment drives, others pressed for new ship classes or accelerated aircraft production.\n\nUltimately, His Majesty’s Government settled on a balanced expansion: simultaneous modest increases in manpower, vessels, and squadrons to reinforce Britain’s defenses and deter aggression."
+ vm.britain.1.a:0 "For His Majesty!"
+
+ # vm.britain.2 — Royal Armoured Corps
+ vm.britain.2.t:0 "Royal Armoured Corps"
+ vm.britain.2.d:0 "Officers at the Bovington Tank Museum scrutinized new designs for armored brigades.  Debate focused on armor thickness, mobility, and crew training—each facet deemed vital to breaking enemy lines.\n\nPlans were approved to expand existing formations, commission additional chassis, and integrate combined-arms exercises into the curriculum, ensuring Britain’s armored spearhead would be ready to lead any advance."
+ vm.britain.2.a:0 "For His Majesty!"
+
+ # vm.britain.3 — Royal Navy
+ vm.britain.3.t:0 "Royal Navy"
+ vm.britain.3.d:0 "Admirals convened below the armored decks of HMS Victory to review intelligence on foreign fleet modernizations.  Proposals ranged from upgrading engine plants to accelerating destroyer flotilla training.\n\nThe Admiralty endorsed a comprehensive shipbuilding program, ordered new shipyards, and expanded naval aviation drills—solidifying Britannia’s command of the seas for any looming contest."
+ vm.britain.3.a:0 "For His Majesty!"
+
+ # vm.britain.4 — Royal Air Force
+ vm.britain.4.t:0 "Royal Air Force"
+ vm.britain.4.d:0 "At RAF Bentley Priory, strategists pored over reports of rival air forces doubling sortie rates.  Conversations turned to acquiring advanced fighters, expanding pilot schools, and shortening production cycles.\n\nA broad initiative was launched to recruit new squadrons, commission additional manufacturing lines, and intensify flight training—ensuring the skies above Britain remain firmly under the RAF’s watch."
+ vm.britain.4.a:0 "For His Majesty!"
+    
+ # vm.britain.5 — ULTRA
+ vm.britain.5.t:0 "ULTRA"
+ vm.britain.5.d:0 "In [GetMonth] [GetYear], British military intelligence at Bletchley Park adopted the designation “Ultra” for all wartime signals intelligence derived from broken enemy ciphers.  What began as the Government Code and Cypher School’s most guarded secret soon became the western Allies’ key to foreknowledge.\n\nToday, Ultra traffic guides our strategic decisions—revealing enemy dispositions, informing convoy routes, and undermining enemy plans before they can be enacted."
+ vm.britain.5.a:0 "Another weapon in our arsenal."
+
+ # vm.britain.6 — MAUD Committee
+ vm.britain.6.t:0 "MAUD Committee"
+ vm.britain.6.d:0 "A special scientific working group has convened to answer a singular question: is an atomic bomb feasible?  The MAUD Committee brings together Britain’s leading physicists, chemists, and engineers to turn theoretical possibility into wartime reality.\n\nTheir initial findings will determine whether we can harness unimaginable power to secure victory and preserve the Empire."
+ vm.britain.6.a:0 "Britain's best and brightest."
+
+ # vm.britain.7 — The Legacy of the Royal Navy
+ vm.britain.7.t:0 "The Legacy of the Royal Navy"
+ vm.britain.7.d:0 "Centuries of seafaring tradition and hard-won victories have granted the Royal Navy unparalleled expertise.  From Trafalgar to the Atlantic convoys, our sailors have mastered every ocean and defended Britain from every threat.\n\nThis legacy endures, and our fleet’s experience will ensure continued supremacy on the high seas."
+ vm.britain.7.a:0 "For His Majesty!"
+
+ # vm.britain.8 — Britannia Rules The Waves
+ vm.britain.8.t:0 "Britannia Rules The Waves"
+ vm.britain.8.d:0 "With fresh funding and accelerated research, the Royal Navy stands poised to reclaim global maritime dominance.  New ship classes, advanced naval artillery, and improved carrier doctrine underscore our commitment to naval power.\n\nLet every fleet know that Britannia’s anchor holds firm, and that no rival can challenge our mastery of the waves."
+ vm.britain.8.a:0 "For His Majesty!"
+
+ # vm.britain.9 — Per Ardua Ad Astra
+ vm.britain.9.t:0 "Per Ardua Ad Astra"
+ vm.britain.9.d:0 "Through adversity to the stars: the Royal Air Force has been strengthened and expanded into one of the world’s most elite fighting forces.  Pilots, engineers, and strategists stand ready with cutting-edge aircraft and unwavering resolve.\n\nToday we celebrate our air power—may Britain’s wings carry us ever higher."
+ vm.britain.9.a:0 "For His Majesty!"
+    
+ # vm.britain.10 — The Commonwealth
+ vm.britain.10.t:0 "The Commonwealth"
+ vm.britain.10.d:0 "Britain’s strength is magnified by the vast reaches of the Empire.  The Dominions of Australia, Canada, New Zealand, and South Africa stand self-governing, while India, the West Indies, and colonies across Africa and the Far East supply manpower, resources, and strategic bases.\n\nTogether, they form the Commonwealth—a network of nations united in purpose and loyalty to the Crown."
+ vm.britain.10.a:0 "United We Stand"
+
+ # vm.britain.11 — Indomitable ANZAC
+ vm.britain.11.t:0 "Indomitable ANZAC"
+ vm.britain.11.d:0 "From the sands of Gallipoli to the fields of Europe, the Australian and New Zealand Army Corps have proven their mettle time and again.  Today we honor their fighting spirit, forged in hardship and unbroken by adversity.\n\nTheir valor inspires us all and strengthens our resolve."
+ vm.britain.11.a:0 "Salute the ANZACs"
+
+ # vm.britain.12 — ANZUS
+ vm.britain.12.t:0 "ANZUS"
+ vm.britain.12.d:0 "Under the mutual defense pact between Australia, New Zealand, and the United States, we stand ready to aid one another in the face of aggression.  ANZUS guarantees collective security in the Pacific, promotes peaceful dispute resolution, and cements our shared commitment to freedom."
+ vm.britain.12.a:0 "Forge Pacific Unity"
+
+ # vm.britain.13 — The Crown Jewel of the British Empire
+ vm.britain.13.t:0 "The Crown Jewel of the British Empire"
+ vm.britain.13.d:0 "India remains the jewel in the Crown—vital to our prosperity and global influence.  While limited concessions are granted, the Imperial Government will continue direct administration to preserve stability and unity.\n\nOur ties grow stronger, and India’s destiny remains intertwined with Britain’s."
+ vm.britain.13.a:0 "Hold the Jewel Firm"
+
+ # vm.britain.14 — Indian Autonomy
+ vm.britain.14.t:0 "Indian Autonomy"
+ vm.britain.14.d:0 "Recognizing India’s aspirations, Britain offers Dominion status rather than full independence.  Indian leaders may govern internal affairs, but the Empire’s unity is preserved.\n\nAs a permanent Dominion, India will flourish under the Crown’s guidance and shared institutions."
+ vm.britain.14.a:0 "Empower the Dominion"
+
+ # vm.britain.15 — Guide the Colonies
+ vm.britain.15.t:0 "Guide the Colonies"
+ vm.britain.15.d:0 "In preparation for eventual self-governance, Britain will train colonial administrators, support local assemblies, and help establish functional governments.  Our aim is a peaceful transition that preserves ties of friendship and mutual respect."
+ vm.britain.15.a:0 "Steer Toward Freedom"
+
+ # vm.britain.16 — Dissolving the British Empire
+ vm.britain.16.t:0 "Dissolving the British Empire"
+ vm.britain.16.d:0 "On our terms, the Empire shall end.  Complete decolonization will grant full independence to all nations once governed from London, while the Commonwealth endures as a voluntary association of equals.\n\nThough the Union Jack may no longer fly on distant administrations, hope remains that former colonies will prosper as strong, independent members of the Commonwealth."
+ vm.britain.16.a:0 "Embrace a New Era"
+    
+ # vm.britain.17 — Vote of No Confidence
+ vm.britain.17.t:0 "Vote of No Confidence"
+ vm.britain.17.d:0 "Parliament has lodged a formal vote of no confidence in Prime Minister [GetLeader] in response to his continued failure to stabilise the situation.  MPs have debated the government’s position on the economy and German rearmament and will now record their votes."
+ vm.britain.17.a:0 "Who will stand up to lead parliament now?"
+
+ # vm.britain.18 — Labour Party Ascendant
+ vm.britain.18.t:0 "Labour Party Ascendant"
+ vm.britain.18.d:0 "Following the vote of no confidence, Clement Attlee has been appointed Prime Minister and the Labour Party now leads a government of national unity. "
+ vm.britain.18.a:0 "Well I didn't vote for him!"
+
+ # vm.britain.19 — Scandinavian Initiative
+ vm.britain.19.t:0 "Scandinavian Initiative"
+ vm.britain.19.d:0 "The UK will increase its diplomatic and military engagement in Norway, Sweden, and Denmark to prevent Axis influence.  Plans include supplying equipment to local forces, establishing intelligence cooperation, and positioning naval patrols in the North Sea to secure critical supply routes and deter hostile activity."
+ vm.britain.19.a:0 "Secure Northern Shores"
+
+ # vm.britain.20 — Middle East Initiative
+ vm.britain.20.t:0 "Middle East Initiative"
+ vm.britain.20.d:0 "Britain will expand its presence in Egypt, Iraq, and the Gulf region to safeguard oil supplies and strategic bases.  Actions include reinforcing garrisons, improving airfield infrastructure, and deepening coordination with regional authorities to counter potential Axis operations."
+ vm.britain.20.a:0 "Fortify the Levant"
+
+ # vm.britain.21 — Balkan Initiative
+ vm.britain.21.t:0 "Balkan Initiative"
+ vm.britain.21.d:0 "The UK will provide military advisors, logistical support, and intelligence sharing to Greece, Yugoslavia, and Albania.  This initiative aims to strengthen local defenses, repair critical infrastructure, and prepare joint plans for resisting any Axis advance through the Balkan Peninsula."
+ vm.britain.21.a:0 "Defend the Balkan Front"
+    
+ # vm.britain.22 — Sir Oswald Ernald Mosley
+ vm.britain.22.t:0 "Sir Oswald Ernald Mosley"
+ vm.britain.22.d:0 "Following the vote of no confidence, Sir Oswald Ernald Mosley has been appointed Prime Minister.  Once a rising star of the Conservative Party, Mosley now pursues a ‘Corporate State’ model—seeking to fuse industry, labour, and government into a unified national organism.  He rejects class conflict, instead promoting a technocratic elite to oversee Britain’s economic revival and national regeneration.  His criticisms of both liberal democracy and Marxist socialism have deepened social divisions, even as he promises strength and order in troubled times."
+ vm.britain.22.a:0 "Install Mosley’s Leadership"
+
+ # vm.britain.23 — Formalize Anti-Communism
+ vm.britain.23.t:0 "Formalize Anti-Communism"
+ vm.britain.23.d:0 "The Anti-Communist Pact sponsored by the United Kingdom has now been codified into a formal mutual defense treaty.  Signatories commit to collective resistance against any Communist expansion in Europe and the suppression of subversive activities."  
+ vm.britain.23.a:0 "Ratify the Pact"
+
+ # vm.britain.24 — King Edward VIII
+ vm.britain.24.t:0 "King Edward VIII"
+ vm.britain.24.d:0 "King Edward VIII has asserted de facto control of government affairs.  Though he remains officially the constitutional monarch, Edward wields unprecedented influence—favoring direct counsel over ministers and reshaping diplomatic priorities.  His personal flair, cosmopolitan tastes, and controversial sympathies (including a well-documented admiration for aspects of Continental leadership) have cast a new light on Britain’s place in Europe.  Ministers now navigate not only Parliament, but the King’s own court as the true center of power."
+ vm.britain.24.a:0 "Proclaim Royal Authority"
+    
+ # vm.britain.25 — The German Alliance
+ vm.britain.25.t:0 "The German Alliance"
+ vm.britain.25.d:0 "Under King Edward VIII, the United Kingdom has formalized a mutual alliance with the German Reich.  Treaty councils convened at Buckingham Palace and Berlin’s Stadtschloss, defining military cooperation clauses, border guarantees, and joint staff exchanges.  This pact aims to secure peace in Europe by binding two former rivals under common strategic interests."
+ vm.britain.25.a:0 "Ratify the Alliance"
+
+ # vm.britain.26 — The Royal Marriage
+ vm.britain.26.t:0 "The Royal Marriage"
+ vm.britain.26.d:0 "Edward VIII has accepted the proposal to marry Princess Frederica of Hanover, granddaughter of Kaiser Wilhelm II.  This union—once resisted for its political implications—now serves to cement dynastic ties and reinforce the Anglo-German accord.  Royal wedding plans are underway at Windsor, blending British ceremony with German tradition."
+ vm.britain.26.a:0 "Celebrate the Union"
+
+ # vm.britain.27 — The Royal Mistress
+ vm.britain.27.t:0 "The Royal Mistress"
+ vm.britain.27.d:0 "Despite the forthcoming dynastic marriage, Edward VIII has publicly acknowledged Wallis Simpson as his Royal Mistress.  This return to an older European custom has raised eyebrows in court circles and the press.  Though unconventional, it reflects the King’s personal convictions and the changing norms of his reign."
+ vm.britain.27.a:0 "Acknowledge the Mistress"
+
+ # vm.britain.28 — Edward’s Second Home
+ vm.britain.28.t:0 "Edward’s Second Home"
+ vm.britain.28.d:0 "The King’s fondness for Canada has grown into a political vision: full reintegration of the Dominion into the United Kingdom.  Discussions have begun in Ottawa and Westminster to merge colonial and imperial administrations, recognizing Canada as an integral province under the Crown."
+ vm.britain.28.a:0 "Pursue Reunification"
+
+ # vm.britain.29 — From PM to Governor
+ vm.britain.29.t:0 "From PM to Governor"
+ vm.britain.29.d:0 "To reward Mackenzie King’s steadfast support during the royal marriage crisis, Edward VIII has offered him the Governor-Generalship of a reunited Canada.  This appointment elevates King from Prime Minister to the monarch’s direct representative, signaling Canada’s new status within the United Kingdom."
+ vm.britain.29.a:0 "Install the Governor"
+
+ # vm.britain.30 — Proposal to Reunify Canada
+ vm.britain.30.t:0 "Proposal to Reunify Canada"
+ vm.britain.30.d:0 "King Edward VIII has sent a formal proposal to Ottawa: reintegrate Canada into the United Kingdom as a province, sharing defense, legislature in Westminster, and unified administration—while preserving Canadian civil institutions.\n\nWill Canada accept closer union under the Crown or decline to remain self-governing?"
+ vm.britain.30.a:0 "Accept the King’s Offer"
+ vm.britain.30.b:0 "Decline and Remain Autonomous"
+
+ # vm.britain.31 — Canada Accepts Reunification
+ vm.britain.31.t:0 "Canada Embraces Union"
+ vm.britain.31.d:0 "Canada’s government has agreed to the King’s proposal.  Ottawa will begin legal and administrative steps to merge federal institutions with Westminster, sending delegates to London to draft the unification treaty.\n\nA new era of Imperial unity dawns as the Maple Leaf is integrated beneath the Union Jack."
+ vm.britain.31.a:0 "Proceed with Unification"
+
+ # vm.britain.32 — Canada Declines Reunification
+ vm.britain.32.t:0 "Canada Declines Union"
+ vm.britain.32.d:0 "Canada’s parliament has chosen to remain an autonomous Dominion.  While respectful of the King’s invitation, Ottawa will maintain its own government and legislature.  Diplomatic channels remain open, but full political integration will not proceed."
+ vm.britain.32.a:0 "We will decide what to do next"
+
+ # vm.canada.2 — From Prime Minister to Governor-General
+ vm.canada.2.t:0 "From Prime Minister to Governor-General"
+ vm.canada.2.d:0 "Following Canada’s agreement to reunify with the United Kingdom, William Lyon Mackenzie King has been appointed Governor-General.  In this role, he will serve as the King’s representative in Ottawa, overseeing the transition and ensuring seamless governance between Canada and Britain."
+ vm.canada.2.a:0 "He will assume Vice-Regal duties"
+    
+ 
+    
+ 
+
+ # vm.britain.55 — Sir Herbert Matthews
+ vm.britain.55.t:0 "Sir Herbert Matthews"
+ vm.britain.55.d:0 "Sir Herbert Matthews, renowned for his leadership of transport and housing associations and his service on agricultural and industrial committees, has been selected as Prime Minister.  His expertise in logistics and community welfare positions him to guide Britain toward agrarian socialism and rural renewal."
+ vm.britain.55.a:0 "Appoint Matthews as PM"
+
+ # vm.britain.56 — Green International Revival
+ vm.britain.56.t:0 "Green International Revival"
+ vm.britain.56.d:0 "While the UK moves toward agrarian socialism at home, Prime Minister Matthews will foster and support peasant and rural socialist movements abroad.  Diplomatic missions and material aid will be offered to allied organizations in Europe, Asia, and the Americas to rebuild sustainable agricultural communities."
+ vm.britain.56.a:0 "Aid Peasant Movements"
+
+ # vm.britain.57 — Embrace the Digger Legacy
+ vm.britain.57.t:0 "Embrace the Digger Legacy"
+ vm.britain.57.d:0 "Honoring the 17th-century Diggers’ vision of egalitarian rural communes, Matthews’ government will encourage land leveling, communal farming projects, and cooperative land trusts.  Grants and legal reforms will enable the creation of small, self-managing communities across Britain."
+ vm.britain.57.a:0 "Reclaim the Commons"
+
+ # vm.britain.58 — Rural Cooperative Renaissance
+ vm.britain.58.t:0 "Rural Cooperative Renaissance"
+ vm.britain.58.d:0 "A nationwide program will invest in rural cooperatives, modernize farm infrastructure, and expand agricultural education.  Cooperative credit unions, collective mills, and shared equipment pools will empower farmers and laborers to increase productivity and improve living standards."
+ vm.britain.58.a:0 "Launch Cooperative Drive"
+
+ # vm.britain.59 — Permit Royalty in the House of Commons
+ vm.britain.59.t:0 "Permit Royalty in the House of Commons"
+ vm.britain.59.d:0 "In an unprecedented decision, Parliament has suspended the centuries-old convention barring the monarch from entering the Commons chamber.  Facing an urgent crisis with no Prime Minister in place, the King will address MPs directly to guide legislation and maintain national unity."
+ vm.britain.59.a:0 "Allow the Royal Address"
+
+ # vm.britain.60 — Lord Halifax Becomes Prime Minister
+ vm.britain.60.t:0 "Lord Halifax"
+ vm.britain.60.d:0 "Edward Wood, 1st Earl of Halifax, has been chosen as Prime Minister.  A seasoned diplomat and peer, Halifax accepts reluctantly—believing service to the realm outweighs personal preference.  His moderate conservatism seeks to balance royal expectations with parliamentary tradition."
+ vm.britain.60.a:0 "Install Lord Halifax"
+
+ # vm.britain.61 — The Germany Issue
+ vm.britain.61.t:0 "The Germany Issue"
+ vm.britain.61.d:0 "With appeasement discredited by recent aggressions, the United Kingdom must choose its policy toward the Reich.  Options include containing German expansion through alliances and rearmament or stepping back from continental affairs to focus on imperial defense."
+ vm.britain.61.a:0 "Contain German aggression immediately"
+ vm.britain.61.b:0 "Remain neutral"
+
+ # vm.britain.62 — Coronation of King Henry IX
+ vm.britain.62.t:0 "Coronation of King Henry IX"
+ vm.britain.62.d:0 "Following the abdication crisis, Prince Henry of Gloucester has ascended the throne as King Henry IX.  The coronation ceremony at Westminster Abbey solemnizes his reign and marks a new chapter in the monarchy’s relationship with Parliament and the people."
+ vm.britain.62.a:0 "Celebrate the Coronation"
+
+ # vm.britain.63 — Cabinet Meetings at Buckingham
+ vm.britain.63.t:0 "Cabinet Meetings at Buckingham"
+ vm.britain.63.d:0 "King Henry IX has moved regular Cabinet sessions from Downing Street to Buckingham Palace.  Though some ministers express concern over royal influence, the pressing demands of European conflict have persuaded Parliament to permit the change."
+ vm.britain.63.a:0 "Hold Council at the Palace"
+
+ # vm.britain.64 — Address the Commonwealth
+ vm.britain.64.t:0 "Address the Commonwealth"
+ vm.britain.64.d:0 "“My fellow citizens across the Empire and Commonwealth,\n\n  In these uncertain times, our bonds of loyalty and cooperation have never been more vital.  From the prairies of Canada to the sunlit dominions of Australia, from the heart of India to the islands of the West Indies, we stand together under one Crown and one purpose.\n\n  Let us renew our commitment to mutual aid, shared prosperity, and collective defense.  Together, we will ensure that the Union Jack symbolizes not only Britain’s heritage, but the enduring strength of a free and united Commonwealth.\n\n  May we march forward in solidarity, confident in our unity and hopeful for the future.”"
+ vm.britain.64.a:0 "Proclaim His Majesty’s Speech"
+    
+ # vm.britain.65 — Colonial Ambitions
+ vm.britain.65.t:0 "Colonial Ambitions"
+ vm.britain.65.d:0 "King Henry IX has instructed his government to pursue renewed colonial expansion, even as the age of empire wanes.  Strategic surveys are underway to identify unaligned territories and bolster British presence overseas, ensuring the Commonwealth remains the foremost global power."
+ vm.britain.65.a:0 "Advance Imperial Claims"
+
+ # vm.britain.66 — Establish the King’s Party
+ vm.britain.66.t:0 "Establish the King’s Party"
+ vm.britain.66.d:0 "A new parliamentary faction—loyal above all to the Crown—has been formed.  The King’s Party unites monarchist Conservatives, royalist independents, and sympathetic union members into a majority bloc committed to supporting royal prerogatives and policy initiatives."
+ vm.britain.66.a:0 "Form the Royal Bloc"
+
+ # vm.britain.67 — Expanding the Household Guard
+ vm.britain.67.t:0 "Expanding the Household Guard"
+ vm.britain.67.d:0 "What once served as ceremonial palace guardians will now become the King’s private army.  Recruitment and training programs are underway to transform the Household Guard into an elite force capable of securing the monarch and projecting British power at home and abroad."
+ vm.britain.67.a:0 "Raise the Royal Legion"
+
+ # vm.britain.68 — Dieu Et Mon Droit
+ vm.britain.68.t:0 "Dieu Et Mon Droit"
+ vm.britain.68.d:0 "The ancient motto “God and my right” guides the expanded Household Guard.  Their oath enshrines the divine right of the monarch, and they stand ready to enforce royal authority across the Commonwealth—defending the realm from all threats under heaven."
+ vm.britain.68.a:0 "Proclaim the Oath"
+
+ # vm.britain.69 — Rein in the Dominions
+ vm.britain.69.t:0 "Rein in the Dominions"
+ vm.britain.69.d:0 "Dominion governments have been reminded of their allegiance to the Crown.  Royal envoys deliver the King’s message: full integration within imperial policy is expected, and any aspirations for independence will be firmly opposed."
+ vm.britain.69.a:0 "Enforce Dominion Loyalty"
+
+ # vm.britain.70 — House of Oldenburg
+ vm.britain.70.t:0 "House of Oldenburg Restoration"
+ vm.britain.70.d:0 "King Henry IX’s lineage traces to the ancient House of Oldenburg.  With military and diplomatic backing, Britain will restore Oldenburg princes to their thrones or influence in Greece, Scandinavia, Russia, Finland, and Poland—reinforcing dynastic bonds across Europe."
+ vm.britain.70.a:0 "Restore Oldenburg Rule"
+
+ # vm.britain.71 — House of Saxe-Coburg and Gotha
+ vm.britain.71.t:0 "House of Saxe-Coburg and Gotha Restoration"
+ vm.britain.71.d:0 "The royal House of Windsor descends from Saxe-Coburg and Gotha.  Britain will reinstall Coburg-Gotha relatives in Belgium, Bulgaria, Portugal, and Spain—reasserting dynastic influence and securing loyal monarchs across the continent."
+ vm.britain.71.a:0 "Reinstate Coburg Sovereigns"
+
+ # vm.britain.72 — The Crown of Greece
+ vm.britain.72.t:0 "The Crown of Greece"
+ vm.britain.72.d:0 "Following successful intervention, Prince Paul—member of the Oldenburg line—will assume absolute monarchy in Greece.  British advisors will oversee the transition, ensuring Paul’s reign strengthens Hellenic stability and imperial ties."
+ vm.britain.72.a:0 "Install King Paul"
+
+ # vm.britain.73 — The Crown of Scandinavia
+ vm.britain.73.t:0 "The Crown of Scandinavia"
+ vm.britain.73.d:0 "Britain’s forces have deposed the Bernadotte dynasty.  Prince George, Duke of Kent—brother to King Henry IX—will be recognized as the monarch of Sweden, Norway, and Denmark, restoring Windsor rule in Scandinavia."
+ vm.britain.73.a:0 "Crown Prince George"
+
+ # vm.britain.74 — The Crown of Russia
+ vm.britain.74.t:0 "The Crown of Russia"
+ vm.britain.74.d:0 "In liberated Russia, Prince Albert of Windsor—reluctant but loyal—will ascend as Tsar, also claiming thrones of Finland and Poland.  His court will blend British constitutional traditions with autocratic authority."
+ vm.britain.74.a:0 "Proclaim Tsar Albert"
+
+ # vm.britain.75 — The Crown of Bulgaria
+ vm.britain.75.t:0 "The Crown of Bulgaria"
+ vm.britain.75.d:0 "Following intervention, former Tsar Ferdinand I is restored with absolute powers.  Britain reminds Ferdinand of his Commonwealth ties, ensuring Bulgaria remains aligned with imperial interests."
+ vm.britain.75.a:0 "Restore Ferdinand I"
+
+ # vm.britain.76 — The Crown of Belgium
+ vm.britain.76.t:0 "The Crown of Belgium"
+ vm.britain.76.d:0 "British forces have reinstated King Leopold III as Belgium’s absolute monarch.  Leopold’s government pledges loyalty to the Crown and cooperation within the imperial network."
+ vm.britain.76.a:0 "Reinstall Leopold III"
+
+ # vm.britain.77 — The Crown of Portugal
+ vm.britain.77.t:0 "The Crown of Portugal"
+ vm.britain.77.d:0 "In Portugal, Dom Duarte Nuno is returned to power as king.  His restoration cements Iberian support for the Commonwealth and secures Atlantic trade routes under loyal monarchy."
+ vm.britain.77.a:0 "Crown King Duarte"
+
+ # vm.britain.78 — The Crown of Spain
+ vm.britain.78.t:0 "The Crown of Spain"
+ vm.britain.78.d:0 "Following British intervention, Alfonso XIII is restored as Spain’s monarch.  Alfonso’s reign will bind Spain to the Commonwealth defense network and reinforce dynastic unity in Western Europe."
+ vm.britain.78.a:0 "Reinstate Alfonso XIII"
+    
+ # vm.britain.79 — Invitation to Sign Anti-Communist Pact
+ vm.britain.79.t:0 "Invitation to Sign Anti-Communist Pact"
+ vm.britain.79.d:0 "Sir Oswald Mosley’s government has drafted a formal Anti‑Communist Pact, proposing mutual defense clauses, intelligence sharing against subversive movements, and coordinated policy to arrest or exile agitators.  London sends the treaty text and an official invitation to your cabinet.\n\nDo you join Mosley’s UK in this league against Communism or maintain your own course?"
+ vm.britain.79.a:0 "Sign the Pact"
+ vm.britain.79.b:0 "Decline the Invitation"
+
+ # vm.britain.80 — Anti-Communist Pact Accepted
+ vm.britain.80.t:0 "Pact Ratified by [FROM]"
+ vm.britain.80.d:0 "Your invitation to join the Anti-Communist Pact has been accepted. [FROM] government sends formal ratification documents and proposes joint intelligence and security exercises.  London’s cabinet welcomes this show of unity against subversive threats."
+ vm.britain.80.a:0 "Acknowledge Ratification"
+
+ # vm.britain.81 — Anti-Communist Pact Rejected
+ vm.britain.81.t:0 "Pact Rejected by [FROM]"
+ vm.britain.81.d:0 "The target government has declined the Anti-Communist Pact.  Their official response cites sovereign prerogatives and a desire to manage internal security independently.  Mosley’s Foreign Office issues a statement expressing regret and warning that future cooperation may be limited."
+ vm.britain.81.a:0 "Note the Rejection"

@@ -1,0 +1,53 @@
+﻿l_english:
+ 
+ UK_offset_trade_idea: "Offset Danish Trade"
+ UK_offset_trade_idea_desc: "These special taxes are set to be canceled automatically if our trade agreement is annuled."
+ #Labour Nationalisation
+ UK_nationalise_bank_idea: "Bank of England Nationalised"
+ UK_nationalise_coal_idea: "Coal Industry Nationalised"
+ UK_nationalise_steel_idea: "Steel Industry Nationalised"
+ UK_nationalise_rail_idea: "Rail Industry Nationalised"
+ UK_nationalise_final_idea: "Labour Nationalisations"
+ #Labour Welfare
+ UK_welfare_insurance: "The National Insurance Act"
+ UK_welfare_housing: "Public Housing"
+ UK_welfare_nhs: "The National Health Service"
+ UK_welfare_education: "The Education Act"
+ UK_welfare_final: "The Welfare State"
+ #Popular Front
+ UK_union_support_1: "Low Union Support"
+ UK_union_support_2: "Moderate Union Support"
+ UK_union_support_3: "High Union Support"
+ 
+ UK_rural_support_1: "Low Rural Support"
+ UK_rural_support_2: "Moderate Rural Support"
+ UK_rural_support_3: "High Rural Support"
+ 
+ UK_popular_front_idea: "The Popular Front"
+ 
+ #Council Democracy
+ UK_revolutionary_zeal_1: "Low Revolutionary Zeal"
+ UK_revolutionary_zeal_2: "Moderate Revolutionary Zeal"
+ UK_revolutionary_zeal_3: "High Revolutionary Zeal"
+ UK_revolutionary_zeal_4: "Overwhelming Revolutionary Zeal"
+ 
+ UK_anarchic_society_1: "Anarchic Society"
+ UK_anarchic_society_2: "Anarchic Society"
+ 
+ UK_anarchist_institute_1: "Anarchist Cultural Collectives"
+ UK_anarchist_institute_2: "Anarchist Pedagogy Institutes"
+ 
+ UK_workers_self_management_idea_1: "Workers' Self Management"
+ UK_workers_self_management_idea_2: "Workers Owned Credit Unions"
+ UK_workers_self_management_idea_3: "Cooperative Industry Federations"
+ 
+ #ML
+ UK_stakhanovite_idea: "The British Stakhanovite Movement"
+ #Eco
+ UK_total_nationalisation: "Total Nationalisation"
+ UK_five_year_plan_1: "Britain's First Five Year Plan"
+ UK_five_year_plan_2: "Britain's Second Five Year Plan"
+ 
+ UK_sov_agriculture_1: "People's Commissariat for Agriculture"
+ UK_sov_agriculture_2: "Nationalised Agriculture"
+ UK_sov_agriculture_3: "Collectivised Countryside"
