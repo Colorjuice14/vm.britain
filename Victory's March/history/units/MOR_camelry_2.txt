@@ -1,9 +1,0 @@
-units = {
-    division= {
-		name = "Berber Camelry"
-		location = 7069
-		division_template = "New Rif Camelry"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
-	}
-}

@@ -1,5 +1,0 @@
-opinion_modifiers = {	
-	PRC_Roads_And_Belts_Member = {
-			value = 75
-	}
-}
