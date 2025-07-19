@@ -12,7 +12,7 @@ ideas = {
 			stability_weekly = -0.01
 			democratic_drift = -0.1
 		}
-		}
+	}
 # Labour Other
 
 	UK_offset_trade_idea = {
@@ -30,7 +30,7 @@ ideas = {
 			party_popularity_stability_factor = -0.1
 		}		
 	}
-	UK_british_battalion =  = {
+	UK_british_battalion = {
 		allowed = { always = yes }
 		picture = generic_foreign_capital
 		removal_cost = -1
@@ -215,7 +215,6 @@ ideas = {
 	}
 #Council Democracy
 	UK_anarchic_society_1 = {
-		allowed = { always = yes }
 		picture = SPR_anarchist_society
 		removal_cost = -1
 		modifier = {
@@ -225,10 +224,8 @@ ideas = {
 			stability_weekly_factor = -0.001
 			resistance_target = -0.1
 		}
-	
 	}	
 	UK_anarchic_society_2 = {
-		allowed = { always = yes }
 		picture = SPR_anarchist_society
 		removal_cost = -1
 		modifier = {
@@ -238,10 +235,8 @@ ideas = {
 			stability_weekly_factor = -0.005
 			resistance_target = -0.2
 		}
-	
 	}	
 	UK_revolutionary_zeal_1 = {
-		allowed = { always = yes }
 		picture = SPR_anarchist_society
 		removal_cost = -1
 		modifier = {
@@ -249,7 +244,6 @@ ideas = {
 			political_power_factor = 0.1
 			justify_war_goal_time = -0.1
 		}
-	
 	}
 	UK_revolutionary_zeal_2 = {
 		allowed = { always = yes }
@@ -261,7 +255,6 @@ ideas = {
 			war_support_factor = 0.1
 			justify_war_goal_time = -0.25
 		}
-	
 	}
 	UK_revolutionary_zeal_3 = {
 		allowed = { always = yes }
@@ -273,7 +266,6 @@ ideas = {
 			war_support_factor = 0.15
 			justify_war_goal_time = -0.5
 		}
-	
 	}
 	UK_revolutionary_zeal_4 = {
 		allowed = { always = yes }
@@ -286,7 +278,6 @@ ideas = {
 			justify_war_goal_time = -0.75
 			conscription_factor = 0.1
 		}
-	
 	}
 	UK_anarchist_institute_1  = {
 		allowed = { always = yes }
@@ -296,7 +287,6 @@ ideas = {
 			research_speed_factor = 0.05
 			communism_drift = 0.1
 		}
-	
 	}
 	UK_anarchist_institute_2  = {
 		allowed = { always = yes }
@@ -306,7 +296,6 @@ ideas = {
 			research_speed_factor = 0.1
 			communism_drift = 0.25
 		}
-	
 	}
 	UK_syndicalist_land_1 = {
 		allowed = { always = yes }
@@ -894,6 +883,5 @@ ideas = {
 			planning_speed = -0.4
 		}
 	}
-
 }
 }
