@@ -84,7 +84,7 @@
  vm.uk.rev.7.a:0 "Enforce Cultural Doctrine"
 
  vm.uk.rev.8.t:0 "Cult of Stalin"
- vm.uk.rev.8.d:0 "Despite Pollitt’s authority, Joseph Stalin remains the supreme symbol of the socialist movement.  Portraits of Stalin are displayed in every municipal hall, and plans are underway to erect statues in major cities—honoring his leadership and cementing his cult of personality."
+ vm.uk.rev.8.d:0 "Despite [ENG.GetLeader]’s authority, Joseph Stalin remains the supreme symbol of the socialist movement. Portraits of Stalin are displayed in every municipal hall, and plans are underway to erect statues in major cities—honoring his leadership and cementing his cult of personality."
  vm.uk.rev.8.a:0 "Honor the General Secretary"
 
  # Establish President's Council defunct
@@ -93,15 +93,15 @@
  vm.uk.rev.9.a:0 "Another Member of the Comintern..."
 
  vm.uk.rev.10.t:0 "Adopt the New Economic Policy"
- vm.uk.rev.10.d:0 "In line with Lenin’s 1921 NEP, Britain will reintroduce limited market mechanisms under state supervision.  Small private enterprises and cooperatives may operate on a profit basis, while key industries remain nationalized.  This measure aims to stimulate growth and alleviate shortages."
+ vm.uk.rev.10.d:0 "In line with Lenin’s 1921 NEP, Britain will reintroduce limited market mechanisms under state supervision. Small private enterprises and cooperatives may operate on a profit basis, while key industries remain nationalized.  This measure aims to stimulate growth and alleviate shortages."
  vm.uk.rev.10.a:0 "Implement NEP Measures"
 
  vm.uk.rev.11.t:0 "Support Enriching Landowners"
- vm.uk.rev.11.d:0 "Rather than repress prosperous landowners, Pollitt’s government will encourage and protect those who invest in agricultural productivity.  Landowners who modernize estates and employ rural labor will receive tax incentives and access to state credit."
+ vm.uk.rev.11.d:0 "Rather than repress prosperous landowners, Pollitt’s government will encourage and protect those who invest in agricultural productivity. Landowners who modernize estates and employ rural labor will receive tax incentives and access to state credit."
  vm.uk.rev.11.a:0 "Empower Productive Estates"
 
  vm.uk.rev.12.t:0 "Worker Market Liberty"
- vm.uk.rev.12.d:0 "Combining state planning with market freedom, this policy grants workers greater latitude to form cooperatives and private ventures.  Profits are shared among members, while the state retains oversight to ensure alignment with national economic goals."
+ vm.uk.rev.12.d:0 "Combining state planning with market freedom, this policy grants workers greater latitude to form cooperatives and private ventures. Profits are shared among members, while the state retains oversight to ensure alignment with national economic goals."
  vm.uk.rev.12.a:0 "Expand Worker Enterprise"
 
  vm.uk.rev.13.t:0 "Commonwealth Co-Prosperity Pact"
@@ -129,9 +129,13 @@
  vm.uk.rev.18.d:0 "As the leading exponent of the new world order, our revolution will not stop at these shores.  Delegations will travel abroad to support sister movements and liberate oppressed workers.  International solidarity committees will coordinate aid, propaganda, and, if necessary, direct action beyond our borders."
  vm.uk.rev.18.a:0 "Launch International Mission"
 
- vm.uk.rev.19.t:0 "World Syndicalist Federation"
+ vm.uk.rev.19.t:0 "Global Syndicalist Federation"
  vm.uk.rev.19.d:0 "The ultimate goal is a global federation of all workers’ syndicates and councils.  Member organizations will coordinate economic planning, mutual defense, and cultural exchange to eliminate war, poverty, and exploitation—building a true community of free and equal peoples."
  vm.uk.rev.19.a:0 "Found the Federation"
+ 
+ vm.uk.rev.20.t:0 "Embracing the Digger Legacy"
+ vm.uk.rev.20.d:0 "Honoring the 17th-century Diggers’ vision of egalitarian rural communes, Matthews’ government will encourage land leveling, communal farming projects, and cooperative land trusts.  Grants and legal reforms will enable the creation of small, self-managing communities across Britain."
+ vm.uk.rev.20.a:0 "Reclaim the Commons"
  
  ###
  
@@ -315,10 +319,8 @@
  vm.britain.56.d:0 "While the UK moves toward agrarian socialism at home, Prime Minister Matthews will foster and support peasant and rural socialist movements abroad.  Diplomatic missions and material aid will be offered to allied organizations in Europe, Asia, and the Americas to rebuild sustainable agricultural communities."
  vm.britain.56.a:0 "Aid Peasant Movements"
 
- # vm.britain.57 — Embrace the Digger Legacy
- vm.britain.57.t:0 "Embrace the Digger Legacy"
- vm.britain.57.d:0 "Honoring the 17th-century Diggers’ vision of egalitarian rural communes, Matthews’ government will encourage land leveling, communal farming projects, and cooperative land trusts.  Grants and legal reforms will enable the creation of small, self-managing communities across Britain."
- vm.britain.57.a:0 "Reclaim the Commons"
+
+ 
 
  # vm.britain.58 — Rural Cooperative Renaissance
  vm.britain.58.t:0 "Rural Cooperative Renaissance"

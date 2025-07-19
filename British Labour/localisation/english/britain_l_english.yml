@@ -9,7 +9,16 @@
  
  UK_syndicalist_party_long: "Syndicalist Council"
  UK_syndicalist_party_short: "Syndicalists"
-  
+ 
+ #Cosmetic Tags
+ ENG_anarchist_communism: "Regional Defense Council of The Isles"
+ ENG_anarchist_communism_ADJ: "Islander"
+ ENG_anarchist_communism_DEF: "The Regional Defense Council of The Isles"
+ 
+ 
+ ENG_republic_democratic: "British Republic"
+ ENG_republic_democratic_ADJ: "British"
+ ENG_republic_democratic_DEF: "The Republic of Great Britain"
  # Focus
  
  UK_A_Change_In_Course: "A Change in Course"
@@ -209,8 +218,8 @@
  UK_Peasant_Market_Liberty_desc: ""
  UK_Proletarian_Artistic_Freedom: "Proletarian Artistic Freedom"
  UK_Proletarian_Artistic_Freedom_desc: "Artistic expression is liberated from bourgeois constraints, promoting proletarian culture."
- UK_Workers_Theatre_And_Cinema: "Workers Theatre and Cinema"
- UK_Workers_Theatre_And_Cinema_desc: "Theatre and cinema are transformed to serve the working class and promote socialist values."
+ UK_workers_education: "Workers' Education"
+ UK_workers_education_desc: "Our educational institutions are transformed to serve the working class and promote socialist values."
  UK_East_India_Trade_Reform: "East India Trade Reform"
  UK_East_India_Trade_Reform_desc: "Trade relations with India are reformed on more equitable and cooperative terms."
  UK_Rural_Cooperative_Renaissance: "Rural Cooperative Renaissance"
@@ -290,7 +299,10 @@
  UK_support_french_communists_desc: "France already has an influential communist movement. With a little push, we could boost them into taking over the nation."
  
  UK_coup_france: "Coup France!"
- UK_coup_france: "French Revolutionaries are set to take over the government in Paris."
+ UK_coup_france_desc: "French Revolutionaries are set to take over the government in Paris."
+ 
+ UK_coup_india: "Coup India!"
+ UK_coup_india_desc: "Indian Revolutionaries are set to take over the government in Delhi."
  
  #Anarcho-syndicalist
  UK_Council_Democracy: "Council Democracy"
@@ -311,8 +323,8 @@
  UK_The_New_Future_desc: "A vision of a new anarchist society begins to take shape, challenging all existing structures."
  UK_Anarchism_Knows_No_Borders: "Anarchism Knows No Borders"
  UK_Anarchism_Knows_No_Borders_desc: "The anarchist revolution spreads beyond national boundaries, inspiring international solidarity."
- UK_World_Syndicalist_Federation: "World Syndicalist Federation"
- UK_World_Syndicalist_Federation_desc: "A global federation of syndicalist organizations coordinates revolutionary action worldwide."
+ UK_Global_Syndicalist_Federation: "Global Syndicalist Federation"
+ UK_Global_Syndicalist_Federation_desc: "A global federation of syndicalist organizations coordinates revolutionary action worldwide."
  UK_Implement_Socialist_Realism: "Implement Socialist Realism"
  UK_Implement_Socialist_Realism_desc: "Art and culture are transformed to serve the socialist cause and inspire the masses."
  UK_Irish_Anarchism: "Irish Anarchism"

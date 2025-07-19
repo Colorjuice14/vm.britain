@@ -63,6 +63,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
 		country_event = vm.uk.rev.1
+		dismantle_faction = yes
 		add_popularity = {
 		ideology = communism
 		popularity = 0.25
@@ -73,8 +74,7 @@ focus_tree = {
 		}
 		add_stability = -0.3
 		remove_ideas = {
-		ENG_king_edward
-		ENG_george_vi
+		stiff_upper_lip
 		}		
 		}
 	}
@@ -104,7 +104,6 @@ focus_tree = {
 		popularity = 0.15
 		}
 		add_stability = 0.05
-		remove_ideas = ENG_the_war_to_end_all_wars
 		}
 	}	
 #Labour
@@ -124,7 +123,9 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {			
+		completion_reward = {		
+		add_stability = 0.1
+		add_political_power = 120
 		}
 	}
 # Labour Foreign Policy
@@ -142,6 +143,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
+		add_ideas = UK_british_battalion
 		add_stability = -0.05
 		}
 	}
@@ -676,6 +678,7 @@ focus_tree = {
 		completion_reward = {
 		country_event = vm.uk.pol.6
 		add_stability = -0.1
+		set_cosmetic_tag = ENG_republic_democratic
 		}
 	}
 
@@ -5533,7 +5536,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_timed_idea = { idea = UK_Change_In_Course_Idea days = 70 }
+			add_timed_idea = { idea = UK_Change_In_Course_Idea days = 140 }
 		}
 	}	
 	
@@ -5545,7 +5548,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = UK_A_Change_In_Course
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -7590,9 +7593,8 @@ focus_tree = {
 			factor = 1
 		}
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_ANNEXATION}	
-		completion_reward = {
-						
-			country_event = britain.31
+		completion_reward = {		
+			country_event = vm.britain.31
 		}
 	}
 	
@@ -8111,7 +8113,7 @@ focus = {
 		available = { }
 		prerequisite = { focus = ENG_the_british_communist_alternative }
 		icon = GFX_goal_generic_dangerous_deal
-		x = -5
+		x = -4
 		y = 1
 		relative_position_id = ENG_the_british_communist_alternative
 		cost = 10
@@ -8157,7 +8159,7 @@ focus = {
 	}
 	
 	focus = {
-		id = UK_Workers_Theatre_And_Cinema
+		id = UK_workers_education
 		available = { }
 		prerequisite = { focus = UK_support_french_communists }
 		icon = GFX_goal_generic_propaganda
@@ -8172,17 +8174,18 @@ focus = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			add_ideas = UK_Workers_Theatre_And_Cinema
+			remove_ideas = ENG_the_war_to_end_all_wars
+			add_ideas = UK_red_ucation
 		}
 	}
 	focus = {
 		id = UK_Peoples_Red_Radio_Service
 		available = { }
-		prerequisite = { focus = UK_Workers_Theatre_And_Cinema }
+		prerequisite = { focus = UK_workers_education }
 		icon = GFX_focus_generic_radio_communication
 		x = 0
 		y = 1
-		relative_position_id = UK_Workers_Theatre_And_Cinema
+		relative_position_id = UK_workers_education
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -8192,6 +8195,11 @@ focus = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			add_ideas = UK_Peoples_Red_Radio_Service
+			add_tech_bonus = {
+			bonus = 0.25
+			uses = 1
+			technology = improved_radio
+			}
 		}
 	}
 	focus = {
@@ -8210,7 +8218,8 @@ focus = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			
+			add_stability = 0.2
+    		add_political_power = 100			
 		}
 	}
 		
@@ -8251,6 +8260,11 @@ focus = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			add_ideas = UK_British_Red_Army
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+			}
 		}
 	}
 # CPGB	
@@ -8272,6 +8286,8 @@ focus = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			country_event = vm.uk.rev.3
+			add_political_power = 25
+			add_stability = 0.05
 		}
 	}
 	
@@ -8397,7 +8413,11 @@ focus = {
 		search_filters = {FOCUS_FILTER_STABILITY}
 		completion_reward = {
 			add_stability = -0.05
-			add_ideas = UK_Mandatory_Party_Loyalty_Oath
+			add_political_power = 120
+			add_popularity = {
+			ideology = communism
+			popularity = 0.1
+			}
 		}
 	}
 	
@@ -8602,13 +8622,12 @@ focus = {
 			add_political_power = 50
 		}
 	}
-	
 	focus = {
-		id = UK_Stalinist_Youth_And_Party_Schools
+		id = UK_Support_The_Indians_Workers_Movement
 		available = { }
 		prerequisite = { focus = UK_Toe_The_Line }
-		icon = GFX_focus_SOV_builder_of_the_red_army
-		x = 5
+		icon = GFX_focus_RAJ_all_india_forward_bloc
+		x = 4
 		y = 1
 		relative_position_id = UK_Toe_The_Line
 		cost = 10
@@ -8617,19 +8636,25 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_ideas = UK_Stalinist_Youth_And_Party_Schools
+		RAJ = {
+		add_timed_idea = { idea = communist_influence days = 1095 }
+		}	
 		}
 	}
-	focus = {
-		id = UK_Support_The_Indians_Workers_Movement
-		available = { }
-		prerequisite = { focus = UK_Stalinist_Youth_And_Party_Schools }
-		icon = GFX_focus_RAJ_all_india_forward_bloc
-		x = 0
+focus = {
+		id = UK_coup_india
+		available = { 
+			RAJ = {
+			communism > 0.40
+			}
+		}
+		prerequisite = { focus = UK_Support_The_Indians_Workers_Movement }
+		icon = GFX_SOV_coup_detat_ccp_2d_sov_compatibility
+		x = 2	
 		y = 1
-		relative_position_id = UK_Stalinist_Youth_And_Party_Schools
+		relative_position_id = UK_Support_The_Indians_Workers_Movement
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -8638,15 +8663,19 @@ focus = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			
+		RAJ = {
+		set_politics = {
+		ruling_party = communism
+		}
+		add_stability = -0.1
+		}
 		}
 	}	
-	
 	focus = {
-		id = UK_Socialist_Realism_Decree
+		id = UK_Stalinist_Youth_And_Party_Schools
 		available = { }
 		prerequisite = { focus = UK_Support_The_Indians_Workers_Movement }
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		x = 0
 		y = 1
 		relative_position_id = UK_Support_The_Indians_Workers_Movement
@@ -8656,9 +8685,30 @@ focus = {
 		}
 
 		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_ideas = UK_Stalinist_Youth_And_Party_Schools
+			remove_ideas = ENG_the_war_to_end_all_wars
+		}
+	}	
+	focus = {
+		id = UK_Socialist_Realism_Decree
+		available = { }
+		prerequisite = { focus = UK_Stalinist_Youth_And_Party_Schools }
+		icon = GFX_focus_generic_soviet_politics
+		x = 0
+		y = 1
+		relative_position_id = UK_Stalinist_Youth_And_Party_Schools
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY}
 		completion_reward = {
-			country_event = vm.britain.48
+			country_event = vm.uk.rev.7
+			add_stability = 0.1
 		}
 	}
 	
@@ -8685,6 +8735,7 @@ focus = {
 	
 	focus = {
 		id = UK_Proletarian_Cadre_Academy
+		# i will change this
 		available = { }
 		prerequisite = { focus = UK_Socialist_Realism_Decree }
 		icon = GFX_focus_generic_advanced_military_studies
@@ -8697,9 +8748,9 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_MANPOWER}
 		completion_reward = {
-			add_army_experience = 100
+			army_experience = 100
     		add_political_power = 20
 		}
 	}
@@ -8721,88 +8772,8 @@ focus = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			country_event = vm.britain.49
-		}
-	}
-	
-	
-	focus = {
-		id = UK_Land_To_The_Tiller
-		available = { }
-		prerequisite = { }
-		icon = GFX_focus_generic_annex_country
-		x = 15
-		y = 15
-		relative_position_id = UK_socialism_final
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			add_stability = 0.05
-   			add_political_power = 30
-		}
-	}
-	
-	focus = {
-		id = UK_Embrace_The_Digger_Legacy
-		available = { }
-		prerequisite = { focus = UK_Land_To_The_Tiller }
-		icon = GFX_focus_generic_spur_communist_revolutions
-		x = 0
-		y = 1
-		relative_position_id = UK_Land_To_The_Tiller
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = UK_Rural_Cooperative_Renaissance
-		available = { }
-		prerequisite = { focus = UK_Embrace_The_Digger_Legacy }
-		icon = GFX_goal_generic_national_unity
-		x = 0
-		y = 1
-		relative_position_id = UK_Embrace_The_Digger_Legacy
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			country_event = vm.britain.58
-		}
-	}
-
-	focus = {
-		id = UK_Land_Drainage_And_Reclamation_Drive
-		available = { }
-		prerequisite = { focus = UK_Rural_Cooperative_Renaissance }
-		icon = GFX_focus_generic_land_reclamation
-		x = 0
-		y = 1
-		relative_position_id = UK_Rural_Cooperative_Renaissance
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			add_ideas = UK_Land_Drainage_And_Reclamation_Drive
+			country_event = vm.uk.rev.8
+			add_ideas = UK_Cult_Of_Stalin
 		}
 	}
 #Council Democracy
@@ -8824,6 +8795,8 @@ focus = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			country_event = vm.uk.rev.14
+			add_political_power = 50
+			add_stability = -0.05
 		}
 	}
 	focus = {
@@ -8834,7 +8807,7 @@ focus = {
 		bypass = {
 			is_in_faction_with = SOV
 		}
-		icon = GFX_focus_focus_fra_intervention_spain
+		icon = GFX_focus_intervention_spain_republic
 		x = -9
 		y = 1
 		relative_position_id = UK_CPGB
@@ -8843,7 +8816,7 @@ focus = {
 			factor = 1
 		}	
 		completion_reward = {
-			add_ideas = ENG_International_Brigades
+			add_ideas = UK_british_battalion
 			hidden_effect = { country_event = { id = britain.48 hours = 96 } }
 		}
 	}	
@@ -9320,10 +9293,11 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			country_event = vm.uk.rev.15
 			add_ideas = UK_anarchic_society_1
+			set_cosmetic_tag = ENG_anarchist_communism
 		}
 	}
 	
@@ -9341,7 +9315,7 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 		add_ideas = UK_workers_self_management_idea_1	
 		}
@@ -9361,9 +9335,10 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_ideas = UK_Agricultural_Communes
+			add_ideas = UK_syndicalist_land_1
+			country_event = vm.uk.rev.20
 		}
 	}
 	focus = {
@@ -9380,7 +9355,7 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_STABILITY}
 		completion_reward = {
 			add_stability = 0.2
     		add_political_power = 100
@@ -9424,7 +9399,7 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 		swap_ideas = {
 		remove_idea = UK_workers_self_management_idea_1
@@ -9447,9 +9422,12 @@ focus = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_ideas = UK_Community_Land_Trusts
+			swap_ideas = {
+			remove_idea = UK_syndicalist_land_1
+			add_idea = UK_syndicalist_land_2
+		}
 		}
 	}
 	
@@ -9541,6 +9519,7 @@ focus = {
 		completion_reward = {
 			country_event = vm.uk.rev.16
 			add_ideas = UK_revolutionary_zeal_1
+			remove_ideas = ENG_the_war_to_end_all_wars
 		}
 	}
 	
@@ -9705,7 +9684,7 @@ focus = {
 	}
 	
 	focus = {
-		id = UK_World_Syndicalist_Federation
+		id = UK_Global_Syndicalist_Federation
 		available = { }
 		prerequisite = { focus = UK_Plant_The_Seeds_Of_Revolution }
 		icon = GFX_goal_generic_demand_territory
@@ -9721,6 +9700,7 @@ focus = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			country_event = vm.uk.rev.19
+			create_faction = UK_Global_Syndicalist_Federation
 		}
 	}
 	### EMPIRE ###

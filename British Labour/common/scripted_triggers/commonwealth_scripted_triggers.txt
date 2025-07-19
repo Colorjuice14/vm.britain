@@ -1,0 +1,9 @@
+is_commonwealth_nation = {
+	OR = {
+		original_tag = ENG
+		original_tag = CAN
+		original_tag = AUS
+		original_tag = NZL
+		original_tag = EGY
+	}
+}

@@ -2,6 +2,9 @@
  
  UK_offset_trade_idea: "Offset Danish Trade"
  UK_offset_trade_idea_desc: "These special taxes are set to be canceled automatically if our trade agreement is annuled."
+ #Labour
+ UK_british_battalion: "The British Battalion"
+ UK_british_battalion_desc: "The British Battalion is one of many groups of volunteer units sent to support the International Brigades in Spain."
  #Labour Nationalisation
  UK_nationalise_bank_idea: "Bank of England Nationalised"
  UK_nationalise_coal_idea: "Coal Industry Nationalised"
@@ -41,10 +44,15 @@
  UK_workers_self_management_idea_2: "Workers Owned Credit Unions"
  UK_workers_self_management_idea_3: "Cooperative Industry Federations"
  
- #ML
- UK_stakhanovite_idea: "The British Stakhanovite Movement"
+ UK_syndicalist_land_1: "Agricultural Communes"
+ UK_syndicalist_land_2: "Community Land Trusts"
+ 
+ #ML 
+ #Communist Alternative
+ UK_red_ucation: "Red-ucation"
  #Eco
  UK_total_nationalisation: "Total Nationalisation"
+ UK_stakhanovite_idea: "The British Stakhanovite Movement"
  UK_five_year_plan_1: "Britain's First Five Year Plan"
  UK_five_year_plan_2: "Britain's Second Five Year Plan"
  
